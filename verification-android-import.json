@@ -1,0 +1,19 @@
+{
+  "archive": "Vagrant Story Font - Android ZIP Import v0.2.zip",
+  "bytes": 2261469,
+  "sha256": "4cf59f3eb8165e37bfa0ef76d77ef5e85d099b1cafb819f2a8a56dec95d33ac2",
+  "target_android_version": "0.1-8969-g611bb8fb4",
+  "inspected_apk_sha256": "28f1528dffb87a761ab1997a5d23bb62c5aa191b3a242a79a9baeb3629b206f5",
+  "import_mode": "Transfer Data > ZIP file > Import; select archive without extraction",
+  "matching_texture_entries": 7,
+  "original_wrapped_archive_matching_entries": 0,
+  "zip_crc_and_font_hashes_passed": true,
+  "format_verified_against_apk": true,
+  "actual_device_import_verified": true,
+  "android_rendering_verified": true,
+  "verification_method": "Maintainer-reported Android import and gameplay test; no Android screenshot recorded",
+  "required_filter_settings": {
+    "texture_filtering": "Nearest Neighbor",
+    "sprite_texture_filtering": "Nearest Neighbor"
+  }
+}

@@ -1,0 +1,4 @@
+Vagrant Story USA SLUS-01040 dialogue font
+Original glyphs reconstructed in small image-editing batches.
+This pack uses original game geometry, not Comic Neue lettering.
+No game image, executable or BIOS is included.

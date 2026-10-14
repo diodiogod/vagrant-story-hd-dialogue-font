@@ -1,0 +1,163 @@
+{
+  "name": "Original Style Dialogue 8x",
+  "version": "0.2-preview",
+  "game": "Vagrant Story USA SLUS-01040",
+  "target_android_version": "0.1-8969-g611bb8fb4",
+  "glyphs_image_reconstructed": 123,
+  "glyphs_target": 123,
+  "remaining_glyph_codes": [],
+  "original_advance_widths_unchanged": true,
+  "generated_masks_normalized_to_original_bounds": true,
+  "native_texture_hash": "1ED72322D46CD91B",
+  "disc_modified": false,
+  "sources": [
+    {
+      "batch": 1,
+      "filename": "batch-01.png",
+      "sha256": "8c99056823d66d91378cc64167aa6455755e2e6cbd6dd59c5dcfc05eb197fe85",
+      "size": [
+        1402,
+        1122
+      ],
+      "glyph_count": 20
+    },
+    {
+      "batch": 2,
+      "filename": "batch-02.png",
+      "sha256": "574950c03ae0301a4b2f2200319309c1983a4de0bb1a1c3656a010156a6f82da",
+      "size": [
+        1402,
+        1122
+      ],
+      "glyph_count": 20
+    },
+    {
+      "batch": 3,
+      "filename": "batch-03.png",
+      "sha256": "3bf8f821334a416c14e130f159903bca822b3abc61687684ab7b8450725fe075",
+      "size": [
+        1402,
+        1122
+      ],
+      "glyph_count": 20
+    },
+    {
+      "batch": 4,
+      "filename": "batch-04.png",
+      "sha256": "cdda11c7dce3114868dd3d8072867c82e0d484dd7a79694132c31a8c4de5ba7c",
+      "size": [
+        1402,
+        1122
+      ],
+      "glyph_count": 20
+    },
+    {
+      "batch": 5,
+      "filename": "batch-05.png",
+      "sha256": "29371a79f585798610a04ded0fb3a9b1ca1b7577e83d279cb14b8af89de269d9",
+      "size": [
+        1402,
+        1122
+      ],
+      "glyph_count": 20
+    },
+    {
+      "batch": 6,
+      "filename": "batch-06.png",
+      "sha256": "ebc49b5944e3cac4d9248269674dec19eecd3533af73b5cfe8a652d6c30ce5b2",
+      "size": [
+        1254,
+        1254
+      ],
+      "glyph_count": 23
+    }
+  ],
+  "files": [
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-D440A040EAA21F84-64x256-0-108-252x96-P0-15.png",
+      "palette_id": 0,
+      "sha256": "dbcf39b46d5d69c35222315e6470b8c93aa94b3fb39dd7fa07007ed10e67e21d"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-D927CFCFEC5B4154-64x256-0-108-252x96-P0-15.png",
+      "palette_id": 1,
+      "sha256": "7095910082546bee4780d2f0f91b4ad236c4c59418408234ec0d9c197166e618"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-D45C39FFA626E99E-64x256-0-108-252x96-P0-15.png",
+      "palette_id": 2,
+      "sha256": "51324f3f04b23626afe853252ce7a5dca9d32be42a084bb7159c67c606f64665"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-D9BF3D211F8FA474-64x256-0-108-252x96-P0-15.png",
+      "palette_id": 3,
+      "sha256": "bdbce35e5c4d7d92f427ec3f59897987dfcbd450ac8a9ca97d3dac3e65c8b713"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-91271A90116ED761-64x256-0-108-252x96-P0-15.png",
+      "palette_id": 5,
+      "sha256": "db473710b10a752e333460bcdc359fba3661c57f76da94dfe4ed140ab7c3ed41"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-949BF2FB15C35AF8-64x256-0-108-252x96-P0-15.png",
+      "palette_id": 6,
+      "sha256": "e6f5afe379ef229a87ed3049f8d8faabd4a58d2c0675ab441cd9b4094b7dc4aa"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-69491D7E26769824-64x256-0-108-252x96-P0-15.png",
+      "palette_id": 7,
+      "sha256": "530a8e707600d2a42778f9e793a2e311b4dc6a5864c762aabd1164fbbf697674"
+    }
+  ],
+  "original_prototype_worked_per_user_report": true,
+  "this_revision_in_game_verified": true,
+  "android_playtest_performed": true,
+  "validation": {
+    "all_123_glyphs_present": true,
+    "all_glyph_bounds_match_original": true,
+    "high_resolution_contour_detail_present": true,
+    "seven_palette_ids_and_texture_hash_verified": true,
+    "untargeted_native_cells_preserved": true,
+    "observed_game_page_hashes_match_source": [
+      "texpage-P4-6C9F095D62A06F67-D440A040EAA21F84-64x256-0-108-252x97-P0-15.png",
+      "texpage-P4-8EFE3C09C4E7267B-D440A040EAA21F84-64x256-0-108-256x97-P0-15.png"
+    ],
+    "style_direction_approved_by_user": true,
+    "windows_test_copy_matches_this_revision": true,
+    "windows_emulator_registered_all_seven_replacements": true,
+    "this_revision_in_game_verified": true,
+    "android_playtest_performed": true,
+    "android_verification_method": "Maintainer-reported Android import and gameplay test; no Android screenshot recorded"
+  },
+  "playtest_evidence": {
+    "date": "2026-10-14",
+    "platform": "Windows",
+    "emulator_version": "0.1-12083-g00e299795",
+    "windows_dialogue_screenshot_verified": true,
+    "scope": "Two visible dialogue bubbles in the opening scene, supplied by the user and visually inspected. This is not a full-game or all-glyph playtest.",
+    "screenshot": "assets/windows-dialogue-v0.2.png",
+    "screenshot_sha256": "efa9e2b267714261b4325f5e39db52995554a12738ca762805160aecbc3b80f2",
+    "replacement_png_sha256": {
+      "texpage-STP4-1ED72322D46CD91B-D440A040EAA21F84-64x256-0-108-252x96-P0-15.png": "dbcf39b46d5d69c35222315e6470b8c93aa94b3fb39dd7fa07007ed10e67e21d",
+      "texpage-STP4-1ED72322D46CD91B-D927CFCFEC5B4154-64x256-0-108-252x96-P0-15.png": "7095910082546bee4780d2f0f91b4ad236c4c59418408234ec0d9c197166e618",
+      "texpage-STP4-1ED72322D46CD91B-D45C39FFA626E99E-64x256-0-108-252x96-P0-15.png": "51324f3f04b23626afe853252ce7a5dca9d32be42a084bb7159c67c606f64665",
+      "texpage-STP4-1ED72322D46CD91B-D9BF3D211F8FA474-64x256-0-108-252x96-P0-15.png": "bdbce35e5c4d7d92f427ec3f59897987dfcbd450ac8a9ca97d3dac3e65c8b713",
+      "texpage-STP4-1ED72322D46CD91B-91271A90116ED761-64x256-0-108-252x96-P0-15.png": "db473710b10a752e333460bcdc359fba3661c57f76da94dfe4ed140ab7c3ed41",
+      "texpage-STP4-1ED72322D46CD91B-949BF2FB15C35AF8-64x256-0-108-252x96-P0-15.png": "e6f5afe379ef229a87ed3049f8d8faabd4a58d2c0675ab441cd9b4094b7dc4aa",
+      "texpage-STP4-1ED72322D46CD91B-69491D7E26769824-64x256-0-108-252x96-P0-15.png": "530a8e707600d2a42778f9e793a2e311b4dc6a5864c762aabd1164fbbf697674"
+    },
+    "android_playtest_performed": true,
+    "android": {
+      "date": "2026-10-14",
+      "emulator_version": "0.1-8969-g611bb8fb4",
+      "import_verified_per_user_report": true,
+      "rendering_verified_per_user_report": true,
+      "verification_method": "Maintainer-reported Android import and gameplay test; no Android screenshot recorded",
+      "texture_filtering": "Nearest Neighbor",
+      "sprite_texture_filtering": "Nearest Neighbor",
+      "device_model": "not recorded",
+      "scope": "Maintainer reports the pack worked well after resetting both texture filters to Nearest Neighbor. Not a full-game or all-device playtest.",
+      "tested_zip_sha256": "4cf59f3eb8165e37bfa0ef76d77ef5e85d099b1cafb819f2a8a56dec95d33ac2"
+    }
+  }
+}

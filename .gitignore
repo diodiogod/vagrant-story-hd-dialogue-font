@@ -1,0 +1,14 @@
+# Download archives are attached to GitHub Releases.
+release-assets/
+
+# Local development files and game data do not belong in this texture-pack repo.
+__pycache__/
+.venv/
+.env
+*.apk
+*.bin
+*.chd
+*.cue
+*.iso
+*.mcd
+*.sav

@@ -1,0 +1,7 @@
+# Font-only texture replacement; no world textures are included.
+DumpTexturePages: true
+DumpFullTexturePages: false
+DumpTextureWidthThreshold: 1
+DumpTextureHeightThreshold: 1
+ReducePaletteRange: false
+ReplacementScaleLinearFilter: false

@@ -3,7 +3,7 @@
 - Added sharp MAP, SAVE, CLEAR and TIME labels.
 - Restored dark surrounds on HP, MP, RISK and WT.
 - Added a [visual changelog](CHANGELOG.md) with comparisons.
-- Added a soft blue-white glow to white menu text, including save names.
+- Added a soft grayscale glow to white menu text, including save names.
 
 ---
 

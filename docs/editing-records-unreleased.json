@@ -84,9 +84,9 @@
       "blur_radius_hd": 5.0,
       "strength": 0.55,
       "colour": [
-        110,
-        175,
-        255
+        167,
+        167,
+        167
       ],
       "boundary_fade_hd": 3,
       "body_threshold": 128,
@@ -95,6 +95,7 @@
     "white_palette": "7FA7ABE4DBD7A20F",
     "core_pixels_and_silhouettes_unchanged": true,
     "included_in_pack": true,
-    "status": "Accepted blue-white interpretation after comparing native and HD DATA/save-name text"
+    "status": "Neutral grayscale correction explicitly requested by maintainer; original blue tint removed",
+    "grayscale_output_verified": true
   }
 }

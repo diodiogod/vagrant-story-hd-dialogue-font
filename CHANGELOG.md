@@ -4,7 +4,7 @@
 
 - Reconstructed MAP, SAVE, CLEAR and TIME.
 - Restored dark surrounds on HP, MP, RISK and WT.
-- Added a soft blue-white glow to white menu text.
+- Added a soft neutral glow to white menu text.
 
 ![Save-menu labels: original, v0.3 and new preview](docs/images/save-labels-preview.png)
 
@@ -14,7 +14,7 @@
 
 ![Save name: original, current HD and soft-glow preview](docs/images/save-name-glow-preview.png)
 
-A cool blue-white interpretation of the original's faint fringe, shared by
+The glow stays grayscale, matching the original palette, and is shared by
 save names and white menu text.
 [Green-menu comparison](docs/images/green-menu-glow-preview.png).
 

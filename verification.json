@@ -5,7 +5,7 @@
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
   "pngs": 59,
-  "pack_fingerprint": "1febec464635803401f1655c0867ab037f2b845b08e54cf96daf0c0f867bfe5d",
+  "pack_fingerprint": "482f3fe4210a90e79ffd7eb244210ecfe8237c1d8af786f1c6860e374bc249b2",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -169,7 +169,7 @@
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-7FA7ABE4DBD7A20F-64x256-0-0-252x108-P0-15.png",
-      "sha256": "768f7bdf00cac27f57eff73fe0a4e9d38275db3011a79bfb84c3faa4797adb53"
+      "sha256": "573f11b977fc96c0f397d36c8d5ce66b63771883897c69528dbe67bbc82db609"
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-A37DFA8336CD2FC7-64x256-0-0-252x108-P0-15.png",
@@ -311,7 +311,7 @@
     "memory_card_pixels_outside_text_checked": 7690007,
     "hud_pixels_outside_text_changed": 0,
     "hud_pixels_outside_text_checked": 7727216,
-    "scope": "Current glow pack checked in memory-card load scene. Earlier labels/borders and HUD tests used the preceding nonglow preview; those label/HUD PNGs and all dialogue PNGs are unchanged.",
+    "scope": "Current neutral-glow pack checked in memory-card load scene. Earlier labels/borders and HUD tests used the preceding nonglow preview; those label/HUD PNGs and all dialogue PNGs are unchanged.",
     "measurements": [
       "docs/evidence/save-labels.json",
       "docs/evidence/hud-borders.json",
@@ -373,10 +373,10 @@
       "sha256": "557975608a5e319ed9b4a879cebc42da2719bf1805a4c4ea76c36aefe776d269"
     },
     "docs\\images\\save-name-glow-preview.png": {
-      "sha256": "1e520deed9ec246148d1ef6f4332977dcea1ae34b1a75bd6be9254461defa5e5"
+      "sha256": "732fdb807492685213253fb1c8a5e8eb42b9118a92e9c4375ae1cc6836c054a8"
     },
     "docs\\images\\green-menu-glow-preview.png": {
-      "sha256": "02f6932eee76b6f7fb5220b0390c5f41814a1df00dc753a4107feb1b32bf8308"
+      "sha256": "8f7ee71e10e1c46ce70b4e3706322e621b33250a440aea028d6a07d757a09f9a"
     }
   },
   "previous_release": "docs/v0.3/verification.json",
@@ -386,8 +386,10 @@
   "changed_published_pngs": 5,
   "added_pngs": 8,
   "user_visual_acceptance": {
-    "accepted": true,
-    "evidence": "Maintainer approved the labels/borders and, after reviewing the original DATA fringe, chose to keep the blue-white glow interpretation."
+    "glyph_design_accepted": true,
+    "neutral_colour_requested": true,
+    "new_neutral_render_reviewed_by_user": false,
+    "evidence": "Maintainer explicitly requested removing invented blue colour and retaining the original grayscale palette. Fresh Windows comparisons prepared."
   },
   "menu_glow": {
     "included_in_pack": true,
@@ -396,16 +398,18 @@
       "blur_radius_hd": 5.0,
       "strength": 0.55,
       "colour": [
-        110,
-        175,
-        255
+        167,
+        167,
+        167
       ],
       "boundary_fade_hd": 3,
       "body_threshold": 128,
       "blend": "Original STP/additive convention; retain alpha 128"
     },
-    "interpretation": "The native grayscale fringe can read as glow. The added cool blue-white tint is an artistic interpretation, not a confirmed original colour.",
+    "interpretation": "Neutral grayscale fringe, preserving the native palette character. No added blue tint.",
     "core_pixels_and_silhouettes_unchanged": true,
-    "measurements": "docs/evidence/save-name-glow.json"
+    "measurements": "docs/evidence/save-name-glow.json",
+    "grayscale_output_verified": true,
+    "palette_review": "docs/evidence/neutral-menu-palette.json"
   }
 }

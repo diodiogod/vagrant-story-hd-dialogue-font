@@ -2,9 +2,10 @@
 
 ## Unreleased source
 
-The current preview's soft glow was checked in the Windows memory-card load
+The current preview's neutral glow was checked in the Windows memory-card load
 scene: all 6,873,424 pixels outside the shared white text areas match the
 preceding preview. The comparison includes DATA, LOAD and the save-location name.
+The original palette and all visible replacement pixels are grayscale.
 
 Before adding glow, MAP/SAVE/CLEAR/TIME and HP/MP surrounds passed the same
 load-scene check against v0.3, with 7,690,007 pixels outside their cells unchanged.

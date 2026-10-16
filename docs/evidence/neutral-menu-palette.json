@@ -1,0 +1,18 @@
+{
+  "source_palette": "7FA7ABE4DBD7A20F",
+  "original_16_rgb555_entries_grayscale": true,
+  "glow_rgb": [
+    167,
+    167,
+    167
+  ],
+  "neutral_strength_basis": "Rounded relative luminance of the prior blue illumination vector; blur and strength unchanged",
+  "output_visible_rgb_channels_equal": true,
+  "glyph_core_pixels_unchanged": true,
+  "body_silhouettes_unchanged": true,
+  "other_58_pngs_unchanged": true,
+  "previous_blue_variant_rejected_by_grayscale_check": true,
+  "pack_fingerprint": "482f3fe4210a90e79ffd7eb244210ecfe8237c1d8af786f1c6860e374bc249b2",
+  "filename": "texpage-STP4-9CC4299A919F823F-7FA7ABE4DBD7A20F-64x256-0-0-252x108-P0-15.png",
+  "sha256": "573f11b977fc96c0f397d36c8d5ce66b63771883897c69528dbe67bbc82db609"
+}

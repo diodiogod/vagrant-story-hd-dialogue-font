@@ -1,10 +1,10 @@
 {
   "status": "passed",
-  "pack_fingerprint": "1febec464635803401f1655c0867ab037f2b845b08e54cf96daf0c0f867bfe5d",
+  "pack_fingerprint": "482f3fe4210a90e79ffd7eb244210ecfe8237c1d8af786f1c6860e374bc249b2",
   "frames": {
     "original": "187dab5e1d77b84f0aff79541f3b490a66089132234cc558af3a05feba94b24a",
     "current": "ced43b8e58a2efe782b8d66487d4781caba02e23e9f32fe4e1327504dd32199d",
-    "glow": "3d9d461b4946eb790791e8ca0ab728ad2120aeae626f87ed5608b02062b93db8"
+    "glow": "c48a3ee1dd2f1983777344dc5853682899bbbdcc6fdee90b6c5ff066a1e57f00"
   },
   "frame": 3000,
   "duckstation": "0.1-12083-g00e299795",
@@ -73,8 +73,8 @@
       217
     ]
   ],
-  "changed_pixels": 210904,
-  "name_changed_pixels": 32890,
+  "changed_pixels": 199915,
+  "name_changed_pixels": 31152,
   "outside_checked_pixels": 6873424,
   "outside_changed_pixels": 0,
   "unexpected_bounds": null,

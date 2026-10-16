@@ -1,7 +1,7 @@
 Vagrant Story USA SLUS-01040 — Original Style HD Fonts
 Unreleased v0.4 preview source: 59 PNGs.
 Dialogue, menus, selected HUD/UI text and save labels.
-White menu text includes a soft blue-white glow.
+White menu text includes a soft neutral grayscale glow.
 See the repository README, visual changelog and docs for installation/testing.
 Older Android 8969: PGXP off per-game; both filters Nearest Neighbor.
 No game image, executable, BIOS, saves or emulator included.

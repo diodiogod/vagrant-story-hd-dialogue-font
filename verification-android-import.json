@@ -7,7 +7,7 @@
   "matching_texture_entries": 59,
   "extra_wrapper_directory_rejected": true,
   "config_yaml_excluded": true,
-  "pack_fingerprint": "ef549ea6b9dd123634bf01b32ffbe5f37b773af88a5859a719bc9f227a0ef45f",
+  "pack_fingerprint": "1febec464635803401f1655c0867ab037f2b845b08e54cf96daf0c0f867bfe5d",
   "format_verified_against_apk": true,
   "device_evidence": "Current preview has not been tested on Android; prior v0.3 import/rendering reports are preserved in docs/v0.3.",
   "required_filter_settings": {

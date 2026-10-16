@@ -2,16 +2,21 @@
 
 ## Unreleased source
 
-MAP/SAVE/CLEAR/TIME and HP/MP surrounds were checked in the maintainer's Windows
-memory-card load state. All 7,690,007 pixels outside their text cells were
-identical to v0.3. HP/MP/RISK also passed a HUD comparison, with no changes to
-7,727,216 pixels outside their cells. WT is source-reviewed only.
+The current preview's soft glow was checked in the Windows memory-card load
+scene: all 6,873,424 pixels outside the shared white text areas match the
+preceding preview. The comparison includes DATA, LOAD and the save-location name.
+
+Before adding glow, MAP/SAVE/CLEAR/TIME and HP/MP surrounds passed the same
+load-scene check against v0.3, with 7,690,007 pixels outside their cells unchanged.
+HP/MP/RISK also passed a HUD comparison, with 7,727,216 outside pixels unchanged.
+Those label/HUD PNGs are unchanged in the glow preview. WT is source-reviewed only.
 
 NO. and the save-time colon are visible in that load scene. The new pack has
-not been tested on Android. The blue-glow experiment is excluded from the pack.
+not been tested on Android. Other uses of the shared white palette need review.
 
 [Save-label measurements](evidence/save-labels.json) ·
-[HUD measurements](evidence/hud-borders.json) · [Visual changelog](../CHANGELOG.md)
+[HUD measurements](evidence/hud-borders.json) ·
+[Glow measurements](evidence/save-name-glow.json) · [Visual changelog](../CHANGELOG.md)
 
 ## Published v0.3
 

@@ -4,19 +4,21 @@
 
 - Reconstructed MAP, SAVE, CLEAR and TIME.
 - Restored dark surrounds on HP, MP, RISK and WT.
+- Added a soft blue-white glow to white menu text.
 
 ![Save-menu labels: original, v0.3 and new preview](docs/images/save-labels-preview.png)
 
 ![HUD borders: before and after](docs/images/hud-borders-preview.png)
 
-### Glow experiment — excluded from the pack
+### Soft menu glow
 
 ![Save name: original, current HD and soft-glow preview](docs/images/save-name-glow-preview.png)
 
-The blue bloom is stronger than the original neutral edge and remains experimental.
+A cool blue-white interpretation of the original's faint fringe, shared by
+save names and white menu text.
 [Green-menu comparison](docs/images/green-menu-glow-preview.png).
 
-The label/border updates are in the source tree; the v0.3 downloads are unchanged.
+These updates are in the source tree; the v0.3 downloads are unchanged.
 
 ## [v0.3 beta](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/tag/v0.3-beta) — 2026-10-15
 

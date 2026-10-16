@@ -94,7 +94,7 @@
     },
     "white_palette": "7FA7ABE4DBD7A20F",
     "core_pixels_and_silhouettes_unchanged": true,
-    "included_in_pack": false,
-    "status": "Excluded experiment: reassess against the native neutral edge before applying globally"
+    "included_in_pack": true,
+    "status": "Accepted blue-white interpretation after comparing native and HD DATA/save-name text"
   }
 }

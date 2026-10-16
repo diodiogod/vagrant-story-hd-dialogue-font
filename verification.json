@@ -5,7 +5,7 @@
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
   "pngs": 59,
-  "pack_fingerprint": "ef549ea6b9dd123634bf01b32ffbe5f37b773af88a5859a719bc9f227a0ef45f",
+  "pack_fingerprint": "1febec464635803401f1655c0867ab037f2b845b08e54cf96daf0c0f867bfe5d",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -169,7 +169,7 @@
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-7FA7ABE4DBD7A20F-64x256-0-0-252x108-P0-15.png",
-      "sha256": "6f96ceb887b6dc4bf16473abed9fa73d16ffbbb62c908d363d3b91a0ce358e75"
+      "sha256": "768f7bdf00cac27f57eff73fe0a4e9d38275db3011a79bfb84c3faa4797adb53"
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-A37DFA8336CD2FC7-64x256-0-0-252x108-P0-15.png",
@@ -267,7 +267,7 @@
       "RISK",
       "WT"
     ],
-    "white_menu_font_soft_glow": false
+    "white_menu_font_soft_glow": true
   },
   "rough_progress": {
     "percent": 80,
@@ -311,11 +311,15 @@
     "memory_card_pixels_outside_text_checked": 7690007,
     "hud_pixels_outside_text_changed": 0,
     "hud_pixels_outside_text_checked": 7727216,
-    "scope": "Unreleased labels/borders checked in memory-card load and gameplay HUD scenes. White menu font and dialogue PNGs unchanged from v0.3.",
+    "scope": "Current glow pack checked in memory-card load scene. Earlier labels/borders and HUD tests used the preceding nonglow preview; those label/HUD PNGs and all dialogue PNGs are unchanged.",
     "measurements": [
       "docs/evidence/save-labels.json",
-      "docs/evidence/hud-borders.json"
-    ]
+      "docs/evidence/hud-borders.json",
+      "docs/evidence/save-name-glow.json"
+    ],
+    "label_border_test_pack_fingerprint": "ef549ea6b9dd123634bf01b32ffbe5f37b773af88a5859a719bc9f227a0ef45f",
+    "glow_pixels_outside_text_changed": 0,
+    "glow_pixels_outside_text_checked": 6873424
   },
   "android": {
     "version": "0.1-8969-g611bb8fb4",
@@ -378,17 +382,30 @@
   "previous_release": "docs/v0.3/verification.json",
   "status": "unreleased source; v0.3 release downloads unchanged",
   "package_version": "0.4-preview",
-  "unchanged_published_pngs": 47,
-  "changed_published_pngs": 4,
+  "unchanged_published_pngs": 46,
+  "changed_published_pngs": 5,
   "added_pngs": 8,
   "user_visual_acceptance": {
     "accepted": true,
-    "evidence": "Maintainer authorized committing and pushing the labels/borders. The later glow discussion leaves the blue-glow variant excluded from the pack."
+    "evidence": "Maintainer approved the labels/borders and, after reviewing the original DATA fringe, chose to keep the blue-white glow interpretation."
   },
-  "excluded_experiment": {
-    "name": "Blue-white menu glow",
-    "included_in_pack": false,
-    "reason": "Original shared text palette is grayscale. Added blue bloom is stronger than the native light fringe; retain for comparison only.",
+  "menu_glow": {
+    "included_in_pack": true,
+    "shared_white_palette": "7FA7ABE4DBD7A20F",
+    "parameters": {
+      "blur_radius_hd": 5.0,
+      "strength": 0.55,
+      "colour": [
+        110,
+        175,
+        255
+      ],
+      "boundary_fade_hd": 3,
+      "body_threshold": 128,
+      "blend": "Original STP/additive convention; retain alpha 128"
+    },
+    "interpretation": "The native grayscale fringe can read as glow. The added cool blue-white tint is an artistic interpretation, not a confirmed original colour.",
+    "core_pixels_and_silhouettes_unchanged": true,
     "measurements": "docs/evidence/save-name-glow.json"
   }
 }

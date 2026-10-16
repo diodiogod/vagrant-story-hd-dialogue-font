@@ -5,6 +5,13 @@
 - Reconstructed MAP, SAVE, CLEAR and TIME.
 - Restored dark surrounds on HP, MP, RISK and WT.
 - Added a soft neutral glow to white menu text.
+- Corrected spacing, baselines and character heights across the menu font.
+- Checked the compact UI alphabet and digits; corrected spacing and two letter heights.
+
+![Native, previous HD and corrected character heights](docs/images/font-heights-preview.png)
+
+[Full alphabet comparison](docs/images/font-height-families-preview.png).
+The INFORMATION heading's faint native-text ghost remains a [known issue](docs/TESTING.md).
 
 ![Save-menu labels: original, v0.3 and new preview](docs/images/save-labels-preview.png)
 

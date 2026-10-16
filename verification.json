@@ -5,7 +5,7 @@
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
   "pngs": 59,
-  "pack_fingerprint": "482f3fe4210a90e79ffd7eb244210ecfe8237c1d8af786f1c6860e374bc249b2",
+  "pack_fingerprint": "ed4d2c96de8dff17ef63211a403ea5abbdebd33c09ae5a639ab5ce8d538d3464",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -41,19 +41,19 @@
     },
     {
       "filename": "texpage-STP4-175BD66E8BC2BA6E-69491D7E26769824-64x256-64-152-28x8-P0-15.png",
-      "sha256": "d53ed570a3aea03713938c49aeecb4d7970199a7275ed0040731436c37947a77"
+      "sha256": "87f974a15c1aeaf698e041d11445dd7ca66d5dcc15c3f71febc4ea5ebcccc8d5"
     },
     {
       "filename": "texpage-STP4-175BD66E8BC2BA6E-91271A90116ED761-64x256-64-152-28x8-P0-15.png",
-      "sha256": "223f49da53843c5fc9eea419b8c8dec0f8e17fd54b42a461fb9ead678192810b"
+      "sha256": "0f132b502368b592f5a2160b07d39977e381e1d81af08c7df2178f3e3af75d31"
     },
     {
       "filename": "texpage-STP4-175BD66E8BC2BA6E-949BF2FB15C35AF8-64x256-64-152-28x8-P0-15.png",
-      "sha256": "630ae5008e2ce93c76135080bf59eb9baa884858bb67696db373e0a22428b6ba"
+      "sha256": "8bac5be8ee3e98d2b69e0c1fea5b8f956de119dc5f391f828eb3033399e4cb9e"
     },
     {
       "filename": "texpage-STP4-175BD66E8BC2BA6E-9F8A5175F34347CA-64x256-64-152-28x8-P0-15.png",
-      "sha256": "5294b2a4080cd17b6484fa331ca90855f60f76c6cf61f5bdb306977b3cd8ef10"
+      "sha256": "3ab9b1dacdcc2a7f7cfdda4de7cf6fa3aa00fb4c60f3c6b9e5889eb70088ffbc"
     },
     {
       "filename": "texpage-STP4-1ED72322D46CD91B-69491D7E26769824-64x256-0-108-252x96-P0-15.png",
@@ -101,35 +101,35 @@
     },
     {
       "filename": "texpage-STP4-59C83B3D7F8E8F8A-69491D7E26769824-64x256-96-152-52x8-P0-15.png",
-      "sha256": "e0af07d683c9560a80c60b57a10bf23ecc005367cc5d21c19f491a91fc5c4eb5"
+      "sha256": "58585a6f9e9b2a19fa4562c377cf9efc5cc5c0b0e419253280e236ca2832c3d8"
     },
     {
       "filename": "texpage-STP4-59C83B3D7F8E8F8A-91271A90116ED761-64x256-96-152-52x8-P0-15.png",
-      "sha256": "b8c9079988aa9742481cab0a1d1477afc664a081c76d9e2eea1cdc5910aa2cee"
+      "sha256": "606727df89317b2b5b817fe97eeb9e2830046e0bd319d712ef6c9505d169b820"
     },
     {
       "filename": "texpage-STP4-59C83B3D7F8E8F8A-949BF2FB15C35AF8-64x256-96-152-52x8-P0-15.png",
-      "sha256": "6b007923412ca7f955b45c9e3689d0284e0a2291c907ecab10088a27458b3f8e"
+      "sha256": "fe7af7c38fdc4c978e4343e71a442ab6fd0ee54f1ef95ec33e8a6a5dd27ae5a4"
     },
     {
       "filename": "texpage-STP4-59C83B3D7F8E8F8A-9F8A5175F34347CA-64x256-96-152-52x8-P0-15.png",
-      "sha256": "e111424f06095b5099b78d3365a6a231af539537c164da8d1ed554d6a28d514e"
+      "sha256": "c2bb63045e0f8b4773038c4babea6b6be84d859cb4170fa1f2d54c86fc0b1082"
     },
     {
       "filename": "texpage-STP4-63214267CBDD5564-69491D7E26769824-64x256-64-144-36x8-P0-15.png",
-      "sha256": "97f83cce1c131fe1179e01418943a27ec6d4c43f6b2e1acd26f7dc1b2e10444a"
+      "sha256": "d6a04f06ddbfedc9d19a39cd43117c64e50fdb21e4bfc24c52bb9bb42e19975d"
     },
     {
       "filename": "texpage-STP4-63214267CBDD5564-91271A90116ED761-64x256-64-144-36x8-P0-15.png",
-      "sha256": "57cce8ddf5def1f847ad7060f0476bd83c9cf8d4f5e3b3cc96cd752c4465b0f5"
+      "sha256": "d2abe13beced301420f749e93bab616771c5b71b54dae9cc537fcde3f2c65daf"
     },
     {
       "filename": "texpage-STP4-63214267CBDD5564-949BF2FB15C35AF8-64x256-64-144-36x8-P0-15.png",
-      "sha256": "94148093a2cccfd8435fafbf3aac11a37f09a53941eed840b3ed8cc58668e59f"
+      "sha256": "23e1aaf5a54be2a8489149e84d37d744ec668402675733cc8c9dd5e8f345950c"
     },
     {
       "filename": "texpage-STP4-63214267CBDD5564-9F8A5175F34347CA-64x256-64-144-36x8-P0-15.png",
-      "sha256": "2f2be32ba637357c4aca4fc5071ccd6a49f26fc2dded92c97a941e2d2d3027a6"
+      "sha256": "f416925731755cf14641ad052b1b3a445e895a436210deca6f37a2532d85734d"
     },
     {
       "filename": "texpage-STP4-780CA6605AA2A1DE-69491D7E26769824-64x256-104-56-48x8-P0-15.png",
@@ -165,51 +165,51 @@
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-1F9BDD95E92A3639-64x256-0-0-252x108-P0-15.png",
-      "sha256": "4f5d97470df0f7cf8c36f0f19e32c88f531adacbef2fbb5df76a43d0baf1c584"
+      "sha256": "3e0fad94b63ad9d4ee12f5944a9085bbba4ba69ee4d2bcc2621c6a1ac77a59c0"
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-7FA7ABE4DBD7A20F-64x256-0-0-252x108-P0-15.png",
-      "sha256": "573f11b977fc96c0f397d36c8d5ce66b63771883897c69528dbe67bbc82db609"
+      "sha256": "e8465ee77e6ce32241b30d3fd96decfdd2f5b44549279f6cc9fff1ceb9713d4a"
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-A37DFA8336CD2FC7-64x256-0-0-252x108-P0-15.png",
-      "sha256": "e19777747ea99a0d770791ca48c78470be0513e961d30b0526fb73669bf4ea4a"
+      "sha256": "c40fe07216fe8639a19422ca3839a6cf0cbdbfcaaec29686b0457f3d1e3e5000"
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-AC64BD0B34CD4DBE-64x256-0-0-252x108-P0-15.png",
-      "sha256": "8ff42aac99eedf0af80a6bed59eae4c7eb7c7052be56edebe03a4cdd6694bc30"
+      "sha256": "c80c541498105674e44e7f2ee24c99afdca56a3d9074f1e4b8f61a83ee288c37"
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-D440A040EAA21F84-64x256-0-0-252x108-P0-15.png",
-      "sha256": "bdf1d5fadaabdd0aae1b9b719b9553eacb41f63061f9f99b06b663656fba8dc2"
+      "sha256": "490d03bdde7f87b7be5293259af871fff60cde624af50f8ac210510407d73089"
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-D45C39FFA626E99E-64x256-0-0-252x108-P0-15.png",
-      "sha256": "85c8d726db9d40ce6d7d30d74ca2dfbc67404acb5b640863324de4ff31b5ffb6"
+      "sha256": "3dbef2d45b4ce43b997d0f9cd332572f2de8999ed669dff57a5d4b5223490727"
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-D927CFCFEC5B4154-64x256-0-0-252x108-P0-15.png",
-      "sha256": "eca7721e75e1ea779ab4283486d94ceba7b6ab95cff3384e7a5d3c12edea80ec"
+      "sha256": "83eedb49bd99bcdd61410e47dda00f6e2b1ef4465696a789f4e9532e1eb32244"
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-D9BF3D211F8FA474-64x256-0-0-252x108-P0-15.png",
-      "sha256": "97e4485201837f9e40a36a4cd5e94f454e7ed0b884c687009422974410327d3e"
+      "sha256": "c1430a97ae7fca423dbfdc98475e20be12638f2be2306178dae868b007e3ad32"
     },
     {
       "filename": "texpage-STP4-C5DBCE552D387569-69491D7E26769824-64x256-0-75-252x21-P0-15.png",
-      "sha256": "e37650ade4f4bec044871c75653d09b774991ffc7dd8714e6cdd4d16333c6548"
+      "sha256": "804a13973c50ae4188b763bdf643c92edbce2638a6f129f81db66a71b211feae"
     },
     {
       "filename": "texpage-STP4-C5DBCE552D387569-91271A90116ED761-64x256-0-75-252x21-P0-15.png",
-      "sha256": "d56804dead6d279ddaf347b50a3b27f0da72a94c765fd9ca607dae839b96cdcf"
+      "sha256": "cc49fb77635cd2405ceb8be43682ec0813d3c40e400830c3da24713de624b222"
     },
     {
       "filename": "texpage-STP4-C5DBCE552D387569-949BF2FB15C35AF8-64x256-0-75-252x21-P0-15.png",
-      "sha256": "1da106539ff0352bc636ca9d2ed7e911a47ed29b25f4ea3b6fe8cc965b2bd83c"
+      "sha256": "be23017ae68d084445d6b45782976afde1e07cc31be527228ba861e25d76cd68"
     },
     {
       "filename": "texpage-STP4-C5DBCE552D387569-9F8A5175F34347CA-64x256-0-75-252x21-P0-15.png",
-      "sha256": "d3c5da6b4d9d34c1640bbe2e1feca7c597e2b7c5822b89e20f2f2b420e1ba835"
+      "sha256": "291a5a27a8d7621641d3d0411d896952823705eab5847815694cd365138c001a"
     },
     {
       "filename": "texpage-STP4-CE6C0807FBBE79F2-69491D7E26769824-64x256-32-8-8x8-P0-15.png",
@@ -267,7 +267,13 @@
       "RISK",
       "WT"
     ],
-    "white_menu_font_soft_glow": true
+    "white_menu_font_soft_glow": true,
+    "menu_metric_corrections": {
+      "menu_glyphs_audited": 145,
+      "compact_glyphs_audited": 36,
+      "original_advance_and_kerning_tables_unchanged": true,
+      "evidence": "docs/evidence/font-heights.json"
+    }
   },
   "rough_progress": {
     "percent": 80,
@@ -281,45 +287,63 @@
     "resolution_scale": 5,
     "texture_filter": "Nearest",
     "sprite_filter": "Nearest",
-    "limited_scenes": true,
-    "compact_punctuation_rendered": 16,
-    "source_only_new_sprites": [
-      "small unknown-value mark",
-      "large unknown-value mark",
-      "WT surround"
+    "PGXP": true,
+    "limited_scenes": [
+      "Natural status page: R. ARM / Good. Use caution."
     ],
-    "non_text_preservation": "Selected matching-frame tests only; see docs/evidence/punctuation-rendering.json",
-    "save_scene_rendered_words": [
-      "TIME",
-      "SAVE",
-      "CLEAR",
-      "MAP"
-    ],
-    "save_scene_rendered_labels": [
-      "HP",
-      "MP",
-      "NO.",
-      "save-time colon"
-    ],
-    "restored_hud_labels_rendered": [
-      "HP",
-      "MP",
-      "RISK"
-    ],
-    "source_only_restored_label": "WT",
-    "memory_card_pixels_outside_text_changed": 0,
-    "memory_card_pixels_outside_text_checked": 7690007,
-    "hud_pixels_outside_text_changed": 0,
-    "hud_pixels_outside_text_checked": 7727216,
-    "scope": "Current neutral-glow pack checked in memory-card load scene. Earlier labels/borders and HUD tests used the preceding nonglow preview; those label/HUD PNGs and all dialogue PNGs are unchanged.",
+    "scope": "Current pack reviewed on the natural status page. Font-sheet and pair checks cover the complete reconstructed menu/compact banks; full-bank rendered coverage is not claimed.",
+    "non_text_preservation": "Static HP/MP/RISK control identical to preceding metric preview; no full-frame equality claim.",
     "measurements": [
-      "docs/evidence/save-labels.json",
-      "docs/evidence/hud-borders.json",
-      "docs/evidence/save-name-glow.json"
+      "docs/evidence/font-heights.json",
+      "docs/evidence/font-height-renderer.json"
     ],
-    "label_border_test_pack_fingerprint": "ef549ea6b9dd123634bf01b32ffbe5f37b773af88a5859a719bc9f227a0ef45f",
-    "glow_pixels_outside_text_changed": 0,
-    "glow_pixels_outside_text_checked": 6873424
+    "previous_metric_preview_checks": {
+      "version": "0.1-12083-g00e299795",
+      "renderer": "Vulkan",
+      "resolution_scale": 5,
+      "texture_filter": "Nearest",
+      "sprite_filter": "Nearest",
+      "limited_scenes": true,
+      "compact_punctuation_rendered": 16,
+      "source_only_new_sprites": [
+        "small unknown-value mark",
+        "large unknown-value mark",
+        "WT surround"
+      ],
+      "non_text_preservation": "Selected matching-frame tests only; see docs/evidence/punctuation-rendering.json",
+      "save_scene_rendered_words": [
+        "TIME",
+        "SAVE",
+        "CLEAR",
+        "MAP"
+      ],
+      "save_scene_rendered_labels": [
+        "HP",
+        "MP",
+        "NO.",
+        "save-time colon"
+      ],
+      "restored_hud_labels_rendered": [
+        "HP",
+        "MP",
+        "RISK"
+      ],
+      "source_only_restored_label": "WT",
+      "memory_card_pixels_outside_text_changed": 0,
+      "memory_card_pixels_outside_text_checked": 7690007,
+      "hud_pixels_outside_text_changed": 0,
+      "hud_pixels_outside_text_checked": 7727216,
+      "scope": "Current neutral-glow pack checked in memory-card load scene. Earlier labels/borders and HUD tests used the preceding nonglow preview; those label/HUD PNGs and all dialogue PNGs are unchanged.",
+      "measurements": [
+        "docs/evidence/save-labels.json",
+        "docs/evidence/hud-borders.json",
+        "docs/evidence/save-name-glow.json"
+      ],
+      "label_border_test_pack_fingerprint": "ef549ea6b9dd123634bf01b32ffbe5f37b773af88a5859a719bc9f227a0ef45f",
+      "glow_pixels_outside_text_changed": 0,
+      "glow_pixels_outside_text_checked": 6873424,
+      "pack_fingerprint": "482f3fe4210a90e79ffd7eb244210ecfe8237c1d8af786f1c6860e374bc249b2"
+    }
   },
   "android": {
     "version": "0.1-8969-g611bb8fb4",
@@ -377,19 +401,29 @@
     },
     "docs\\images\\green-menu-glow-preview.png": {
       "sha256": "8f7ee71e10e1c46ce70b4e3706322e621b33250a440aea028d6a07d757a09f9a"
+    },
+    "docs/images/font-heights-preview.png": {
+      "sha256": "f1c1213af070416e169d33b5b03d73cc2c1ee1404f1445f71d46eaaeab15644e"
+    },
+    "docs/images/font-height-families-preview.png": {
+      "sha256": "048390cb026d42c4bfb4ab05520a998722c8eb9c9a55e4610f734ea9df52a000"
+    },
+    "docs/images/font-height-status-preview.png": {
+      "sha256": "2cc95ef5fee9e58b968f753297b4e3b28f249a0172d2e6707c89bbd02d67fa7c"
     }
   },
   "previous_release": "docs/v0.3/verification.json",
   "status": "unreleased source; v0.3 release downloads unchanged",
   "package_version": "0.4-preview",
-  "unchanged_published_pngs": 46,
-  "changed_published_pngs": 5,
+  "unchanged_published_pngs": 23,
+  "changed_published_pngs": 28,
   "added_pngs": 8,
   "user_visual_acceptance": {
     "glyph_design_accepted": true,
     "neutral_colour_requested": true,
     "new_neutral_render_reviewed_by_user": false,
-    "evidence": "Maintainer explicitly requested removing invented blue colour and retaining the original grayscale palette. Fresh Windows comparisons prepared."
+    "evidence": "Maintainer requested native cap/x-height consistency and preserving intentional stylized heights. Full-bank comparisons prepared; this revision awaits visual review.",
+    "new_height_revision_reviewed_by_user": false
   },
   "menu_glow": {
     "included_in_pack": true,
@@ -407,9 +441,13 @@
       "blend": "Original STP/additive convention; retain alpha 128"
     },
     "interpretation": "Neutral grayscale fringe, preserving the native palette character. No added blue tint.",
-    "core_pixels_and_silhouettes_unchanged": true,
+    "core_pixels_and_silhouettes_unchanged": false,
     "measurements": "docs/evidence/save-name-glow.json",
     "grayscale_output_verified": true,
-    "palette_review": "docs/evidence/neutral-menu-palette.json"
+    "palette_review": "docs/evidence/neutral-menu-palette.json",
+    "geometry_note": "Colour remains grayscale; subsequent spacing/baseline/height corrections change placement and vertical proportions."
+  },
+  "known_issues": {
+    "information_framebuffer_ghost": "Native framebuffer-copy lettering can remain beneath the HD heading. Transparency retained; no black-fill workaround included."
   }
 }

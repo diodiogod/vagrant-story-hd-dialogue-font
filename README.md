@@ -17,7 +17,7 @@ Sharper dialogue, menus and HUD text, keeping the original style and spacing.
 **Rough font/text progress: 80%.** Remaining fixed labels and rare symbols are
 on the [roadmap](docs/COVERAGE.md). Other UI artwork is planned for later.
 
-Latest source includes [save labels, restored borders and soft menu glow](CHANGELOG.md).
+Latest source includes [save labels, restored borders and menu-font alignment fixes](CHANGELOG.md).
 
 ## Install
 

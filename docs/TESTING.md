@@ -2,18 +2,23 @@
 
 ## Unreleased source
 
-The current preview's neutral glow was checked in the Windows memory-card load
-scene: all 6,873,424 pixels outside the shared white text areas match the
-preceding preview. The comparison includes DATA, LOAD and the save-location name.
-The original palette and all visible replacement pixels are grayscale.
+Menu metrics are checked across 145 glyphs and all 21,025 pairs at the game's
+original advances. The compact UI bank is checked across 36 glyphs and 1,296
+pairs, including native kerning. Cap height, x-height and baseline are checked
+separately. Accents, descenders and old-style HUD figures retain their roles.
+The [height comparisons](../CHANGELOG.md) are font-sheet specimens.
 
-Before adding glow, MAP/SAVE/CLEAR/TIME and HP/MP surrounds passed the same
-load-scene check against v0.3, with 7,690,007 pixels outside their cells unchanged.
-HP/MP/RISK also passed a HUD comparison, with 7,727,216 outside pixels unchanged.
-Those label/HUD PNGs are unchanged in the glow preview. WT is source-reviewed only.
+Current Windows rendering was reviewed on the status page with DuckStation
+0.1-12083, Vulkan at 5x, both filters Nearest and PGXP on. This is limited scene
+coverage. Full-bank rendering and the new pack on Android remain unverified.
 
-NO. and the save-time colon are visible in that load scene. The new pack has
-not been tested on Android. Other uses of the shared white palette need review.
+**Known issue:** INFORMATION can show faint native lettering underneath the HD
+heading after a framebuffer copy. The pack keeps transparency; it does not mask
+the background with black. The exact emulator-side cause is still unresolved.
+
+Earlier save-label, HUD-border and neutral-glow scene checks are preserved below.
+Their pixel-equality results apply to those earlier pack fingerprints. The
+dialogue and old-style HUD digit PNGs are unchanged by the metric corrections.
 
 [Save-label measurements](evidence/save-labels.json) ·
 [HUD measurements](evidence/hud-borders.json) ·

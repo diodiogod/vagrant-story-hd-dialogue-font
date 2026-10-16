@@ -1,0 +1,37 @@
+{
+  "status": "Natural status page inspected",
+  "pack_fingerprint": "ed4d2c96de8dff17ef63211a403ea5abbdebd33c09ae5a639ab5ce8d538d3464",
+  "duckstation": "0.1-12083-g00e299795",
+  "renderer": "Vulkan",
+  "resolution_scale": 5,
+  "both_filters": "Nearest",
+  "PGXP": true,
+  "presentation_frame": 3000,
+  "state_sha256": "013ad6c2d44226b464e32e984b1b3d5179d231407cb76e88cdcfbd40fb33cdcf",
+  "previous_frame_sha256": "55bcb604bb6e9d74c6d957edfdae9670a4b61ee120624ca2bb3150050b6de270",
+  "frame_sha256": "6676403e1ee1bc3cbd93a01e36c96a906a421ad4d529bcca0fbb8199b206b465",
+  "scene": "Natural status page: R. ARM / Good. Use caution.",
+  "full_bank_rendered_coverage_claimed": false,
+  "source_VIBRATION_specimen_is_emulator_screenshot": false,
+  "HP_MP_RISK_control": {
+    "native_box": [
+      0,
+      0,
+      160,
+      35
+    ],
+    "output_box": [
+      570,
+      0,
+      1921,
+      317
+    ],
+    "pixels": 428267,
+    "changed_pixels": 0
+  },
+  "nontext_full_frame_equality_claimed": false,
+  "animation_limit": "Ashley animation differs; static HUD control checked independently.",
+  "framebuffer_ghost": "Still present; heading PNGs and transparency unchanged.",
+  "Android_tested": false,
+  "user_visual_acceptance": false
+}

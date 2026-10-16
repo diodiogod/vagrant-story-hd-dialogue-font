@@ -4,6 +4,7 @@
 - Restored dark surrounds on HP, MP, RISK and WT.
 - Added a [visual changelog](CHANGELOG.md) with comparisons.
 - Added a soft grayscale glow to white menu text, including save names.
+- Corrected menu spacing, baselines and character heights; refined compact UI font metrics.
 
 ---
 

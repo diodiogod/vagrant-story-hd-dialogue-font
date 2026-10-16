@@ -1,0 +1,878 @@
+{
+  "status": "passed",
+  "candidate_pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+  "source": "Actual frame-3000 presented Vulkan images; controlled quads and native popup routine",
+  "unique_labels": 29,
+  "native_popup_cases": 13,
+  "present_rect": [
+    181,
+    0,
+    1118,
+    703
+  ],
+  "output_size": [
+    1300,
+    703
+  ],
+  "source_state_unchanged": true,
+  "state_sha256": "ed46ecbf8a1f03964a859700fc7c4488331b0bf4c4318dc20abe740f85deada6",
+  "before_png_sha256": "d578a2d2224341fd987aefe3773975b0710ddab153e597b3b41d952779468679",
+  "after_png_sha256": "d062af31e5f5502f0b4993a5077e5906356b193a99922f34daffdf33ce1bc375",
+  "exclusion_source": "Known draw quads transformed by captured post-VS positions; two presented pixels of raster margin",
+  "compared_pixels_outside_text": 812201,
+  "changed_pixels_outside_text": 0,
+  "text_quads": [
+    {
+      "label": "WAITING for COMMAND",
+      "native_rect": [
+        12,
+        34,
+        92,
+        41
+      ],
+      "source_rect": [
+        144,
+        9,
+        80,
+        7
+      ],
+      "draw": "Controlled native GPU quad",
+      "clut": 14325,
+      "tpage": 12,
+      "presented_rect": [
+        214,
+        104,
+        453,
+        131
+      ],
+      "changed_pixels": 5063
+    },
+    {
+      "label": "NUM.",
+      "native_rect": [
+        142,
+        34,
+        171,
+        44
+      ],
+      "source_rect": [
+        100,
+        64,
+        29,
+        10
+      ],
+      "draw": "Controlled native GPU quad",
+      "clut": 14325,
+      "tpage": 12,
+      "presented_rect": [
+        594,
+        104,
+        684,
+        141
+      ],
+      "changed_pixels": 1916
+    },
+    {
+      "label": "EXIT FACTORY",
+      "native_rect": [
+        232,
+        34,
+        288,
+        42
+      ],
+      "source_rect": [
+        104,
+        144,
+        56,
+        8
+      ],
+      "draw": "Controlled native GPU quad",
+      "clut": 14325,
+      "tpage": 12,
+      "presented_rect": [
+        858,
+        104,
+        1027,
+        134
+      ],
+      "changed_pixels": 3109
+    },
+    {
+      "label": "Locked",
+      "native_rect": [
+        39,
+        50,
+        65,
+        58
+      ],
+      "source_rect": [
+        192,
+        144,
+        26,
+        8
+      ],
+      "draw": "Controlled native GPU quad",
+      "clut": 14325,
+      "tpage": 12,
+      "presented_rect": [
+        293,
+        154,
+        374,
+        185
+      ],
+      "changed_pixels": 1216
+    },
+    {
+      "label": "Container",
+      "native_rect": [
+        138,
+        50,
+        174,
+        58
+      ],
+      "source_rect": [
+        218,
+        144,
+        36,
+        8
+      ],
+      "draw": "Controlled native GPU quad",
+      "clut": 14325,
+      "tpage": 12,
+      "presented_rect": [
+        583,
+        154,
+        693,
+        185
+      ],
+      "changed_pixels": 1795
+    },
+    {
+      "label": "Open",
+      "native_rect": [
+        250,
+        50,
+        270,
+        58
+      ],
+      "source_rect": [
+        192,
+        152,
+        20,
+        8
+      ],
+      "draw": "Controlled native GPU quad",
+      "clut": 14325,
+      "tpage": 12,
+      "presented_rect": [
+        911,
+        154,
+        974,
+        185
+      ],
+      "changed_pixels": 965
+    },
+    {
+      "label": "Unlockable",
+      "native_rect": [
+        33,
+        66,
+        72,
+        74
+      ],
+      "source_rect": [
+        216,
+        160,
+        39,
+        8
+      ],
+      "draw": "Controlled native GPU quad",
+      "clut": 14325,
+      "tpage": 12,
+      "presented_rect": [
+        275,
+        205,
+        394,
+        235
+      ],
+      "changed_pixels": 2039
+    },
+    {
+      "label": "WORKSHOP",
+      "native_rect": [
+        134,
+        66,
+        178,
+        74
+      ],
+      "source_rect": [
+        144,
+        216,
+        44,
+        8
+      ],
+      "draw": "Controlled native GPU quad",
+      "clut": 14325,
+      "tpage": 12,
+      "presented_rect": [
+        571,
+        205,
+        705,
+        235
+      ],
+      "changed_pixels": 2580
+    },
+    {
+      "label": "BATTLE MODE",
+      "native_rect": [
+        223,
+        66,
+        297,
+        76
+      ],
+      "source_rect": [
+        64,
+        0,
+        74,
+        10
+      ],
+      "draw": "Controlled native GPU quad",
+      "clut": 14141,
+      "tpage": 23,
+      "presented_rect": [
+        831,
+        205,
+        1053,
+        241
+      ],
+      "changed_pixels": 5537
+    },
+    {
+      "label": "WEAPON",
+      "native_rect": [
+        34,
+        90,
+        66,
+        98
+      ],
+      "source_rect": [
+        72,
+        160,
+        32,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        278,
+        280,
+        377,
+        310
+      ],
+      "changed_pixels": 2043
+    },
+    {
+      "label": "HUMAN",
+      "native_rect": [
+        68,
+        90,
+        96,
+        98
+      ],
+      "source_rect": [
+        104,
+        160,
+        28,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        378,
+        280,
+        465,
+        310
+      ],
+      "changed_pixels": 1654
+    },
+    {
+      "label": "SHIELD",
+      "native_rect": [
+        182,
+        90,
+        210,
+        98
+      ],
+      "source_rect": [
+        76,
+        168,
+        28,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        711,
+        280,
+        798,
+        310
+      ],
+      "changed_pixels": 1570
+    },
+    {
+      "label": "BEAST",
+      "native_rect": [
+        212,
+        90,
+        238,
+        98
+      ],
+      "source_rect": [
+        104,
+        168,
+        26,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        799,
+        280,
+        880,
+        310
+      ],
+      "changed_pixels": 1537
+    },
+    {
+      "label": "R.ARM",
+      "native_rect": [
+        34,
+        106,
+        60,
+        114
+      ],
+      "source_rect": [
+        78,
+        176,
+        26,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        278,
+        330,
+        359,
+        360
+      ],
+      "changed_pixels": 1400
+    },
+    {
+      "label": "UNDEAD",
+      "native_rect": [
+        62,
+        106,
+        92,
+        114
+      ],
+      "source_rect": [
+        104,
+        176,
+        30,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        360,
+        330,
+        453,
+        360
+      ],
+      "changed_pixels": 1736
+    },
+    {
+      "label": "L.ARM",
+      "native_rect": [
+        182,
+        106,
+        208,
+        114
+      ],
+      "source_rect": [
+        78,
+        184,
+        26,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        711,
+        330,
+        793,
+        360
+      ],
+      "changed_pixels": 1254
+    },
+    {
+      "label": "PHANTOM",
+      "native_rect": [
+        210,
+        106,
+        246,
+        114
+      ],
+      "source_rect": [
+        104,
+        184,
+        36,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        793,
+        330,
+        904,
+        360
+      ],
+      "changed_pixels": 2099
+    },
+    {
+      "label": "HEAD",
+      "native_rect": [
+        34,
+        122,
+        56,
+        130
+      ],
+      "source_rect": [
+        82,
+        192,
+        22,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        278,
+        380,
+        347,
+        410
+      ],
+      "changed_pixels": 1175
+    },
+    {
+      "label": "DRAGON",
+      "native_rect": [
+        58,
+        122,
+        90,
+        130
+      ],
+      "source_rect": [
+        104,
+        192,
+        32,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        348,
+        380,
+        447,
+        410
+      ],
+      "changed_pixels": 1954
+    },
+    {
+      "label": "BODY",
+      "native_rect": [
+        182,
+        122,
+        204,
+        130
+      ],
+      "source_rect": [
+        82,
+        200,
+        22,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        711,
+        380,
+        781,
+        410
+      ],
+      "changed_pixels": 1179
+    },
+    {
+      "label": "EVIL",
+      "native_rect": [
+        206,
+        122,
+        224,
+        130
+      ],
+      "source_rect": [
+        104,
+        200,
+        18,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        782,
+        380,
+        839,
+        410
+      ],
+      "changed_pixels": 918
+    },
+    {
+      "label": "LEGS",
+      "native_rect": [
+        34,
+        138,
+        56,
+        146
+      ],
+      "source_rect": [
+        82,
+        208,
+        22,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        278,
+        431,
+        347,
+        461
+      ],
+      "changed_pixels": 1149
+    },
+    {
+      "label": "PHYSICS",
+      "native_rect": [
+        58,
+        138,
+        88,
+        146
+      ],
+      "source_rect": [
+        144,
+        160,
+        30,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        348,
+        431,
+        441,
+        461
+      ],
+      "changed_pixels": 1822
+    },
+    {
+      "label": "WEAPON",
+      "native_rect": [
+        182,
+        138,
+        214,
+        146
+      ],
+      "source_rect": [
+        72,
+        160,
+        32,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        711,
+        431,
+        810,
+        461
+      ],
+      "changed_pixels": 1911
+    },
+    {
+      "label": "AIR",
+      "native_rect": [
+        216,
+        138,
+        230,
+        146
+      ],
+      "source_rect": [
+        144,
+        168,
+        14,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        811,
+        431,
+        857,
+        461
+      ],
+      "changed_pixels": 839
+    },
+    {
+      "label": "SHIELD",
+      "native_rect": [
+        34,
+        154,
+        62,
+        162
+      ],
+      "source_rect": [
+        76,
+        168,
+        28,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        278,
+        481,
+        365,
+        511
+      ],
+      "changed_pixels": 1580
+    },
+    {
+      "label": "FIRE",
+      "native_rect": [
+        64,
+        154,
+        82,
+        162
+      ],
+      "source_rect": [
+        144,
+        176,
+        18,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        366,
+        481,
+        424,
+        511
+      ],
+      "changed_pixels": 1032
+    },
+    {
+      "label": "R.ARM",
+      "native_rect": [
+        182,
+        154,
+        208,
+        162
+      ],
+      "source_rect": [
+        78,
+        176,
+        26,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        711,
+        481,
+        793,
+        511
+      ],
+      "changed_pixels": 1479
+    },
+    {
+      "label": "EARTH",
+      "native_rect": [
+        210,
+        154,
+        236,
+        162
+      ],
+      "source_rect": [
+        144,
+        184,
+        26,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        793,
+        481,
+        875,
+        511
+      ],
+      "changed_pixels": 1567
+    },
+    {
+      "label": "L.ARM",
+      "native_rect": [
+        34,
+        170,
+        60,
+        178
+      ],
+      "source_rect": [
+        78,
+        184,
+        26,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        278,
+        531,
+        359,
+        561
+      ],
+      "changed_pixels": 1342
+    },
+    {
+      "label": "WATER",
+      "native_rect": [
+        62,
+        170,
+        88,
+        178
+      ],
+      "source_rect": [
+        144,
+        192,
+        26,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        360,
+        531,
+        441,
+        561
+      ],
+      "changed_pixels": 1593
+    },
+    {
+      "label": "HEAD",
+      "native_rect": [
+        182,
+        170,
+        204,
+        178
+      ],
+      "source_rect": [
+        82,
+        192,
+        22,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        711,
+        531,
+        781,
+        561
+      ],
+      "changed_pixels": 1256
+    },
+    {
+      "label": "LIGHT",
+      "native_rect": [
+        206,
+        170,
+        228,
+        178
+      ],
+      "source_rect": [
+        144,
+        200,
+        22,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "orange",
+      "presented_rect": [
+        782,
+        531,
+        851,
+        561
+      ],
+      "changed_pixels": 1274
+    },
+    {
+      "label": "BODY",
+      "native_rect": [
+        34,
+        186,
+        56,
+        194
+      ],
+      "source_rect": [
+        82,
+        200,
+        22,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        278,
+        581,
+        347,
+        611
+      ],
+      "changed_pixels": 1147
+    },
+    {
+      "label": "DARKNESS",
+      "native_rect": [
+        58,
+        186,
+        94,
+        194
+      ],
+      "source_rect": [
+        144,
+        208,
+        36,
+        8
+      ],
+      "draw": "Original func_8009695C",
+      "colour": "blue",
+      "presented_rect": [
+        348,
+        581,
+        459,
+        611
+      ],
+      "changed_pixels": 2107
+    }
+  ],
+  "natural_events_tested": false,
+  "all_palette_uses_tested": false,
+  "android_tested": false
+}

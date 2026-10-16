@@ -1,3 +1,25 @@
+# v0.5 beta — Original Style HD Fonts
+
+- 66 more text sprites: combat/status notices, equipment and affinity popups, and interaction labels.
+- Sharper BATTLE MODE, WAITING for COMMAND, WORKSHOP, NUM., Locked, Container, Open and Unlockable.
+- Native colours, dark surrounds and animation dimming retained; word spacing checked in the renderer.
+
+**101 PNGs at 8x.** Dialogue and non-text artwork are unchanged.
+[Visual comparisons](CHANGELOG.md).
+
+Import the **Android ZIP** through **Transfer Data → ZIP file → Import** without extracting it.
+Extract the **Desktop ZIP** into DuckStation's textures folder. Published v0.2–v0.4
+packs can be upgraded by import; remove obsolete experimental replacements first.
+
+Keep **both texture filters on Nearest Neighbor**. On Android **0.1-8969**, disable
+**PGXP Geometry Correction** for this game. The new text passed controlled Windows
+render checks; Android and broader gameplay checks remain pending.
+
+The INFORMATION ghost remains unresolved. Tutorial/loading/results text and a
+few rare symbols are planned next. [Testing](docs/TESTING.md) · [Installation](docs/INSTALL.md).
+
+---
+
 # v0.4 beta — Original Style HD Fonts
 
 - Added sharp MAP, SAVE, CLEAR and TIME labels.

@@ -3,18 +3,17 @@
 An 8x font pack for **DuckStation · Vagrant Story USA (SLUS-01040)**.
 Sharper dialogue, menus and HUD text, keeping the original style and spacing.
 
-**v0.4 beta:** [Android ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.4-beta/vagrant-story-font-v0.4-android.zip) · [Desktop ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.4-beta/vagrant-story-font-v0.4-desktop.zip) · [Release notes](RELEASE-NOTES.md)
+**v0.5 beta:** [Android ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.5-beta/vagrant-story-font-v0.5-android.zip) · [Desktop ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.5-beta/vagrant-story-font-v0.5-desktop.zip) · [Release notes](RELEASE-NOTES.md)
 
 ![Equipment menu](assets/equipment-v0.4.png)
 
 ## What's new
 
-- More even menu heights, baselines and spacing.
-- Restored native dark borders on UI letters, numbers and HUD labels.
-- Sharp MAP, SAVE, CLEAR and TIME; soft grayscale glow on white menu text.
-- 59 replacement PNGs. Dialogue and other game artwork are unchanged.
+- 66 more text sprites: combat/status messages, affinity popups and interaction labels.
+- Sharper BATTLE MODE, WORKSHOP, percentages and other fixed words.
+- 101 replacement PNGs, preserving native colours, borders and animation effects.
 
-**Rough font/text progress: 80%.** Remaining fixed labels and rare symbols are
+**Rough font/text progress: 90%.** Remaining fixed labels and rare symbols are
 on the [roadmap](docs/COVERAGE.md). Other UI artwork is planned for later.
 
 [Visual changelog and comparisons](CHANGELOG.md).
@@ -43,7 +42,7 @@ Extract the **Desktop ZIP** into DuckStation's `textures` folder so it contains
 and restart the game.
 
 Upgrading an experimental menu/UI pack? Back it up and remove its old
-replacements first. Published v0.2/v0.3 can be upgraded by import.
+replacements first. Published v0.2–v0.4 can be upgraded by import.
 [Installation help and troubleshooting](docs/INSTALL.md).
 
 ## Screenshots
@@ -51,6 +50,8 @@ replacements first. Published v0.2/v0.3 can be upgraded by import.
 ![Dialogue](assets/windows-dialogue-v0.2.png)
 
 [UI borders](docs/images/compact-ui-labels-v0.4.png) · [Menu heights](docs/images/font-heights-preview.png)
+
+[Combat text](docs/images/combat-labels-v0.5.png) · [Word spacing](docs/images/combat-spacing-v0.5.png) · [Fixed labels and popups](docs/images/fixed-labels-v0.5.png)
 
 ## More
 

@@ -1,0 +1,920 @@
+{
+  "method": "Built-in image_gen; original-shape reconstruction and manual review",
+  "external_font_used": false,
+  "fixed_words": {
+    "prompts": {
+      "tool": "built-in image_gen",
+      "entries": [
+        {
+          "id": "pilot",
+          "prompt": "Use case: precise-object-edit. Asset: faithful high-definition reconstruction of six Vagrant Story UI word sprites. Input image 1 is the edit target, a 2-column x 3-row sheet of ORIGINAL lettering enlarged with nearest neighbor. Preserve the sheet layout, each word's position, native relative dimensions, spacing and case. White background, black flat letter faces with clean antialiased edges. Exact row-major text: WEAPON | SHIELD / HUMAN | WORKSHOP / Locked | BATTLE MODE. Reconstruct the same distinctive letter designs from the low-resolution evidence: compact, wide sans capitals, squared but softly rounded bowls and terminals, mixed-case Locked as shown. Remove raster staircase artifacts from BOTH outside edges and inner counters without converting bowls into straight polygon facets. Keep intentional angular letter structure. Common cap height and baseline within each word, consistent stroke weight. Preserve the extended T top bar and distinctive R, G, M, W silhouettes. BATTLE MODE belongs to its own taller family and must retain its original proportions. This is contour restoration, not typography redesign or choosing a modern font. Do NOT add serifs, flourishes, handwritten unevenness, italic slant, bevel, 3D, glow, black outline, blur or shadow: palette and dark surround are applied separately by the pipeline. No labels, grid lines, extra characters, missing letters, merged letters or cropped ink. Render smooth high-resolution black letter contours on pure white in the same 2048x768 canvas and cell arrangement.",
+          "input": "references/pilot-native.png"
+        },
+        {
+          "id": "notices",
+          "prompt": "Use case: precise-object-edit. Image 1 is the original Vagrant Story word-sprite sheet to restore. Image 2 is the six-word high-definition pilot, a supporting contour and stroke-weight reference. Reconstruct the text from image 1 with the smooth high-resolution treatment of image 2, while keeping the exact native designs, dimensions relative to other words, spacing, and case from image 1. Do NOT typeset an unrelated modern font. Output same 2-column by 5-row grid on a pure white 2048x1280 canvas. Exact row-major cells: row1 WAITING for COMMAND | NUM.; row2 EXIT FACTORY | Locked; row3 Container | Open; row4 Unblockable | WORKSHOP; row5 BATTLE MODE | EMPTY. Blank last cell. Each word stays centered in its own original cell with generous whitespace, no added labels. Compact squared sans letter faces with softly rounded original corners; native narrow lowercase, smaller x-height, consistent cap/x heights and level baselines, Open's p descender must remain lower than baseline. WAITING and COMMAND remain capitals, for remains lowercase. Preserve the native special M/W, squat bowls, N diagonals and long T bars; do not make all families the same size because BATTLE MODE and NUM. are taller than the tiny fixed labels. Render solid black flat faces with antialiased smooth outer and inner contours, no remaining staircase artifacts, no polygonal-circle substitutes, no serifs, calligraphy, extra word spacing, italic, bold redesign, gray blur, outline, glow, shadow, bevel or 3D. Surround and native colour are reconstructed separately. Every word must be exact, readable, intact and uncropped.",
+          "input": "references/notices-native.png",
+          "excluded_generated_cell": "row5 col2: model wrote EMPTY; never extracted or packaged"
+        },
+        {
+          "id": "popups",
+          "prompt": "Use case: precise-object-edit. Image 1 is the original Vagrant Story word-sprite sheet to restore. Image 2 is a supporting six-word HD pilot for smooth contours and native style. Restore all twenty original word sprites, preserving image 1's specific shapes, relative dimensions, tight but non-overlapping native spacing, and uniform letter height. Same 4-column x 5-row grid, white 2048x1280 canvas, words centered in their existing cells. Exact row-major text: WEAPON | SHIELD | R.ARM | L.ARM / HEAD | BODY | LEGS | HUMAN / BEAST | UNDEAD | PHANTOM | DRAGON / EVIL | PHYSICS | AIR | FIRE / EARTH | WATER | LIGHT | DARKNESS. PHYSICS is spelled exactly P H Y S I C S, not PHYSICAL. Periods in R.ARM and L.ARM must remain separate and visible; do not add spaces. Small compact sans capitals with squared but gently rounded bowls and corners. All use the same common cap height, baseline and consistent stroke weight. Preserve each source letter design instead of substituting a generic typeface: E bars, G opening, R leg, M/W diagonals, S terminals, T top bar. Remove only raster stair steps from both outer edges AND inner counters; preserve intended angular geometry. Avoid making round bowls into flat polygon facets. Output solid black flat face silhouettes with high-quality antialiasing, no texture, border, glow, drop shadow, bevel, 3D, serifs or handwritten unevenness. No added labels, grid lines, extra/missing/merged letters or cropped ink. Dark surrounds and original palette are applied separately.",
+          "input": "references/popups-native.png",
+          "repair_needed": "DARKNESS K diagonal shows source-like stair step"
+        }
+      ]
+    },
+    "revision_prompts": {
+      "tool": "built-in image_gen",
+      "darkness_repair": {
+        "prompt": "Use case: precise-object-edit. The input is an HD word sprite restoration for Vagrant Story, with one defective letter. Change ONLY the letter K in DARKNESS. Its upper and lower diagonal arms currently look like chunky staircase notches. Make both diagonal arms clean straight diagonal strokes with antialiased smooth edges, maintaining the original K's position, width, cap height, baseline and weight. Keep the whole word spelled DARKNESS; preserve D A R N E S S exactly as shown, their counters, spacing and style. Keep the K recognizable and natural for this compact squared sans family, no curved flourish or blob, no geometric experiment; simply replace the bad raster stair steps along the K diagonals. Black flat lettering on white background, no new border, glow, shadow or bevel. Keep the full word centered and uncropped with ample margins. Do not alter the other letters.",
+        "edit_target": "references/darkness-hd-repair-target.png",
+        "output": "generated/darkness-repair.png",
+        "usage": "Only K is transferred into selected popup master; other letters preserved."
+      },
+      "spacing_notices": {
+        "prompt": "Use case: precise-object-edit. Image 1 is an HD word sheet needing spacing correction; image 2 is the native reference. Preserve the compact squared sans letter design and smoothing, but every letter FACE must be distinct with a clear white gap from neighboring letters, including the T T bars in BATTLE and L o in Locked. These are separate UI text glyphs, not a joined logotype. Make strokes about 8 percent lighter only if needed to give internal breathing room. Preserve same level baselines/cap heights, lowercase x-height and Open's p descender. Keep native proportions relative to the other words, while allowing slightly more width for separation now, because the pipeline later calibrates whole words to native sprite widths. Output exactly a 2-column x 5-row sheet on pure white. Exact cells row1: WAITING for COMMAND | NUM.; row2: EXIT FACTORY | Locked; row3: Container | Open; row4: Unlockable | WORKSHOP; row5: BATTLE MODE | [LEAVE THIS CELL BLANK - NO WORD AT ALL]. Erase the word EMPTY in the bottom-right cell; that cell must be completely white. Keep all other exact spelling and case. Preserve native characteristic squared bowls and smoothly diagonal K/N/W/R arms, no unnecessary rounding or serifs. Smooth antialiased black face silhouettes, no outer border, shadow, glow, blur, bevel or 3D, no labels or gridlines. Words centered within their original cells, ample whitespace, no clipped edges. CRITICAL TEXT CORRECTION: row4 column1 must read exactly Unlockable (U n l o c k a b l e), NOT Unblockable. There is no b after n; the first b is only after a. Follow the native reference spelling. Do not change it back.",
+        "edit_target": "generated/notices.png",
+        "native_reference": "references/notices-native.png",
+        "output": "generated/notices-spacing-v2.png"
+      },
+      "spacing_popups": {
+        "prompt": "Use case: precise-object-edit. Image 1 is an HD reconstruction sheet that needs spacing correction. Image 2 is its native Vagrant Story reference. Keep image 1's lettering style, word order and 4-column x5-row layout, but fix ALL accidental joins and touching letters, not just a few named pairs. These are readable interface words, not connected logotypes. Every black letter face must be a separate object with a small CLEAR WHITE gap from the neighboring letter at every point. In particular disconnect EA in WEAPON/HEAD/BEAST/UNDEAD, N/T/O in PHANTOM, HY in PHYSICS and TH in EARTH. Make black strokes modestly lighter by about 8 percent if necessary to provide breathing room. Preserve squared gently rounded original sans contours, consistent cap height and baseline, no serifs or redesign. DARKNESS K must have smooth straight diagonal arms, no raster staircase notches. All twenty words exactly in row-major order: WEAPON | SHIELD | R.ARM | L.ARM / HEAD | BODY | LEGS | HUMAN / BEAST | UNDEAD | PHANTOM | DRAGON / EVIL | PHYSICS | AIR | FIRE / EARTH | WATER | LIGHT | DARKNESS. Retain the separate periods in R.ARM and L.ARM. Keep individual characters recognizable and evenly sized. We will calibrate each complete word to native width later, so allow a little extra word width NOW to achieve genuine clear face separation. Face-only solid black on plain white; high-quality antialiasing, no border, blur, shadow, bevel, glow or 3D, no metadata or extra labels. Preserve positions within cells and leave margins. Output all twenty words; no missing, added or repeated words.",
+        "edit_target": "generated/popups.png",
+        "native_reference": "references/popups-native.png",
+        "output": "generated/popups-spacing-v2.png"
+      }
+    },
+    "source_catalog": {
+      "review": "Native notices and popup sheets inspected against every word, including Unlockable. This records transcription, not approval of HD contours.",
+      "system_sha256": "fde976eb1ee43f575d10f7cec0c7359bcad28f438d19e39cea096a3053a31436",
+      "entries": [
+        {
+          "key": "waiting-for-command",
+          "text": "WAITING for COMMAND",
+          "page": 1,
+          "rect": [
+            144,
+            10,
+            80,
+            6
+          ],
+          "native_face_sha256": "6b4e13e176683e328c78fc008f165debc7659132472dba15b94ae0fcde5580fa"
+        },
+        {
+          "key": "num",
+          "text": "NUM.",
+          "page": 1,
+          "rect": [
+            100,
+            64,
+            29,
+            10
+          ],
+          "native_face_sha256": "b4870102e6c9dd6bc11bcae2d71967924cbcb60b405b7006ca124147f0e9f5ad"
+        },
+        {
+          "key": "exit-factory",
+          "text": "EXIT FACTORY",
+          "page": 1,
+          "rect": [
+            104,
+            144,
+            56,
+            8
+          ],
+          "native_face_sha256": "a6721533500e1a1e851ac76153f2904131668783b2db7b84d5c8630ef3738145"
+        },
+        {
+          "key": "locked",
+          "text": "Locked",
+          "page": 1,
+          "rect": [
+            192,
+            144,
+            26,
+            8
+          ],
+          "native_face_sha256": "d44fa00cffe4b2802afb7d2ff396dc5d2b7081ae0ed631af7c70d5cd80799106"
+        },
+        {
+          "key": "container",
+          "text": "Container",
+          "page": 1,
+          "rect": [
+            218,
+            144,
+            36,
+            8
+          ],
+          "native_face_sha256": "1ff37ad900dcbe7faf751513fb8fdd7e102808b6fb7e55495eca5ba3df8f4e58"
+        },
+        {
+          "key": "open",
+          "text": "Open",
+          "page": 1,
+          "rect": [
+            192,
+            152,
+            20,
+            8
+          ],
+          "native_face_sha256": "37a61017beb69f59cecbb28371ed4c108efe5a6056af8720bd4e7485c53a2e3a"
+        },
+        {
+          "key": "unlockable",
+          "text": "Unlockable",
+          "page": 1,
+          "rect": [
+            216,
+            160,
+            39,
+            8
+          ],
+          "native_face_sha256": "f15a7359449bf6762901098b6f18d62dfc1f403bf7a304e5bb8793d0f08394fe"
+        },
+        {
+          "key": "workshop",
+          "text": "WORKSHOP",
+          "page": 1,
+          "rect": [
+            144,
+            216,
+            44,
+            8
+          ],
+          "native_face_sha256": "03704d40a828ebad8dda717916561129240b68852d171c1b82bbee1a08e9ba33"
+        },
+        {
+          "key": "battle-mode",
+          "text": "BATTLE MODE",
+          "page": 2,
+          "rect": [
+            64,
+            0,
+            74,
+            10
+          ],
+          "native_face_sha256": "fd19520ae7a6f3e5dbf7b7096ef1b485251fc9b2be4da142cf7bbd2847faa491"
+        },
+        {
+          "key": "weapon",
+          "text": "WEAPON",
+          "page": 1,
+          "rect": [
+            72,
+            160,
+            32,
+            8
+          ],
+          "native_face_sha256": "6c9cd6925019ee09bbdc3fab5b6a2651c73d83158eb472a981068d15e9b2dd0d"
+        },
+        {
+          "key": "shield",
+          "text": "SHIELD",
+          "page": 1,
+          "rect": [
+            76,
+            168,
+            28,
+            8
+          ],
+          "native_face_sha256": "63e78f63936a5400e618877e3fd8b3b45c71707a6b523f5d958ba4e2e28e930b"
+        },
+        {
+          "key": "r-arm",
+          "text": "R.ARM",
+          "page": 1,
+          "rect": [
+            78,
+            176,
+            26,
+            8
+          ],
+          "native_face_sha256": "b2565c1f863197c510f69b5faba3611bb2d2997aef9e588ae162de83549384b7"
+        },
+        {
+          "key": "l-arm",
+          "text": "L.ARM",
+          "page": 1,
+          "rect": [
+            78,
+            184,
+            26,
+            8
+          ],
+          "native_face_sha256": "63eabcd566cb6b0b3557d9f5efffa53ae8e3fd4fb36872f8b60964c10fa13249"
+        },
+        {
+          "key": "head",
+          "text": "HEAD",
+          "page": 1,
+          "rect": [
+            82,
+            192,
+            22,
+            8
+          ],
+          "native_face_sha256": "a8cb2fc35b203fa222bb27f5b0bf8bbe801608c972138fcef41caaef4a7e9765"
+        },
+        {
+          "key": "body",
+          "text": "BODY",
+          "page": 1,
+          "rect": [
+            82,
+            200,
+            22,
+            8
+          ],
+          "native_face_sha256": "c2f76743a1d2bf1e8b45d3e1af26c7e109af7b11c1499f29598b2f4da0b91450"
+        },
+        {
+          "key": "legs",
+          "text": "LEGS",
+          "page": 1,
+          "rect": [
+            82,
+            208,
+            22,
+            8
+          ],
+          "native_face_sha256": "dac7b8cc01b7628d024c9c41a0e4f18a5dc1b9c0e2e7540f56ce82cc33a1008f"
+        },
+        {
+          "key": "human",
+          "text": "HUMAN",
+          "page": 1,
+          "rect": [
+            104,
+            160,
+            28,
+            8
+          ],
+          "native_face_sha256": "f78babcbb8fba78fab420e60279dd847ef09e8abed8e76cd4a1bb385a1c8a619"
+        },
+        {
+          "key": "beast",
+          "text": "BEAST",
+          "page": 1,
+          "rect": [
+            104,
+            168,
+            26,
+            8
+          ],
+          "native_face_sha256": "202973746f8a53cd4a70f11d3b58218e4a50706958cb9737ddf808bd42bbf5a0"
+        },
+        {
+          "key": "undead",
+          "text": "UNDEAD",
+          "page": 1,
+          "rect": [
+            104,
+            176,
+            30,
+            8
+          ],
+          "native_face_sha256": "2fa3e50270c3ef449eda3ed8be9b9e8082e8b601a9eca21a2d141f03af6c2602"
+        },
+        {
+          "key": "phantom",
+          "text": "PHANTOM",
+          "page": 1,
+          "rect": [
+            104,
+            184,
+            36,
+            8
+          ],
+          "native_face_sha256": "5969f21f76fc0c31e822c41a860f6f3a73a815212d34aa35b7ff11b11c86c321"
+        },
+        {
+          "key": "dragon",
+          "text": "DRAGON",
+          "page": 1,
+          "rect": [
+            104,
+            192,
+            32,
+            8
+          ],
+          "native_face_sha256": "a097c280060c67d00e5b925e4f751430652e783038146ecae853706054bb0be5"
+        },
+        {
+          "key": "evil",
+          "text": "EVIL",
+          "page": 1,
+          "rect": [
+            104,
+            200,
+            18,
+            8
+          ],
+          "native_face_sha256": "b5ba39f3db5e9edec073924fb9c75e7a03c5aada4fa266134e96f943f1599a01"
+        },
+        {
+          "key": "physics",
+          "text": "PHYSICS",
+          "page": 1,
+          "rect": [
+            144,
+            160,
+            30,
+            8
+          ],
+          "native_face_sha256": "04aa7070d9945373217d4408d243e5c5a7d63a370a982eaa1c4b84c21a2549ed"
+        },
+        {
+          "key": "air",
+          "text": "AIR",
+          "page": 1,
+          "rect": [
+            144,
+            168,
+            14,
+            8
+          ],
+          "native_face_sha256": "b12fd0c9b293bc4ce9a90ce4815bea6c50ed7ec6fb9d53153ab0ddcbca1ce787"
+        },
+        {
+          "key": "fire",
+          "text": "FIRE",
+          "page": 1,
+          "rect": [
+            144,
+            176,
+            18,
+            8
+          ],
+          "native_face_sha256": "073bfec8d1a80eb8f4c88af21746706f6c7772d95007b3528fc93ca9fdbf9876"
+        },
+        {
+          "key": "earth",
+          "text": "EARTH",
+          "page": 1,
+          "rect": [
+            144,
+            184,
+            26,
+            8
+          ],
+          "native_face_sha256": "2d08aec87fa8d7794e0328d006deb9683ec49e73cf9b270316c5fa1c382e6c15"
+        },
+        {
+          "key": "water",
+          "text": "WATER",
+          "page": 1,
+          "rect": [
+            144,
+            192,
+            26,
+            8
+          ],
+          "native_face_sha256": "16a81c9b171bb66d38ac5c2cc1a79c835878064c0b1a46a2c93dadaa7fe368c6"
+        },
+        {
+          "key": "light",
+          "text": "LIGHT",
+          "page": 1,
+          "rect": [
+            144,
+            200,
+            22,
+            8
+          ],
+          "native_face_sha256": "285b5ca4ea9ecb6dfb6929c32e46d3196c46e5b81d1831686ac70c97f688600b"
+        },
+        {
+          "key": "darkness",
+          "text": "DARKNESS",
+          "page": 1,
+          "rect": [
+            144,
+            208,
+            36,
+            8
+          ],
+          "native_face_sha256": "77db5e0183ca25f08f6f392c2fda76bed76e2d05f0887067bd230d944c333360"
+        }
+      ]
+    }
+  },
+  "combat_words": {
+    "generations": {
+      "tool": "built-in image_gen",
+      "images": [
+        {
+          "output": "generated/pilot-v1.png",
+          "status": "rejected pilot: faceted bowl corners"
+        },
+        {
+          "output": "generated/pilot-v2.png",
+          "status": "supporting contour reference; Q tail later corrected"
+        },
+        {
+          "output": "generated/notices-v1.png",
+          "status": "selected base sheet; required Quicken, 5 and percent overrides"
+        },
+        {
+          "output": "generated/categories-v1.png",
+          "status": "selected base sheet"
+        },
+        {
+          "output": "generated/quicken-repair.png",
+          "status": "selected whole-word baseline repair"
+        },
+        {
+          "output": "generated/percent-repair.png",
+          "status": "selected 5 and one shared percent only; other digits preserved"
+        }
+      ],
+      "final_masks": "masks/*.png",
+      "reviews": {
+        "transcription": "transcriptions-reviewed.json",
+        "heights_and_baselines": "typography-checks.json",
+        "focused_repairs": "focused-repair-proof.json",
+        "symbol_shapes": "detail-shape-checks.json"
+      },
+      "visual_review": "Inspected all 37 original/HD rows, outer and inner contours, source case, suffixes and selected effects. These remain interpretation candidates for maintainer review.",
+      "tests": {
+        "command": ".venv/Scripts/python.exe font-expansion-v03/combat-words-v24/test_candidate.py",
+        "passed": 7
+      },
+      "footprint_review": "footprint-audit.json: distinguish allocated size, visible face bounds, placement and normalized ink coverage. HP and numeric-word weight remain explicit review points.",
+      "actual_render_tested": false,
+      "android_tested": false,
+      "user_visual_acceptance": false,
+      "published": false
+    },
+    "source_catalog": {
+      "native_review": "All 37 native source words visually transcribed, preserving case and suffix signs. Shared HP and plus cells remain separate.",
+      "source_system_sha256": "fde976eb1ee43f575d10f7cec0c7359bcad28f438d19e39cea096a3053a31436",
+      "entries": [
+        {
+          "key": "move",
+          "text": "MOVE",
+          "rect": [
+            216,
+            28,
+            28,
+            12
+          ],
+          "native_face_sha256": "00cdd1c145d472557466e414322b72329ee307c23a37cbc3613cd2c188b981db"
+        },
+        {
+          "key": "200",
+          "text": "200%",
+          "rect": [
+            182,
+            40,
+            30,
+            12
+          ],
+          "native_face_sha256": "1608ac6769416a0b727014b094ee47df4c5b8591b0df082e15f67ba0f778e00f"
+        },
+        {
+          "key": "50",
+          "text": "50%",
+          "rect": [
+            214,
+            40,
+            24,
+            12
+          ],
+          "native_face_sha256": "18411612df31f5a9dc5161f594b82152bdb230b4d26bc0e1de7691b4523312db"
+        },
+        {
+          "key": "risk",
+          "text": "RISK",
+          "rect": [
+            152,
+            52,
+            28,
+            12
+          ],
+          "native_face_sha256": "d430627ecc4ac4d3967a01a311a12525f22605fd461a57c00b614cede922b4bd"
+        },
+        {
+          "key": "attack",
+          "text": "ATTACK",
+          "rect": [
+            180,
+            52,
+            40,
+            12
+          ],
+          "native_face_sha256": "660a51892003be98b1bb48a9104b3d0ea32f9f8a670e2c734e7e9c0b262ec7b0"
+        },
+        {
+          "key": "parry",
+          "text": "Parry",
+          "rect": [
+            220,
+            52,
+            30,
+            12
+          ],
+          "native_face_sha256": "215ad9182709f6b395fc7086a5673cacd33827360ace1305181ebde658729dc3"
+        },
+        {
+          "key": "str",
+          "text": "STR",
+          "rect": [
+            0,
+            64,
+            24,
+            12
+          ],
+          "native_face_sha256": "77bd2fb78fb1613e0eaff2c111584954dfa8f3ed1bf805cd38e9eafb1a0d1831"
+        },
+        {
+          "key": "int",
+          "text": "INT",
+          "rect": [
+            24,
+            64,
+            20,
+            12
+          ],
+          "native_face_sha256": "37a9e99c3c13c2f92adb9b9b282baecd698822103981daadd4c28313ec03ba09"
+        },
+        {
+          "key": "agl",
+          "text": "AGL",
+          "rect": [
+            44,
+            64,
+            24,
+            12
+          ],
+          "native_face_sha256": "ffd68bd19dc3572855748549d8572335887fb8e7bc516ee7d1c6fe28ed98df67"
+        },
+        {
+          "key": "quicken",
+          "text": "Quicken",
+          "rect": [
+            68,
+            64,
+            40,
+            12
+          ],
+          "native_face_sha256": "fea7915a561f69a7fb5f0ee16b6252fbc943d94e5175fa2ab1e5da7199e00c69"
+        },
+        {
+          "key": "silent",
+          "text": "Silent",
+          "rect": [
+            108,
+            64,
+            30,
+            12
+          ],
+          "native_face_sha256": "73c7afa9a8af2521c631e35cc1c1be461d1af066a6961ede29cbee2680696121"
+        },
+        {
+          "key": "paralysis",
+          "text": "Paralysis",
+          "rect": [
+            138,
+            64,
+            50,
+            12
+          ],
+          "native_face_sha256": "ee916b23d58356cef4153518ad0187c4f722285bee5485ed7f651f34247030c4"
+        },
+        {
+          "key": "poison",
+          "text": "Poison",
+          "rect": [
+            188,
+            64,
+            36,
+            12
+          ],
+          "native_face_sha256": "605e1525c35bd787026f8b1ef9f85bb232c76e6d703960f063710c3e32b03d7f"
+        },
+        {
+          "key": "up",
+          "text": "-up",
+          "rect": [
+            224,
+            64,
+            16,
+            12
+          ],
+          "native_face_sha256": "c03f6f5c5f2b4d17693c2252d5654b91c42a5e18cdf5bf33856b3c14cb08ed16"
+        },
+        {
+          "key": "down",
+          "text": "-down",
+          "rect": [
+            212,
+            76,
+            32,
+            12
+          ],
+          "native_face_sha256": "5aeb10e3f2c028e41435fdd6556cec60492f5919de37e053f87b01959efcdfef"
+        },
+        {
+          "key": "numbness",
+          "text": "Numbness",
+          "rect": [
+            0,
+            76,
+            52,
+            12
+          ],
+          "native_face_sha256": "ec37f6c0d9be444fdc9e8b8f49595f10ae2a3e2aaa7afd5ac977e403e929ff1e"
+        },
+        {
+          "key": "curse",
+          "text": "Curse",
+          "rect": [
+            52,
+            76,
+            30,
+            12
+          ],
+          "native_face_sha256": "e03373e1e9c6b3be0a16cdd0cbda379141530ff9b007a16588967e47e086e95a"
+        },
+        {
+          "key": "full",
+          "text": "Full",
+          "rect": [
+            82,
+            76,
+            20,
+            12
+          ],
+          "native_face_sha256": "3d53943556c9d65fcf16b21f6c448327b0d0e7ea8b33c586c185cb6c5b8b3b53"
+        },
+        {
+          "key": "hp",
+          "text": "HP",
+          "rect": [
+            102,
+            76,
+            16,
+            12
+          ],
+          "native_face_sha256": "73991f6685bbaa2e2d37c3ef73093a1b49c6bc8b6870c708051d947c0420db5d"
+        },
+        {
+          "key": "magic-ward",
+          "text": "Magic Ward",
+          "rect": [
+            120,
+            76,
+            60,
+            12
+          ],
+          "native_face_sha256": "56440127b39133c38da43de4d7a2954a45fa08a0a6ee0c63f79a140a8198d65a"
+        },
+        {
+          "key": "equip",
+          "text": "Equip",
+          "rect": [
+            180,
+            76,
+            30,
+            12
+          ],
+          "native_face_sha256": "6f2d7a657db3c496b719baee6f4ead6d8294e804bd4c5ed6d654a3ebbb557146"
+        },
+        {
+          "key": "air",
+          "text": "Air",
+          "rect": [
+            0,
+            88,
+            16,
+            12
+          ],
+          "native_face_sha256": "b74851046c3b01804f192dc0591673f633be110486979725e84cba6b603d463c"
+        },
+        {
+          "key": "fire",
+          "text": "Fire",
+          "rect": [
+            20,
+            88,
+            20,
+            12
+          ],
+          "native_face_sha256": "d838126b9f94096ef40cb05753cd11874ea0cc7fa6f0d2b2d7b6f8d6b526627e"
+        },
+        {
+          "key": "earth",
+          "text": "Earth",
+          "rect": [
+            40,
+            88,
+            30,
+            12
+          ],
+          "native_face_sha256": "10e234af8ad1abdb1965d2586bf5c094ef7488ddfded1a575e2ff3bb37dfed30"
+        },
+        {
+          "key": "water",
+          "text": "Water",
+          "rect": [
+            72,
+            88,
+            32,
+            12
+          ],
+          "native_face_sha256": "98360025ea044894bb00216b65c354591d139d947ba33d4dee4f582282749061"
+        },
+        {
+          "key": "resist",
+          "text": "Resist",
+          "rect": [
+            104,
+            88,
+            32,
+            12
+          ],
+          "native_face_sha256": "52af0e130b88092b334d6ef3354892a31e0840e7184177e492cd568d133fec9c"
+        },
+        {
+          "key": "plus",
+          "text": "+",
+          "rect": [
+            136,
+            88,
+            8,
+            12
+          ],
+          "native_face_sha256": "3354d99c3c6be3c1be50a2fc8291fedf41c95ec157afe79befc1233fbacd2dbd"
+        },
+        {
+          "key": "regenerate",
+          "text": "Regenerate",
+          "rect": [
+            144,
+            88,
+            58,
+            12
+          ],
+          "native_face_sha256": "ca0d4ec832977842f85112b9f051b92bfd8ec680956f69b4ab5efc4fff14daf3"
+        },
+        {
+          "key": "warlock",
+          "text": "WARLOCK",
+          "rect": [
+            0,
+            100,
+            52,
+            12
+          ],
+          "native_face_sha256": "f01cb1c9f2af3c975e981759e3575b198c4f60528507c9914eb1d0d3e1190038"
+        },
+        {
+          "key": "shaman",
+          "text": "SHAMAN",
+          "rect": [
+            52,
+            100,
+            48,
+            12
+          ],
+          "native_face_sha256": "ed9f7c88493df93ca289b407a3ce0a7915e0e6b92027c993ff7c01e4210c00b8"
+        },
+        {
+          "key": "sorcerer",
+          "text": "SORCERER",
+          "rect": [
+            100,
+            100,
+            60,
+            12
+          ],
+          "native_face_sha256": "d6cc69ee2d1d082c29c2ffa1dace65f5f2f3d2102abe478cac139e5a2acf564b"
+        },
+        {
+          "key": "enchanter",
+          "text": "ENCHANTER",
+          "rect": [
+            160,
+            100,
+            60,
+            12
+          ],
+          "native_face_sha256": "c8d62165dc1329f2b54c74ecfc8ef797e9d5e3ee577dbe8a6795d421705d4509"
+        },
+        {
+          "key": "mp",
+          "text": "MP",
+          "rect": [
+            220,
+            100,
+            18,
+            12
+          ],
+          "native_face_sha256": "353deb85e5c26fa85a2539d576bbcca067b047e6fc7b17a0a7914b66dca5659d"
+        },
+        {
+          "key": "items",
+          "text": "ITEMS",
+          "rect": [
+            0,
+            112,
+            36,
+            12
+          ],
+          "native_face_sha256": "6ecfb1c90d10cd4254685abe508743e01348d845a618a7bcc7e3e94905f3e1b2"
+        },
+        {
+          "key": "break-arts",
+          "text": "BREAK ARTS",
+          "rect": [
+            36,
+            112,
+            68,
+            12
+          ],
+          "native_face_sha256": "e8177245a023451ead21ab1de7096d71a036a6250cd7c5fb8f04c64d2d827506"
+        },
+        {
+          "key": "chain",
+          "text": "CHAIN",
+          "rect": [
+            104,
+            112,
+            48,
+            12
+          ],
+          "native_face_sha256": "ea8453ae8b7925bec76514c97ed649b430d210baee324a6e0c4532151acc6a72"
+        },
+        {
+          "key": "defense",
+          "text": "DEFENSE",
+          "rect": [
+            152,
+            112,
+            48,
+            12
+          ],
+          "native_face_sha256": "e6160eaeefb002e729b16d41bd97714b12a1ada55dc84e924cfacc09e9fc8cf8"
+        }
+      ]
+    },
+    "prompts": {
+      "categories-prompt.json": {
+        "tool": "built-in image_gen",
+        "prompt": "Use case: precise-object-edit. Image 1 is the native Vagrant Story sprite sheet, the edit target. Image 2 is the smoothed six-word pilot, a supporting contour reference. Faithfully restore image 1's word designs into HD with image 2's smoothness. Do not substitute a modern font. Black flat letter faces on pure white, no surrounds or effects (palette, rim and game animation are applied separately). Compact squared sans with gently curved shoulder/corner transitions, source width ratios, original A/N/W/R and short r, native single-storey g, correct mixed case. Smooth BOTH inner counters and outer contours without polygonal bowls or copied pixel staircases. Preserve common cap height, x-height and level baselines, y/g/p descenders, consistent stroke weight and character bearings. Every letter face must be a separate object with CLEAR white space from its neighbours; no accidental joins anywhere. Keep smaller mixed-case letters smaller. Words can be a little wider now for separation; later whole-word calibration fits native dimensions. Do not invent serifs, decorative hooks, italic, blur, texture, shadow, outline, glow or bevel. Preserve exact source lettering, no added/missing/repeated characters, no labels. Each word centered in its original cell with generous margins, never crossing a cell boundary. Output exactly 3 columns and 6 rows. Verbatim row-major cells: Air | Fire | Earth / Water | Resist | + / Regenerate | WARLOCK | SHAMAN / SORCERER | ENCHANTER | MP / ITEMS | BREAK ARTS | CHAIN / DEFENSE | [blank: no text] | [blank: no text]. Blank cells must remain empty pure white. Regenerate is R e g e n e r a t e. WARLOCK / SHAMAN / SORCERER / ENCHANTER are four separate native uppercase word sprites. BREAK ARTS has exactly one word gap. The + cell is only the original plus sign: keep source proportions and crisp straight bars. DEFENSE is D E F E N S E. Do not draw the blank last cells.",
+        "edit_target": "references/categories-native.png",
+        "supporting_reference": "generated/pilot-v2.png",
+        "verbatim_rows": [
+          "Air | Fire | Earth",
+          "Water | Resist | +",
+          "Regenerate | WARLOCK | SHAMAN",
+          "SORCERER | ENCHANTER | MP",
+          "ITEMS | BREAK ARTS | CHAIN",
+          "DEFENSE | [blank: no text] | [blank: no text]"
+        ]
+      },
+      "notices-prompt.json": {
+        "tool": "built-in image_gen",
+        "prompt": "Use case: precise-object-edit. Image 1 is the native Vagrant Story sprite sheet, the edit target. Image 2 is the smoothed six-word pilot, a supporting contour reference. Faithfully restore image 1's word designs into HD with image 2's smoothness. Do not substitute a modern font. Black flat letter faces on pure white, no surrounds or effects (palette, rim and game animation are applied separately). Compact squared sans with gently curved shoulder/corner transitions, source width ratios, original A/N/W/R and short r, native single-storey g, correct mixed case. Smooth BOTH inner counters and outer contours without polygonal bowls or copied pixel staircases. Preserve common cap height, x-height and level baselines, y/g/p descenders, consistent stroke weight and character bearings. Every letter face must be a separate object with CLEAR white space from its neighbours; no accidental joins anywhere. Keep smaller mixed-case letters smaller. Words can be a little wider now for separation; later whole-word calibration fits native dimensions. Do not invent serifs, decorative hooks, italic, blur, texture, shadow, outline, glow or bevel. Preserve exact source lettering, no added/missing/repeated characters, no labels. Each word centered in its original cell with generous margins, never crossing a cell boundary. Output exactly 3 columns and 7 rows. Verbatim row-major cells: MOVE | 200% | 50% / RISK | ATTACK | Parry / STR | INT | AGL / Quicken | Silent | Paralysis / Poison | -up | -down / Numbness | Curse | Full / HP | Magic Ward | Equip. Blank cells must remain empty pure white. 200% and 50% each have two separate small percent loops plus the slash: keep them distinct, not an 8 or fused squiggle. Parry is P a r r y; two separate r letters and the y descender. Paralysis is P a r a l y s i s; keep i dot separate. Numbness is N u m b n e s s. Suffixes must read '-up' and '-down', preserving their leading hyphens. Magic Ward contains a real word gap, not an extra letter.",
+        "edit_target": "references/notices-native.png",
+        "supporting_reference": "generated/pilot-v2.png",
+        "verbatim_rows": [
+          "MOVE | 200% | 50%",
+          "RISK | ATTACK | Parry",
+          "STR | INT | AGL",
+          "Quicken | Silent | Paralysis",
+          "Poison | -up | -down",
+          "Numbness | Curse | Full",
+          "HP | Magic Ward | Equip"
+        ]
+      },
+      "percent-prompt.json": {
+        "tool": "built-in image_gen",
+        "prompt": "Use case: precise-object-edit. Asset: two Vagrant Story numeric word sprites. Image 1 is the HD edit target: 50% on the upper row, 200% on the lower row. Image 2 is the original native reference in exactly the same two-row layout. Change ONLY the 5 in 50% and the percentage signs in BOTH words to be more faithful to image 2; preserve the 0 and 2 designs and the existing clean antialiasing. The native 5 is not a generic squared modern 5: its short upper-left stem below the top bar slopes slightly outward to the LEFT as it descends toward the middle shoulder. Preserve that small visible angle and its source-shaped top-bar attachment; do not leave a vertical square corner, and do not turn the 5 into a 6 or S. Reconstruct a coherent smooth stroke with that gentle lean. The native percent sign has asymmetric small loops: the upper-left loop is smaller/narrower and the lower-right loop is visibly broader/larger. They are not two identical geometric circles. Restore their source proportions, softly squared/oval contours and the original slash angle. Both loops must keep open counters and remain separate from the slash; three distinct black components per percent sign. Use the SAME percent design for 50% and 200%. Keep exact text 50% / 200%, word order, common cap height and baseline, face weight, spacing, position and smooth inner and outer contours. Solid black flat faces on pure white. No additional characters, border, glow, shadow, blur, bevel, decorations, labels or guide lines. No raster staircases or octagonal-circle substitutions. Two complete, uncropped rows centered with generous margins.",
+        "edit_target": "references/percent-repair-hd.png",
+        "native_reference": "references/percent-repair-native.png",
+        "use": "Transfer only 5 and one shared percent design into final masks; preserve other digits."
+      },
+      "pilot-prompt.json": {
+        "tool": "built-in image_gen",
+        "prompt": "Use case: precise-object-edit. Asset: faithful HD restoration of six native Vagrant Story combat word sprites. Image 1 is the edit target: native six-word sheet, two columns and three rows. Preserve this layout and exact row-major spelling: Poison | Quicken / Parry | 200% / Magic Ward | CHAIN. Restore only raster contours into smooth high-resolution black flat letter faces on pure white, with no outer rim or effects yet. Follow the source compact squared sans lettering; this is not typesetting in an external modern font. Preserve recognisable original shapes, especially the source Q tail, lowercase a, double-storey g if present in Magic, short r, closed squared bowls, flat S terminals, and angular N/W/K structure with smooth diagonals. Keep level baselines, a shared cap line and x-height, proper y/g descenders, and coherent stroke weight. Every letter face must be separated from neighbours by a visible white gap; no joined logotypes. Smooth inner counters as well as outer contours, no jagged staircases and no straight-chord polygon approximations of bowls. Preserve source relative word widths and proportions; no per-letter stretching, invented serifs or redesign. Exact 200% contains two separate zeroes and a percent with two separate circular counters and a slash. Do not add text, decorations, shadows, borders, bevel, bloom or glow. No grey wash: original palette levels and runtime dimming will be applied separately. Output all six intact words centred in their cells with generous margins, same 2048x768 canvas.",
+        "input": "references/pilot-native.png",
+        "role": "edit target"
+      },
+      "pilot-smooth-prompt.json": {
+        "tool": "built-in image_gen",
+        "prompt": "Use case: precise-object-edit. Image 1 is the six-word HD pilot to refine. Image 2 is the native lettering reference, to preserve its design. Keep the exact 2-column x3-row grid and verbatim words Poison | Quicken / Parry | 200% / Magic Ward | CHAIN. This edit ONLY corrects contour quality. Current O, o, Q and zeroes look like eight-sided polygons, with long straight clipped diagonal corners. Replace those raster-derived facets with continuous, smoothly curved corner transitions on the same slightly squared bowls, keeping their straight stems and flat top/bottom portions. Do not replace this with a round geometric typeface. Keep source character widths, stroke weight, counters, P/R shoulders, short r, single-storey source g and descending y. Smooth both inside AND outside bowl contours; this must look like smoothly reconstructed source lettering rather than an enlarged trace of each pixel corner. Preserve intentional A/N/W/K straight diagonals. Repair Quicken's Q tail into a clean diagonal stroke without two white triangular bites in its foot; do not change its overall design. Keep every letter face separate with clear whitespace, common cap/x-height/baseline, no letter drift, no new serif or decoration. Black faces on pure white, no border, blur, texture, glow or shading. Keep all six words complete and centered within existing cells, no labels, same canvas.",
+        "input": "generated/pilot-v1.png",
+        "reference": "references/pilot-native.png"
+      },
+      "quicken-prompt.json": {
+        "tool": "built-in image_gen",
+        "prompt": "Use case: precise-object-edit. Edit the supplied word Quicken only. Preserve the compact squared sans source design, widths, spacing, stroke weight, single-storey shapes and smooth contours. Correct the Q tail so it does not protrude below the common baseline. In the original game the bottom of Q and the bottoms of u i c k e n are level. Set the entire word on one visibly straight shared baseline: the Q's tail must remain visible as an internal/lateral diagonal detail within its cap-height box, not an extra foot underneath. The top of Q, dot of i and tall k should share the cap/ascender line. Lowercase x-height remains smaller. Exact text Quicken (Q u i c k e n), no missing dot or joined letters. Keep a clear white gap between all letter faces. Keep Q's inner and outer corners smoothly curved with slightly squared bowl, not faceted/octagonal. No new serifs, no geometric redesign, no blur, border, glow, shadow or bevel. Black flat letters on pure white, same composition with large whitespace, no labels.",
+        "input": "references/quicken-repair-target.png",
+        "reason": "Generated Q tail extended below native common baseline."
+      }
+    }
+  }
+}

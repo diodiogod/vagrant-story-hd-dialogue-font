@@ -1,21 +1,21 @@
 {
-  "version": "0.4-beta",
+  "version": "0.5-beta",
   "target_android_version": "0.1-8969-g611bb8fb4",
   "inspected_apk_sha256": "28f1528dffb87a761ab1997a5d23bb62c5aa191b3a242a79a9baeb3629b206f5",
   "import_mode": "Transfer Data > ZIP file > Import; select archive without extraction",
   "required_root": "textures/SLUS-01040/replacements/",
-  "matching_texture_entries": 59,
+  "matching_texture_entries": 101,
   "extra_wrapper_directory_rejected": true,
   "config_yaml_excluded": true,
-  "pack_fingerprint": "0451986b351213db5fb2fce38f175d8a714450f9a37713f6a1a00e6f1c836c56",
+  "pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
   "format_verified_against_apk": true,
-  "device_evidence": "Complete v0.4 payload has not been tested on Android; earlier device import/rendering reports are preserved in docs/v0.3.",
+  "device_evidence": "The v0.5 payload has not been tested on Android. Earlier successful import/rendering reports are retained in docs/v0.3 and docs/v0.4.",
   "required_filter_settings": {
     "texture_filtering": "Nearest Neighbor",
     "sprite_texture_filtering": "Nearest Neighbor"
   },
   "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
-  "archive_hashes": "GitHub release v0.4-beta: SHA256SUMS.txt",
-  "status": "v0.4 beta release",
-  "full_59_file_hash_bound_device_test": false
+  "archive_hashes": "GitHub release v0.5-beta: SHA256SUMS.txt",
+  "status": "v0.5 beta release",
+  "current_payload_device_tested": false
 }

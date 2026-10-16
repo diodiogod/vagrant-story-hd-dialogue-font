@@ -1,5 +1,27 @@
 # Testing
 
+## v0.5 beta
+
+All 66 new text sprites appeared in controlled DuckStation 0.1-12083 Vulkan
+captures at 5x, both filters Nearest, PGXP on. Tests cover 37 combat/status
+sprites in steady and bright phases, 20 native word combinations, a Full/HP
+adjacency control, and HP +264 / MP −999.
+
+The earlier 29 fixed words were checked too: nine notice quads and 13 calls to
+the native affinity-popup routine, covering all 20 equipment/attribute labels
+in blue or orange. Pixels outside the text quads match exactly in all four
+before/after pairs. These are controlled specimens, not naturally triggered
+events or a complete playthrough. All palette uses and Android remain untested.
+
+All 46 new/updated rectangle lookup hashes pass the VRAM-word check. Fifteen
+regression tests cover transcription, spacing, borders and specific glyph repairs.
+The 55 unchanged v0.4 files retain their earlier evidence; four NUM. rectangles
+were updated and 42 PNGs added. Dialogue is unchanged.
+
+[Combat render summary](evidence/combat-render-validation.json) ·
+[Fixed-label check](evidence/combat-fixed-labels-audit.json) ·
+[Comparisons](../CHANGELOG.md).
+
 ## v0.4 beta
 
 Menu metrics are checked across 145 glyphs and all 21,025 pairs at the game's

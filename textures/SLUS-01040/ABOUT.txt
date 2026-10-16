@@ -1,6 +1,6 @@
 Vagrant Story USA SLUS-01040 — Original Style HD Fonts
-v0.4 beta: 59 PNGs at 8x.
-Dialogue, menus, selected HUD/UI text and save labels.
+v0.5 beta: 101 PNGs at 8x.
+Dialogue, menus, HUD, save labels and combat/status text.
 Native-style UI borders; soft grayscale fringe on the white menu font.
 See README and docs for installation, comparisons and known issues.
 Android 8969: PGXP off per-game; both texture filters Nearest Neighbor.

@@ -1,0 +1,375 @@
+{
+  "before": "pairs-baseline-1",
+  "after": "pairs-hd-2",
+  "fixture": "pairs-steady",
+  "source": "Actual Vulkan presented swapchain exports at frame 3000",
+  "candidate_pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+  "state_sha256": "4dc754aa245389b04ab4bd907ccfe8891f9c278d61b3ac84dc8dfcb05307de4b",
+  "before_png_sha256": "4cd69c037b7746aa5dc1d2e227f87e767875674e4469af02de223f5c52a66ee2",
+  "after_png_sha256": "588c48a400dcbc5f1fde35d6029eb1ce12a118f078e50ce869872c5b198db119",
+  "present_rect": [
+    28,
+    0,
+    2572,
+    1908
+  ],
+  "native_resolution": [
+    320,
+    224
+  ],
+  "raster_margin_present_pixels": 2,
+  "exclusion_source": "Native draw routine quads; no difference-driven mask expansion",
+  "text_quads": [
+    {
+      "label": "29+27",
+      "native_rect": [
+        20,
+        30,
+        84,
+        42
+      ],
+      "presented_rect": [
+        185,
+        253,
+        698,
+        360
+      ]
+    },
+    {
+      "label": "30+27",
+      "native_rect": [
+        129,
+        30,
+        183,
+        42
+      ],
+      "presented_rect": [
+        1051,
+        253,
+        1485,
+        360
+      ]
+    },
+    {
+      "label": "28+26",
+      "native_rect": [
+        231,
+        30,
+        289,
+        42
+      ],
+      "presented_rect": [
+        1862,
+        253,
+        2328,
+        360
+      ]
+    },
+    {
+      "label": "32+27",
+      "native_rect": [
+        26,
+        54,
+        78,
+        66
+      ],
+      "presented_rect": [
+        232,
+        457,
+        651,
+        565
+      ]
+    },
+    {
+      "label": "1+5",
+      "native_rect": [
+        128,
+        54,
+        184,
+        66
+      ],
+      "presented_rect": [
+        1043,
+        457,
+        1493,
+        565
+      ]
+    },
+    {
+      "label": "1+4",
+      "native_rect": [
+        240,
+        54,
+        280,
+        66
+      ],
+      "presented_rect": [
+        1934,
+        457,
+        2256,
+        565
+      ]
+    },
+    {
+      "label": "2+5",
+      "native_rect": [
+        26,
+        78,
+        78,
+        90
+      ],
+      "presented_rect": [
+        232,
+        662,
+        651,
+        769
+      ]
+    },
+    {
+      "label": "2+4",
+      "native_rect": [
+        138,
+        78,
+        174,
+        90
+      ],
+      "presented_rect": [
+        1123,
+        662,
+        1414,
+        769
+      ]
+    },
+    {
+      "label": "3+5",
+      "native_rect": [
+        232,
+        78,
+        288,
+        90
+      ],
+      "presented_rect": [
+        1870,
+        662,
+        2320,
+        769
+      ]
+    },
+    {
+      "label": "3+4",
+      "native_rect": [
+        32,
+        102,
+        72,
+        114
+      ],
+      "presented_rect": [
+        280,
+        866,
+        603,
+        974
+      ]
+    },
+    {
+      "label": "15+5",
+      "native_rect": [
+        125,
+        102,
+        187,
+        114
+      ],
+      "presented_rect": [
+        1019,
+        866,
+        1517,
+        974
+      ]
+    },
+    {
+      "label": "15+4",
+      "native_rect": [
+        237,
+        102,
+        283,
+        114
+      ],
+      "presented_rect": [
+        1910,
+        866,
+        2280,
+        974
+      ]
+    },
+    {
+      "label": "16+19",
+      "native_rect": [
+        40,
+        126,
+        64,
+        138
+      ],
+      "presented_rect": [
+        344,
+        1071,
+        539,
+        1178
+      ]
+    },
+    {
+      "label": "16+20",
+      "native_rect": [
+        142,
+        126,
+        170,
+        138
+      ],
+      "presented_rect": [
+        1154,
+        1071,
+        1382,
+        1178
+      ]
+    },
+    {
+      "label": "16+21",
+      "native_rect": [
+        241,
+        126,
+        279,
+        138
+      ],
+      "presented_rect": [
+        1941,
+        1071,
+        2249,
+        1178
+      ]
+    },
+    {
+      "label": "16+22",
+      "native_rect": [
+        32,
+        150,
+        72,
+        162
+      ],
+      "presented_rect": [
+        280,
+        1275,
+        603,
+        1382
+      ]
+    },
+    {
+      "label": "17+19",
+      "native_rect": [
+        132,
+        150,
+        180,
+        162
+      ],
+      "presented_rect": [
+        1075,
+        1275,
+        1461,
+        1382
+      ]
+    },
+    {
+      "label": "17+20",
+      "native_rect": [
+        234,
+        150,
+        286,
+        162
+      ],
+      "presented_rect": [
+        1886,
+        1275,
+        2304,
+        1382
+      ]
+    },
+    {
+      "label": "17+21",
+      "native_rect": [
+        21,
+        174,
+        83,
+        186
+      ],
+      "presented_rect": [
+        192,
+        1480,
+        690,
+        1587
+      ]
+    },
+    {
+      "label": "17+22",
+      "native_rect": [
+        124,
+        174,
+        188,
+        186
+      ],
+      "presented_rect": [
+        1011,
+        1480,
+        1525,
+        1587
+      ]
+    },
+    {
+      "label": "Full HP atlas adjacency",
+      "native_rect": [
+        242,
+        174,
+        278,
+        186
+      ],
+      "presented_rect": [
+        1949,
+        1480,
+        2241,
+        1587
+      ]
+    },
+    {
+      "label": "HP numeric label",
+      "native_rect": [
+        133,
+        198,
+        149,
+        210
+      ],
+      "presented_rect": [
+        1083,
+        1684,
+        1215,
+        1791
+      ]
+    },
+    {
+      "label": "MP numeric label",
+      "native_rect": [
+        236,
+        198,
+        254,
+        210
+      ],
+      "presented_rect": [
+        1902,
+        1684,
+        2050,
+        1791
+      ]
+    }
+  ],
+  "changed_pixels": 539446,
+  "compared_pixels_outside_text": 4059939,
+  "changed_pixels_outside_text": 0,
+  "unchanged_outside_text": true,
+  "full_gameplay_coverage": false,
+  "android_tested": false
+}

@@ -1,11 +1,11 @@
 # Font coverage and roadmap
 
-Updated 2026-10-16. v0.4 beta: 59 PNGs, all at 8x.
+Updated 2026-10-16. v0.5 beta: 101 PNGs, all at 8x.
 Coverage describes reconstructed assets, separately from where they were tested.
 
 ## Rough progress estimate
 
-**Rough progress: 80% of planned font/text work.** Other UI artwork comes later.
+**Rough progress: 90% of planned font/text work.** Other UI artwork comes later.
 
 | Group | Reconstructed | Remaining work |
 | --- | --- | --- |
@@ -15,26 +15,17 @@ Coverage describes reconstructed assets, separately from where they were tested.
 | Unknown values | Small and large source designs | Natural game-screen validation |
 | Compact UI alphabet | 26 capitals, 10 digits with restored native surrounds; 16 punctuation marks | Broader natural-screen and Android testing |
 | Fixed labels | HP, MP, RISK, WT, COMMAND, MENU, WARNING, HELP, CAUTION, CHECK, INFORMATION, INFO, TIME, SAVE, CLEAR, MAP | Other baked text listed below; remaining fixed-label surround review; WT surround needs a natural-scene check |
+| New fixed words and popups | 66 sprites: notices/interactions, equipment/body/affinity popups, combat/status and spell labels | Natural-event, remaining palette and Android checks |
 | Save text | NO. and save-time colon, captured in the memory-card load scene | Broader save/load testing |
 | Current/max separator | Round dot with dark surround | Artist's intended dot/diamond shape remains ambiguous |
 | CPU-composited text | Rendering path identified | Investigate text that may bypass ordinary glyph replacement |
 
-The source audit also identified 24 confirmed native text rectangles before
-the punctuation update, plus 26 additional text labels by visual inspection.
-These are overlapping work lists, not a complete denominator; some of the
-confirmed rectangles are now reconstructed. Palette copies are not separate
-restoration targets.
-
 ## Next: remaining text
 
-1. Review the remaining fixed-label surrounds, validate WT in-game, and investigate the INFORMATION framebuffer ghost.
-2. Audit WAITING for COMMAND, EXIT FACTORY, SET EQUIP, WORKSHOP and other fixed words.
-3. Restore remaining baked equipment/body/class/element labels such as WEAPONS,
-   SHIELD, R.ARM, L.ARM, HEAD, BODY and LEGS. Some live body-part names already
-   use the restored alphabet; their separate image copies do not.
-4. Finish the six mapped rare menu/dialogue cells listed above.
-5. Review equipment/status, workshop, combat messages, title/save/load, name entry,
-   maps and later-game scenes, including selected, disabled and coloured text.
+1. Tutorial copies, loading messages, time-attack/results and rank/score sheets.
+2. Lv., tilde, low opening quote, long dash and plus in the remaining rare cells.
+3. Natural combat/workshop/title/save/name-entry scenes and Android testing.
+4. WT's natural-scene surround check and the INFORMATION framebuffer ghost.
 
 For each batch: compare a small native/HD specimen, check common height,
 baseline, bearings, counters and stroke weight, preserve the entire dark
@@ -49,6 +40,11 @@ not included in the current font work or progress estimate. World and character
 textures are outside this project's current scope.
 
 ## Test coverage
+
+All 66 new sprites appeared in controlled Windows renderer tests, including
+coloured affinity popups and two combat-text phases. Matching-frame comparisons
+show no changed pixels outside the edited text quads. Natural events, every
+palette and a full playthrough remain unverified.
 
 Selected Windows dialogue, menu, workshop and HUD scenes were inspected with
 DuckStation 0.1-12083, Vulkan 5x and both filters Nearest. Matching-frame tests

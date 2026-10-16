@@ -1,0 +1,512 @@
+{
+  "checked": 46,
+  "rule": "Both texel X endpoints truncate to 16-bit VRAM-word coordinates",
+  "rectangles": [
+    {
+      "filename": "texpage-STP4-DC77F9A2BD1790E6-9F8A5175F34347CA-64x256-144-9-80x7-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        9,
+        80,
+        7
+      ],
+      "source_hash": "DC77F9A2BD1790E6"
+    },
+    {
+      "filename": "texpage-STP4-E8B6357C6F2FE316-9F8A5175F34347CA-64x256-104-144-56x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        104,
+        144,
+        56,
+        8
+      ],
+      "source_hash": "E8B6357C6F2FE316"
+    },
+    {
+      "filename": "texpage-STP4-FE9EF826FAD28E95-9F8A5175F34347CA-64x256-192-144-64x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        192,
+        144,
+        64,
+        8
+      ],
+      "source_hash": "FE9EF826FAD28E95"
+    },
+    {
+      "filename": "texpage-STP4-3EB1A7E80C681B76-9F8A5175F34347CA-64x256-192-152-20x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        192,
+        152,
+        20,
+        8
+      ],
+      "source_hash": "3EB1A7E80C681B76"
+    },
+    {
+      "filename": "texpage-STP4-8BF5446EDF5266EA-9F8A5175F34347CA-64x256-216-160-40x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        216,
+        160,
+        40,
+        8
+      ],
+      "source_hash": "8BF5446EDF5266EA"
+    },
+    {
+      "filename": "texpage-STP4-399D676EC92E7604-9F8A5175F34347CA-64x256-144-216-44x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        216,
+        44,
+        8
+      ],
+      "source_hash": "399D676EC92E7604"
+    },
+    {
+      "filename": "texpage-STP4-ECB5D35CFC197F2E-9F8A5175F34347CA-64x256-72-160-68x56-P0-15.png",
+      "page": 1,
+      "rect": [
+        72,
+        160,
+        68,
+        56
+      ],
+      "source_hash": "ECB5D35CFC197F2E"
+    },
+    {
+      "filename": "texpage-STP4-A221C16A2EE15BD0-9F8A5175F34347CA-64x256-144-160-36x56-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        160,
+        36,
+        56
+      ],
+      "source_hash": "A221C16A2EE15BD0"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-9F8A5175F34347CA-64x256-0-64-220x10-P0-15.png",
+      "page": 1,
+      "rect": [
+        0,
+        64,
+        220,
+        10
+      ],
+      "source_hash": "FF2CE403CBF8BAA9"
+    },
+    {
+      "filename": "texpage-STP4-DC77F9A2BD1790E6-91271A90116ED761-64x256-144-9-80x7-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        9,
+        80,
+        7
+      ],
+      "source_hash": "DC77F9A2BD1790E6"
+    },
+    {
+      "filename": "texpage-STP4-E8B6357C6F2FE316-91271A90116ED761-64x256-104-144-56x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        104,
+        144,
+        56,
+        8
+      ],
+      "source_hash": "E8B6357C6F2FE316"
+    },
+    {
+      "filename": "texpage-STP4-FE9EF826FAD28E95-91271A90116ED761-64x256-192-144-64x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        192,
+        144,
+        64,
+        8
+      ],
+      "source_hash": "FE9EF826FAD28E95"
+    },
+    {
+      "filename": "texpage-STP4-3EB1A7E80C681B76-91271A90116ED761-64x256-192-152-20x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        192,
+        152,
+        20,
+        8
+      ],
+      "source_hash": "3EB1A7E80C681B76"
+    },
+    {
+      "filename": "texpage-STP4-8BF5446EDF5266EA-91271A90116ED761-64x256-216-160-40x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        216,
+        160,
+        40,
+        8
+      ],
+      "source_hash": "8BF5446EDF5266EA"
+    },
+    {
+      "filename": "texpage-STP4-399D676EC92E7604-91271A90116ED761-64x256-144-216-44x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        216,
+        44,
+        8
+      ],
+      "source_hash": "399D676EC92E7604"
+    },
+    {
+      "filename": "texpage-STP4-ECB5D35CFC197F2E-91271A90116ED761-64x256-72-160-68x56-P0-15.png",
+      "page": 1,
+      "rect": [
+        72,
+        160,
+        68,
+        56
+      ],
+      "source_hash": "ECB5D35CFC197F2E"
+    },
+    {
+      "filename": "texpage-STP4-A221C16A2EE15BD0-91271A90116ED761-64x256-144-160-36x56-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        160,
+        36,
+        56
+      ],
+      "source_hash": "A221C16A2EE15BD0"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-91271A90116ED761-64x256-0-64-220x10-P0-15.png",
+      "page": 1,
+      "rect": [
+        0,
+        64,
+        220,
+        10
+      ],
+      "source_hash": "FF2CE403CBF8BAA9"
+    },
+    {
+      "filename": "texpage-STP4-DC77F9A2BD1790E6-949BF2FB15C35AF8-64x256-144-9-80x7-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        9,
+        80,
+        7
+      ],
+      "source_hash": "DC77F9A2BD1790E6"
+    },
+    {
+      "filename": "texpage-STP4-E8B6357C6F2FE316-949BF2FB15C35AF8-64x256-104-144-56x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        104,
+        144,
+        56,
+        8
+      ],
+      "source_hash": "E8B6357C6F2FE316"
+    },
+    {
+      "filename": "texpage-STP4-FE9EF826FAD28E95-949BF2FB15C35AF8-64x256-192-144-64x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        192,
+        144,
+        64,
+        8
+      ],
+      "source_hash": "FE9EF826FAD28E95"
+    },
+    {
+      "filename": "texpage-STP4-3EB1A7E80C681B76-949BF2FB15C35AF8-64x256-192-152-20x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        192,
+        152,
+        20,
+        8
+      ],
+      "source_hash": "3EB1A7E80C681B76"
+    },
+    {
+      "filename": "texpage-STP4-8BF5446EDF5266EA-949BF2FB15C35AF8-64x256-216-160-40x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        216,
+        160,
+        40,
+        8
+      ],
+      "source_hash": "8BF5446EDF5266EA"
+    },
+    {
+      "filename": "texpage-STP4-399D676EC92E7604-949BF2FB15C35AF8-64x256-144-216-44x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        216,
+        44,
+        8
+      ],
+      "source_hash": "399D676EC92E7604"
+    },
+    {
+      "filename": "texpage-STP4-ECB5D35CFC197F2E-949BF2FB15C35AF8-64x256-72-160-68x56-P0-15.png",
+      "page": 1,
+      "rect": [
+        72,
+        160,
+        68,
+        56
+      ],
+      "source_hash": "ECB5D35CFC197F2E"
+    },
+    {
+      "filename": "texpage-STP4-A221C16A2EE15BD0-949BF2FB15C35AF8-64x256-144-160-36x56-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        160,
+        36,
+        56
+      ],
+      "source_hash": "A221C16A2EE15BD0"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-949BF2FB15C35AF8-64x256-0-64-220x10-P0-15.png",
+      "page": 1,
+      "rect": [
+        0,
+        64,
+        220,
+        10
+      ],
+      "source_hash": "FF2CE403CBF8BAA9"
+    },
+    {
+      "filename": "texpage-STP4-DC77F9A2BD1790E6-69491D7E26769824-64x256-144-9-80x7-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        9,
+        80,
+        7
+      ],
+      "source_hash": "DC77F9A2BD1790E6"
+    },
+    {
+      "filename": "texpage-STP4-E8B6357C6F2FE316-69491D7E26769824-64x256-104-144-56x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        104,
+        144,
+        56,
+        8
+      ],
+      "source_hash": "E8B6357C6F2FE316"
+    },
+    {
+      "filename": "texpage-STP4-FE9EF826FAD28E95-69491D7E26769824-64x256-192-144-64x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        192,
+        144,
+        64,
+        8
+      ],
+      "source_hash": "FE9EF826FAD28E95"
+    },
+    {
+      "filename": "texpage-STP4-3EB1A7E80C681B76-69491D7E26769824-64x256-192-152-20x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        192,
+        152,
+        20,
+        8
+      ],
+      "source_hash": "3EB1A7E80C681B76"
+    },
+    {
+      "filename": "texpage-STP4-8BF5446EDF5266EA-69491D7E26769824-64x256-216-160-40x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        216,
+        160,
+        40,
+        8
+      ],
+      "source_hash": "8BF5446EDF5266EA"
+    },
+    {
+      "filename": "texpage-STP4-399D676EC92E7604-69491D7E26769824-64x256-144-216-44x8-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        216,
+        44,
+        8
+      ],
+      "source_hash": "399D676EC92E7604"
+    },
+    {
+      "filename": "texpage-STP4-ECB5D35CFC197F2E-69491D7E26769824-64x256-72-160-68x56-P0-15.png",
+      "page": 1,
+      "rect": [
+        72,
+        160,
+        68,
+        56
+      ],
+      "source_hash": "ECB5D35CFC197F2E"
+    },
+    {
+      "filename": "texpage-STP4-A221C16A2EE15BD0-69491D7E26769824-64x256-144-160-36x56-P0-15.png",
+      "page": 1,
+      "rect": [
+        144,
+        160,
+        36,
+        56
+      ],
+      "source_hash": "A221C16A2EE15BD0"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-69491D7E26769824-64x256-0-64-220x10-P0-15.png",
+      "page": 1,
+      "rect": [
+        0,
+        64,
+        220,
+        10
+      ],
+      "source_hash": "FF2CE403CBF8BAA9"
+    },
+    {
+      "filename": "texpage-STP4-8DF128B9AC5FC374-E41C34F07CB9645A-64x256-64-0-76x10-P0-15.png",
+      "page": 2,
+      "rect": [
+        64,
+        0,
+        76,
+        10
+      ],
+      "source_hash": "8DF128B9AC5FC374"
+    },
+    {
+      "filename": "texpage-STP4-8DF128B9AC5FC374-CBF39C0936C27EBA-64x256-64-0-76x10-P0-15.png",
+      "page": 2,
+      "rect": [
+        64,
+        0,
+        76,
+        10
+      ],
+      "source_hash": "8DF128B9AC5FC374"
+    },
+    {
+      "filename": "texpage-STP4-E53FBEE44293F354-E41C34F07CB9645A-64x256-216-28-28x12-P0-15.png",
+      "page": 2,
+      "rect": [
+        216,
+        28,
+        28,
+        12
+      ],
+      "source_hash": "E53FBEE44293F354"
+    },
+    {
+      "filename": "texpage-STP4-7E07BD1CA8D2311F-E41C34F07CB9645A-64x256-182-40-56x12-P0-15.png",
+      "page": 2,
+      "rect": [
+        182,
+        40,
+        56,
+        12
+      ],
+      "source_hash": "7E07BD1CA8D2311F"
+    },
+    {
+      "filename": "texpage-STP4-D7E6C141060784E6-E41C34F07CB9645A-64x256-152-52-98x12-P0-15.png",
+      "page": 2,
+      "rect": [
+        152,
+        52,
+        98,
+        12
+      ],
+      "source_hash": "D7E6C141060784E6"
+    },
+    {
+      "filename": "texpage-STP4-684DD2F3BE08E36E-E41C34F07CB9645A-64x256-0-64-256x60-P0-15.png",
+      "page": 2,
+      "rect": [
+        0,
+        64,
+        256,
+        60
+      ],
+      "source_hash": "684DD2F3BE08E36E"
+    },
+    {
+      "filename": "texpage-STP4-E53FBEE44293F354-CBF39C0936C27EBA-64x256-216-28-28x12-P0-15.png",
+      "page": 2,
+      "rect": [
+        216,
+        28,
+        28,
+        12
+      ],
+      "source_hash": "E53FBEE44293F354"
+    },
+    {
+      "filename": "texpage-STP4-7E07BD1CA8D2311F-CBF39C0936C27EBA-64x256-182-40-56x12-P0-15.png",
+      "page": 2,
+      "rect": [
+        182,
+        40,
+        56,
+        12
+      ],
+      "source_hash": "7E07BD1CA8D2311F"
+    },
+    {
+      "filename": "texpage-STP4-D7E6C141060784E6-CBF39C0936C27EBA-64x256-152-52-98x12-P0-15.png",
+      "page": 2,
+      "rect": [
+        152,
+        52,
+        98,
+        12
+      ],
+      "source_hash": "D7E6C141060784E6"
+    },
+    {
+      "filename": "texpage-STP4-684DD2F3BE08E36E-CBF39C0936C27EBA-64x256-0-64-256x60-P0-15.png",
+      "page": 2,
+      "rect": [
+        0,
+        64,
+        256,
+        60
+      ],
+      "source_hash": "684DD2F3BE08E36E"
+    }
+  ]
+}

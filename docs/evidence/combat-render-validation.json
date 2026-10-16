@@ -1,0 +1,39 @@
+{
+  "status": "Controlled Windows render checks passed",
+  "candidate_pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+  "actual_render_tested": true,
+  "rendered_nontext_verified": true,
+  "scope": "37 combat/status sprites, 20 native combinations plus one atlas adjacency control, numeric HP/MP labels; steady and bright phases",
+  "native_gameplay_events_tested": false,
+  "android_tested": false,
+  "user_visual_acceptance": true,
+  "captures": [
+    {
+      "test": "sheet-steady",
+      "before": "sheet-baseline-1",
+      "after": "sheet-hd-2",
+      "before_png_sha256": "1c33e3b43239b2d80a8f79e192ffe245f103804db023d03d6e0ef4508e29b2fb",
+      "after_png_sha256": "84294a2b3e5e591c57d8de7c2b7a6e6ee2daf1e3e618412129f93dc5054a4857",
+      "state_sha256": "cb10ac4ebff7ea8db1ea75c2c521ee909811c255dfcd0e4b21d963b5a64ef9f5",
+      "changed_pixels_outside_text": 0
+    },
+    {
+      "test": "pairs-steady",
+      "before": "pairs-baseline-1",
+      "after": "pairs-hd-2",
+      "before_png_sha256": "4cd69c037b7746aa5dc1d2e227f87e767875674e4469af02de223f5c52a66ee2",
+      "after_png_sha256": "588c48a400dcbc5f1fde35d6029eb1ce12a118f078e50ce869872c5b198db119",
+      "state_sha256": "4dc754aa245389b04ab4bd907ccfe8891f9c278d61b3ac84dc8dfcb05307de4b",
+      "changed_pixels_outside_text": 0
+    },
+    {
+      "test": "sheet-bright",
+      "before": "bright-baseline-1",
+      "after": "bright-hd-1",
+      "before_png_sha256": "fe02ff64cb5a2a4f3a56962762c8a33e1a4efb1529e6a69384a7eb84510afa55",
+      "after_png_sha256": "0fc4e4b0ecd9291cd3723b0ee5f2120f92290f32eb4994a4e1d929365d9de66d",
+      "state_sha256": "d4e22a67f6ca487b34738df4271b3a4eb503d08065c50415152e4094ae2b01cc",
+      "changed_pixels_outside_text": 0
+    }
+  ]
+}

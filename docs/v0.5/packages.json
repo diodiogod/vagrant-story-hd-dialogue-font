@@ -1,0 +1,17 @@
+{
+  "pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+  "pngs": 101,
+  "dialogue_unchanged": true,
+  "archives": [
+    {
+      "name": "vagrant-story-font-v0.5-android.zip",
+      "bytes": 7097052,
+      "sha256": "8d41784c37d11464600483ee370e74dbfe0b8d7c83322289fe7a3a18f0ae97f8"
+    },
+    {
+      "name": "vagrant-story-font-v0.5-desktop.zip",
+      "bytes": 7095918,
+      "sha256": "4c775d4ca91d60e87798a8cf4ebfdab7601f5a594e71c18e6e23a54620c9222a"
+    }
+  ]
+}

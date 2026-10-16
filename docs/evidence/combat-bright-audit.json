@@ -1,0 +1,615 @@
+{
+  "before": "bright-baseline-1",
+  "after": "bright-hd-1",
+  "fixture": "sheet-bright",
+  "source": "Actual Vulkan presented swapchain exports at frame 3000",
+  "candidate_pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+  "state_sha256": "d4e22a67f6ca487b34738df4271b3a4eb503d08065c50415152e4094ae2b01cc",
+  "before_png_sha256": "fe02ff64cb5a2a4f3a56962762c8a33e1a4efb1529e6a69384a7eb84510afa55",
+  "after_png_sha256": "0fc4e4b0ecd9291cd3723b0ee5f2120f92290f32eb4994a4e1d929365d9de66d",
+  "present_rect": [
+    28,
+    0,
+    2572,
+    1908
+  ],
+  "native_resolution": [
+    320,
+    224
+  ],
+  "raster_margin_present_pixels": 2,
+  "exclusion_source": "Native draw routine quads; no difference-driven mask expansion",
+  "text_quads": [
+    {
+      "label": "MOVE",
+      "native_rect": [
+        38,
+        30,
+        66,
+        42
+      ],
+      "presented_rect": [
+        328,
+        253,
+        555,
+        360
+      ]
+    },
+    {
+      "label": "200%",
+      "native_rect": [
+        141,
+        30,
+        171,
+        42
+      ],
+      "presented_rect": [
+        1146,
+        253,
+        1390,
+        360
+      ]
+    },
+    {
+      "label": "50%",
+      "native_rect": [
+        248,
+        30,
+        272,
+        42
+      ],
+      "presented_rect": [
+        1997,
+        253,
+        2193,
+        360
+      ]
+    },
+    {
+      "label": "RISK",
+      "native_rect": [
+        38,
+        44,
+        66,
+        56
+      ],
+      "presented_rect": [
+        328,
+        372,
+        555,
+        479
+      ]
+    },
+    {
+      "label": "ATTACK",
+      "native_rect": [
+        136,
+        44,
+        176,
+        56
+      ],
+      "presented_rect": [
+        1107,
+        372,
+        1430,
+        479
+      ]
+    },
+    {
+      "label": "Parry",
+      "native_rect": [
+        245,
+        44,
+        275,
+        56
+      ],
+      "presented_rect": [
+        1973,
+        372,
+        2217,
+        479
+      ]
+    },
+    {
+      "label": "STR",
+      "native_rect": [
+        40,
+        58,
+        64,
+        70
+      ],
+      "presented_rect": [
+        344,
+        492,
+        539,
+        599
+      ]
+    },
+    {
+      "label": "INT",
+      "native_rect": [
+        146,
+        58,
+        166,
+        70
+      ],
+      "presented_rect": [
+        1186,
+        492,
+        1350,
+        599
+      ]
+    },
+    {
+      "label": "AGL",
+      "native_rect": [
+        248,
+        58,
+        272,
+        70
+      ],
+      "presented_rect": [
+        1997,
+        492,
+        2193,
+        599
+      ]
+    },
+    {
+      "label": "Quicken",
+      "native_rect": [
+        32,
+        72,
+        72,
+        84
+      ],
+      "presented_rect": [
+        280,
+        611,
+        603,
+        718
+      ]
+    },
+    {
+      "label": "Silent",
+      "native_rect": [
+        141,
+        72,
+        171,
+        84
+      ],
+      "presented_rect": [
+        1146,
+        611,
+        1390,
+        718
+      ]
+    },
+    {
+      "label": "Paralysis",
+      "native_rect": [
+        235,
+        72,
+        285,
+        84
+      ],
+      "presented_rect": [
+        1894,
+        611,
+        2296,
+        718
+      ]
+    },
+    {
+      "label": "Poison",
+      "native_rect": [
+        34,
+        86,
+        70,
+        98
+      ],
+      "presented_rect": [
+        296,
+        730,
+        587,
+        837
+      ]
+    },
+    {
+      "label": "-up",
+      "native_rect": [
+        148,
+        86,
+        164,
+        98
+      ],
+      "presented_rect": [
+        1202,
+        730,
+        1334,
+        837
+      ]
+    },
+    {
+      "label": "-down",
+      "native_rect": [
+        244,
+        86,
+        276,
+        98
+      ],
+      "presented_rect": [
+        1965,
+        730,
+        2225,
+        837
+      ]
+    },
+    {
+      "label": "Numbness",
+      "native_rect": [
+        26,
+        100,
+        78,
+        112
+      ],
+      "presented_rect": [
+        232,
+        849,
+        651,
+        956
+      ]
+    },
+    {
+      "label": "Curse",
+      "native_rect": [
+        141,
+        100,
+        171,
+        112
+      ],
+      "presented_rect": [
+        1146,
+        849,
+        1390,
+        956
+      ]
+    },
+    {
+      "label": "Full",
+      "native_rect": [
+        250,
+        100,
+        270,
+        112
+      ],
+      "presented_rect": [
+        2013,
+        849,
+        2177,
+        956
+      ]
+    },
+    {
+      "label": "HP",
+      "native_rect": [
+        44,
+        114,
+        60,
+        126
+      ],
+      "presented_rect": [
+        375,
+        969,
+        507,
+        1076
+      ]
+    },
+    {
+      "label": "Magic Ward",
+      "native_rect": [
+        126,
+        114,
+        186,
+        126
+      ],
+      "presented_rect": [
+        1027,
+        969,
+        1509,
+        1076
+      ]
+    },
+    {
+      "label": "Equip",
+      "native_rect": [
+        245,
+        114,
+        275,
+        126
+      ],
+      "presented_rect": [
+        1973,
+        969,
+        2217,
+        1076
+      ]
+    },
+    {
+      "label": "Air",
+      "native_rect": [
+        44,
+        128,
+        60,
+        140
+      ],
+      "presented_rect": [
+        375,
+        1088,
+        507,
+        1195
+      ]
+    },
+    {
+      "label": "Fire",
+      "native_rect": [
+        146,
+        128,
+        166,
+        140
+      ],
+      "presented_rect": [
+        1186,
+        1088,
+        1350,
+        1195
+      ]
+    },
+    {
+      "label": "Earth",
+      "native_rect": [
+        245,
+        128,
+        275,
+        140
+      ],
+      "presented_rect": [
+        1973,
+        1088,
+        2217,
+        1195
+      ]
+    },
+    {
+      "label": "Water",
+      "native_rect": [
+        36,
+        142,
+        68,
+        154
+      ],
+      "presented_rect": [
+        312,
+        1207,
+        571,
+        1314
+      ]
+    },
+    {
+      "label": "Resist",
+      "native_rect": [
+        140,
+        142,
+        172,
+        154
+      ],
+      "presented_rect": [
+        1139,
+        1207,
+        1398,
+        1314
+      ]
+    },
+    {
+      "label": "+",
+      "native_rect": [
+        256,
+        142,
+        264,
+        154
+      ],
+      "presented_rect": [
+        2061,
+        1207,
+        2129,
+        1314
+      ]
+    },
+    {
+      "label": "Regenerate",
+      "native_rect": [
+        23,
+        156,
+        81,
+        168
+      ],
+      "presented_rect": [
+        208,
+        1326,
+        674,
+        1433
+      ]
+    },
+    {
+      "label": "WARLOCK",
+      "native_rect": [
+        130,
+        156,
+        182,
+        168
+      ],
+      "presented_rect": [
+        1059,
+        1326,
+        1477,
+        1433
+      ]
+    },
+    {
+      "label": "SHAMAN",
+      "native_rect": [
+        236,
+        156,
+        284,
+        168
+      ],
+      "presented_rect": [
+        1902,
+        1326,
+        2288,
+        1433
+      ]
+    },
+    {
+      "label": "SORCERER",
+      "native_rect": [
+        22,
+        170,
+        82,
+        182
+      ],
+      "presented_rect": [
+        200,
+        1446,
+        682,
+        1553
+      ]
+    },
+    {
+      "label": "ENCHANTER",
+      "native_rect": [
+        126,
+        170,
+        186,
+        182
+      ],
+      "presented_rect": [
+        1027,
+        1446,
+        1509,
+        1553
+      ]
+    },
+    {
+      "label": "MP",
+      "native_rect": [
+        251,
+        170,
+        269,
+        182
+      ],
+      "presented_rect": [
+        2021,
+        1446,
+        2169,
+        1553
+      ]
+    },
+    {
+      "label": "ITEMS",
+      "native_rect": [
+        34,
+        184,
+        70,
+        196
+      ],
+      "presented_rect": [
+        296,
+        1565,
+        587,
+        1672
+      ]
+    },
+    {
+      "label": "BREAK ARTS",
+      "native_rect": [
+        122,
+        184,
+        190,
+        196
+      ],
+      "presented_rect": [
+        995,
+        1565,
+        1541,
+        1672
+      ]
+    },
+    {
+      "label": "CHAIN",
+      "native_rect": [
+        236,
+        184,
+        284,
+        196
+      ],
+      "presented_rect": [
+        1902,
+        1565,
+        2288,
+        1672
+      ]
+    },
+    {
+      "label": "DEFENSE",
+      "native_rect": [
+        28,
+        198,
+        76,
+        210
+      ],
+      "presented_rect": [
+        248,
+        1684,
+        635,
+        1791
+      ]
+    },
+    {
+      "label": "HP numeric label",
+      "native_rect": [
+        133,
+        201,
+        149,
+        213
+      ],
+      "presented_rect": [
+        1083,
+        1710,
+        1215,
+        1817
+      ]
+    },
+    {
+      "label": "MP numeric label",
+      "native_rect": [
+        236,
+        195,
+        254,
+        207
+      ],
+      "presented_rect": [
+        1902,
+        1658,
+        2050,
+        1766
+      ]
+    }
+  ],
+  "changed_pixels": 586734,
+  "compared_pixels_outside_text": 3812367,
+  "changed_pixels_outside_text": 0,
+  "unchanged_outside_text": true,
+  "full_gameplay_coverage": false,
+  "android_tested": false
+}

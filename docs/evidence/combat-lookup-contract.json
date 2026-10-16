@@ -1,0 +1,43 @@
+{
+  "emulator_revision": "00e299795",
+  "source_url": "https://github.com/stenzek/duckstation/blob/00e299795/src/core/gpu_hw_texture_cache.cpp",
+  "source_sha256": "6e56be60c4373561573a89fa82e3ebb48f2054887560e032bf8a987dc9ca4c50",
+  "functions": [
+    "GetTexturePageTextureReplacements",
+    "HashRect"
+  ],
+  "rule": "For STP4, divide both X texel endpoints by four, rounding down, then hash rows of little-endian 16-bit VRAM words.",
+  "corrected_filenames": [
+    {
+      "before": "texpage-STP4-B1C599540AA65344-CBF39C0936C27EBA-64x256-182-40-56x12-P0-15.png",
+      "after": "texpage-STP4-7E07BD1CA8D2311F-CBF39C0936C27EBA-64x256-182-40-56x12-P0-15.png",
+      "payload_sha256": "b31fddd70ef8b8a245e8af7e80245b3be054ec6d049b7a85034635302260c77c",
+      "image_bytes_unchanged": true
+    },
+    {
+      "before": "texpage-STP4-B1C599540AA65344-E41C34F07CB9645A-64x256-182-40-56x12-P0-15.png",
+      "after": "texpage-STP4-7E07BD1CA8D2311F-E41C34F07CB9645A-64x256-182-40-56x12-P0-15.png",
+      "payload_sha256": "d8fb2d1ef0eae83d72645117a16c751d5e1a8d26450103ccf2ace4b2fe8e29da",
+      "image_bytes_unchanged": true
+    },
+    {
+      "before": "texpage-STP4-E78E0EE72327F18C-CBF39C0936C27EBA-64x256-152-52-98x12-P0-15.png",
+      "after": "texpage-STP4-D7E6C141060784E6-CBF39C0936C27EBA-64x256-152-52-98x12-P0-15.png",
+      "payload_sha256": "c9ddbb5653a2019882ce7e69fbb659809f40623834fa25bcfbab968c8bb5974d",
+      "image_bytes_unchanged": true
+    },
+    {
+      "before": "texpage-STP4-E78E0EE72327F18C-E41C34F07CB9645A-64x256-152-52-98x12-P0-15.png",
+      "after": "texpage-STP4-D7E6C141060784E6-E41C34F07CB9645A-64x256-152-52-98x12-P0-15.png",
+      "payload_sha256": "7c4b024d9c9787550629e52319229a0d75899f79f8dc77956beb91d9d92255b9",
+      "image_bytes_unchanged": true
+    }
+  ],
+  "android_source_check": {
+    "revision": "611bb8fb4",
+    "source_url": "https://github.com/stenzek/duckstation/blob/611bb8fb4/src/core/gpu_hw_texture_cache.cpp",
+    "sha256": "a1f0ccf74c36d03fdf503ff302445e5c5721f58d4c602182108671c5028f3d29",
+    "same_lookup_coordinate_rule": true,
+    "device_rendering_test": false
+  }
+}

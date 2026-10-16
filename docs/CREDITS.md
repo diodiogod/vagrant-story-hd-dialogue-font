@@ -11,6 +11,7 @@ or proof of an exact match in every ambiguous detail.
 [menu/UI editing records](editing-prompts-v0.3.json) document the work.
 [v0.4 editing records](editing-records-v0.4.json) cover the save labels, font
 metrics and border repairs. The repository also includes a [release packager](../tools/package_release.py).
+[v0.5 editing records](editing-records-v0.5.json) cover fixed words and combat text.
 
 - Original Vagrant Story art and typography: Square / original rights holders.
 - Font direction, selection and Windows/Android testing:

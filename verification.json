@@ -1,11 +1,11 @@
 {
   "name": "Vagrant Story Original Style HD Fonts",
-  "version": "0.3-beta",
-  "date": "2026-10-15",
+  "version": "0.4-preview",
+  "date": "2026-10-16",
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
-  "pngs": 51,
-  "pack_fingerprint": "0e10f2b37cc8a3650d857bb42f322cd505d3297570652f09a23c3c7d78854432",
+  "pngs": 59,
+  "pack_fingerprint": "ef549ea6b9dd123634bf01b32ffbe5f37b773af88a5859a719bc9f227a0ef45f",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -84,6 +84,22 @@
       "sha256": "bdbce35e5c4d7d92f427ec3f59897987dfcbd450ac8a9ca97d3dac3e65c8b713"
     },
     {
+      "filename": "texpage-STP4-209834EB22EE6F88-69491D7E26769824-64x256-224-112-28x16-P0-15.png",
+      "sha256": "cc8993a58596bbbf97dd70a4efd1fcb210f0925d20edd335c0312359089a9542"
+    },
+    {
+      "filename": "texpage-STP4-209834EB22EE6F88-91271A90116ED761-64x256-224-112-28x16-P0-15.png",
+      "sha256": "467867c9b7eb7e4520fa5e738849dec7625b713eeb6aec2a041c508e2d6b82fc"
+    },
+    {
+      "filename": "texpage-STP4-209834EB22EE6F88-949BF2FB15C35AF8-64x256-224-112-28x16-P0-15.png",
+      "sha256": "5e2cb9e8e928b6e616a5b7d312d0026973dc924fcf12147022330136e0b8bbd6"
+    },
+    {
+      "filename": "texpage-STP4-209834EB22EE6F88-9F8A5175F34347CA-64x256-224-112-28x16-P0-15.png",
+      "sha256": "e550170d9a5b79bf6fedb5b9c68921a17fea10f6fb4592713e7c725ad00dc521"
+    },
+    {
       "filename": "texpage-STP4-59C83B3D7F8E8F8A-69491D7E26769824-64x256-96-152-52x8-P0-15.png",
       "sha256": "e0af07d683c9560a80c60b57a10bf23ecc005367cc5d21c19f491a91fc5c4eb5"
     },
@@ -116,20 +132,36 @@
       "sha256": "2f2be32ba637357c4aca4fc5071ccd6a49f26fc2dded92c97a941e2d2d3027a6"
     },
     {
+      "filename": "texpage-STP4-780CA6605AA2A1DE-69491D7E26769824-64x256-104-56-48x8-P0-15.png",
+      "sha256": "aaf0ea968fcd1d663e1a8aa6badb3b079168598e2fc8202feeb1157078232c8a"
+    },
+    {
+      "filename": "texpage-STP4-780CA6605AA2A1DE-91271A90116ED761-64x256-104-56-48x8-P0-15.png",
+      "sha256": "06ac4493f521a1ceb0d0ba513168b464c5b8c26f705c135b52511d35ec6a65f1"
+    },
+    {
+      "filename": "texpage-STP4-780CA6605AA2A1DE-949BF2FB15C35AF8-64x256-104-56-48x8-P0-15.png",
+      "sha256": "24ea9e52a324eedd16fd759d3f13ddf383384ec496561083c1eff7162c2a4cb7"
+    },
+    {
+      "filename": "texpage-STP4-780CA6605AA2A1DE-9F8A5175F34347CA-64x256-104-56-48x8-P0-15.png",
+      "sha256": "de1f1a495693344870dcb05a40c4edf49744789ac5d81dea989ad9b614e4bda8"
+    },
+    {
       "filename": "texpage-STP4-7F915802249DEA01-69491D7E26769824-64x256-144-0-84x9-P0-15.png",
-      "sha256": "7b91807986b35f20df9dce83033e78256fbbe40cfc6509c139e8c2e98dc5bfca"
+      "sha256": "490c9b5499ba9ad58e2abe110640ad6ef97ee1984bed1c8794bef028fa95301e"
     },
     {
       "filename": "texpage-STP4-7F915802249DEA01-91271A90116ED761-64x256-144-0-84x9-P0-15.png",
-      "sha256": "f39f5d429bc51f4e722727504a6be47dc3d9d86aaa9f73f30dc940704844aaca"
+      "sha256": "f7436e0b395078436c5b8fd350d35fedefca5e65228c3d463e39c5be7e806f44"
     },
     {
       "filename": "texpage-STP4-7F915802249DEA01-949BF2FB15C35AF8-64x256-144-0-84x9-P0-15.png",
-      "sha256": "402787d0418edc383ad7af7980c3bfa534008b5527f7f105dc2eb469f3e06e74"
+      "sha256": "b205614cbcdc86b7fa7b451c776889140fd0af8e8f7bcc2aca086cf6d22992cf"
     },
     {
       "filename": "texpage-STP4-7F915802249DEA01-9F8A5175F34347CA-64x256-144-0-84x9-P0-15.png",
-      "sha256": "957529d2a6fd2b52e2ac2994a9ab200c06b4a51370cb87ececd3eb783ef75aab"
+      "sha256": "f4f1fd4bb4db5738d4e2846853bf0886d382a8f0ddc6a35ad309af95ec50f23d"
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-1F9BDD95E92A3639-64x256-0-0-252x108-P0-15.png",
@@ -220,9 +252,22 @@
     "menu_glyphs": 145,
     "small_and_large_value_digits": 20,
     "compact_ui_letters_and_digits": 36,
-    "fixed_ui_labels": 12,
+    "fixed_ui_labels": 16,
     "current_max_separator": 1,
-    "additional_text_and_symbol_sprites": 20
+    "additional_text_and_symbol_sprites": 20,
+    "new_fixed_labels": [
+      "TIME",
+      "SAVE",
+      "CLEAR",
+      "MAP"
+    ],
+    "restored_hud_label_surrounds": [
+      "HP",
+      "MP",
+      "RISK",
+      "WT"
+    ],
+    "white_menu_font_soft_glow": false
   },
   "rough_progress": {
     "percent": 80,
@@ -241,17 +286,45 @@
     "source_only_new_sprites": [
       "small unknown-value mark",
       "large unknown-value mark",
+      "WT surround"
+    ],
+    "non_text_preservation": "Selected matching-frame tests only; see docs/evidence/punctuation-rendering.json",
+    "save_scene_rendered_words": [
+      "TIME",
+      "SAVE",
+      "CLEAR",
+      "MAP"
+    ],
+    "save_scene_rendered_labels": [
+      "HP",
+      "MP",
       "NO.",
       "save-time colon"
     ],
-    "non_text_preservation": "Selected matching-frame tests only; see docs/evidence/punctuation-rendering.json"
+    "restored_hud_labels_rendered": [
+      "HP",
+      "MP",
+      "RISK"
+    ],
+    "source_only_restored_label": "WT",
+    "memory_card_pixels_outside_text_changed": 0,
+    "memory_card_pixels_outside_text_checked": 7690007,
+    "hud_pixels_outside_text_changed": 0,
+    "hud_pixels_outside_text_checked": 7727216,
+    "scope": "Unreleased labels/borders checked in memory-card load and gameplay HUD scenes. White menu font and dialogue PNGs unchanged from v0.3.",
+    "measurements": [
+      "docs/evidence/save-labels.json",
+      "docs/evidence/hud-borders.json"
+    ]
   },
   "android": {
     "version": "0.1-8969-g611bb8fb4",
-    "verification_method": "Maintainer reports expanded menu pack running; reported PGXP artifacts disappear when disabled. No device model or hash-bound phone framebuffer recorded.",
+    "verification_method": "Unreleased words/borders/glow have not been tested on Android. Prior maintainer-reported v0.3/v0.2 use is preserved in docs/v0.3/verification.json.",
     "import_contract_verified": true,
     "full_51_file_hash_bound_device_test": false,
-    "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest"
+    "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
+    "full_59_file_device_test": false,
+    "current_preview_device_rendering_tested": false
   },
   "screenshots": {
     "equipment-v0.3.png": {
@@ -288,7 +361,34 @@
         1164,
         505
       ]
+    },
+    "docs\\images\\hud-borders-preview.png": {
+      "sha256": "65e5c3f1c8816628f80fd43b090af9a279427ae57b6d73f70d61ae04f0274db2"
+    },
+    "docs\\images\\save-labels-preview.png": {
+      "sha256": "557975608a5e319ed9b4a879cebc42da2719bf1805a4c4ea76c36aefe776d269"
+    },
+    "docs\\images\\save-name-glow-preview.png": {
+      "sha256": "1e520deed9ec246148d1ef6f4332977dcea1ae34b1a75bd6be9254461defa5e5"
+    },
+    "docs\\images\\green-menu-glow-preview.png": {
+      "sha256": "02f6932eee76b6f7fb5220b0390c5f41814a1df00dc753a4107feb1b32bf8308"
     }
   },
-  "previous_release": "docs/v0.2/verification.json"
+  "previous_release": "docs/v0.3/verification.json",
+  "status": "unreleased source; v0.3 release downloads unchanged",
+  "package_version": "0.4-preview",
+  "unchanged_published_pngs": 47,
+  "changed_published_pngs": 4,
+  "added_pngs": 8,
+  "user_visual_acceptance": {
+    "accepted": true,
+    "evidence": "Maintainer authorized committing and pushing the labels/borders. The later glow discussion leaves the blue-glow variant excluded from the pack."
+  },
+  "excluded_experiment": {
+    "name": "Blue-white menu glow",
+    "included_in_pack": false,
+    "reason": "Original shared text palette is grayscale. Added blue bloom is stronger than the native light fringe; retain for comparison only.",
+    "measurements": "docs/evidence/save-name-glow.json"
+  }
 }

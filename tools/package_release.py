@@ -37,11 +37,14 @@ def require(condition, message):
 
 def main():
     manifest = json.loads((ROOT / "verification.json").read_text(encoding="utf-8"))
+    count = manifest["pngs"]
+    version = manifest.get("package_version", "0.3")
+    require(re.fullmatch(r"[0-9]+\.[0-9]+(?:-[a-z0-9]+)?", version), "Invalid package version")
     records = manifest["files"]
     expected = {f["filename"]: f["sha256"] for f in records}
     repl = ROOT / "textures/SLUS-01040/replacements"
     actual = {p.name: digest(p.read_bytes()) for p in repl.iterdir() if p.is_file()}
-    require(len(records) == len(expected) == manifest["pngs"] == 51, "Invalid file count")
+    require(len(records) == len(expected) == count and count > 0, "Invalid file count")
     require(actual == expected, "Texture files differ from the reviewed manifest")
     fingerprint = digest(json.dumps(sorted(expected.items())).encode())
     require(fingerprint == manifest["pack_fingerprint"], "Pack fingerprint differs")
@@ -78,8 +81,8 @@ def main():
                     encoding="utf-8"
                 ).encode("utf-8")
         else:
-            require(len(payload) == 51 and all(map(accepts_android, payload)), "Invalid import layout")
-        path = out / f"vagrant-story-font-v0.3-{platform}.zip"
+            require(len(payload) == count and all(map(accepts_android, payload)), "Invalid import layout")
+        path = out / f"vagrant-story-font-v{version}-{platform}.zip"
         with zipfile.ZipFile(path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
             for name, data in sorted(payload.items()):
                 info = zipfile.ZipInfo(name, date_time=(2026, 10, 15, 0, 0, 0))
@@ -97,7 +100,7 @@ def main():
     (out / "SHA256SUMS.txt").write_text(
         "".join(f"{a['sha256']}  {a['name']}\n" for a in result), encoding="utf-8"
     )
-    print(json.dumps(dict(pack_fingerprint=fingerprint, pngs=51,
+    print(json.dumps(dict(pack_fingerprint=fingerprint, pngs=count,
                           dialogue_unchanged=True, archives=result), indent=2))
 
 

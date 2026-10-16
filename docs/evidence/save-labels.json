@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "pack_fingerprint": "ef549ea6b9dd123634bf01b32ffbe5f37b773af88a5859a719bc9f227a0ef45f",
+  "viewport": [
+    570,
+    0,
+    3270,
+    2024
+  ],
+  "native_size": [
+    320,
+    224
+  ],
+  "renderer": "Vulkan",
+  "internal_scale": 5,
+  "texture_filter": "Nearest",
+  "sprite_filter": "Nearest",
+  "PGXP": true,
+  "duckstation": "0.1-12083-g00e299795",
+  "regions": [
+    {
+      "key": "MAP",
+      "native_box": [
+        172,
+        76,
+        189,
+        84
+      ],
+      "framebuffer_box": [
+        2019,
+        684,
+        2167,
+        762
+      ],
+      "changed_pixels": 8710
+    },
+    {
+      "key": "SAVE",
+      "native_box": [
+        217,
+        76,
+        239,
+        84
+      ],
+      "framebuffer_box": [
+        2398,
+        684,
+        2589,
+        762
+      ],
+      "changed_pixels": 10890
+    },
+    {
+      "key": "CLEAR",
+      "native_box": [
+        267,
+        76,
+        293,
+        84
+      ],
+      "framebuffer_box": [
+        2820,
+        684,
+        3045,
+        762
+      ],
+      "changed_pixels": 12782
+    },
+    {
+      "key": "TIME",
+      "native_box": [
+        240,
+        89,
+        259,
+        97
+      ],
+      "framebuffer_box": [
+        2593,
+        802,
+        2758,
+        879
+      ],
+      "changed_pixels": 9444
+    },
+    {
+      "key": "HP",
+      "native_box": [
+        88,
+        89,
+        104,
+        98
+      ],
+      "framebuffer_box": [
+        1310,
+        802,
+        1450,
+        888
+      ],
+      "changed_pixels": 7779
+    },
+    {
+      "key": "MP",
+      "native_box": [
+        158,
+        89,
+        176,
+        98
+      ],
+      "framebuffer_box": [
+        1901,
+        802,
+        2057,
+        888
+      ],
+      "changed_pixels": 5207
+    }
+  ],
+  "changed_pixels": 54812,
+  "outside_checked_pixels": 7690007,
+  "outside_changed_pixels": 0,
+  "location_name_changed_pixels": 0,
+  "frames": {
+    "native": {
+      "frame_sha256": "187dab5e1d77b84f0aff79541f3b490a66089132234cc558af3a05feba94b24a",
+      "state_sha256": "bead9230f5f94ec4df62ef2befe12c58bab5ed212f3f90f417b1f0b70445160c",
+      "actual_present": true,
+      "frame": 3000
+    },
+    "previous": {
+      "frame_sha256": "b0afdcf5e715634571228638104d6f4478c8115320e9c874d73bd7065e95c188",
+      "state_sha256": "bead9230f5f94ec4df62ef2befe12c58bab5ed212f3f90f417b1f0b70445160c",
+      "actual_present": true,
+      "frame": 3000
+    },
+    "candidate": {
+      "frame_sha256": "ced43b8e58a2efe782b8d66487d4781caba02e23e9f32fe4e1327504dd32199d",
+      "state_sha256": "bead9230f5f94ec4df62ef2befe12c58bab5ed212f3f90f417b1f0b70445160c",
+      "actual_present": true,
+      "frame": 3000
+    }
+  },
+  "scope": "Memory-card load scene only; RISK/WT require separate HUD coverage",
+  "native_control": "Texture cache and replacements off; cache-on native run hid STP word sprites and is excluded"
+}

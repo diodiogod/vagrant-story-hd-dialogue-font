@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "pack_fingerprint": "1febec464635803401f1655c0867ab037f2b845b08e54cf96daf0c0f867bfe5d",
+  "frames": {
+    "original": "187dab5e1d77b84f0aff79541f3b490a66089132234cc558af3a05feba94b24a",
+    "current": "ced43b8e58a2efe782b8d66487d4781caba02e23e9f32fe4e1327504dd32199d",
+    "glow": "3d9d461b4946eb790791e8ca0ab728ad2120aeae626f87ed5608b02062b93db8"
+  },
+  "frame": 3000,
+  "duckstation": "0.1-12083-g00e299795",
+  "renderer": "Vulkan",
+  "internal_scale": 5,
+  "texture_filter": "Nearest",
+  "sprite_filter": "Nearest",
+  "PGXP": true,
+  "viewport": [
+    570,
+    0,
+    3270,
+    2024
+  ],
+  "native_size": [
+    320,
+    224
+  ],
+  "allowed_native_text_regions": [
+    [
+      184,
+      18,
+      320,
+      30
+    ],
+    [
+      184,
+      34,
+      320,
+      46
+    ],
+    [
+      184,
+      50,
+      320,
+      62
+    ],
+    [
+      70,
+      76,
+      160,
+      88
+    ],
+    [
+      166,
+      122,
+      205,
+      134
+    ],
+    [
+      166,
+      162,
+      205,
+      174
+    ],
+    [
+      16,
+      192,
+      100,
+      204
+    ],
+    [
+      16,
+      205,
+      290,
+      217
+    ]
+  ],
+  "changed_pixels": 210904,
+  "name_changed_pixels": 32890,
+  "outside_checked_pixels": 6873424,
+  "outside_changed_pixels": 0,
+  "unexpected_bounds": null,
+  "scope": "Memory-card load scene. White menu and message text share this palette."
+}

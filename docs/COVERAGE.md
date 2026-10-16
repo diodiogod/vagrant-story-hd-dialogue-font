@@ -1,6 +1,6 @@
-# Font coverage and roadmap — v0.3 beta
+# Font coverage and roadmap
 
-Updated 2026-10-15. The pack contains 51 PNGs at 8x native resolution.
+Updated 2026-10-16. Current source: 59 PNGs; published v0.3: 51 PNGs, all at 8x.
 Coverage describes reconstructed assets, separately from where they were tested.
 
 ## Rough progress estimate
@@ -14,8 +14,8 @@ Coverage describes reconstructed assets, separately from where they were tested.
 | Value numbers | 10 small and 10 large digits; dark surround restored | More natural scenes and palette cases |
 | Unknown values | Small and large source designs | Natural game-screen validation |
 | Compact UI alphabet | 26 capitals, 10 digits, 16 punctuation marks | Broader natural-screen and Android testing |
-| Fixed labels | HP, MP, RISK, WT, COMMAND, MENU, WARNING, HELP, CAUTION, CHECK, INFORMATION, INFO | Other baked text listed below |
-| Save text | NO. and save-time colon source designs | Natural game-screen validation |
+| Fixed labels | HP, MP, RISK, WT, COMMAND, MENU, WARNING, HELP, CAUTION, CHECK, INFORMATION, INFO; unreleased TIME/SAVE/CLEAR/MAP | Other baked text listed below; WT surround needs a natural-scene check |
+| Save text | NO. and save-time colon, captured in the memory-card load scene | Broader save/load testing |
 | Current/max separator | Round dot with dark surround | Artist's intended dot/diamond shape remains ambiguous |
 | CPU-composited text | Rendering path identified | Investigate text that may bypass ordinary glyph replacement |
 
@@ -27,8 +27,7 @@ restoration targets.
 
 ## Next: remaining text
 
-1. Restore the fixed-image TIME, SAVE, CLEAR and MAP labels. A word drawn with
-   the shared alphabet can already be sharp while a separate baked copy is native.
+1. Review the remaining fixed-label surrounds and validate WT in-game.
 2. Audit WAITING for COMMAND, EXIT FACTORY, SET EQUIP, WORKSHOP and other fixed words.
 3. Restore remaining baked equipment/body/class/element labels such as WEAPONS,
    SHIELD, R.ARM, L.ARM, HEAD, BODY and LEGS. Some live body-part names already
@@ -54,8 +53,8 @@ textures are outside this project's current scope.
 Selected Windows dialogue, menu, workshop and HUD scenes were inspected with
 DuckStation 0.1-12083, Vulkan 5x and both filters Nearest. Matching-frame tests
 checked preservation outside selected edited text. Sixteen compact symbols
-were visible in a controlled real-renderer test. Small/large unknown values,
-NO. and save-time colon remain source-reviewed only.
+were visible in a controlled real-renderer test. Small/large unknown values remain source-reviewed only. NO. and the save-time
+colon are visible in the new memory-card load capture.
 
 The maintainer reports expanded-menu use on Android 0.1-8969 and the PGXP
 compatibility issue. This is not a complete phone playthrough or a capture

@@ -1,20 +1,21 @@
 {
-  "version": "0.3-beta",
+  "version": "0.4-preview",
   "target_android_version": "0.1-8969-g611bb8fb4",
   "inspected_apk_sha256": "28f1528dffb87a761ab1997a5d23bb62c5aa191b3a242a79a9baeb3629b206f5",
   "import_mode": "Transfer Data > ZIP file > Import; select archive without extraction",
   "required_root": "textures/SLUS-01040/replacements/",
-  "matching_texture_entries": 51,
+  "matching_texture_entries": 59,
   "extra_wrapper_directory_rejected": true,
   "config_yaml_excluded": true,
-  "pack_fingerprint": "0e10f2b37cc8a3650d857bb42f322cd505d3297570652f09a23c3c7d78854432",
+  "pack_fingerprint": "ef549ea6b9dd123634bf01b32ffbe5f37b773af88a5859a719bc9f227a0ef45f",
   "format_verified_against_apk": true,
-  "device_evidence": "Maintainer reports expanded menu pack running; reported PGXP artifacts disappear when disabled. No device model or hash-bound phone framebuffer recorded.",
-  "full_51_file_hash_bound_device_test": false,
+  "device_evidence": "Current preview has not been tested on Android; prior v0.3 import/rendering reports are preserved in docs/v0.3.",
   "required_filter_settings": {
     "texture_filtering": "Nearest Neighbor",
     "sprite_texture_filtering": "Nearest Neighbor"
   },
   "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
-  "archive_hashes": "release-assets SHA256SUMS.txt attached to GitHub release"
+  "archive_hashes": "Generated locally by tools/package_release.py; no v0.4 release assets published",
+  "status": "unreleased source",
+  "full_59_file_hash_bound_device_test": false
 }

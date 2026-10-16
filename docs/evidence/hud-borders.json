@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "pack_fingerprint": "ef549ea6b9dd123634bf01b32ffbe5f37b773af88a5859a719bc9f227a0ef45f",
+  "regions": [
+    {
+      "key": "HP",
+      "native_box": [
+        10,
+        10,
+        26,
+        19
+      ],
+      "framebuffer_box": [
+        652,
+        88,
+        792,
+        174
+      ],
+      "changed_pixels": 4491
+    },
+    {
+      "key": "MP",
+      "native_box": [
+        80,
+        10,
+        98,
+        19
+      ],
+      "framebuffer_box": [
+        1243,
+        88,
+        1399,
+        174
+      ],
+      "changed_pixels": 4327
+    },
+    {
+      "key": "RISK",
+      "native_box": [
+        10,
+        26,
+        36,
+        35
+      ],
+      "framebuffer_box": [
+        652,
+        232,
+        876,
+        319
+      ],
+      "changed_pixels": 1453
+    }
+  ],
+  "frames": {
+    "previous": {
+      "frame_sha256": "0a89b7c63c42bbdb171f7310732433a274f0af24511d8dacbc5b3b2a4423ff35",
+      "state_sha256": "2b1295168dedb335659a6b4685ec91f76cef55117eaa431fb04526bd6f036cb0"
+    },
+    "candidate": {
+      "frame_sha256": "901df756926814dcb1843b2858a42221ee005cc29408afeff1cc9b0f0b5506d2",
+      "state_sha256": "2b1295168dedb335659a6b4685ec91f76cef55117eaa431fb04526bd6f036cb0"
+    }
+  },
+  "outside_checked_pixels": 7727216,
+  "outside_changed_pixels": 0,
+  "changed_pixels": 10271,
+  "WT": "source reviewed; not visible in this capture"
+}

@@ -1,3 +1,12 @@
+# Unreleased
+
+- Added sharp MAP, SAVE, CLEAR and TIME labels.
+- Restored dark surrounds on HP, MP, RISK and WT.
+- Added a [visual changelog](CHANGELOG.md) with comparisons.
+- Blue menu glow remains an excluded experiment.
+
+---
+
 # v0.3 beta — Original Style HD Fonts
 
 The dialogue pack now includes menus and selected HUD/UI text: **51 replacement PNGs**.

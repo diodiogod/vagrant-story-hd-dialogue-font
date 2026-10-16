@@ -1,6 +1,7 @@
-Vagrant Story USA SLUS-01040 — Original Style HD Fonts v0.3 beta
-8x reconstructed dialogue, menu and selected HUD/UI lettering.
-Read the repository README for installation, remaining coverage and the
-PGXP workaround required by older Android DuckStation builds.
-Original game artwork outside the targeted text is retained.
-No game image, executable, BIOS, saves or emulator is included.
+Vagrant Story USA SLUS-01040 — Original Style HD Fonts
+Unreleased v0.4 preview source: 59 PNGs.
+Dialogue, menus, selected HUD/UI text and save labels.
+The blue-glow experiment is excluded from this pack.
+See the repository README, visual changelog and docs for installation/testing.
+Older Android 8969: PGXP off per-game; both filters Nearest Neighbor.
+No game image, executable, BIOS, saves or emulator included.

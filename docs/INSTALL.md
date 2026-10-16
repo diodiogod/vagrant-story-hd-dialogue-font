@@ -1,5 +1,7 @@
 # Installation and troubleshooting
 
+Published downloads: **v0.3, 51 PNGs**. Current source: **59 PNGs, unreleased**.
+
 ## Android
 
 1. Download **vagrant-story-font-v0.3-android.zip** from the release assets and

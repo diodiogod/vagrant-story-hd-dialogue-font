@@ -17,6 +17,8 @@ Sharper dialogue, menus and HUD text, keeping the original style and spacing.
 **Rough font/text progress: 80%.** Remaining fixed labels and rare symbols are
 on the [roadmap](docs/COVERAGE.md). Other UI artwork is planned for later.
 
+Latest source includes the [unreleased save-label and border updates](CHANGELOG.md).
+
 ## Install
 
 ### Android
@@ -54,7 +56,7 @@ replacements first. Published dialogue-only v0.2 can be upgraded by import.
 
 ## More
 
-[Coverage and roadmap](docs/COVERAGE.md) · [Compatibility](docs/PGXP.md) · [Testing](docs/TESTING.md) · [Method and credits](docs/CREDITS.md)
+[Visual changelog](CHANGELOG.md) · [Coverage and roadmap](docs/COVERAGE.md) · [Compatibility](docs/PGXP.md) · [Testing](docs/TESTING.md) · [Method and credits](docs/CREDITS.md)
 
 For bug reports, include a screenshot, game serial, DuckStation version,
 device/renderer and PGXP/filter settings.

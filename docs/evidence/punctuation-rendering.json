@@ -1,0 +1,269 @@
+{
+  "status": "passed",
+  "capture_method": "RenderDoc 1.46 actual Vulkan Present framebuffer",
+  "duckstation": "0.1-12083-g00e299795",
+  "renderer": "Vulkan",
+  "resolution_scale": 5,
+  "texture_filter": "Nearest",
+  "sprite_filter": "Nearest",
+  "pack_fingerprint": "0e10f2b37cc8a3650d857bb42f322cd505d3297570652f09a23c3c7d78854432",
+  "scenes": [
+    {
+      "scene": "fixture",
+      "passed": true,
+      "changed_pixels": 3791,
+      "checked_pixels_outside_new_text": 881876,
+      "changed_pixels_outside_new_text": 0,
+      "native_text_exclusions": [
+        [
+          98,
+          17,
+          172,
+          31
+        ],
+        [
+          136,
+          33,
+          186,
+          47
+        ]
+      ],
+      "framebuffer_exclusions": [
+        [
+          509,
+          50,
+          713,
+          92
+        ],
+        [
+          614,
+          97,
+          752,
+          139
+        ]
+      ],
+      "unexpected_bounds": null,
+      "captures": [
+        {
+          "tag": "v13-fixture-base-2",
+          "frame_sha256": "6c34ee53364afbc06c6d640add7ca50c295d4c5321b27029ba98e055105e62f3",
+          "state_sha256": "b6ccfcd3996820185de90f85c0e2e7241cf595553ea87553ce16dac3bdf680ce",
+          "present_resource": "ResourceId::174",
+          "frame": 3000
+        },
+        {
+          "tag": "v13-fixture-hd-1",
+          "frame_sha256": "7a26f3db1b56c18405e1c99ff424795baf340d6aa28df41d0087c184aa4233bc",
+          "state_sha256": "b6ccfcd3996820185de90f85c0e2e7241cf595553ea87553ce16dac3bdf680ce",
+          "present_resource": "ResourceId::174",
+          "frame": 3000
+        }
+      ],
+      "glyph_regions": [
+        {
+          "character": "+",
+          "framebuffer_box": [
+            512,
+            50,
+            540,
+            92
+          ],
+          "changed_pixels": 188
+        },
+        {
+          "character": "-",
+          "framebuffer_box": [
+            537,
+            50,
+            562,
+            92
+          ],
+          "changed_pixels": 103
+        },
+        {
+          "character": "/",
+          "framebuffer_box": [
+            559,
+            50,
+            581,
+            92
+          ],
+          "changed_pixels": 143
+        },
+        {
+          "character": "%",
+          "framebuffer_box": [
+            578,
+            50,
+            612,
+            92
+          ],
+          "changed_pixels": 444
+        },
+        {
+          "character": "\u00b1",
+          "framebuffer_box": [
+            608,
+            50,
+            636,
+            92
+          ],
+          "changed_pixels": 354
+        },
+        {
+          "character": "=",
+          "framebuffer_box": [
+            633,
+            50,
+            661,
+            92
+          ],
+          "changed_pixels": 371
+        },
+        {
+          "character": "<",
+          "framebuffer_box": [
+            658,
+            50,
+            686,
+            92
+          ],
+          "changed_pixels": 342
+        },
+        {
+          "character": ">",
+          "framebuffer_box": [
+            682,
+            50,
+            711,
+            92
+          ],
+          "changed_pixels": 350
+        },
+        {
+          "character": "!",
+          "framebuffer_box": [
+            616,
+            97,
+            634,
+            139
+          ],
+          "changed_pixels": 102
+        },
+        {
+          "character": "?",
+          "framebuffer_box": [
+            630,
+            97,
+            658,
+            139
+          ],
+          "changed_pixels": 355
+        },
+        {
+          "character": ":",
+          "framebuffer_box": [
+            655,
+            97,
+            672,
+            139
+          ],
+          "changed_pixels": 226
+        },
+        {
+          "character": ".",
+          "framebuffer_box": [
+            669,
+            97,
+            686,
+            139
+          ],
+          "changed_pixels": 147
+        },
+        {
+          "character": ",",
+          "framebuffer_box": [
+            682,
+            97,
+            700,
+            139
+          ],
+          "changed_pixels": 163
+        },
+        {
+          "character": "\"",
+          "framebuffer_box": [
+            696,
+            97,
+            716,
+            139
+          ],
+          "changed_pixels": 148
+        },
+        {
+          "character": "(",
+          "framebuffer_box": [
+            713,
+            97,
+            733,
+            139
+          ],
+          "changed_pixels": 275
+        },
+        {
+          "character": ")",
+          "framebuffer_box": [
+            729,
+            97,
+            749,
+            139
+          ],
+          "changed_pixels": 205
+        }
+      ]
+    },
+    {
+      "scene": "hud",
+      "passed": true,
+      "changed_pixels": 0,
+      "checked_pixels_outside_new_text": 896240,
+      "changed_pixels_outside_new_text": 0,
+      "native_text_exclusions": [],
+      "framebuffer_exclusions": [],
+      "unexpected_bounds": null,
+      "captures": [
+        {
+          "tag": "v13-hud-base-1",
+          "frame_sha256": "844ebcc1fdb31ecda901eeeb205578ec1c588f79ab3b15f3f969e9f75904507f",
+          "state_sha256": "2b1295168dedb335659a6b4685ec91f76cef55117eaa431fb04526bd6f036cb0",
+          "present_resource": "ResourceId::174",
+          "frame": 3000
+        },
+        {
+          "tag": "v13-hud-hd-1",
+          "frame_sha256": "844ebcc1fdb31ecda901eeeb205578ec1c588f79ab3b15f3f969e9f75904507f",
+          "state_sha256": "2b1295168dedb335659a6b4685ec91f76cef55117eaa431fb04526bd6f036cb0",
+          "present_resource": "ResourceId::174",
+          "frame": 3000
+        }
+      ]
+    }
+  ],
+  "controlled_renderer_specimen": true,
+  "visible_symbols": 16,
+  "visible_symbol_inspection": "all 16 confirmed in both frames",
+  "top_four_sprites": "Source proofs accepted; natural usage not captured yet",
+  "android_tested": false,
+  "viewport": {
+    "native_size": [
+      320,
+      224
+    ],
+    "framebuffer_rect": [
+      240,
+      0,
+      1120,
+      659
+    ]
+  }
+}

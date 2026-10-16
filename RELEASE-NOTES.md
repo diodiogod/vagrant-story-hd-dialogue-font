@@ -1,26 +1,24 @@
-# v0.2 beta — Original Style Dialogue 8x
+# v0.3 beta — Original Style HD Fonts
 
-Reconstructs the original-style Vagrant Story dialogue lettering at 8x
-resolution for DuckStation. Includes 123 glyphs and seven palette variants,
-while retaining the original text placement and line wrapping.
+The dialogue pack now includes menus and selected HUD/UI text: **51 replacement PNGs**.
 
-Follows the original glyph references, including the broad T and original-style 9.
+- 145 menu glyphs; the 123 dialogue glyphs from v0.2 are unchanged.
+- HD small/large digits with dark borders, compact UI letters and fixed labels.
+- Sharper punctuation, unknown-value marks, NO., save colon and round HP/MP separator.
+- New screenshots, installation tips and a roadmap. Rough font/text progress: 80%.
 
-Windows visual confirmation: two opening-scene dialogue bubbles, DuckStation
-0.1-12083-g00e299795 at 5x resolution. Android ZIP import and rendering on
-0.1-8969-g611bb8fb4 were confirmed by the maintainer after setting **both
-Texture Filtering and Sprite Texture Filtering to Nearest Neighbor**.
+**Set both texture filters to Nearest Neighbor.** On Android **0.1-8969**,
+disable **PGXP Geometry Correction for Vagrant Story** to avoid menu-letter
+artifacts. Windows 0.1-12083 passed the tested menu with PGXP on.
+[Compatibility details](docs/PGXP.md).
 
-Use those two filter settings for the intended crisp lettering. A full
-playthrough and compatibility across other Android devices are not yet verified.
+Import the **Android ZIP** through Transfer Data without extracting it.
+Extract the **Desktop ZIP** into DuckStation's textures folder. Remove old
+experimental UI replacements before upgrading; published v0.2 can be upgraded
+by import.
 
-Download the standard ZIP for desktop, or the Android ZIP Import package for
-direct import without extraction (`textures` at the archive root). Neither contains a game image,
-BIOS, emulator, memory card, save state or personal settings.
+USA SLUS-01040 only. Some fixed labels and rare glyphs remain native; testing
+is limited to selected scenes. The four new unknown/save sprites still need
+natural-scene checks. [Coverage](docs/COVERAGE.md) · [Testing](docs/TESTING.md).
 
-Known scope: USA SLUS-01040, dialogue bank only. Other font banks, controller
-icons, other regions, all possible palette effects and a full playthrough
-have not been comprehensively tested.
-
-Planned later: reconstruct the menu font in HD while retaining its original
-letterforms. Menu fonts are not included in this release.
+[Previous v0.2 notes](docs/v0.2/RELEASE-NOTES.md).

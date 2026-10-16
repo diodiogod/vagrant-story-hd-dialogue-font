@@ -1,0 +1,207 @@
+{
+  "status": "passed",
+  "all_20_audited": true,
+  "complete_surround_radius_hd": 6,
+  "padded_before_crop": true,
+  "rows": [
+    {
+      "key": "symbol-00",
+      "clipped_surround_pixels": 0,
+      "lower_terminal_aspect": 2.0,
+      "errors": []
+    },
+    {
+      "key": "symbol-01",
+      "clipped_surround_pixels": 0,
+      "lower_terminal_aspect": 3.0,
+      "errors": []
+    },
+    {
+      "key": "symbol-02",
+      "clipped_surround_pixels": 0,
+      "cap_heights": [
+        40,
+        40
+      ],
+      "baselines": [
+        55,
+        55
+      ],
+      "errors": []
+    },
+    {
+      "key": "symbol-03",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-04",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-05",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-06",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-07",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-08",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-09",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-10",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-11",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-12",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-13",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-14",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-15",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-16",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-17",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-18",
+      "clipped_surround_pixels": 0,
+      "errors": []
+    },
+    {
+      "key": "symbol-19",
+      "clipped_surround_pixels": 0,
+      "flat_cap_fraction": 0.9795918367346939,
+      "bottom_dot_bounds": [
+        9,
+        64,
+        20,
+        72
+      ],
+      "errors": []
+    }
+  ],
+  "rejected_asset_regressions": [
+    {
+      "key": "symbol-00",
+      "expected_failure": "lower terminal",
+      "detected": true,
+      "errors": [
+        "lower terminal became a dot"
+      ]
+    },
+    {
+      "key": "symbol-01",
+      "expected_failure": "surround",
+      "detected": true,
+      "errors": [
+        "surround extends outside sprite cell",
+        "lower terminal became a dot"
+      ]
+    },
+    {
+      "key": "symbol-02",
+      "expected_failure": "N and O",
+      "detected": true,
+      "errors": [
+        "N and O differ in height or baseline"
+      ]
+    },
+    {
+      "key": "symbol-07",
+      "expected_failure": "surround",
+      "detected": true,
+      "errors": [
+        "surround extends outside sprite cell"
+      ]
+    },
+    {
+      "key": "symbol-08",
+      "expected_failure": "surround",
+      "detected": true,
+      "errors": [
+        "surround extends outside sprite cell"
+      ]
+    },
+    {
+      "key": "symbol-19",
+      "expected_failure": "square cap",
+      "detected": true,
+      "errors": [
+        "square cap replaced with a rounded hook"
+      ]
+    },
+    {
+      "key": "square-hook-without-dot",
+      "expected_failure": "missing bottom dot",
+      "detected": true,
+      "errors": [
+        "separate bottom dot is missing"
+      ]
+    }
+  ],
+  "mask_hashes": {
+    "symbol-00": "e39fe1da19eb9bb6065f7ddaeb9f054fbc1d69f3bea5499a236a34299a99b8f4",
+    "symbol-01": "d465b7c46633378c6c9c325a8bab9ecb0832e747b390201b79012ef58fa0e721",
+    "symbol-02": "d66c3ef33c968be37ae643153974aca9cde8115c16e4a937cd6a982685e01fa7",
+    "symbol-03": "b0f15c9c3394d8bf5569fadccd5924c5b45c1e3b56a9b96d249bced7a6f7f3a8",
+    "symbol-04": "c1b72de8b80ca598c4272d76ed8b502647602a0017d3ff7be902725dbbdfbadf",
+    "symbol-05": "3f58fb2aa48193701432dd649e5271fa82b01ea449d6f5f292d812d83fbbaa81",
+    "symbol-06": "fc3a35b656877ec28c9de096dafa3a21e343e53b02510f0fcc12974b93717a3c",
+    "symbol-07": "df6ecd842f64769dc292b5dfe8bf53ea3a119c1977fd311bb146aa84a0382622",
+    "symbol-08": "3585499bba23a18cf8d15f0631f569271f4e617e0f8dc754e93d0acebfd478ed",
+    "symbol-09": "66bd44753eac5bdddfb32f0b819a31a0acf110a57a81a6397e504de30219ec3b",
+    "symbol-10": "cb7e47200437a08ed2dc9aeb445da07dcbf2429c21b493eef54ca8e4afe5a721",
+    "symbol-11": "c6d8ae6126e027472ed6686a0c56c6eac38743da81b641b8a4431bacfcdb3dde",
+    "symbol-12": "496ecdbf17da4113b8c412866a495fb881c9380b67c06401429d6311a221ea21",
+    "symbol-13": "d64f57bc17316e49ea1b47ed04427e76b24d8f89fe617796138f8cf20254b1d9",
+    "symbol-14": "bbad2a8efcc9972f01f0fde2874f97b2f7f9aae2fc0367803772171106343615",
+    "symbol-15": "23ec51bc8b58c8a81f29532015f3fbbb2c0bb238d75f02aa55edd503a0dfd5f0",
+    "symbol-16": "6bcf184911e42192734e8e8cf628d27d03fccd91c80bbbee095ff93795e1a892",
+    "symbol-17": "1c39f254b7dad15bfe77e994e2b53994623afb5be49277a1afe5a29633c69286",
+    "symbol-18": "e1f7f83e9d5c7fd3989336134fedd22568fdfe3ec6978de25ecb56f5b0e488c6",
+    "symbol-19": "7a560e0c5891197fa869433d8ed6688c89d782c24793aea463a385ac8eddc2e7"
+  },
+  "limits": "Structural and placement checks only; source fidelity still requires visual judgment."
+}

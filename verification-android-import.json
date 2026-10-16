@@ -1,19 +1,20 @@
 {
-  "archive": "Vagrant Story Font - Android ZIP Import v0.2.zip",
-  "bytes": 2261469,
-  "sha256": "4cf59f3eb8165e37bfa0ef76d77ef5e85d099b1cafb819f2a8a56dec95d33ac2",
+  "version": "0.3-beta",
   "target_android_version": "0.1-8969-g611bb8fb4",
   "inspected_apk_sha256": "28f1528dffb87a761ab1997a5d23bb62c5aa191b3a242a79a9baeb3629b206f5",
   "import_mode": "Transfer Data > ZIP file > Import; select archive without extraction",
-  "matching_texture_entries": 7,
-  "original_wrapped_archive_matching_entries": 0,
-  "zip_crc_and_font_hashes_passed": true,
+  "required_root": "textures/SLUS-01040/replacements/",
+  "matching_texture_entries": 51,
+  "extra_wrapper_directory_rejected": true,
+  "config_yaml_excluded": true,
+  "pack_fingerprint": "0e10f2b37cc8a3650d857bb42f322cd505d3297570652f09a23c3c7d78854432",
   "format_verified_against_apk": true,
-  "actual_device_import_verified": true,
-  "android_rendering_verified": true,
-  "verification_method": "Maintainer-reported Android import and gameplay test; no Android screenshot recorded",
+  "device_evidence": "Maintainer reports expanded menu pack running; reported PGXP artifacts disappear when disabled. No device model or hash-bound phone framebuffer recorded.",
+  "full_51_file_hash_bound_device_test": false,
   "required_filter_settings": {
     "texture_filtering": "Nearest Neighbor",
     "sprite_texture_filtering": "Nearest Neighbor"
-  }
+  },
+  "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
+  "archive_hashes": "release-assets SHA256SUMS.txt attached to GitHub release"
 }

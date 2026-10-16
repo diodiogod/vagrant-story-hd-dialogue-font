@@ -1,163 +1,294 @@
 {
-  "name": "Original Style Dialogue 8x",
-  "version": "0.2-preview",
+  "name": "Vagrant Story Original Style HD Fonts",
+  "version": "0.3-beta",
+  "date": "2026-10-15",
   "game": "Vagrant Story USA SLUS-01040",
-  "target_android_version": "0.1-8969-g611bb8fb4",
-  "glyphs_image_reconstructed": 123,
-  "glyphs_target": 123,
-  "remaining_glyph_codes": [],
-  "original_advance_widths_unchanged": true,
-  "generated_masks_normalized_to_original_bounds": true,
-  "native_texture_hash": "1ED72322D46CD91B",
-  "disc_modified": false,
-  "sources": [
-    {
-      "batch": 1,
-      "filename": "batch-01.png",
-      "sha256": "8c99056823d66d91378cc64167aa6455755e2e6cbd6dd59c5dcfc05eb197fe85",
-      "size": [
-        1402,
-        1122
-      ],
-      "glyph_count": 20
-    },
-    {
-      "batch": 2,
-      "filename": "batch-02.png",
-      "sha256": "574950c03ae0301a4b2f2200319309c1983a4de0bb1a1c3656a010156a6f82da",
-      "size": [
-        1402,
-        1122
-      ],
-      "glyph_count": 20
-    },
-    {
-      "batch": 3,
-      "filename": "batch-03.png",
-      "sha256": "3bf8f821334a416c14e130f159903bca822b3abc61687684ab7b8450725fe075",
-      "size": [
-        1402,
-        1122
-      ],
-      "glyph_count": 20
-    },
-    {
-      "batch": 4,
-      "filename": "batch-04.png",
-      "sha256": "cdda11c7dce3114868dd3d8072867c82e0d484dd7a79694132c31a8c4de5ba7c",
-      "size": [
-        1402,
-        1122
-      ],
-      "glyph_count": 20
-    },
-    {
-      "batch": 5,
-      "filename": "batch-05.png",
-      "sha256": "29371a79f585798610a04ded0fb3a9b1ca1b7577e83d279cb14b8af89de269d9",
-      "size": [
-        1402,
-        1122
-      ],
-      "glyph_count": 20
-    },
-    {
-      "batch": 6,
-      "filename": "batch-06.png",
-      "sha256": "ebc49b5944e3cac4d9248269674dec19eecd3533af73b5cfe8a652d6c30ce5b2",
-      "size": [
-        1254,
-        1254
-      ],
-      "glyph_count": 23
-    }
-  ],
+  "scale": 8,
+  "pngs": 51,
+  "pack_fingerprint": "0e10f2b37cc8a3650d857bb42f322cd505d3297570652f09a23c3c7d78854432",
   "files": [
     {
-      "filename": "texpage-STP4-1ED72322D46CD91B-D440A040EAA21F84-64x256-0-108-252x96-P0-15.png",
-      "palette_id": 0,
-      "sha256": "dbcf39b46d5d69c35222315e6470b8c93aa94b3fb39dd7fa07007ed10e67e21d"
+      "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
+      "sha256": "d896303d9bfc73ec96f3466ba93807c544b95565fd0f8e529788e65ff9bc0217"
     },
     {
-      "filename": "texpage-STP4-1ED72322D46CD91B-D927CFCFEC5B4154-64x256-0-108-252x96-P0-15.png",
-      "palette_id": 1,
-      "sha256": "7095910082546bee4780d2f0f91b4ad236c4c59418408234ec0d9c197166e618"
+      "filename": "texpage-STP4-065D13C54C34C0FB-91271A90116ED761-64x256-228-0-28x16-P0-15.png",
+      "sha256": "b304d2e58c32f4729afc90e021da5d4698e5d4aff668d9cb0956679f1731360b"
     },
     {
-      "filename": "texpage-STP4-1ED72322D46CD91B-D45C39FFA626E99E-64x256-0-108-252x96-P0-15.png",
-      "palette_id": 2,
-      "sha256": "51324f3f04b23626afe853252ce7a5dca9d32be42a084bb7159c67c606f64665"
+      "filename": "texpage-STP4-065D13C54C34C0FB-949BF2FB15C35AF8-64x256-228-0-28x16-P0-15.png",
+      "sha256": "4f55061f6492cc1f594b096466c805192d134b95eea9cfabb78013eb74f9c182"
     },
     {
-      "filename": "texpage-STP4-1ED72322D46CD91B-D9BF3D211F8FA474-64x256-0-108-252x96-P0-15.png",
-      "palette_id": 3,
-      "sha256": "bdbce35e5c4d7d92f427ec3f59897987dfcbd450ac8a9ca97d3dac3e65c8b713"
+      "filename": "texpage-STP4-065D13C54C34C0FB-9F8A5175F34347CA-64x256-228-0-28x16-P0-15.png",
+      "sha256": "29db8ced637fc9a30a8b1de212dd6a071a998db597ea020b1b7010104ac1ce85"
+    },
+    {
+      "filename": "texpage-STP4-0F13A213B8EAF218-69491D7E26769824-64x256-0-0-144x12-P0-15.png",
+      "sha256": "09a5433faa79b0ff34c203cae03f618ee894bb9ad131b6e9c333bd5a533aa4a7"
+    },
+    {
+      "filename": "texpage-STP4-0F13A213B8EAF218-91271A90116ED761-64x256-0-0-144x12-P0-15.png",
+      "sha256": "4336e9a83bcf17e16044af393aeee56302fec2f04b191d1083469952381cca75"
+    },
+    {
+      "filename": "texpage-STP4-0F13A213B8EAF218-949BF2FB15C35AF8-64x256-0-0-144x12-P0-15.png",
+      "sha256": "41e79540967adc6bed1bdcfbabf3ed88deb3d397b6f2f7296001707a8699faa5"
+    },
+    {
+      "filename": "texpage-STP4-0F13A213B8EAF218-9F8A5175F34347CA-64x256-0-0-144x12-P0-15.png",
+      "sha256": "f6cdec63f220d0b4a0e0725255a736295daa1642e49e3808e1947f5c584c05b2"
+    },
+    {
+      "filename": "texpage-STP4-175BD66E8BC2BA6E-69491D7E26769824-64x256-64-152-28x8-P0-15.png",
+      "sha256": "d53ed570a3aea03713938c49aeecb4d7970199a7275ed0040731436c37947a77"
+    },
+    {
+      "filename": "texpage-STP4-175BD66E8BC2BA6E-91271A90116ED761-64x256-64-152-28x8-P0-15.png",
+      "sha256": "223f49da53843c5fc9eea419b8c8dec0f8e17fd54b42a461fb9ead678192810b"
+    },
+    {
+      "filename": "texpage-STP4-175BD66E8BC2BA6E-949BF2FB15C35AF8-64x256-64-152-28x8-P0-15.png",
+      "sha256": "630ae5008e2ce93c76135080bf59eb9baa884858bb67696db373e0a22428b6ba"
+    },
+    {
+      "filename": "texpage-STP4-175BD66E8BC2BA6E-9F8A5175F34347CA-64x256-64-152-28x8-P0-15.png",
+      "sha256": "5294b2a4080cd17b6484fa331ca90855f60f76c6cf61f5bdb306977b3cd8ef10"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-69491D7E26769824-64x256-0-108-252x96-P0-15.png",
+      "sha256": "530a8e707600d2a42778f9e793a2e311b4dc6a5864c762aabd1164fbbf697674"
     },
     {
       "filename": "texpage-STP4-1ED72322D46CD91B-91271A90116ED761-64x256-0-108-252x96-P0-15.png",
-      "palette_id": 5,
       "sha256": "db473710b10a752e333460bcdc359fba3661c57f76da94dfe4ed140ab7c3ed41"
     },
     {
       "filename": "texpage-STP4-1ED72322D46CD91B-949BF2FB15C35AF8-64x256-0-108-252x96-P0-15.png",
-      "palette_id": 6,
       "sha256": "e6f5afe379ef229a87ed3049f8d8faabd4a58d2c0675ab441cd9b4094b7dc4aa"
     },
     {
-      "filename": "texpage-STP4-1ED72322D46CD91B-69491D7E26769824-64x256-0-108-252x96-P0-15.png",
-      "palette_id": 7,
-      "sha256": "530a8e707600d2a42778f9e793a2e311b4dc6a5864c762aabd1164fbbf697674"
+      "filename": "texpage-STP4-1ED72322D46CD91B-D440A040EAA21F84-64x256-0-108-252x96-P0-15.png",
+      "sha256": "dbcf39b46d5d69c35222315e6470b8c93aa94b3fb39dd7fa07007ed10e67e21d"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-D45C39FFA626E99E-64x256-0-108-252x96-P0-15.png",
+      "sha256": "51324f3f04b23626afe853252ce7a5dca9d32be42a084bb7159c67c606f64665"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-D927CFCFEC5B4154-64x256-0-108-252x96-P0-15.png",
+      "sha256": "7095910082546bee4780d2f0f91b4ad236c4c59418408234ec0d9c197166e618"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-D9BF3D211F8FA474-64x256-0-108-252x96-P0-15.png",
+      "sha256": "bdbce35e5c4d7d92f427ec3f59897987dfcbd450ac8a9ca97d3dac3e65c8b713"
+    },
+    {
+      "filename": "texpage-STP4-59C83B3D7F8E8F8A-69491D7E26769824-64x256-96-152-52x8-P0-15.png",
+      "sha256": "e0af07d683c9560a80c60b57a10bf23ecc005367cc5d21c19f491a91fc5c4eb5"
+    },
+    {
+      "filename": "texpage-STP4-59C83B3D7F8E8F8A-91271A90116ED761-64x256-96-152-52x8-P0-15.png",
+      "sha256": "b8c9079988aa9742481cab0a1d1477afc664a081c76d9e2eea1cdc5910aa2cee"
+    },
+    {
+      "filename": "texpage-STP4-59C83B3D7F8E8F8A-949BF2FB15C35AF8-64x256-96-152-52x8-P0-15.png",
+      "sha256": "6b007923412ca7f955b45c9e3689d0284e0a2291c907ecab10088a27458b3f8e"
+    },
+    {
+      "filename": "texpage-STP4-59C83B3D7F8E8F8A-9F8A5175F34347CA-64x256-96-152-52x8-P0-15.png",
+      "sha256": "e111424f06095b5099b78d3365a6a231af539537c164da8d1ed554d6a28d514e"
+    },
+    {
+      "filename": "texpage-STP4-63214267CBDD5564-69491D7E26769824-64x256-64-144-36x8-P0-15.png",
+      "sha256": "97f83cce1c131fe1179e01418943a27ec6d4c43f6b2e1acd26f7dc1b2e10444a"
+    },
+    {
+      "filename": "texpage-STP4-63214267CBDD5564-91271A90116ED761-64x256-64-144-36x8-P0-15.png",
+      "sha256": "57cce8ddf5def1f847ad7060f0476bd83c9cf8d4f5e3b3cc96cd752c4465b0f5"
+    },
+    {
+      "filename": "texpage-STP4-63214267CBDD5564-949BF2FB15C35AF8-64x256-64-144-36x8-P0-15.png",
+      "sha256": "94148093a2cccfd8435fafbf3aac11a37f09a53941eed840b3ed8cc58668e59f"
+    },
+    {
+      "filename": "texpage-STP4-63214267CBDD5564-9F8A5175F34347CA-64x256-64-144-36x8-P0-15.png",
+      "sha256": "2f2be32ba637357c4aca4fc5071ccd6a49f26fc2dded92c97a941e2d2d3027a6"
+    },
+    {
+      "filename": "texpage-STP4-7F915802249DEA01-69491D7E26769824-64x256-144-0-84x9-P0-15.png",
+      "sha256": "7b91807986b35f20df9dce83033e78256fbbe40cfc6509c139e8c2e98dc5bfca"
+    },
+    {
+      "filename": "texpage-STP4-7F915802249DEA01-91271A90116ED761-64x256-144-0-84x9-P0-15.png",
+      "sha256": "f39f5d429bc51f4e722727504a6be47dc3d9d86aaa9f73f30dc940704844aaca"
+    },
+    {
+      "filename": "texpage-STP4-7F915802249DEA01-949BF2FB15C35AF8-64x256-144-0-84x9-P0-15.png",
+      "sha256": "402787d0418edc383ad7af7980c3bfa534008b5527f7f105dc2eb469f3e06e74"
+    },
+    {
+      "filename": "texpage-STP4-7F915802249DEA01-9F8A5175F34347CA-64x256-144-0-84x9-P0-15.png",
+      "sha256": "957529d2a6fd2b52e2ac2994a9ab200c06b4a51370cb87ececd3eb783ef75aab"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-1F9BDD95E92A3639-64x256-0-0-252x108-P0-15.png",
+      "sha256": "4f5d97470df0f7cf8c36f0f19e32c88f531adacbef2fbb5df76a43d0baf1c584"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-7FA7ABE4DBD7A20F-64x256-0-0-252x108-P0-15.png",
+      "sha256": "6f96ceb887b6dc4bf16473abed9fa73d16ffbbb62c908d363d3b91a0ce358e75"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-A37DFA8336CD2FC7-64x256-0-0-252x108-P0-15.png",
+      "sha256": "e19777747ea99a0d770791ca48c78470be0513e961d30b0526fb73669bf4ea4a"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-AC64BD0B34CD4DBE-64x256-0-0-252x108-P0-15.png",
+      "sha256": "8ff42aac99eedf0af80a6bed59eae4c7eb7c7052be56edebe03a4cdd6694bc30"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-D440A040EAA21F84-64x256-0-0-252x108-P0-15.png",
+      "sha256": "bdf1d5fadaabdd0aae1b9b719b9553eacb41f63061f9f99b06b663656fba8dc2"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-D45C39FFA626E99E-64x256-0-0-252x108-P0-15.png",
+      "sha256": "85c8d726db9d40ce6d7d30d74ca2dfbc67404acb5b640863324de4ff31b5ffb6"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-D927CFCFEC5B4154-64x256-0-0-252x108-P0-15.png",
+      "sha256": "eca7721e75e1ea779ab4283486d94ceba7b6ab95cff3384e7a5d3c12edea80ec"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-D9BF3D211F8FA474-64x256-0-0-252x108-P0-15.png",
+      "sha256": "97e4485201837f9e40a36a4cd5e94f454e7ed0b884c687009422974410327d3e"
+    },
+    {
+      "filename": "texpage-STP4-C5DBCE552D387569-69491D7E26769824-64x256-0-75-252x21-P0-15.png",
+      "sha256": "e37650ade4f4bec044871c75653d09b774991ffc7dd8714e6cdd4d16333c6548"
+    },
+    {
+      "filename": "texpage-STP4-C5DBCE552D387569-91271A90116ED761-64x256-0-75-252x21-P0-15.png",
+      "sha256": "d56804dead6d279ddaf347b50a3b27f0da72a94c765fd9ca607dae839b96cdcf"
+    },
+    {
+      "filename": "texpage-STP4-C5DBCE552D387569-949BF2FB15C35AF8-64x256-0-75-252x21-P0-15.png",
+      "sha256": "1da106539ff0352bc636ca9d2ed7e911a47ed29b25f4ea3b6fe8cc965b2bd83c"
+    },
+    {
+      "filename": "texpage-STP4-C5DBCE552D387569-9F8A5175F34347CA-64x256-0-75-252x21-P0-15.png",
+      "sha256": "d3c5da6b4d9d34c1640bbe2e1feca7c597e2b7c5822b89e20f2f2b420e1ba835"
+    },
+    {
+      "filename": "texpage-STP4-CE6C0807FBBE79F2-69491D7E26769824-64x256-32-8-8x8-P0-15.png",
+      "sha256": "6523062da70ab1b814cec21ad517e73001d0b83b328ec7e8971e7849f68bfe80"
+    },
+    {
+      "filename": "texpage-STP4-CE6C0807FBBE79F2-91271A90116ED761-64x256-32-8-8x8-P0-15.png",
+      "sha256": "2df66fc8b175311c05fef0c4e07e0f72513049dff263617b796d1cb727f1de69"
+    },
+    {
+      "filename": "texpage-STP4-CE6C0807FBBE79F2-949BF2FB15C35AF8-64x256-32-8-8x8-P0-15.png",
+      "sha256": "3ae4a2f79d34397f0ceb12c305c526aa9d43d6f8469631f12a0e13f1df260897"
+    },
+    {
+      "filename": "texpage-STP4-CE6C0807FBBE79F2-9F8A5175F34347CA-64x256-32-8-8x8-P0-15.png",
+      "sha256": "c79041b95064b4b22350c19beb0fa4d5ffb49e1836f11774b142273b3054351f"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-69491D7E26769824-64x256-0-64-220x10-P0-15.png",
+      "sha256": "dfb39f4da2bda8f1e06a10e8648d7372df0fbef1581693ec505c9a85fc716403"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-91271A90116ED761-64x256-0-64-220x10-P0-15.png",
+      "sha256": "c07fc25a641da157029bc129709e437435e109171316c932f27791a1041e1bcf"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-949BF2FB15C35AF8-64x256-0-64-220x10-P0-15.png",
+      "sha256": "f09026022c1695715749a3e320d5eb056c7d344f9431af3d2f96b7e0283fab91"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-9F8A5175F34347CA-64x256-0-64-220x10-P0-15.png",
+      "sha256": "eeb1353a60a864d9815dbc81708b9ff61674e20f62c5b38ad539a0c79c22c4ab"
     }
   ],
-  "original_prototype_worked_per_user_report": true,
-  "this_revision_in_game_verified": true,
-  "android_playtest_performed": true,
-  "validation": {
-    "all_123_glyphs_present": true,
-    "all_glyph_bounds_match_original": true,
-    "high_resolution_contour_detail_present": true,
-    "seven_palette_ids_and_texture_hash_verified": true,
-    "untargeted_native_cells_preserved": true,
-    "observed_game_page_hashes_match_source": [
-      "texpage-P4-6C9F095D62A06F67-D440A040EAA21F84-64x256-0-108-252x97-P0-15.png",
-      "texpage-P4-8EFE3C09C4E7267B-D440A040EAA21F84-64x256-0-108-256x97-P0-15.png"
-    ],
-    "style_direction_approved_by_user": true,
-    "windows_test_copy_matches_this_revision": true,
-    "windows_emulator_registered_all_seven_replacements": true,
-    "this_revision_in_game_verified": true,
-    "android_playtest_performed": true,
-    "android_verification_method": "Maintainer-reported Android import and gameplay test; no Android screenshot recorded"
+  "disc_modified": false,
+  "original_game_advance_tables_modified": false,
+  "external_font_substitution": false,
+  "coverage": {
+    "dialogue_glyphs": 123,
+    "menu_glyphs": 145,
+    "small_and_large_value_digits": 20,
+    "compact_ui_letters_and_digits": 36,
+    "fixed_ui_labels": 12,
+    "current_max_separator": 1,
+    "additional_text_and_symbol_sprites": 20
   },
-  "playtest_evidence": {
-    "date": "2026-10-14",
-    "platform": "Windows",
-    "emulator_version": "0.1-12083-g00e299795",
-    "windows_dialogue_screenshot_verified": true,
-    "scope": "Two visible dialogue bubbles in the opening scene, supplied by the user and visually inspected. This is not a full-game or all-glyph playtest.",
-    "screenshot": "assets/windows-dialogue-v0.2.png",
-    "screenshot_sha256": "efa9e2b267714261b4325f5e39db52995554a12738ca762805160aecbc3b80f2",
-    "replacement_png_sha256": {
-      "texpage-STP4-1ED72322D46CD91B-D440A040EAA21F84-64x256-0-108-252x96-P0-15.png": "dbcf39b46d5d69c35222315e6470b8c93aa94b3fb39dd7fa07007ed10e67e21d",
-      "texpage-STP4-1ED72322D46CD91B-D927CFCFEC5B4154-64x256-0-108-252x96-P0-15.png": "7095910082546bee4780d2f0f91b4ad236c4c59418408234ec0d9c197166e618",
-      "texpage-STP4-1ED72322D46CD91B-D45C39FFA626E99E-64x256-0-108-252x96-P0-15.png": "51324f3f04b23626afe853252ce7a5dca9d32be42a084bb7159c67c606f64665",
-      "texpage-STP4-1ED72322D46CD91B-D9BF3D211F8FA474-64x256-0-108-252x96-P0-15.png": "bdbce35e5c4d7d92f427ec3f59897987dfcbd450ac8a9ca97d3dac3e65c8b713",
-      "texpage-STP4-1ED72322D46CD91B-91271A90116ED761-64x256-0-108-252x96-P0-15.png": "db473710b10a752e333460bcdc359fba3661c57f76da94dfe4ed140ab7c3ed41",
-      "texpage-STP4-1ED72322D46CD91B-949BF2FB15C35AF8-64x256-0-108-252x96-P0-15.png": "e6f5afe379ef229a87ed3049f8d8faabd4a58d2c0675ab441cd9b4094b7dc4aa",
-      "texpage-STP4-1ED72322D46CD91B-69491D7E26769824-64x256-0-108-252x96-P0-15.png": "530a8e707600d2a42778f9e793a2e311b4dc6a5864c762aabd1164fbbf697674"
+  "rough_progress": {
+    "percent": 80,
+    "kind": "Subjective estimate of planned font/text restoration work, not measured sprite coverage or playtest completion",
+    "basis": "Major dialogue/menu/compact UI banks reconstructed; dozens of baked labels, rare glyphs, alternate paths and validation still remain",
+    "excludes": "Other UI artwork, world textures, full-game testing"
+  },
+  "windows": {
+    "version": "0.1-12083-g00e299795",
+    "renderer": "Vulkan",
+    "resolution_scale": 5,
+    "texture_filter": "Nearest",
+    "sprite_filter": "Nearest",
+    "limited_scenes": true,
+    "compact_punctuation_rendered": 16,
+    "source_only_new_sprites": [
+      "small unknown-value mark",
+      "large unknown-value mark",
+      "NO.",
+      "save-time colon"
+    ],
+    "non_text_preservation": "Selected matching-frame tests only; see docs/evidence/punctuation-rendering.json"
+  },
+  "android": {
+    "version": "0.1-8969-g611bb8fb4",
+    "verification_method": "Maintainer reports expanded menu pack running; reported PGXP artifacts disappear when disabled. No device model or hash-bound phone framebuffer recorded.",
+    "import_contract_verified": true,
+    "full_51_file_hash_bound_device_test": false,
+    "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest"
+  },
+  "screenshots": {
+    "equipment-v0.3.png": {
+      "sha256": "d5c34731239b5d25e418c75b5127524dcf1c9a3b2102286ece16b8de2af8909b",
+      "size": [
+        2775,
+        1858
+      ]
     },
-    "android_playtest_performed": true,
-    "android": {
-      "date": "2026-10-14",
-      "emulator_version": "0.1-8969-g611bb8fb4",
-      "import_verified_per_user_report": true,
-      "rendering_verified_per_user_report": true,
-      "verification_method": "Maintainer-reported Android import and gameplay test; no Android screenshot recorded",
-      "texture_filtering": "Nearest Neighbor",
-      "sprite_texture_filtering": "Nearest Neighbor",
-      "device_model": "not recorded",
-      "scope": "Maintainer reports the pack worked well after resetting both texture filters to Nearest Neighbor. Not a full-game or all-device playtest.",
-      "tested_zip_sha256": "4cf59f3eb8165e37bfa0ef76d77ef5e85d099b1cafb819f2a8a56dec95d33ac2"
+    "windows-command-v0.3.png": {
+      "sha256": "844ebcc1fdb31ecda901eeeb205578ec1c588f79ab3b15f3f969e9f75904507f",
+      "size": [
+        1360,
+        659
+      ]
+    },
+    "windows-command-native.png": {
+      "sha256": "f9bda974658dba0b082835e585c1e8f5002e58137c805d1b38b43f35d9056006",
+      "size": [
+        1360,
+        659
+      ]
+    },
+    "punctuation-renderer-comparison.png": {
+      "sha256": "3760f625f35ec76c06801934fc8c9d69a0524c5829b8a947d8ddf87a33b62de7",
+      "size": [
+        606,
+        583
+      ]
+    },
+    "pgxp-old-core-comparison.png": {
+      "sha256": "7f10360184805c49662abf7cc00d4e291947a4578a2555676f33f12ff6ec4fe9",
+      "size": [
+        1164,
+        505
+      ]
     }
-  }
+  },
+  "previous_release": "docs/v0.2/verification.json"
 }

@@ -10,6 +10,7 @@ import json
 import re
 import struct
 import zipfile
+from datetime import date
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,6 +40,8 @@ def main():
     manifest = json.loads((ROOT / "verification.json").read_text(encoding="utf-8"))
     count = manifest["pngs"]
     version = manifest.get("package_version", "0.3")
+    release_date = date.fromisoformat(manifest["date"])
+    require(1980 <= release_date.year <= 2107, "Release date outside ZIP range")
     require(re.fullmatch(r"[0-9]+\.[0-9]+(?:-[a-z0-9]+)?", version), "Invalid package version")
     records = manifest["files"]
     expected = {f["filename"]: f["sha256"] for f in records}
@@ -85,7 +88,7 @@ def main():
         path = out / f"vagrant-story-font-v{version}-{platform}.zip"
         with zipfile.ZipFile(path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
             for name, data in sorted(payload.items()):
-                info = zipfile.ZipInfo(name, date_time=(2026, 10, 15, 0, 0, 0))
+                info = zipfile.ZipInfo(name, date_time=(*release_date.timetuple()[:3], 0, 0, 0))
                 info.compress_type = zipfile.ZIP_DEFLATED
                 info.create_system = 3
                 info.external_attr = 0o100644 << 16

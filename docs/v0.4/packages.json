@@ -1,0 +1,26 @@
+{
+  "version": "0.4-beta",
+  "tag": "v0.4-beta",
+  "date": "2026-10-16",
+  "pack_fingerprint": "0451986b351213db5fb2fce38f175d8a714450f9a37713f6a1a00e6f1c836c56",
+  "assets": [
+    {
+      "name": "vagrant-story-font-v0.4-android.zip",
+      "bytes": 5458029,
+      "sha256": "eda235d0f147613bb87527e5fb5b65be6c9393989a5c759839c6fec0a259042c"
+    },
+    {
+      "name": "vagrant-story-font-v0.4-desktop.zip",
+      "bytes": 5457649,
+      "sha256": "ad486958dad7034c4c7aa011231382b69a86048d3956470e0bcb15bec57e3b7c"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 206,
+      "sha256": "e868766ca4e6fc00818d9de55f456730de6340f382be0e75688e65fd85195ea3"
+    }
+  ],
+  "pngs": 59,
+  "android_import_layout_verified": true,
+  "final_payload_Android_device_tested": false
+}

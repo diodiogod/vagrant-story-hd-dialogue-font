@@ -1,0 +1,1144 @@
+{
+  "state_sha256": "e11101701cbd09856ce562f8568fdcaf0e381541eb8bb54d5c5ac8cbd3daac40",
+  "palettes": [
+    {
+      "clut": [
+        832,
+        223
+      ],
+      "palette_hash": "9F8A5175F34347CA",
+      "dark_index": 1,
+      "native_dark_rgba": [
+        24,
+        24,
+        24,
+        128
+      ],
+      "saved_state_palette_matches": true
+    },
+    {
+      "clut": [
+        848,
+        223
+      ],
+      "palette_hash": "91271A90116ED761",
+      "dark_index": 1,
+      "native_dark_rgba": [
+        16,
+        16,
+        16,
+        128
+      ],
+      "saved_state_palette_matches": true
+    },
+    {
+      "clut": [
+        864,
+        223
+      ],
+      "palette_hash": "949BF2FB15C35AF8",
+      "dark_index": 1,
+      "native_dark_rgba": [
+        0,
+        0,
+        0,
+        128
+      ],
+      "saved_state_palette_matches": true
+    },
+    {
+      "clut": [
+        880,
+        223
+      ],
+      "palette_hash": "69491D7E26769824",
+      "dark_index": 1,
+      "native_dark_rgba": [
+        24,
+        24,
+        24,
+        128
+      ],
+      "saved_state_palette_matches": true
+    }
+  ],
+  "source": "Native VRAM in maintainer equipment slot 3; independent full-atlas match",
+  "compact_glyphs": [
+    {
+      "key": "ui-0",
+      "character": "0",
+      "rect": [
+        54,
+        76,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 29,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "039c36bf2c92a66477972b37e70b07b592d48355dfbf76db53760d3ae27a1501"
+    },
+    {
+      "key": "ui-1",
+      "character": "1",
+      "rect": [
+        64,
+        76,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 20,
+      "native_face_bounds": [
+        3,
+        2,
+        6,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "97b4c9ae8ae3b040d71d337addc2eea127e55ae8da6c62a19d1674462dc4a5f3"
+    },
+    {
+      "key": "ui-2",
+      "character": "2",
+      "rect": [
+        74,
+        76,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 28,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "b63bff7bc53c05431d3fd9d580d027e74384b352e6bca094264c2d5ab9b2d80f"
+    },
+    {
+      "key": "ui-3",
+      "character": "3",
+      "rect": [
+        84,
+        76,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 30,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "7737f11573f4900358114dae7835943e84b3bb3caf71b4df6a8e41efeadc43dd"
+    },
+    {
+      "key": "ui-4",
+      "character": "4",
+      "rect": [
+        94,
+        76,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 27,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "837cbee31b32fe0daad827e76d7d931774c8e71b863cf43022010cbd4214de07"
+    },
+    {
+      "key": "ui-5",
+      "character": "5",
+      "rect": [
+        104,
+        76,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 37,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "157cb091b47ddcf9f0ed3552320d72eb392f6158e22f5b685699410b8c942280"
+    },
+    {
+      "key": "ui-6",
+      "character": "6",
+      "rect": [
+        114,
+        76,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 25,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "a0b1028016a535ae52d781cab08ce1f32b6244fc201a44c05cb68e1788af161e"
+    },
+    {
+      "key": "ui-7",
+      "character": "7",
+      "rect": [
+        124,
+        76,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 28,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "8cb1b976aa85b85a4f34293c9c5a8e06dd2cdb4ab294f02decd5429a82c376b5"
+    },
+    {
+      "key": "ui-8",
+      "character": "8",
+      "rect": [
+        134,
+        76,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 28,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "1db8158065e42516b34ecdace3df547dad475ee635f2426bfe8262d0dcb83e32"
+    },
+    {
+      "key": "ui-9",
+      "character": "9",
+      "rect": [
+        144,
+        76,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 29,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "f23be8ec848a695824b131789c86cc367f083e0337c6f5be3a6aa692c1bc7bdb"
+    },
+    {
+      "key": "ui-A",
+      "character": "A",
+      "rect": [
+        0,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 24,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "22d42149007c141698f6b787c2b9084041c13621a3e827cebbb2efc789e22b7c"
+    },
+    {
+      "key": "ui-B",
+      "character": "B",
+      "rect": [
+        10,
+        86,
+        8,
+        10
+      ],
+      "native_dark_index_pixels": 21,
+      "native_face_bounds": [
+        1,
+        2,
+        7,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "9ad0bb6845a80da715ade8c1cea209182c55592877b559c616c72456dcd8a06b"
+    },
+    {
+      "key": "ui-C",
+      "character": "C",
+      "rect": [
+        18,
+        86,
+        8,
+        10
+      ],
+      "native_dark_index_pixels": 28,
+      "native_face_bounds": [
+        1,
+        2,
+        7,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "70d0521d9d68236eaab55b2fc23e861d40602d2643d6d87a0830129d30993cb9"
+    },
+    {
+      "key": "ui-D",
+      "character": "D",
+      "rect": [
+        26,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 34,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "57295631c802ef6bca69469059bdbc3f09cfe7bc8f613fcfe3ee42d0fac571b4"
+    },
+    {
+      "key": "ui-E",
+      "character": "E",
+      "rect": [
+        36,
+        86,
+        8,
+        10
+      ],
+      "native_dark_index_pixels": 29,
+      "native_face_bounds": [
+        1,
+        2,
+        7,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "cb7a432e5ecea46c73ccc3a564d193314533470230100f83b4081e9f772dffb8"
+    },
+    {
+      "key": "ui-F",
+      "character": "F",
+      "rect": [
+        44,
+        86,
+        8,
+        10
+      ],
+      "native_dark_index_pixels": 29,
+      "native_face_bounds": [
+        1,
+        2,
+        7,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "0649d6cd12f4b3aec6c0f623d28324aa706d13d628399605492e16afa3b0924b"
+    },
+    {
+      "key": "ui-G",
+      "character": "G",
+      "rect": [
+        52,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 33,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "884f0ee40c6a982eb0aea230b9189f6fcbe25c55b20aa66b25eff1f68cabc57c"
+    },
+    {
+      "key": "ui-H",
+      "character": "H",
+      "rect": [
+        62,
+        86,
+        8,
+        10
+      ],
+      "native_dark_index_pixels": 40,
+      "native_face_bounds": [
+        1,
+        2,
+        7,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "e9c7492ef8871f581f7a229e4da6a7eed018ab11f84f13f20b0b0b2c97d744c2"
+    },
+    {
+      "key": "ui-I",
+      "character": "I",
+      "rect": [
+        70,
+        86,
+        4,
+        10
+      ],
+      "native_dark_index_pixels": 22,
+      "native_face_bounds": [
+        1,
+        2,
+        2,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          1,
+          0
+        ],
+        "changed": true,
+        "before_clipped_surround_pixels": 56,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "324ee67b5cbfa54b8f9cafcb72b551a8f70371d237460c1d4bfc1d2c31a10ffa"
+    },
+    {
+      "key": "ui-J",
+      "character": "J",
+      "rect": [
+        74,
+        86,
+        7,
+        10
+      ],
+      "native_dark_index_pixels": 25,
+      "native_face_bounds": [
+        1,
+        2,
+        6,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "ba19c62474fa3cd0e1ae7760445b73bc21a8be8b46761848e8d7c8c3e398e6ba"
+    },
+    {
+      "key": "ui-K",
+      "character": "K",
+      "rect": [
+        82,
+        86,
+        8,
+        10
+      ],
+      "native_dark_index_pixels": 29,
+      "native_face_bounds": [
+        1,
+        2,
+        7,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "b889262d91fce278d87e42809fc4739f2f96d3c38fb6d6c91c70f368b24f9d2e"
+    },
+    {
+      "key": "ui-L",
+      "character": "L",
+      "rect": [
+        90,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 28,
+      "native_face_bounds": [
+        2,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          -1,
+          0
+        ],
+        "changed": true,
+        "before_clipped_surround_pixels": 12,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "54b08dfd50ad3a93fd997768a9d6c0537409358076274aaad44f9daf9984b590"
+    },
+    {
+      "key": "ui-M",
+      "character": "M",
+      "rect": [
+        100,
+        86,
+        11,
+        10
+      ],
+      "native_dark_index_pixels": 42,
+      "native_face_bounds": [
+        1,
+        2,
+        9,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "436e5eaf1a34dd27ce2ee3ba3344da7a852f606d697a47f3ad699af0f93c1aa9"
+    },
+    {
+      "key": "ui-N",
+      "character": "N",
+      "rect": [
+        112,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 36,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "e85039007d28d6f6d18248ff46f419e071647656f6dd524534cce825d1073210"
+    },
+    {
+      "key": "ui-O",
+      "character": "O",
+      "rect": [
+        122,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 28,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "92fd603183594b40592b1ddff88f34938f423f4e1487bcbbbd18d8c18f1594a8"
+    },
+    {
+      "key": "ui-P",
+      "character": "P",
+      "rect": [
+        132,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 29,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "c1dff837a11724b8b10b58d5ebb9796426049f6b3e4a9337edadd84d89f3b74e"
+    },
+    {
+      "key": "ui-Q",
+      "character": "Q",
+      "rect": [
+        142,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 27,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "8c112f4904c876eab4b44bfe1d7dea2399b5e23dd8b1b5f8b0498ef392734c98"
+    },
+    {
+      "key": "ui-R",
+      "character": "R",
+      "rect": [
+        152,
+        86,
+        8,
+        10
+      ],
+      "native_dark_index_pixels": 30,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "22d4caacacc6f23976adf76c316cf3095e1112f2b81f10c8b7360e30a38c0fc6"
+    },
+    {
+      "key": "ui-S",
+      "character": "S",
+      "rect": [
+        160,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 30,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "9f922df5e4560de6617a10f5671539872df698fe196d70e1c07dc1db9b35a987"
+    },
+    {
+      "key": "ui-T",
+      "character": "T",
+      "rect": [
+        170,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 32,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "4dea151abdd10f40404a0228cbef3d38069a69c2dcbd40291f0805defded86a8"
+    },
+    {
+      "key": "ui-U",
+      "character": "U",
+      "rect": [
+        180,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 43,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "94feef867c845aae01ac5555619e30210144fae874e0019259ff0b22cf36dd3b"
+    },
+    {
+      "key": "ui-V",
+      "character": "V",
+      "rect": [
+        190,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 28,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "54460984c332428be8ac4d52519acab80d30235b0b96f3127dd38fc1dc0793dc"
+    },
+    {
+      "key": "ui-W",
+      "character": "W",
+      "rect": [
+        200,
+        86,
+        13,
+        10
+      ],
+      "native_dark_index_pixels": 43,
+      "native_face_bounds": [
+        1,
+        2,
+        12,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "a893d7ef874071a82882a840ad2d1b5ab348eaaf693836d0e418402fcf33f81f"
+    },
+    {
+      "key": "ui-X",
+      "character": "X",
+      "rect": [
+        214,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 32,
+      "native_face_bounds": [
+        2,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          -1,
+          0
+        ],
+        "changed": true,
+        "before_clipped_surround_pixels": 2,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "f6b8fefb4a034ce7fbedf361f792d2612fc9d47209dcc2ad9003825035af82bf"
+    },
+    {
+      "key": "ui-Y",
+      "character": "Y",
+      "rect": [
+        224,
+        86,
+        8,
+        10
+      ],
+      "native_dark_index_pixels": 25,
+      "native_face_bounds": [
+        1,
+        2,
+        7,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 0.8421052631578947,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": true,
+        "before_clipped_surround_pixels": 54,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "0159c57c9c9de9591f668fe047ad8e056f202e4038b910a554ee553092a7a9a7"
+    },
+    {
+      "key": "ui-Z",
+      "character": "Z",
+      "rect": [
+        232,
+        86,
+        9,
+        10
+      ],
+      "native_dark_index_pixels": 38,
+      "native_face_bounds": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "packing": {
+        "horizontal_scale": 1.0,
+        "translation_hd": [
+          0,
+          0
+        ],
+        "changed": false,
+        "before_clipped_surround_pixels": 0,
+        "clipped_surround_pixels": 0
+      },
+      "mask_sha256": "621a6f0cf81477ec3dc7f59d22b00475565ae2210fcc29bc339915a99d19fd51"
+    }
+  ],
+  "other_font_families": {
+    "fixed_ui_labels": [
+      {
+        "key": "label-HP",
+        "native_dark_index_pixels": 56,
+        "decision": "Native dark surround restored in v15; unchanged here"
+      },
+      {
+        "key": "label-MP",
+        "native_dark_index_pixels": 60,
+        "decision": "Native dark surround restored in v15; unchanged here"
+      },
+      {
+        "key": "label-RISK",
+        "native_dark_index_pixels": 69,
+        "decision": "Native dark surround restored in v15; unchanged here"
+      },
+      {
+        "key": "label-WT",
+        "native_dark_index_pixels": 70,
+        "decision": "Native dark surround restored in v15; unchanged here"
+      },
+      {
+        "key": "label-COMMAND",
+        "native_dark_index_pixels": 230,
+        "decision": "Native dark edge exists; fixed-word treatment needs its own scene/blend review, unchanged here"
+      },
+      {
+        "key": "label-MENU",
+        "native_dark_index_pixels": 140,
+        "decision": "Native dark edge exists; fixed-word treatment needs its own scene/blend review, unchanged here"
+      },
+      {
+        "key": "label-WARNING",
+        "native_dark_index_pixels": 205,
+        "decision": "Native dark edge exists; fixed-word treatment needs its own scene/blend review, unchanged here"
+      },
+      {
+        "key": "label-HELP",
+        "native_dark_index_pixels": 123,
+        "decision": "Native dark edge exists; fixed-word treatment needs its own scene/blend review, unchanged here"
+      },
+      {
+        "key": "label-CAUTION",
+        "native_dark_index_pixels": 27,
+        "decision": "Separate footer/copy path; deferred, no black masking"
+      },
+      {
+        "key": "label-CHECK",
+        "native_dark_index_pixels": 49,
+        "decision": "Separate footer/copy path; deferred, no black masking"
+      },
+      {
+        "key": "label-INFORMATION",
+        "native_dark_index_pixels": 57,
+        "decision": "Separate footer/copy path; deferred, no black masking"
+      },
+      {
+        "key": "label-INFO",
+        "native_dark_index_pixels": 82,
+        "decision": "Native dark edge exists; fixed-word treatment needs its own scene/blend review, unchanged here"
+      }
+    ],
+    "serif_white_menu_font": "Separate grayscale additive palette; accepted glow unchanged byte-for-byte",
+    "old_style_HUD_digits": "Existing native dark surrounds retained",
+    "dialogue": "Separate handwritten font; unchanged",
+    "universal_white_font_glow_applied": false
+  }
+}

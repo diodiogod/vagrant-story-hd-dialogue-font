@@ -3,21 +3,21 @@
 An 8x font pack for **DuckStation · Vagrant Story USA (SLUS-01040)**.
 Sharper dialogue, menus and HUD text, keeping the original style and spacing.
 
-**v0.3 beta:** [Android ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.3-beta/vagrant-story-font-v0.3-android.zip) · [Desktop ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.3-beta/vagrant-story-font-v0.3-desktop.zip) · [Release notes](RELEASE-NOTES.md)
+**v0.4 beta:** [Android ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.4-beta/vagrant-story-font-v0.4-android.zip) · [Desktop ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.4-beta/vagrant-story-font-v0.4-desktop.zip) · [Release notes](RELEASE-NOTES.md)
 
-![Equipment menu](assets/equipment-v0.3.png)
+![Equipment menu](assets/equipment-v0.4.png)
 
 ## What's new
 
-- 145 reconstructed menu glyphs, alongside the existing 123 dialogue glyphs.
-- HD HUD letters, labels and small/large numbers with dark borders.
-- Sharper punctuation and a round HP/MP separator.
-- 51 replacement PNGs. Other game artwork stays original.
+- More even menu heights, baselines and spacing.
+- Restored native dark borders on UI letters, numbers and HUD labels.
+- Sharp MAP, SAVE, CLEAR and TIME; soft grayscale glow on white menu text.
+- 59 replacement PNGs. Dialogue and other game artwork are unchanged.
 
 **Rough font/text progress: 80%.** Remaining fixed labels and rare symbols are
 on the [roadmap](docs/COVERAGE.md). Other UI artwork is planned for later.
 
-Latest source includes [save labels, restored borders and menu-font alignment fixes](CHANGELOG.md).
+[Visual changelog and comparisons](CHANGELOG.md).
 
 ## Install
 
@@ -43,16 +43,14 @@ Extract the **Desktop ZIP** into DuckStation's `textures` folder so it contains
 and restart the game.
 
 Upgrading an experimental menu/UI pack? Back it up and remove its old
-replacements first. Published dialogue-only v0.2 can be upgraded by import.
+replacements first. Published v0.2/v0.3 can be upgraded by import.
 [Installation help and troubleshooting](docs/INSTALL.md).
 
 ## Screenshots
 
 ![Dialogue](assets/windows-dialogue-v0.2.png)
 
-![Command menu and HUD](assets/windows-command-v0.3.png)
-
-[Native menu](assets/windows-command-native.png) · [HD menu](assets/windows-command-v0.3.png) · [Punctuation comparison](assets/punctuation-renderer-comparison.png)
+[UI borders](docs/images/compact-ui-labels-v0.4.png) · [Menu heights](docs/images/font-heights-preview.png)
 
 ## More
 

@@ -9,8 +9,8 @@ or proof of an exact match in every ambiguous detail.
 
 [Dialogue editing prompts](../editing-prompts.json) and
 [menu/UI editing records](editing-prompts-v0.3.json) document the work.
-[Unreleased editing records](editing-records-unreleased.json) cover the save labels
-and border repair. The repository also includes a [release packager](../tools/package_release.py).
+[v0.4 editing records](editing-records-v0.4.json) cover the save labels, font
+metrics and border repairs. The repository also includes a [release packager](../tools/package_release.py).
 
 - Original Vagrant Story art and typography: Square / original rights holders.
 - Font direction, selection and Windows/Android testing:

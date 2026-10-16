@@ -1,10 +1,25 @@
-# Unreleased
+# v0.4 beta — Original Style HD Fonts
 
 - Added sharp MAP, SAVE, CLEAR and TIME labels.
 - Restored dark surrounds on HP, MP, RISK and WT.
-- Added a [visual changelog](CHANGELOG.md) with comparisons.
 - Added a soft grayscale glow to white menu text, including save names.
 - Corrected menu spacing, baselines and character heights; refined compact UI font metrics.
+- Restored native dark borders on all 36 compact UI letters and digits.
+
+**59 PNGs at 8x.** The seven dialogue textures are unchanged.
+[Visual comparisons](CHANGELOG.md).
+
+Import the Android ZIP through **Transfer Data → ZIP file → Import**, without
+extracting it. Extract the desktop ZIP into DuckStation's textures folder.
+Published v0.2/v0.3 installations can be upgraded by import; remove obsolete
+experimental replacements first. [Installation](docs/INSTALL.md).
+
+Set **both texture filters to Nearest Neighbor**. On Android **0.1-8969**, keep
+**PGXP Geometry Correction off** for this game. This version was checked in
+selected Windows scenes; its complete payload has not been tested on Android.
+
+The faint native-text ghost under INFORMATION remains unresolved. Other fixed
+labels and rare glyphs still need work. [Testing and known issues](docs/TESTING.md).
 
 ---
 

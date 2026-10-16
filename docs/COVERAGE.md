@@ -1,6 +1,6 @@
 # Font coverage and roadmap
 
-Updated 2026-10-16. Current source: 59 PNGs; published v0.3: 51 PNGs, all at 8x.
+Updated 2026-10-16. v0.4 beta: 59 PNGs, all at 8x.
 Coverage describes reconstructed assets, separately from where they were tested.
 
 ## Rough progress estimate
@@ -13,8 +13,8 @@ Coverage describes reconstructed assets, separately from where they were tested.
 | Menu bank | 145 glyphs in the selected smooth design | Music note, Lv. and tilde; broader title/save/name-entry testing |
 | Value numbers | 10 small and 10 large digits; dark surround restored | More natural scenes and palette cases |
 | Unknown values | Small and large source designs | Natural game-screen validation |
-| Compact UI alphabet | 26 capitals, 10 digits, 16 punctuation marks | Broader natural-screen and Android testing |
-| Fixed labels | HP, MP, RISK, WT, COMMAND, MENU, WARNING, HELP, CAUTION, CHECK, INFORMATION, INFO; unreleased TIME/SAVE/CLEAR/MAP | Other baked text listed below; WT surround needs a natural-scene check |
+| Compact UI alphabet | 26 capitals, 10 digits with restored native surrounds; 16 punctuation marks | Broader natural-screen and Android testing |
+| Fixed labels | HP, MP, RISK, WT, COMMAND, MENU, WARNING, HELP, CAUTION, CHECK, INFORMATION, INFO, TIME, SAVE, CLEAR, MAP | Other baked text listed below; remaining fixed-label surround review; WT surround needs a natural-scene check |
 | Save text | NO. and save-time colon, captured in the memory-card load scene | Broader save/load testing |
 | Current/max separator | Round dot with dark surround | Artist's intended dot/diamond shape remains ambiguous |
 | CPU-composited text | Rendering path identified | Investigate text that may bypass ordinary glyph replacement |
@@ -27,7 +27,7 @@ restoration targets.
 
 ## Next: remaining text
 
-1. Review the remaining fixed-label surrounds and validate WT in-game.
+1. Review the remaining fixed-label surrounds, validate WT in-game, and investigate the INFORMATION framebuffer ghost.
 2. Audit WAITING for COMMAND, EXIT FACTORY, SET EQUIP, WORKSHOP and other fixed words.
 3. Restore remaining baked equipment/body/class/element labels such as WEAPONS,
    SHIELD, R.ARM, L.ARM, HEAD, BODY and LEGS. Some live body-part names already

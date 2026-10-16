@@ -1,6 +1,6 @@
 # Testing
 
-## Unreleased source
+## v0.4 beta
 
 Menu metrics are checked across 145 glyphs and all 21,025 pairs at the game's
 original advances. The compact UI bank is checked across 36 glyphs and 1,296
@@ -8,9 +8,15 @@ pairs, including native kerning. Cap height, x-height and baseline are checked
 separately. Accents, descenders and old-style HUD figures retain their roles.
 The [height comparisons](../CHANGELOG.md) are font-sheet specimens.
 
-Current Windows rendering was reviewed on the status page with DuckStation
-0.1-12083, Vulkan at 5x, both filters Nearest and PGXP on. This is limited scene
-coverage. Full-bank rendering and the new pack on Android remain unverified.
+The final payload was compared against native and previous HD text on the
+equipment page in DuckStation 0.1-12083, Vulkan at 5x, both filters Nearest and
+PGXP on. All 144 compact-character/palette surround checks pass; the six static
+affinity gauges match the preceding pack across 79,165 pixels. Complete-border
+checks cover the four small packing adjustments needed for I/L/X/Y.
+
+The earlier height revision also passed a status-page check; its menu-font
+PNGs are unchanged in this release. These are limited scenes. Full-bank rendered
+coverage and the complete v0.4 payload on Android remain unverified.
 
 **Known issue:** INFORMATION can show faint native lettering underneath the HD
 heading after a framebuffer copy. The pack keeps transparency; it does not mask
@@ -22,7 +28,8 @@ dialogue and old-style HUD digit PNGs are unchanged by the metric corrections.
 
 [Save-label measurements](evidence/save-labels.json) ·
 [HUD measurements](evidence/hud-borders.json) ·
-[Glow measurements](evidence/save-name-glow.json) · [Visual changelog](../CHANGELOG.md)
+[Glow measurements](evidence/save-name-glow.json) ·
+[Compact UI comparison](evidence/compact-ui-renderer.json) · [Visual changelog](../CHANGELOG.md)
 
 ## Published v0.3
 

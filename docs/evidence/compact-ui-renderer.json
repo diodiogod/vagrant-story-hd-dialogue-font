@@ -1,0 +1,404 @@
+{
+  "status": "passed",
+  "pack_fingerprint": "0451986b351213db5fb2fce38f175d8a714450f9a37713f6a1a00e6f1c836c56",
+  "previous_pack_fingerprint": "ed4d2c96de8dff17ef63211a403ea5abbdebd33c09ae5a639ab5ce8d538d3464",
+  "state_sha256": "e11101701cbd09856ce562f8568fdcaf0e381541eb8bb54d5c5ac8cbd3daac40",
+  "compact_glyphs": 36,
+  "palette_surround_checks": 144,
+  "compact_pairs": {
+    "pairs": 1296,
+    "solid_collisions": [],
+    "minimum_projected_clearance_native": -0.875
+  },
+  "dark_rim_overdraw_pairs": [
+    {
+      "pair": "DA",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "FC",
+      "hd_area_native_pixels": 0.5625,
+      "native_pixels": 1
+    },
+    {
+      "pair": "FL",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 2
+    },
+    {
+      "pair": "GC",
+      "hd_area_native_pixels": 1.875,
+      "native_pixels": 3
+    },
+    {
+      "pair": "GL",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 4
+    },
+    {
+      "pair": "GN",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 5
+    },
+    {
+      "pair": "GT",
+      "hd_area_native_pixels": 0.328125,
+      "native_pixels": 1
+    },
+    {
+      "pair": "HL",
+      "hd_area_native_pixels": 0.875,
+      "native_pixels": 6
+    },
+    {
+      "pair": "HN",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 7
+    },
+    {
+      "pair": "HX",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 2
+    },
+    {
+      "pair": "IZ",
+      "hd_area_native_pixels": 0.34375,
+      "native_pixels": 0
+    },
+    {
+      "pair": "KC",
+      "hd_area_native_pixels": 0.21875,
+      "native_pixels": 1
+    },
+    {
+      "pair": "LI",
+      "hd_area_native_pixels": 0.171875,
+      "native_pixels": 0
+    },
+    {
+      "pair": "LL",
+      "hd_area_native_pixels": 0.6875,
+      "native_pixels": 0
+    },
+    {
+      "pair": "LN",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "LS",
+      "hd_area_native_pixels": 0.171875,
+      "native_pixels": 0
+    },
+    {
+      "pair": "LX",
+      "hd_area_native_pixels": 0.265625,
+      "native_pixels": 1
+    },
+    {
+      "pair": "LZ",
+      "hd_area_native_pixels": 0.171875,
+      "native_pixels": 0
+    },
+    {
+      "pair": "PL",
+      "hd_area_native_pixels": 0.125,
+      "native_pixels": 2
+    },
+    {
+      "pair": "RD",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "RM",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "RN",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "RU",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "RX",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "RZ",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "SC",
+      "hd_area_native_pixels": 0.125,
+      "native_pixels": 2
+    },
+    {
+      "pair": "SE",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 2
+    },
+    {
+      "pair": "SG",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 2
+    },
+    {
+      "pair": "SL",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 2
+    },
+    {
+      "pair": "SM",
+      "hd_area_native_pixels": 0.171875,
+      "native_pixels": 2
+    },
+    {
+      "pair": "SN",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 2
+    },
+    {
+      "pair": "SS",
+      "hd_area_native_pixels": 0.078125,
+      "native_pixels": 1
+    },
+    {
+      "pair": "TC",
+      "hd_area_native_pixels": 0.28125,
+      "native_pixels": 0
+    },
+    {
+      "pair": "TE",
+      "hd_area_native_pixels": 0.140625,
+      "native_pixels": 0
+    },
+    {
+      "pair": "TF",
+      "hd_area_native_pixels": 0.34375,
+      "native_pixels": 1
+    },
+    {
+      "pair": "TN",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "UA",
+      "hd_area_native_pixels": 0.046875,
+      "native_pixels": 1
+    },
+    {
+      "pair": "UL",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 6
+    },
+    {
+      "pair": "WK",
+      "hd_area_native_pixels": 0.109375,
+      "native_pixels": 1
+    },
+    {
+      "pair": "WL",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "WM",
+      "hd_area_native_pixels": 0.109375,
+      "native_pixels": 1
+    },
+    {
+      "pair": "WN",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "WX",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "XC",
+      "hd_area_native_pixels": 0.578125,
+      "native_pixels": 0
+    },
+    {
+      "pair": "XL",
+      "hd_area_native_pixels": 0.375,
+      "native_pixels": 1
+    },
+    {
+      "pair": "XS",
+      "hd_area_native_pixels": 0.03125,
+      "native_pixels": 0
+    },
+    {
+      "pair": "XZ",
+      "hd_area_native_pixels": 0.03125,
+      "native_pixels": 0
+    },
+    {
+      "pair": "ZA",
+      "hd_area_native_pixels": 0.03125,
+      "native_pixels": 0
+    },
+    {
+      "pair": "ZL",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 1
+    },
+    {
+      "pair": "ZM",
+      "hd_area_native_pixels": 0.15625,
+      "native_pixels": 2
+    },
+    {
+      "pair": "ZN",
+      "hd_area_native_pixels": 0.0,
+      "native_pixels": 2
+    }
+  ],
+  "dark_rim_overlap_note": "Native kerning also overlaps some dark surrounds with neighbouring faces. Candidate overdraw is bounded against native controls; zero outline overlap is not claimed.",
+  "files_unchanged": 55,
+  "pixels_outside_36_compact_cells_unchanged": true,
+  "all_menu_font_and_glow_PNGs_unchanged": true,
+  "all_value_digit_and_dialogue_PNGs_unchanged": true,
+  "captures": [
+    {
+      "label": "Native",
+      "tag": "v21-equipment-native-1",
+      "frame_sha256": "d7534f3c453cf13d02de0487499e35c1e8846a37f2a5c33b316e11a5e107facb",
+      "replacements_enabled": false
+    },
+    {
+      "label": "Previous HD",
+      "tag": "v21-equipment-current-1",
+      "frame_sha256": "4a4dfb16a04814cd411a4537000ef16fbe1b1a0fa50b5b8978c69932f76f98e1",
+      "replacements_enabled": true
+    },
+    {
+      "label": "Restored dark surround",
+      "tag": "v21-equipment-border-1",
+      "frame_sha256": "5c2d8ce37fab001856a508f78573c1c50465c695985741a732cb53c1e416876a",
+      "replacements_enabled": true
+    }
+  ],
+  "actual_render_tested": true,
+  "duckstation": "0.1-12083-g00e299795",
+  "renderer": "Vulkan",
+  "resolution_scale": 5,
+  "filters": "Both Nearest",
+  "PGXP": true,
+  "presentation_frame": 3000,
+  "static_gauge_controls": [
+    {
+      "native_box": [
+        99,
+        66,
+        141,
+        70
+      ],
+      "output_box": [
+        1405,
+        596,
+        1760,
+        633
+      ],
+      "pixels": 13135,
+      "changed_pixels": 0
+    },
+    {
+      "native_box": [
+        99,
+        82,
+        141,
+        86
+      ],
+      "output_box": [
+        1405,
+        740,
+        1760,
+        778
+      ],
+      "pixels": 13490,
+      "changed_pixels": 0
+    },
+    {
+      "native_box": [
+        99,
+        98,
+        141,
+        102
+      ],
+      "output_box": [
+        1405,
+        885,
+        1760,
+        922
+      ],
+      "pixels": 13135,
+      "changed_pixels": 0
+    },
+    {
+      "native_box": [
+        99,
+        114,
+        141,
+        118
+      ],
+      "output_box": [
+        1405,
+        1030,
+        1760,
+        1067
+      ],
+      "pixels": 13135,
+      "changed_pixels": 0
+    },
+    {
+      "native_box": [
+        99,
+        130,
+        141,
+        134
+      ],
+      "output_box": [
+        1405,
+        1174,
+        1760,
+        1211
+      ],
+      "pixels": 13135,
+      "changed_pixels": 0
+    },
+    {
+      "native_box": [
+        99,
+        146,
+        141,
+        150
+      ],
+      "output_box": [
+        1405,
+        1319,
+        1760,
+        1356
+      ],
+      "pixels": 13135,
+      "changed_pixels": 0
+    }
+  ],
+  "full_frame_nontext_equality_claimed": false,
+  "full_36_glyph_rendered_coverage_claimed": false,
+  "Android_tested": false,
+  "user_visual_acceptance": true
+}

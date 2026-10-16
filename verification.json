@@ -1,11 +1,11 @@
 {
   "name": "Vagrant Story Original Style HD Fonts",
-  "version": "0.4-preview",
+  "version": "0.4-beta",
   "date": "2026-10-16",
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
   "pngs": 59,
-  "pack_fingerprint": "ed4d2c96de8dff17ef63211a403ea5abbdebd33c09ae5a639ab5ce8d538d3464",
+  "pack_fingerprint": "0451986b351213db5fb2fce38f175d8a714450f9a37713f6a1a00e6f1c836c56",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -197,19 +197,19 @@
     },
     {
       "filename": "texpage-STP4-C5DBCE552D387569-69491D7E26769824-64x256-0-75-252x21-P0-15.png",
-      "sha256": "804a13973c50ae4188b763bdf643c92edbce2638a6f129f81db66a71b211feae"
+      "sha256": "4d8ddf6d9748dd6f8dffef36a8e2985ca22f6d0ac8184da90e1c57df1b76104d"
     },
     {
       "filename": "texpage-STP4-C5DBCE552D387569-91271A90116ED761-64x256-0-75-252x21-P0-15.png",
-      "sha256": "cc49fb77635cd2405ceb8be43682ec0813d3c40e400830c3da24713de624b222"
+      "sha256": "7afab6bec3846a814d5601f3441c9a8666c5df3c4c2903af96d457c1fe1afa3d"
     },
     {
       "filename": "texpage-STP4-C5DBCE552D387569-949BF2FB15C35AF8-64x256-0-75-252x21-P0-15.png",
-      "sha256": "be23017ae68d084445d6b45782976afde1e07cc31be527228ba861e25d76cd68"
+      "sha256": "210497a729d3cd00d94d0c884a3b9e2ca1f44688e0be088bc3a123e1c2f21fb8"
     },
     {
       "filename": "texpage-STP4-C5DBCE552D387569-9F8A5175F34347CA-64x256-0-75-252x21-P0-15.png",
-      "sha256": "291a5a27a8d7621641d3d0411d896952823705eab5847815694cd365138c001a"
+      "sha256": "18346729a79d17c186d97534a0962657bd1e645ae83c4d3d2337e1cbb90ed1e2"
     },
     {
       "filename": "texpage-STP4-CE6C0807FBBE79F2-69491D7E26769824-64x256-32-8-8x8-P0-15.png",
@@ -273,6 +273,20 @@
       "compact_glyphs_audited": 36,
       "original_advance_and_kerning_tables_unchanged": true,
       "evidence": "docs/evidence/font-heights.json"
+    },
+    "compact_ui_surrounds": {
+      "glyphs": 36,
+      "palette_variants": 4,
+      "complete_surround_checks": 144,
+      "native_dark_index": 1,
+      "radius_hd_pixels": 6,
+      "packing_adjustments": [
+        "I",
+        "L",
+        "X",
+        "Y"
+      ],
+      "evidence": "docs/evidence/compact-ui-native.json"
     }
   },
   "rough_progress": {
@@ -289,65 +303,83 @@
     "sprite_filter": "Nearest",
     "PGXP": true,
     "limited_scenes": [
-      "Natural status page: R. ARM / Good. Use caution."
+      "Equipment class/affinity/type page; native/previous/restored comparison"
     ],
-    "scope": "Current pack reviewed on the natural status page. Font-sheet and pair checks cover the complete reconstructed menu/compact banks; full-bank rendered coverage is not claimed.",
-    "non_text_preservation": "Static HP/MP/RISK control identical to preceding metric preview; no full-frame equality claim.",
+    "scope": "Final payload tested in equipment scene. Menu height/status and older label/glow checks are retained at their own fingerprints. Full-game/full-bank rendered coverage is not claimed.",
+    "static_gauge_pixels_checked": 79165,
+    "static_gauge_pixels_changed": 0,
     "measurements": [
-      "docs/evidence/font-heights.json",
-      "docs/evidence/font-height-renderer.json"
+      "docs/evidence/compact-ui-renderer.json"
     ],
-    "previous_metric_preview_checks": {
+    "previous_height_revision_checks": {
       "version": "0.1-12083-g00e299795",
       "renderer": "Vulkan",
       "resolution_scale": 5,
       "texture_filter": "Nearest",
       "sprite_filter": "Nearest",
-      "limited_scenes": true,
-      "compact_punctuation_rendered": 16,
-      "source_only_new_sprites": [
-        "small unknown-value mark",
-        "large unknown-value mark",
-        "WT surround"
+      "PGXP": true,
+      "limited_scenes": [
+        "Natural status page: R. ARM / Good. Use caution."
       ],
-      "non_text_preservation": "Selected matching-frame tests only; see docs/evidence/punctuation-rendering.json",
-      "save_scene_rendered_words": [
-        "TIME",
-        "SAVE",
-        "CLEAR",
-        "MAP"
-      ],
-      "save_scene_rendered_labels": [
-        "HP",
-        "MP",
-        "NO.",
-        "save-time colon"
-      ],
-      "restored_hud_labels_rendered": [
-        "HP",
-        "MP",
-        "RISK"
-      ],
-      "source_only_restored_label": "WT",
-      "memory_card_pixels_outside_text_changed": 0,
-      "memory_card_pixels_outside_text_checked": 7690007,
-      "hud_pixels_outside_text_changed": 0,
-      "hud_pixels_outside_text_checked": 7727216,
-      "scope": "Current neutral-glow pack checked in memory-card load scene. Earlier labels/borders and HUD tests used the preceding nonglow preview; those label/HUD PNGs and all dialogue PNGs are unchanged.",
+      "scope": "Current pack reviewed on the natural status page. Font-sheet and pair checks cover the complete reconstructed menu/compact banks; full-bank rendered coverage is not claimed.",
+      "non_text_preservation": "Static HP/MP/RISK control identical to preceding metric preview; no full-frame equality claim.",
       "measurements": [
-        "docs/evidence/save-labels.json",
-        "docs/evidence/hud-borders.json",
-        "docs/evidence/save-name-glow.json"
+        "docs/evidence/font-heights.json",
+        "docs/evidence/font-height-renderer.json"
       ],
-      "label_border_test_pack_fingerprint": "ef549ea6b9dd123634bf01b32ffbe5f37b773af88a5859a719bc9f227a0ef45f",
-      "glow_pixels_outside_text_changed": 0,
-      "glow_pixels_outside_text_checked": 6873424,
-      "pack_fingerprint": "482f3fe4210a90e79ffd7eb244210ecfe8237c1d8af786f1c6860e374bc249b2"
+      "previous_metric_preview_checks": {
+        "version": "0.1-12083-g00e299795",
+        "renderer": "Vulkan",
+        "resolution_scale": 5,
+        "texture_filter": "Nearest",
+        "sprite_filter": "Nearest",
+        "limited_scenes": true,
+        "compact_punctuation_rendered": 16,
+        "source_only_new_sprites": [
+          "small unknown-value mark",
+          "large unknown-value mark",
+          "WT surround"
+        ],
+        "non_text_preservation": "Selected matching-frame tests only; see docs/evidence/punctuation-rendering.json",
+        "save_scene_rendered_words": [
+          "TIME",
+          "SAVE",
+          "CLEAR",
+          "MAP"
+        ],
+        "save_scene_rendered_labels": [
+          "HP",
+          "MP",
+          "NO.",
+          "save-time colon"
+        ],
+        "restored_hud_labels_rendered": [
+          "HP",
+          "MP",
+          "RISK"
+        ],
+        "source_only_restored_label": "WT",
+        "memory_card_pixels_outside_text_changed": 0,
+        "memory_card_pixels_outside_text_checked": 7690007,
+        "hud_pixels_outside_text_changed": 0,
+        "hud_pixels_outside_text_checked": 7727216,
+        "scope": "Current neutral-glow pack checked in memory-card load scene. Earlier labels/borders and HUD tests used the preceding nonglow preview; those label/HUD PNGs and all dialogue PNGs are unchanged.",
+        "measurements": [
+          "docs/evidence/save-labels.json",
+          "docs/evidence/hud-borders.json",
+          "docs/evidence/save-name-glow.json"
+        ],
+        "label_border_test_pack_fingerprint": "ef549ea6b9dd123634bf01b32ffbe5f37b773af88a5859a719bc9f227a0ef45f",
+        "glow_pixels_outside_text_changed": 0,
+        "glow_pixels_outside_text_checked": 6873424,
+        "pack_fingerprint": "482f3fe4210a90e79ffd7eb244210ecfe8237c1d8af786f1c6860e374bc249b2"
+      },
+      "pack_fingerprint": "ed4d2c96de8dff17ef63211a403ea5abbdebd33c09ae5a639ab5ce8d538d3464"
     }
   },
   "android": {
     "version": "0.1-8969-g611bb8fb4",
-    "verification_method": "Unreleased words/borders/glow have not been tested on Android. Prior maintainer-reported v0.3/v0.2 use is preserved in docs/v0.3/verification.json.",
+    "verification_method": "v0.4 import layout verified against the inspected Android 8969 importer; complete final v0.4 payload has not been device-tested. Earlier device reports remain in docs/v0.3.",
     "import_contract_verified": true,
     "full_51_file_hash_bound_device_test": false,
     "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
@@ -410,20 +442,44 @@
     },
     "docs/images/font-height-status-preview.png": {
       "sha256": "2cc95ef5fee9e58b968f753297b4e3b28f249a0172d2e6707c89bbd02d67fa7c"
+    },
+    "docs/images/compact-ui-labels-v0.4.png": {
+      "sha256": "f5b8a790c076a065eb32c9f655b501944ea0c988513daa9e6b24e05fd18185eb"
+    },
+    "docs/images/compact-ui-signs-v0.4.png": {
+      "sha256": "23f7b3b0bc619c45f3a8a8e4ed8733d5fb5e7058e37af89cb91ac8534249ee9b"
+    },
+    "docs/images/compact-ui-full-v0.4.png": {
+      "sha256": "59cba98890f7d9cac66a06f4d5a8bee36983e4719b7d8d3c91ba5e39c0309daf"
+    },
+    "equipment-v0.4.png": {
+      "sha256": "1c83bc8333861188c001c8750feea2e8151968e29ecd9951d3168e2ee2a95685",
+      "size": [
+        2700,
+        2024
+      ],
+      "original_frame_sha256": "5c2d8ce37fab001856a508f78573c1c50465c695985741a732cb53c1e416876a",
+      "crop_rectangle": [
+        570,
+        0,
+        3270,
+        2024
+      ]
     }
   },
   "previous_release": "docs/v0.3/verification.json",
-  "status": "unreleased source; v0.3 release downloads unchanged",
-  "package_version": "0.4-preview",
+  "status": "v0.4 beta release",
+  "package_version": "0.4",
   "unchanged_published_pngs": 23,
   "changed_published_pngs": 28,
   "added_pngs": 8,
   "user_visual_acceptance": {
     "glyph_design_accepted": true,
     "neutral_colour_requested": true,
-    "new_neutral_render_reviewed_by_user": false,
-    "evidence": "Maintainer requested native cap/x-height consistency and preserving intentional stylized heights. Full-bank comparisons prepared; this revision awaits visual review.",
-    "new_height_revision_reviewed_by_user": false
+    "menu_metric_revision_accepted": true,
+    "compact_border_revision_accepted": true,
+    "approved_pack_fingerprint": "0451986b351213db5fb2fce38f175d8a714450f9a37713f6a1a00e6f1c836c56",
+    "evidence": "Maintainer approved the native/previous/restored comparisons and explicitly requested a new release, commit and push."
   },
   "menu_glow": {
     "included_in_pack": true,
@@ -449,5 +505,6 @@
   },
   "known_issues": {
     "information_framebuffer_ghost": "Native framebuffer-copy lettering can remain beneath the HD heading. Transparency retained; no black-fill workaround included."
-  }
+  },
+  "release_packages": "docs/v0.4/packages.json"
 }

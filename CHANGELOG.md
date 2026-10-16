@@ -1,12 +1,17 @@
 # Visual changelog
 
-## Unreleased — previews
+## [v0.4 beta](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/tag/v0.4-beta) — 2026-10-16
 
 - Reconstructed MAP, SAVE, CLEAR and TIME.
 - Restored dark surrounds on HP, MP, RISK and WT.
 - Added a soft neutral glow to white menu text.
 - Corrected spacing, baselines and character heights across the menu font.
 - Checked the compact UI alphabet and digits; corrected spacing and two letter heights.
+- Restored native dark surrounds across all 36 compact UI letters and digits.
+
+![Native, previous HD and restored UI borders](docs/images/compact-ui-signs-v0.4.png)
+
+[Equipment-label comparison](docs/images/compact-ui-labels-v0.4.png).
 
 ![Native, previous HD and corrected character heights](docs/images/font-heights-preview.png)
 
@@ -25,7 +30,7 @@ The glow stays grayscale, matching the original palette, and is shared by
 save names and white menu text.
 [Green-menu comparison](docs/images/green-menu-glow-preview.png).
 
-These updates are in the source tree; the v0.3 downloads are unchanged.
+59 replacement PNGs; the seven dialogue textures are unchanged.
 
 ## [v0.3 beta](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/tag/v0.3-beta) — 2026-10-15
 

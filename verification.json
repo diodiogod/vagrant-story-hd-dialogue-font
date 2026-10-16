@@ -6,7 +6,7 @@
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
   "pngs": 101,
-  "pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+  "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -366,19 +366,19 @@
     },
     {
       "filename": "texpage-STP4-ECB5D35CFC197F2E-69491D7E26769824-64x256-72-160-68x56-P0-15.png",
-      "sha256": "1f3ed0e66cd1556f881fdf6f524b443e202c9a103fa1a4fd10761903cd52188e"
+      "sha256": "1526137de0183afcce90fc279218c558c47d5dce9ba3d3dd7a427176d93c5174"
     },
     {
       "filename": "texpage-STP4-ECB5D35CFC197F2E-91271A90116ED761-64x256-72-160-68x56-P0-15.png",
-      "sha256": "6decf3b29a79dd361481b807e5ad48b00b99c118e86ff2b0f3b920c58a76e900"
+      "sha256": "66ec1713da6ae17d4e95401bc9a6b229b2cd495e262c5cf33e9c71f6a4a84aa0"
     },
     {
       "filename": "texpage-STP4-ECB5D35CFC197F2E-949BF2FB15C35AF8-64x256-72-160-68x56-P0-15.png",
-      "sha256": "4c1e90394e7ebb1cc5a6ed9dd034b1f87bf926c3a71563b5430c83796b4dac99"
+      "sha256": "a8a80b426feceace0b5556772eb1684a2d49acd5ff1576d27485a7d59624a9ca"
     },
     {
       "filename": "texpage-STP4-ECB5D35CFC197F2E-9F8A5175F34347CA-64x256-72-160-68x56-P0-15.png",
-      "sha256": "b4e276087d2a3ba753e272349444c5bf5e0e1c56f4f5c4cae339894a5e111197"
+      "sha256": "e3a3c51e5350c546f2182b22d87fd69a9b7e9f5be431664b1b35242c7e66ecf6"
     },
     {
       "filename": "texpage-STP4-FE9EF826FAD28E95-69491D7E26769824-64x256-192-144-64x8-P0-15.png",
@@ -527,7 +527,8 @@
       "CHAIN",
       "DEFENSE"
     ],
-    "new_text_sprite_count": 66
+    "new_text_sprite_count": 66,
+    "affinity_popup_signs": 2
   },
   "rough_progress": {
     "percent": 90,
@@ -561,8 +562,13 @@
     "scope": "Controlled native drawing routines and notice quads. Natural-event timing, all palettes and a complete playthrough are not claimed.",
     "measurements": [
       "docs/evidence/combat-render-validation.json",
-      "docs/evidence/combat-fixed-labels-audit.json"
-    ]
+      "docs/evidence/combat-fixed-labels-audit.json",
+      "docs/evidence/affinity-popup-signs-rendered.json"
+    ],
+    "popup_sign_instances_checked": 13,
+    "combat_words_tested_pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+    "popup_sign_revision_tested_pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b",
+    "popup_sign_revision_scope": "Four popup atlas PNGs differ; all other 97 PNGs are byte-identical. Current frame matches the preceding pack outside all 13 sign quads, including popup words and values."
   },
   "android": {
     "version": "0.1-8969-g611bb8fb4",
@@ -571,7 +577,15 @@
     "pgxp_workaround": "Disable PGXP Geometry Correction per game; both filters Nearest Neighbor",
     "previous_device_reports": "docs/v0.4/verification.json",
     "lookup_coordinate_rule_verified_in_source": true,
-    "lookup_source_evidence": "docs/evidence/combat-lookup-contract.json"
+    "lookup_source_evidence": "docs/evidence/combat-lookup-contract.json",
+    "previous_supplied_v05_maintainer_report": {
+      "evidence": "Maintainer reported the supplied Android package looks great; only affinity + appeared blurry.",
+      "associated_package_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+      "associated_archive_sha256": "8d41784c37d11464600483ee370e74dbfe0b8d7c83322289fe7a3a18f0ae97f8",
+      "supplied_archive_device_report": true,
+      "device_capture_or_on_device_hash_recorded": false,
+      "current_popup_sign_revision_device_tested": false
+    }
   },
   "user_visual_acceptance": {
     "combat_comparison_accepted": true,

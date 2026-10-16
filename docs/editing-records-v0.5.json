@@ -916,5 +916,18 @@
         "reason": "Generated Q tail extended below native common baseline."
       }
     }
+  },
+  "affinity_popup_signs": {
+    "prompt": {
+      "prompt": "Use case: precise-object-edit. Asset type: two high-resolution face masks for Vagrant Story's small affinity-popup plus and minus signs. Image 1 is the native edit target, two cells in one row: left '+' and right '−'. Restore these EXACT plain arithmetic shapes with sharp antialiased outlines: flat horizontal bar and upright cross, square flat terminals with only very slightly softened raster corners. Preserve the cross's compact proportions, equally weighted horizontal/vertical strokes, its near-central crossing and the bar's original long/thin proportion. Infer a smooth edge through the native grayscale transition rather than retaining the coarse two-tone strip as a separate stripe. The gray pixels are uncertain subpixel edge evidence, NOT authorization for bevel, 3D relief, light source, shadow, glow, highlight, gradient fill, decorative serifs or new design. Output solid black face ink with grayscale antialiasing at the contour only, on a pure white background. Do not draw the dark game border: the original palette/outline is assembled separately. Keep the same two equal-width cells, generous white space, and only these two symbols. No labels, no extra marks. The plus and minus need to sit beside crisp HD lettering in the game's small coloured popup, with faithful source width/height and no blur.",
+      "referenced_image_paths": [
+        "J:/Aitools/decomp/personal-mods/hd-dialogue-font/font-expansion-v03/affinity-signs-v26/references/signs-native-edit.png"
+      ],
+      "transparent_background": false,
+      "generation": "built-in image_gen; face masks only"
+    },
+    "generated_image_sha256": "7c61820a41a2846ddbffe07ac836ad7439107e3fb967d1659cbeef69d01e47fa",
+    "generated_faces_only": true,
+    "native_palette_and_dark_surround_assembled_separately": true
   }
 }

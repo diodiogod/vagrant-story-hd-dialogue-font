@@ -11,7 +11,14 @@ The earlier 29 fixed words were checked too: nine notice quads and 13 calls to
 the native affinity-popup routine, covering all 20 equipment/attribute labels
 in blue or orange. Pixels outside the text quads match exactly in all four
 before/after pairs. These are controlled specimens, not naturally triggered
-events or a complete playthrough. All palette uses and Android remain untested.
+events or a complete playthrough. All palette uses remain untested.
+
+The maintainer then tested the supplied Android package and reported good
+results, with a blurry affinity +. Those separate +/− sprites were still native.
+Their correction changes four palette PNGs; the other 97 stay byte-identical.
+Thirteen Windows popup instances match outside the sign quads, including the
+words and values. The corrected signs use square corners and flat terminals;
+their Android check is pending. [Comparison](images/affinity-signs-v0.5.png).
 
 All 46 new/updated rectangle lookup hashes pass the VRAM-word check. Fifteen
 regression tests cover transcription, spacing, borders and specific glyph repairs.

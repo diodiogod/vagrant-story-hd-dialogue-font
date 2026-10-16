@@ -1,0 +1,220 @@
+{
+  "source_sha256": "fde976eb1ee43f575d10f7cec0c7359bcad28f438d19e39cea096a3053a31436",
+  "source_rectangles": [
+    {
+      "key": "plus",
+      "rect": [
+        128,
+        208,
+        8,
+        8
+      ],
+      "source_face_box": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "hd_core_box": [
+        8,
+        16,
+        48,
+        56
+      ],
+      "full_surround_clipped_pixels": 0,
+      "mask_sha256": "feb14c6b91524f5cafdacf741cf6bc6ab4dea2dd533fb8a3c1302d5c1882dffd"
+    },
+    {
+      "key": "minus",
+      "rect": [
+        120,
+        208,
+        8,
+        8
+      ],
+      "source_face_box": [
+        2,
+        4,
+        6,
+        5
+      ],
+      "hd_core_box": [
+        16,
+        32,
+        48,
+        40
+      ],
+      "full_surround_clipped_pixels": 0,
+      "mask_sha256": "64e7a0280af5b7053335b3e25a8727762bcecac79ab080ba48f7a115483ce243"
+    }
+  ],
+  "draw_routine": "func_8009695C; page 768,0; CLUT 848,223; positive sign 128,208 / negative sign 120,208",
+  "old_signs_were_native": true,
+  "interpretation": "Subpixel grey edge and dark surround; no consistent raised lighting model. Bevel intent uncertain.",
+  "actual_indices": {
+    "plus": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        7,
+        15,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        7,
+        15,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        15,
+        15,
+        15,
+        15,
+        9,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        7,
+        15,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        7,
+        15,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "minus": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        15,
+        15,
+        15,
+        15,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  }
+}

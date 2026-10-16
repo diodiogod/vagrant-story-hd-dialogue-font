@@ -11,6 +11,7 @@ Sharper dialogue, menus and HUD text, keeping the original style and spacing.
 
 - 66 more text sprites: combat/status messages, affinity popups and interaction labels.
 - Sharper BATTLE MODE, WORKSHOP, percentages and other fixed words.
+- Restored the separate +/− signs on coloured affinity popups.
 - 101 replacement PNGs, preserving native colours, borders and animation effects.
 
 **Rough font/text progress: 90%.** Remaining fixed labels and rare symbols are

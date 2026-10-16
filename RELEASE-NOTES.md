@@ -3,6 +3,7 @@
 - 66 more text sprites: combat/status notices, equipment and affinity popups, and interaction labels.
 - Sharper BATTLE MODE, WAITING for COMMAND, WORKSHOP, NUM., Locked, Container, Open and Unlockable.
 - Native colours, dark surrounds and animation dimming retained; word spacing checked in the renderer.
+- Sharp affinity-popup +/− signs with square dark borders.
 
 **101 PNGs at 8x.** Dialogue and non-text artwork are unchanged.
 [Visual comparisons](CHANGELOG.md).
@@ -13,7 +14,8 @@ packs can be upgraded by import; remove obsolete experimental replacements first
 
 Keep **both texture filters on Nearest Neighbor**. On Android **0.1-8969**, disable
 **PGXP Geometry Correction** for this game. The new text passed controlled Windows
-render checks; Android and broader gameplay checks remain pending.
+render checks. The maintainer tested the preceding package on Android; the
+popup-sign correction and broader gameplay checks remain pending there.
 
 The INFORMATION ghost remains unresolved. Tutorial/loading/results text and a
 few rare symbols are planned next. [Testing](docs/TESTING.md) · [Installation](docs/INSTALL.md).

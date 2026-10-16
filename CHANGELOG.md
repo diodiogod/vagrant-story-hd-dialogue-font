@@ -5,14 +5,17 @@
 - Added 66 fixed-word sprites: combat/status text, interaction notices and affinity popups.
 - Reconstructed the original angled 5, asymmetric percent symbol and distinctive letter details.
 - Kept native popup colours, dark surrounds and steady/flash effects.
+- Sharpened the popup +/− signs with square dark borders.
 - Checked all new sprites in Windows; word pairs and HP/MP numbers stay separate.
 
 ![Combat labels: original and HD](docs/images/combat-labels-v0.5.png)
 
 [Spacing comparison](docs/images/combat-spacing-v0.5.png) · [Fixed labels and coloured popups](docs/images/fixed-labels-v0.5.png).
+[Popup signs](docs/images/affinity-signs-v0.5.png).
 
 101 replacement PNGs. Dialogue and non-text artwork are unchanged.
-Android and broader gameplay checks remain pending.
+The maintainer tested the preceding package on Android. The popup-sign
+correction and broader gameplay checks remain pending there.
 
 ## [v0.4 beta](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/tag/v0.4-beta) — 2026-10-16
 

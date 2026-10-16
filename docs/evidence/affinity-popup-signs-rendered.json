@@ -1,0 +1,243 @@
+{
+  "status": "passed",
+  "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b",
+  "before_pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+  "state_sha256": "ed46ecbf8a1f03964a859700fc7c4488331b0bf4c4318dc20abe740f85deada6",
+  "frame": 3000,
+  "present_rect": [
+    181,
+    0,
+    1118,
+    703
+  ],
+  "before_png_sha256": "d062af31e5f5502f0b4993a5077e5906356b193a99922f34daffdf33ce1bc375",
+  "after_png_sha256": "629be5cac05080118fd2cb96224cd078ef5acb822d4cfedf1a11dddadff21539",
+  "sign_instances_checked": 13,
+  "signs": [
+    {
+      "text": "WEAPON HUMAN",
+      "sign": "+",
+      "native_rect": [
+        98,
+        89,
+        106,
+        97
+      ],
+      "presented_rect": [
+        465,
+        277,
+        494,
+        307
+      ],
+      "changed_pixels": 225
+    },
+    {
+      "text": "SHIELD BEAST",
+      "sign": "-",
+      "native_rect": [
+        240,
+        89,
+        248,
+        97
+      ],
+      "presented_rect": [
+        881,
+        277,
+        910,
+        307
+      ],
+      "changed_pixels": 113
+    },
+    {
+      "text": "R.ARM UNDEAD",
+      "sign": "+",
+      "native_rect": [
+        94,
+        105,
+        102,
+        113
+      ],
+      "presented_rect": [
+        454,
+        327,
+        482,
+        357
+      ],
+      "changed_pixels": 204
+    },
+    {
+      "text": "L.ARM PHANTOM",
+      "sign": "-",
+      "native_rect": [
+        248,
+        105,
+        256,
+        113
+      ],
+      "presented_rect": [
+        905,
+        327,
+        933,
+        357
+      ],
+      "changed_pixels": 105
+    },
+    {
+      "text": "HEAD DRAGON",
+      "sign": "+",
+      "native_rect": [
+        92,
+        121,
+        100,
+        129
+      ],
+      "presented_rect": [
+        448,
+        377,
+        476,
+        407
+      ],
+      "changed_pixels": 208
+    },
+    {
+      "text": "BODY EVIL",
+      "sign": "-",
+      "native_rect": [
+        226,
+        121,
+        234,
+        129
+      ],
+      "presented_rect": [
+        840,
+        377,
+        869,
+        407
+      ],
+      "changed_pixels": 103
+    },
+    {
+      "text": "LEGS PHYSICS",
+      "sign": "+",
+      "native_rect": [
+        90,
+        137,
+        98,
+        145
+      ],
+      "presented_rect": [
+        442,
+        427,
+        470,
+        458
+      ],
+      "changed_pixels": 218
+    },
+    {
+      "text": "WEAPON AIR",
+      "sign": "-",
+      "native_rect": [
+        232,
+        137,
+        240,
+        145
+      ],
+      "presented_rect": [
+        858,
+        427,
+        886,
+        458
+      ],
+      "changed_pixels": 80
+    },
+    {
+      "text": "SHIELD FIRE",
+      "sign": "+",
+      "native_rect": [
+        84,
+        153,
+        92,
+        161
+      ],
+      "presented_rect": [
+        424,
+        478,
+        453,
+        508
+      ],
+      "changed_pixels": 219
+    },
+    {
+      "text": "R.ARM EARTH",
+      "sign": "-",
+      "native_rect": [
+        238,
+        153,
+        246,
+        161
+      ],
+      "presented_rect": [
+        875,
+        478,
+        904,
+        508
+      ],
+      "changed_pixels": 95
+    },
+    {
+      "text": "L.ARM WATER",
+      "sign": "+",
+      "native_rect": [
+        90,
+        169,
+        98,
+        177
+      ],
+      "presented_rect": [
+        442,
+        528,
+        470,
+        558
+      ],
+      "changed_pixels": 233
+    },
+    {
+      "text": "HEAD LIGHT",
+      "sign": "-",
+      "native_rect": [
+        230,
+        169,
+        238,
+        177
+      ],
+      "presented_rect": [
+        852,
+        528,
+        880,
+        558
+      ],
+      "changed_pixels": 86
+    },
+    {
+      "text": "BODY DARKNESS",
+      "sign": "+",
+      "native_rect": [
+        96,
+        185,
+        104,
+        193
+      ],
+      "presented_rect": [
+        460,
+        578,
+        488,
+        608
+      ],
+      "changed_pixels": 208
+    }
+  ],
+  "pixels_outside_signs_checked": 902774,
+  "pixels_outside_signs_changed": 0,
+  "words_numbers_world_unchanged": true,
+  "android_tested": false
+}

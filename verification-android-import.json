@@ -7,9 +7,9 @@
   "matching_texture_entries": 101,
   "extra_wrapper_directory_rejected": true,
   "config_yaml_excluded": true,
-  "pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+  "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b",
   "format_verified_against_apk": true,
-  "device_evidence": "The v0.5 payload has not been tested on Android. Earlier successful import/rendering reports are retained in docs/v0.3 and docs/v0.4.",
+  "device_evidence": "Maintainer tested the preceding v0.5 Android package successfully, noting the native affinity +. The new +/âˆ’ correction remains untested on Android.",
   "required_filter_settings": {
     "texture_filtering": "Nearest Neighbor",
     "sprite_texture_filtering": "Nearest Neighbor"
@@ -17,5 +17,13 @@
   "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
   "archive_hashes": "GitHub release v0.5-beta: SHA256SUMS.txt",
   "status": "v0.5 beta release",
-  "current_payload_device_tested": false
+  "current_payload_device_tested": false,
+  "preceding_v05_device_report": {
+    "evidence": "Maintainer reported the supplied Android package looks great; only affinity + appeared blurry.",
+    "associated_package_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+    "associated_archive_sha256": "8d41784c37d11464600483ee370e74dbfe0b8d7c83322289fe7a3a18f0ae97f8",
+    "supplied_archive_device_report": true,
+    "device_capture_or_on_device_hash_recorded": false,
+    "current_popup_sign_revision_device_tested": false
+  }
 }

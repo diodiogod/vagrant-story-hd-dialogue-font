@@ -1,22 +1,22 @@
 {
-  "version": "0.5-beta",
+  "version": "0.6-beta",
   "target_android_version": "0.1-8969-g611bb8fb4",
   "inspected_apk_sha256": "28f1528dffb87a761ab1997a5d23bb62c5aa191b3a242a79a9baeb3629b206f5",
   "import_mode": "Transfer Data > ZIP file > Import; select archive without extraction",
   "required_root": "textures/SLUS-01040/replacements/",
-  "matching_texture_entries": 101,
+  "matching_texture_entries": 103,
   "extra_wrapper_directory_rejected": true,
   "config_yaml_excluded": true,
-  "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b",
+  "pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8",
   "format_verified_against_apk": true,
-  "device_evidence": "Maintainer tested the preceding v0.5 Android package successfully, noting the native affinity +. The new +/âˆ’ correction remains untested on Android.",
+  "device_evidence": "The maintainer tested an earlier combat-text package on Android. The popup-sign correction and material badges await a fresh device check.",
   "required_filter_settings": {
     "texture_filtering": "Nearest Neighbor",
     "sprite_texture_filtering": "Nearest Neighbor"
   },
   "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
-  "archive_hashes": "GitHub release v0.5-beta: SHA256SUMS.txt",
-  "status": "v0.5 beta release",
+  "archive_hashes": "GitHub release v0.6-beta: SHA256SUMS.txt",
+  "status": "v0.6 beta release",
   "current_payload_device_tested": false,
   "preceding_v05_device_report": {
     "evidence": "Maintainer reported the supplied Android package looks great; only affinity + appeared blurry.",

@@ -3,16 +3,16 @@
 An 8x font pack for **DuckStation · Vagrant Story USA (SLUS-01040)**.
 Sharper dialogue, menus and HUD text, keeping the original style and spacing.
 
-**v0.5 beta:** [Android ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.5-beta/vagrant-story-font-v0.5-android.zip) · [Desktop ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.5-beta/vagrant-story-font-v0.5-desktop.zip) · [Release notes](RELEASE-NOTES.md)
+**v0.6 beta:** [Android ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.6-beta/vagrant-story-font-v0.6-android.zip) · [Desktop ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.6-beta/vagrant-story-font-v0.6-desktop.zip) · [Release notes](RELEASE-NOTES.md)
 
-![Equipment menu](assets/equipment-v0.4.png)
+![Equipment menu with HD fonts and material badges](assets/equipment-v0.6.png)
 
 ## What's new
 
-- 66 more text sprites: combat/status messages, affinity popups and interaction labels.
-- Sharper BATTLE MODE, WORKSHOP, percentages and other fixed words.
-- Restored the separate +/− signs on coloured affinity popups.
-- 101 replacement PNGs, preserving native colours, borders and animation effects.
+- Seven HD material initials: Wood, Leather, Bronze, Iron, Hagane, Silver and Damascus.
+- Metallic shading, thick dark borders and corrected sprite footprints.
+- Also includes 66 combat/status text sprites and sharper affinity-popup +/− signs.
+- 103 replacement PNGs at 8x.
 
 **Rough font/text progress: 90%.** Remaining fixed labels and rare symbols are
 on the [roadmap](docs/COVERAGE.md). Other UI artwork is planned for later.
@@ -53,6 +53,8 @@ replacements first. Published v0.2–v0.4 can be upgraded by import.
 [UI borders](docs/images/compact-ui-labels-v0.4.png) · [Menu heights](docs/images/font-heights-preview.png)
 
 [Combat text](docs/images/combat-labels-v0.5.png) · [Word spacing](docs/images/combat-spacing-v0.5.png) · [Fixed labels and popups](docs/images/fixed-labels-v0.5.png)
+
+[Material badges: original / HD](docs/images/material-badges-v0.6.png)
 
 ## More
 

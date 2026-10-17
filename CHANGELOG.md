@@ -1,6 +1,17 @@
 # Visual changelog
 
-## v0.5 beta — 2026-10-16
+## v0.6 beta — 2026-10-17
+
+- Added all seven material initials with reviewed metallic shading and thick dark borders.
+- Kept the selected letter designs and corrected W to its original sprite footprint.
+- 103 PNGs. The preceding 101 font files are unchanged.
+- Includes the combat-text and popup-sign work recorded below.
+
+![Material initials: original and HD, captured in DuckStation](docs/images/material-badges-v0.6.png)
+
+[Equipment-menu comparison](docs/images/equipment-materials-v0.6.png) · [Testing](docs/TESTING.md).
+
+## v0.5 development — included in v0.6
 
 - Added 66 fixed-word sprites: combat/status text, interaction notices and affinity popups.
 - Reconstructed the original angled 5, asymmetric percent symbol and distinctive letter details.

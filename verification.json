@@ -1,12 +1,12 @@
 {
   "name": "Vagrant Story Original Style HD Fonts",
-  "version": "0.5-beta",
-  "package_version": "0.5",
-  "date": "2026-10-16",
+  "version": "0.6-beta",
+  "package_version": "0.6",
+  "date": "2026-10-17",
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
-  "pngs": 101,
-  "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b",
+  "pngs": 103,
+  "pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -285,6 +285,14 @@
       "sha256": "e5157bdc010b6ea9ccabe8c2a46fffaf8637be612da1ae6db50242f2eef47cd1"
     },
     {
+      "filename": "texpage-STP4-A4CF47DD968DAA08-2DA679AB1517DDF5-64x256-216-200-24x24-P0-15.png",
+      "sha256": "8f73c04df83ff7b6a85a2aabf0092f406b1672b248ce76ab94cbaf1283fc02d9"
+    },
+    {
+      "filename": "texpage-STP4-A4CF47DD968DAA08-FE811BB97D77F258-64x256-216-200-24x24-P0-15.png",
+      "sha256": "ac8984032f46c5bfc3eec061c046347ef4d7084defa688affdfc258ba4a86679"
+    },
+    {
       "filename": "texpage-STP4-C5DBCE552D387569-69491D7E26769824-64x256-0-75-252x21-P0-15.png",
       "sha256": "4d8ddf6d9748dd6f8dffef36a8e2985ca22f6d0ac8184da90e1c57df1b76104d"
     },
@@ -528,7 +536,16 @@
       "DEFENSE"
     ],
     "new_text_sprite_count": 66,
-    "affinity_popup_signs": 2
+    "affinity_popup_signs": 2,
+    "material_badges": [
+      "Wood",
+      "Leather",
+      "Bronze",
+      "Iron",
+      "Hagane",
+      "Silver",
+      "Damascus"
+    ]
   },
   "rough_progress": {
     "percent": 90,
@@ -537,7 +554,7 @@
   "previous_release": "docs/v0.4/verification.json",
   "unchanged_published_pngs": 55,
   "changed_published_pngs": 4,
-  "added_pngs": 42,
+  "added_pngs": 44,
   "windows": {
     "version": "0.1-12083-g00e299795",
     "renderer": "Vulkan",
@@ -563,12 +580,29 @@
     "measurements": [
       "docs/evidence/combat-render-validation.json",
       "docs/evidence/combat-fixed-labels-audit.json",
-      "docs/evidence/affinity-popup-signs-rendered.json"
+      "docs/evidence/affinity-popup-signs-rendered.json",
+      "docs/evidence/materials-rendered-v0.6.json",
+      "docs/evidence/materials-equipment-v0.6.json",
+      "docs/evidence/materials-fitting-v0.6.json"
     ],
     "popup_sign_instances_checked": 13,
     "combat_words_tested_pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
     "popup_sign_revision_tested_pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b",
-    "popup_sign_revision_scope": "Four popup atlas PNGs differ; all other 97 PNGs are byte-identical. Current frame matches the preceding pack outside all 13 sign quads, including popup words and values."
+    "popup_sign_revision_scope": "Four popup atlas PNGs differ; all other 97 PNGs are byte-identical. Current frame matches the preceding pack outside all 13 sign quads, including popup words and values.",
+    "material_badges": {
+      "tested_pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8",
+      "materials": 7,
+      "instances": 14,
+      "native_draw_size": [
+        7,
+        7
+      ],
+      "enlarged_draw_scale": 4,
+      "changed_pixels_outside_material_regions": 0,
+      "equipment_menu_checked": true,
+      "evidence": "docs/evidence/materials-rendered-v0.6.json",
+      "equipment_evidence": "docs/evidence/materials-equipment-v0.6.json"
+    }
   },
   "android": {
     "version": "0.1-8969-g611bb8fb4",
@@ -585,13 +619,16 @@
       "supplied_archive_device_report": true,
       "device_capture_or_on_device_hash_recorded": false,
       "current_popup_sign_revision_device_tested": false
-    }
+    },
+    "material_badges_device_tested": false
   },
   "user_visual_acceptance": {
     "combat_comparison_accepted": true,
     "evidence": "Maintainer: looks good keep going, any other thing to do or we are ready to release?",
     "reviewed_pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
-    "full_gameplay_acceptance": false
+    "full_gameplay_acceptance": false,
+    "material_artwork_selected": true,
+    "material_pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8"
   },
   "menu_glow": {
     "included_in_pack": true,
@@ -618,6 +655,8 @@
   "known_issues": {
     "information_framebuffer_ghost": "Native framebuffer-copy lettering can remain beneath the HD heading. Transparency retained; no black-fill workaround included."
   },
-  "release_packages": "docs/v0.5/packages.json",
-  "status": "v0.5 beta release"
+  "release_packages": "docs/v0.6/packages.json",
+  "status": "v0.6 beta release",
+  "previous_development": "docs/v0.5/verification.json",
+  "unchanged_v05_pngs": 101
 }

@@ -28,3 +28,5 @@ This project makes no claim to be the first HD font modification.
 
 This is an unofficial fan modification. Original game material is not claimed
 as newly owned work. No game image, BIOS, emulator or saves are distributed.
+
+Material badges use reviewed metallic interpretations with thick dark backing and native-sized sprite footprints. [Material editing record](editing-records-v0.6.json).

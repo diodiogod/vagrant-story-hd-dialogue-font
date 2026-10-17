@@ -1,0 +1,16 @@
+{
+  "tag": "v0.6-beta",
+  "pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8",
+  "archives": [
+    {
+      "name": "vagrant-story-font-v0.6-android.zip",
+      "bytes": 7132467,
+      "sha256": "98eabdea4eb73121bd614b26f35483100f78a891c10657585413e5b044064019"
+    },
+    {
+      "name": "vagrant-story-font-v0.6-desktop.zip",
+      "bytes": 7131302,
+      "sha256": "22223ebcc621453cee83fcb45d922b4613525e916b506b47e4301995e93665e0"
+    }
+  ]
+}

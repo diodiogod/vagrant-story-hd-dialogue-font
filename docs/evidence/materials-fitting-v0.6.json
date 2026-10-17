@@ -1,0 +1,326 @@
+{
+  "pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8",
+  "replacement_scale": 8,
+  "material_sprite_size": [
+    56,
+    56
+  ],
+  "records": [
+    {
+      "name": "wood",
+      "source_master_sha256": "4525e9949723be0c337eae9f95c2cefe98b669da69ab1c7890e3a6a7be80b973",
+      "fitted_sprite_sha256": "262867ca3832b0ae76771e449fc10cbad09ce2968ebd02f1e88a1b124eb38fe5",
+      "native_rect": [
+        216,
+        200,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "placement": {
+        "method": "One global affine mapping of the full artwork to native metal bounds",
+        "source_outer": [
+          81,
+          173,
+          1172,
+          1003
+        ],
+        "source_face": [
+          187,
+          258,
+          1067,
+          923
+        ],
+        "native_outer": [
+          0,
+          0,
+          7,
+          7
+        ],
+        "native_face": [
+          1,
+          1,
+          6,
+          6
+        ],
+        "scale_x": 0.045454545454545456,
+        "scale_y": 0.06015037593984962,
+        "offset": [
+          -0.5,
+          -7.518796992481203
+        ],
+        "projected_full_border": [
+          3.181818181818182,
+          2.887218045112782,
+          52.77272727272727,
+          52.81203007518796
+        ],
+        "complete_border_fits": true,
+        "padded_pixels_outside_cell": 0,
+        "measured_face": [
+          8,
+          8,
+          48,
+          48
+        ],
+        "alpha_threshold": 8
+      }
+    },
+    {
+      "name": "leather",
+      "source_master_sha256": "56497ccd580719fbf26cbce2382709f6f35ddca43b014d54681bbf0ddc8eff78",
+      "fitted_sprite_sha256": "de4ba08547533eb5cf7b4caa6162e966b081815faf20b60be48f6ef3d87ddbd1",
+      "native_rect": [
+        216,
+        208,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "placement": {
+        "method": "One global affine mapping of the full artwork to native metal bounds",
+        "source_outer": [
+          124,
+          101,
+          1204,
+          1187
+        ],
+        "source_face": [
+          256,
+          209,
+          1109,
+          1085
+        ],
+        "native_outer": [
+          0,
+          0,
+          6,
+          7
+        ],
+        "native_face": [
+          1,
+          1,
+          5,
+          6
+        ],
+        "scale_x": 0.03751465416178194,
+        "scale_y": 0.045662100456621,
+        "offset": [
+          -1.6037514654161775,
+          -1.5433789954337893
+        ],
+        "projected_full_border": [
+          3.0480656506447836,
+          3.0684931506849322,
+          43.56389214536928,
+          52.65753424657534
+        ],
+        "complete_border_fits": true,
+        "padded_pixels_outside_cell": 0,
+        "measured_face": [
+          8,
+          8,
+          40,
+          48
+        ],
+        "alpha_threshold": 8
+      }
+    },
+    {
+      "name": "bronze",
+      "source_master_sha256": "cdb146fe2e3a814441790ad8859f013b88b05790ebb1898cb98b72aa3c10757b",
+      "fitted_sprite_sha256": "0373f5b8973e052fa996d3bead7d2802888687e5794c9b20bfae4ceca48ba25d",
+      "native_rect": [
+        216,
+        216,
+        7,
+        7
+      ],
+      "clut": [
+        928,
+        223
+      ],
+      "placement": {
+        "method": "One global affine mapping of the full artwork to native metal bounds",
+        "source_outer": [
+          207,
+          128,
+          1085,
+          1097
+        ],
+        "source_face": [
+          339,
+          245,
+          955,
+          974
+        ],
+        "native_outer": [
+          0,
+          0,
+          6,
+          7
+        ],
+        "native_face": [
+          1,
+          1,
+          5,
+          6
+        ],
+        "scale_x": 0.05194805194805195,
+        "scale_y": 0.05486968449931413,
+        "offset": [
+          -9.61038961038961,
+          -5.4430727023319605
+        ],
+        "projected_full_border": [
+          1.1428571428571441,
+          1.5802469135802477,
+          46.753246753246756,
+          54.748971193415635
+        ],
+        "complete_border_fits": true,
+        "padded_pixels_outside_cell": 0,
+        "measured_face": [
+          8,
+          8,
+          40,
+          48
+        ],
+        "alpha_threshold": 8
+      }
+    },
+    {
+      "name": "iron",
+      "source_master_sha256": "fd657792945452fa2a23f9d4aba1f1daca8b90cb1cc79b8614bab81448637a91",
+      "fitted_sprite_sha256": "7bc5fbfe92710ab8c39f719024214d9e458c7848caf1159e72292dd56de91961",
+      "native_rect": [
+        224,
+        200,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "placement": {
+        "method": "One global affine mapping of the full artwork to native metal bounds",
+        "source_outer": [
+          221,
+          158,
+          1033,
+          1106
+        ],
+        "source_face": [
+          300,
+          247,
+          953,
+          1040
+        ],
+        "native_outer": [
+          0,
+          0,
+          5,
+          7
+        ],
+        "native_face": [
+          1,
+          1,
+          4,
+          6
+        ],
+        "scale_x": 0.036753445635528334,
+        "scale_y": 0.05044136191677175,
+        "offset": [
+          -3.026033690658501,
+          -4.459016393442623
+        ],
+        "projected_full_border": [
+          5.096477794793261,
+          3.5107187894073144,
+          34.94027565084227,
+          51.329129886506934
+        ],
+        "complete_border_fits": true,
+        "padded_pixels_outside_cell": 0,
+        "measured_face": [
+          8,
+          8,
+          32,
+          48
+        ],
+        "alpha_threshold": 8
+      }
+    },
+    {
+      "name": "hagane",
+      "source_master_sha256": "3e3d3ef5db3d5e18511fcdffc39cb8b533c1b0cd80af260b50c09bdab4d6a113",
+      "fitted_sprite_sha256": "8324ba0bc29e501d2211b53f5cedf015be7578e32a9894598b29945f508bd350",
+      "native_rect": [
+        224,
+        208,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "placement": {
+        "method": "Retain already accepted H/S sprite byte-for-byte",
+        "prior_pack": "f797a495057a5603221209ea819c0af850388a091629c9329ce113ba95e73848",
+        "source_pixel_array_preserved": true
+      }
+    },
+    {
+      "name": "silver",
+      "source_master_sha256": "e53133982316d03db315df475f5cde599fc933ee3a075b203f948983ea336f94",
+      "fitted_sprite_sha256": "740c84261b2fe0b2e95c87701b2d257d25e6451c11268ab76fa0558925f12fc6",
+      "native_rect": [
+        224,
+        216,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "placement": {
+        "method": "Retain already accepted H/S sprite byte-for-byte",
+        "prior_pack": "f797a495057a5603221209ea819c0af850388a091629c9329ce113ba95e73848",
+        "source_pixel_array_preserved": true
+      }
+    },
+    {
+      "name": "damascus",
+      "source_master_sha256": "def5e127b84464eb4b8ce870b3795036c9eacd30cce6699e4bba5fddd7804224",
+      "fitted_sprite_sha256": "533a71c9f9665eb5ccd30b7a3d99a6b9fb8646ea7c8b0b46c7b8fadcf30c2c95",
+      "native_rect": [
+        232,
+        200,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "placement": {
+        "method": "Retain already accepted D v4 fitted sprite byte-for-byte",
+        "prior_preview_sha256": "533a71c9f9665eb5ccd30b7a3d99a6b9fb8646ea7c8b0b46c7b8fadcf30c2c95",
+        "source_pixel_array_preserved": true
+      }
+    }
+  ],
+  "complete_border_check": "W/L/B/I fitted on padded canvases before clipping; H/S/D retain previously accepted fitted sprites.",
+  "outside_material_cells_unchanged": true,
+  "previous_101_font_files_unchanged": true,
+  "interpretation": "Reviewed reconstructions, not recovered original HD artwork."
+}

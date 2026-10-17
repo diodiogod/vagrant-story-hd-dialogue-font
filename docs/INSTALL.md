@@ -1,15 +1,15 @@
 # Installation and troubleshooting
 
-Published downloads: **v0.5 beta, 101 PNGs**.
+Published downloads: **v0.6 beta, 103 PNGs**.
 
 ## Android
 
-1. Download **vagrant-story-font-v0.5-android.zip** from the release assets and
+1. Download **vagrant-story-font-v0.6-android.zip** from the release assets and
    copy it to your phone. **Leave it zipped.**
 2. Fully stop the running game in DuckStation.
 3. Open **Transfer Data → ZIP file → Import** and select the ZIP.
 4. Choose **Textures** if import categories are offered. The archive contains
-   exactly 101 texture PNGs, without settings, memory cards or save states.
+   exactly 103 texture PNGs, without settings, memory cards or save states.
 5. In the game's graphics settings, enable **Texture Cache** and
    **Texture Replacements**. Use a hardware renderer, such as Vulkan, and your
    preferred internal resolution; 4x/5x makes the sharper lettering easier to see.
@@ -25,7 +25,7 @@ The Android ZIP's internal layout is:
 textures/
   SLUS-01040/
     replacements/
-      (101 PNG files)
+      (103 PNG files)
 ```
 
 The first folder must be `textures`; an extra outer folder can produce
@@ -42,7 +42,7 @@ Avoid combining overlapping packs for the same fonts.
 
 ## Desktop
 
-Stop the game. Extract **vagrant-story-font-v0.5-desktop.zip**, then place its
+Stop the game. Extract **vagrant-story-font-v0.6-desktop.zip**, then place its
 **SLUS-01040** folder in the DuckStation data directory's **textures** folder.
 Enable Texture Cache and Texture Replacements with a hardware renderer.
 Set both **Texture Filtering** and **Sprite Texture Filtering** to

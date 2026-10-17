@@ -1,6 +1,26 @@
 # Testing
 
-## v0.5 beta
+## v0.6 beta
+
+All seven material badges appeared in DuckStation 0.1-12083, Vulkan at 5x,
+both filters Nearest, PGXP on. The controlled specimen uses the native UVs and
+palettes at 7 × 7 and four times that draw size. All 14 instances changed as
+expected; pixels outside their regions match the native-material control exactly.
+
+The normal equipment-menu capture shows both Hagane H markers beside Rapier
+entries. The other six materials are covered by the controlled specimen.
+W/L/B/I have full-border checks on padded canvases; the accepted H/S/D fitted
+sprites are retained. The preceding 101 font PNGs are byte-identical.
+
+The material badges have not yet been tested on Android. The earlier phone
+report applies to the combat-text package described below.
+
+[Rendered comparison](images/material-badges-v0.6.png) ·
+[Render evidence](evidence/materials-rendered-v0.6.json) ·
+[Equipment evidence](evidence/materials-equipment-v0.6.json) ·
+[Sprite fitting](evidence/materials-fitting-v0.6.json)
+
+## v0.5 development
 
 All 66 new text sprites appeared in controlled DuckStation 0.1-12083 Vulkan
 captures at 5x, both filters Nearest, PGXP on. Tests cover 37 combat/status

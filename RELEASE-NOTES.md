@@ -1,4 +1,23 @@
-# v0.5 beta — Original Style HD Fonts
+# v0.6 beta — Original Style HD Fonts
+
+- HD material initials for Wood, Leather, Bronze, Iron, Hagane, Silver and Damascus.
+- Reviewed metallic shading, thick dark borders and original-sized sprite footprints.
+- Includes the combat/status text and sharp affinity-popup +/− signs developed for v0.5.
+
+**103 PNGs at 8x.** The preceding 101 font files are unchanged.
+[Visual comparisons](CHANGELOG.md).
+
+Import the **Android ZIP** without extracting it, or extract the **Desktop ZIP**
+into DuckStation's textures folder. Keep both texture filters on **Nearest
+Neighbor**. On Android **0.1-8969**, disable **PGXP Geometry Correction** per game.
+
+All seven badges passed Windows rendering checks at native and enlarged sizes;
+the equipment menu was checked too. The new badges still need Android testing.
+[Installation](docs/INSTALL.md) · [Testing and known issues](docs/TESTING.md).
+
+---
+
+# v0.5 development — included in v0.6
 
 - 66 more text sprites: combat/status notices, equipment and affinity popups, and interaction labels.
 - Sharper BATTLE MODE, WAITING for COMMAND, WORKSHOP, NUM., Locked, Container, Open and Unlockable.

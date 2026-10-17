@@ -1,0 +1,405 @@
+{
+  "status": "passed",
+  "pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8",
+  "frame": 3000,
+  "output_size": [
+    2600,
+    1908
+  ],
+  "present_rect": [
+    28,
+    0,
+    2572,
+    1908
+  ],
+  "materials_checked": 7,
+  "draw_instances_checked": 14,
+  "settings": "DuckStation 0.1-12083; Vulkan; 5x; both filters Nearest; PGXP enabled",
+  "test_type": "Controlled material UV/palette quads at native size and 4x display size",
+  "before_sha256": "05bb7f2f3b248bed1f37fb999cf76d9411db3af8fcf68c5cfc4e905187c2b5d4",
+  "after_sha256": "80de200d3e2006a9679090d771b41a64036099854000733032d19732dc701b78",
+  "expected_regions_source": "Fixture draw coordinates transformed using captured post-VS viewport; 2px margin",
+  "pixels_outside_materials_checked": 4544048,
+  "pixels_outside_materials_changed": 0,
+  "instances": [
+    {
+      "name": "Wood",
+      "display_scale": 1,
+      "native_rect": [
+        24,
+        45,
+        31,
+        52
+      ],
+      "source_rect": [
+        216,
+        200,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        216,
+        381,
+        277,
+        445
+      ],
+      "changed_pixels": 3217
+    },
+    {
+      "name": "Leather",
+      "display_scale": 1,
+      "native_rect": [
+        64,
+        45,
+        71,
+        52
+      ],
+      "source_rect": [
+        216,
+        208,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        534,
+        381,
+        595,
+        445
+      ],
+      "changed_pixels": 2476
+    },
+    {
+      "name": "Bronze",
+      "display_scale": 1,
+      "native_rect": [
+        104,
+        45,
+        111,
+        52
+      ],
+      "source_rect": [
+        216,
+        216,
+        7,
+        7
+      ],
+      "clut": [
+        928,
+        223
+      ],
+      "presented_rect": [
+        852,
+        381,
+        913,
+        445
+      ],
+      "changed_pixels": 2909
+    },
+    {
+      "name": "Iron",
+      "display_scale": 1,
+      "native_rect": [
+        144,
+        45,
+        151,
+        52
+      ],
+      "source_rect": [
+        224,
+        200,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        1170,
+        381,
+        1231,
+        445
+      ],
+      "changed_pixels": 2513
+    },
+    {
+      "name": "Hagane",
+      "display_scale": 1,
+      "native_rect": [
+        184,
+        45,
+        191,
+        52
+      ],
+      "source_rect": [
+        224,
+        208,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        1488,
+        381,
+        1549,
+        445
+      ],
+      "changed_pixels": 2991
+    },
+    {
+      "name": "Silver",
+      "display_scale": 1,
+      "native_rect": [
+        224,
+        45,
+        231,
+        52
+      ],
+      "source_rect": [
+        224,
+        216,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        1806,
+        381,
+        1867,
+        445
+      ],
+      "changed_pixels": 2431
+    },
+    {
+      "name": "Damascus",
+      "display_scale": 1,
+      "native_rect": [
+        264,
+        45,
+        271,
+        52
+      ],
+      "source_rect": [
+        232,
+        200,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        2124,
+        381,
+        2185,
+        445
+      ],
+      "changed_pixels": 2877
+    },
+    {
+      "name": "Wood",
+      "display_scale": 4,
+      "native_rect": [
+        24,
+        100,
+        52,
+        128
+      ],
+      "source_rect": [
+        216,
+        200,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        216,
+        849,
+        444,
+        1093
+      ],
+      "changed_pixels": 49045
+    },
+    {
+      "name": "Leather",
+      "display_scale": 4,
+      "native_rect": [
+        64,
+        100,
+        92,
+        128
+      ],
+      "source_rect": [
+        216,
+        208,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        534,
+        849,
+        762,
+        1093
+      ],
+      "changed_pixels": 37512
+    },
+    {
+      "name": "Bronze",
+      "display_scale": 4,
+      "native_rect": [
+        104,
+        100,
+        132,
+        128
+      ],
+      "source_rect": [
+        216,
+        216,
+        7,
+        7
+      ],
+      "clut": [
+        928,
+        223
+      ],
+      "presented_rect": [
+        852,
+        849,
+        1080,
+        1093
+      ],
+      "changed_pixels": 44163
+    },
+    {
+      "name": "Iron",
+      "display_scale": 4,
+      "native_rect": [
+        144,
+        100,
+        172,
+        128
+      ],
+      "source_rect": [
+        224,
+        200,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        1170,
+        849,
+        1398,
+        1093
+      ],
+      "changed_pixels": 38600
+    },
+    {
+      "name": "Hagane",
+      "display_scale": 4,
+      "native_rect": [
+        184,
+        100,
+        212,
+        128
+      ],
+      "source_rect": [
+        224,
+        208,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        1488,
+        849,
+        1716,
+        1093
+      ],
+      "changed_pixels": 45571
+    },
+    {
+      "name": "Silver",
+      "display_scale": 4,
+      "native_rect": [
+        224,
+        100,
+        252,
+        128
+      ],
+      "source_rect": [
+        224,
+        216,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        1806,
+        849,
+        2034,
+        1093
+      ],
+      "changed_pixels": 36924
+    },
+    {
+      "name": "Damascus",
+      "display_scale": 4,
+      "native_rect": [
+        264,
+        100,
+        292,
+        128
+      ],
+      "source_rect": [
+        232,
+        200,
+        7,
+        7
+      ],
+      "clut": [
+        912,
+        223
+      ],
+      "presented_rect": [
+        2124,
+        849,
+        2352,
+        1093
+      ],
+      "changed_pixels": 44024
+    }
+  ],
+  "android_tested": false
+}

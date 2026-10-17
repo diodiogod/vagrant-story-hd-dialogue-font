@@ -1,0 +1,29 @@
+{
+  "status": "Natural equipment menu visually reviewed; Hagane H appears beside both Rapier entries",
+  "pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8",
+  "state_sha256": "e11101701cbd09856ce562f8568fdcaf0e381541eb8bb54d5c5ac8cbd3daac40",
+  "state_unchanged": true,
+  "before_sha256": "874034fb3103fa7d78ea72aec342f1d806a04aed6e0a5829a825b5c40deb6ad3",
+  "after_sha256": "6d22d1c1407e708f0de5c848b1d3a509723e671601dbaee97f3a5d8a2364aed5",
+  "frame": 3000,
+  "output_size": [
+    2600,
+    1908
+  ],
+  "viewport": [
+    28,
+    0,
+    2572,
+    1908
+  ],
+  "visible_material": "Hagane H beside the Rapier entries",
+  "all_seven_materials_tested_in": "rendered-verification.json",
+  "changed_pixels": 5994,
+  "change_bounds": [
+    1363,
+    127,
+    1468,
+    325
+  ],
+  "android_tested": false
+}

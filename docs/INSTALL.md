@@ -1,67 +1,91 @@
 # Installation and troubleshooting
 
-Published downloads: **v0.6 beta, 103 PNGs**.
+Choose **HD Fonts** (101 PNGs) or **HD Fonts + UI Art** (104 PNGs).
+Both are complete packages for Vagrant Story USA **SLUS-01040**; install one.
+Use the matching Android or desktop download from the [README](../README.md).
 
 ## Android
 
-1. Download **vagrant-story-font-v0.6-android.zip** from the release assets and
-   copy it to your phone. **Leave it zipped.**
-2. Fully stop the running game in DuckStation.
-3. Open **Transfer Data → ZIP file → Import** and select the ZIP.
-4. Choose **Textures** if import categories are offered. The archive contains
-   exactly 103 texture PNGs, without settings, memory cards or save states.
-5. In the game's graphics settings, enable **Texture Cache** and
-   **Texture Replacements**. Use a hardware renderer, such as Vulkan, and your
-   preferred internal resolution; 4x/5x makes the sharper lettering easier to see.
-6. Set **Texture Filtering → Nearest Neighbor** and
-   **Sprite Texture Filtering → Nearest Neighbor**. Set both.
-7. On **Android 0.1-8969-g611bb8fb4**, disable **PGXP Geometry Correction** in
-   **Vagrant Story's per-game settings**. See [PGXP compatibility](PGXP.md).
-8. Start the game again and check dialogue and a menu.
+1. Stop the game. If switching editions or upgrading an experimental pack,
+   [remove the previous replacements](#switching-editions) first.
+2. Download the Android ZIP and **leave it zipped**.
+3. Open **Transfer Data → ZIP file → Import** and select it. Choose **Textures**
+   if import categories are offered.
+4. Enable **Texture Cache** and **Texture Replacements** with a hardware
+   renderer such as Vulkan.
+5. Set **Texture Filtering** and **Sprite Texture Filtering** to
+   **Nearest Neighbor**. Try 4×/5× internal resolution.
+6. On **Android 0.1-8969-g611bb8fb4**, disable **PGXP Geometry Correction** in
+   Vagrant Story's per-game settings. [Compatibility details](PGXP.md).
+7. Restart the game.
 
-The Android ZIP's internal layout is:
+Android archives contain images only, with this layout:
 
 ```text
 textures/
   SLUS-01040/
     replacements/
-      (103 PNG files)
+      (the chosen edition's PNGs)
 ```
 
-The first folder must be `textures`; an extra outer folder can produce
+The first folder must be `textures`. An extra wrapper can produce
 “No importable files were found.” The layout and accepted image types were
-checked against Android 0.1-8969's importer. That importer does not recognize
-`config.yaml`, so the Android archive contains images only. The texture IDs
-work without that optional file.
-
-Published v0.2 through v0.4 packs can be upgraded by importing this ZIP.
-If you installed one of our **experimental menu/UI packs**, back it up and
-start with a clean `textures/SLUS-01040/replacements` folder: some old rectangle
-filenames were replaced, and importing a ZIP does not remove obsolete files.
-Avoid combining overlapping packs for the same fonts.
+checked against Android 0.1-8969's importer. Its ZIP importer does not accept
+`config.yaml`; that optional file is excluded from Android downloads.
 
 ## Desktop
 
-Stop the game. Extract **vagrant-story-font-v0.6-desktop.zip**, then place its
-**SLUS-01040** folder in the DuckStation data directory's **textures** folder.
-Enable Texture Cache and Texture Replacements with a hardware renderer.
-Set both **Texture Filtering** and **Sprite Texture Filtering** to
-**Nearest Neighbor**, then restart the game.
+Stop the game. Extract the desktop ZIP and put its **SLUS-01040** folder inside
+DuckStation's data directory under **textures**. The resulting path must be
+`textures/SLUS-01040/replacements/`.
 
-Back up an existing replacement folder before replacing an experimental or
-overlapping pack. Texture dumping and VRAM Write Replacements are not required.
-Disable texture replacements to return to native lettering.
+Enable Texture Cache and Texture Replacements with a hardware renderer. Set
+both texture filters to **Nearest Neighbor**, then restart. Texture dumping
+and VRAM Write Replacements are not required.
 
 For local edits, DuckStation's texture-reload command can refresh replacements
 without rebooting the game.
 
+## Switching editions
+
+**Importing or extracting a ZIP adds and overwrites files; it does not remove
+the other edition's artwork.** This also applies when moving from v0.6, which
+already included HD material badges.
+
+1. Stop the game and back up your existing replacement folder.
+2. Remove the previous pack's files from `textures/SLUS-01040/replacements/`.
+   If the folder contains only this pack, replace the whole folder with a clean
+   one. Preserve unrelated mods separately.
+3. Install the chosen edition and restart the game.
+
+On Android, use your existing file-access method or an emulator export/import
+workflow that lets you remove the old texture files. Importing the fonts ZIP
+over the art ZIP alone will leave its badges and silhouettes installed.
+
+Both editions share the same 101 font files. The art edition adds these three
+files; removing **all three** from an otherwise clean current installation
+returns it to HD Fonts:
+
+```text
+texpage-STP4-A4CF47DD968DAA08-2DA679AB1517DDF5-64x256-216-200-24x24-P0-15.png
+texpage-STP4-A4CF47DD968DAA08-FE811BB97D77F258-64x256-216-200-24x24-P0-15.png
+texpage-STP4-A9FBF4E578AF475A-9F8A5175F34347CA-64x256-0-160-72x48-P0-15.png
+```
+
+The [edition manifest](../editions.json) records the exact selection. Avoid
+combining overlapping font packs. Disable Texture Replacements to return to
+the game's original textures.
+
 An independent PPF weapon/control mod can be used alongside this pack. A disc
 patch that changes the native font needs separate compatibility testing.
 
-
 ## Troubleshooting
 
-- **No importable files:** import the Android ZIP without extracting it. Its first folder must be `textures`.
+- **No importable files:** select the Android ZIP without extracting it; its first folder must be `textures`.
+- **Artwork remains after switching:** remove the old artwork files; ZIP import does not uninstall them.
 - **Blurry letters:** set both texture filters to Nearest Neighbor and restart.
 - **Bands or offset menu text:** see [PGXP compatibility](PGXP.md).
-- **Unchanged font:** check USA serial SLUS-01040, hardware rendering, Texture Cache and Texture Replacements.
+- **Unchanged font:** check the USA serial, hardware renderer, Texture Cache and Texture Replacements.
+
+For a bug report, include a screenshot, edition, game serial, emulator version,
+device/renderer and PGXP/filter settings.

@@ -1,0 +1,251 @@
+{
+  "status": "passed",
+  "date": "2026-10-20",
+  "editions": {
+    "fonts": {
+      "name": "HD Fonts",
+      "pngs": 101,
+      "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b"
+    },
+    "ui-art": {
+      "name": "HD Fonts + UI Art",
+      "pngs": 104,
+      "pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437"
+    }
+  },
+  "emulator": "DuckStation 0.1-12083",
+  "renderer": "Vulkan",
+  "resolution_scale": 5,
+  "filters": "Nearest",
+  "PGXP": true,
+  "method": "RenderDoc replay of the actual presented Vulkan images at frame 3000",
+  "fixture": "Controlled material quads over a normal gameplay HUD; not a natural material-acquisition event",
+  "fixture_sha256": "72c92efd03757c4efdfc564b12d4b9d15079ba6b4365789087c262849defe6bd",
+  "present_rect": [
+    28,
+    0,
+    2572,
+    1908
+  ],
+  "frame_size": [
+    2600,
+    1908
+  ],
+  "captures": {
+    "native": {
+      "frame_sha256": "cd6f80fcb383c6b0b655d88a0d0e8674ef8058ca83f22cabb6f3927518a4b694",
+      "pack_fingerprint": null
+    },
+    "fonts": {
+      "frame_sha256": "05bb7f2f3b248bed1f37fb999cf76d9411db3af8fcf68c5cfc4e905187c2b5d4",
+      "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b"
+    },
+    "ui-art": {
+      "frame_sha256": "4bf02c0af6c5202487e54247447b8f7bde6126daee200955e195bd914dbd560f",
+      "pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437"
+    }
+  },
+  "equipped_captures": {
+    "native": {
+      "frame_sha256": "4a9bf8de2e626debecda1b4a11d922fa99f1f213033873a30eedf3c2459961ce",
+      "state_sha256": "91400b7d647356906eb0d09a607a7f4480b283256fc16121b77d109b38e239cd"
+    },
+    "fonts": {
+      "frame_sha256": "7c760c0377f5ef6814fcbe89deb0e50c06128fd930848416c40919ef0e991559",
+      "state_sha256": "91400b7d647356906eb0d09a607a7f4480b283256fc16121b77d109b38e239cd"
+    }
+  },
+  "geometry_source": "Captured post-VS positions and viewport; regions defined from native draw coordinates",
+  "font_text_window_native": [
+    8,
+    7,
+    144,
+    34
+  ],
+  "fonts_changed_pixels_outside_text_window": 0,
+  "fonts_original_body_framebuffer_rect": [
+    90,
+    1566,
+    411,
+    1908
+  ],
+  "fonts_original_body_changed_pixels": 0,
+  "equipped_fonts_changed_pixels_outside_text_window": 0,
+  "equipped_original_body_changed_pixels": 0,
+  "font_frame_identical_to_pre_art_baseline": true,
+  "material_instances": [
+    {
+      "name": "Wood",
+      "display_scale": 1,
+      "framebuffer_rect": [
+        216,
+        381,
+        277,
+        445
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 3217
+    },
+    {
+      "name": "Leather",
+      "display_scale": 1,
+      "framebuffer_rect": [
+        534,
+        381,
+        595,
+        445
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 2476
+    },
+    {
+      "name": "Bronze",
+      "display_scale": 1,
+      "framebuffer_rect": [
+        852,
+        381,
+        913,
+        445
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 2909
+    },
+    {
+      "name": "Iron",
+      "display_scale": 1,
+      "framebuffer_rect": [
+        1170,
+        381,
+        1231,
+        445
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 2513
+    },
+    {
+      "name": "Hagane",
+      "display_scale": 1,
+      "framebuffer_rect": [
+        1488,
+        381,
+        1549,
+        445
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 2991
+    },
+    {
+      "name": "Silver",
+      "display_scale": 1,
+      "framebuffer_rect": [
+        1806,
+        381,
+        1867,
+        445
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 2431
+    },
+    {
+      "name": "Damascus",
+      "display_scale": 1,
+      "framebuffer_rect": [
+        2124,
+        381,
+        2185,
+        445
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 2877
+    },
+    {
+      "name": "Wood",
+      "display_scale": 4,
+      "framebuffer_rect": [
+        216,
+        849,
+        444,
+        1093
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 49045
+    },
+    {
+      "name": "Leather",
+      "display_scale": 4,
+      "framebuffer_rect": [
+        534,
+        849,
+        762,
+        1093
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 37512
+    },
+    {
+      "name": "Bronze",
+      "display_scale": 4,
+      "framebuffer_rect": [
+        852,
+        849,
+        1080,
+        1093
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 44163
+    },
+    {
+      "name": "Iron",
+      "display_scale": 4,
+      "framebuffer_rect": [
+        1170,
+        849,
+        1398,
+        1093
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 38600
+    },
+    {
+      "name": "Hagane",
+      "display_scale": 4,
+      "framebuffer_rect": [
+        1488,
+        849,
+        1716,
+        1093
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 45571
+    },
+    {
+      "name": "Silver",
+      "display_scale": 4,
+      "framebuffer_rect": [
+        1806,
+        849,
+        2034,
+        1093
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 36924
+    },
+    {
+      "name": "Damascus",
+      "display_scale": 4,
+      "framebuffer_rect": [
+        2124,
+        849,
+        2352,
+        1093
+      ],
+      "fonts_vs_native_changed_pixels": 0,
+      "art_vs_fonts_changed_pixels": 44024
+    }
+  ],
+  "ui_art_changed_pixels_outside_artwork_regions": 0,
+  "shared_hud_text_identical_between_editions": true,
+  "source_groups_are_explicit": true,
+  "prior_full_art_both_pose_evidence": "body-silhouettes-v0.7.json",
+  "scope": "Both material palettes/all seven badges at two sizes and both body poses. Selected scenes, not a complete playthrough."
+}

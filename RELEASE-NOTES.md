@@ -1,3 +1,18 @@
+# v0.7 beta — Two editions
+
+- **HD Fonts:** the shared dialogue, menu, HUD and combat lettering, with original pixel artwork.
+- **HD Fonts + UI Art:** the same fonts, plus HD material badges and new body-status silhouettes.
+- Both body poses use maintainer-painted artwork, with opaque black borders and preserved health colours.
+
+Choose one complete edition for Android or desktop. **Remove the previous
+pack's artwork files when switching to HD Fonts**, including when upgrading
+from v0.6. [Installation](docs/INSTALL.md#switching-editions).
+
+Font assets are unchanged from v0.6. UI artwork remains optional and unfinished.
+[Art direction](docs/ART-DIRECTION.md) · [Comparisons](CHANGELOG.md) · [Testing](docs/TESTING.md).
+
+---
+
 # v0.6 beta — Original Style HD Fonts
 
 - HD material initials for Wood, Leather, Bronze, Iron, Hagane, Silver and Damascus.

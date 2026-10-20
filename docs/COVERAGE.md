@@ -1,11 +1,12 @@
 # Font coverage and roadmap
 
-Updated 2026-10-17. v0.6 beta: 103 PNGs, all at 8x.
+Updated 2026-10-20. v0.7 beta: HD Fonts has 101 PNGs; HD Fonts + UI Art has 104.
+Both use the same 8x fonts. [Edition scope](ART-DIRECTION.md).
 Coverage describes reconstructed assets, separately from where they were tested.
 
 ## Rough progress estimate
 
-**Rough progress: 90% of planned font/text work.** Other UI artwork comes later.
+**Rough progress: 90% of planned font/text work.** Artwork is tracked separately.
 
 | Group | Reconstructed | Remaining work |
 | --- | --- | --- |
@@ -17,7 +18,7 @@ Coverage describes reconstructed assets, separately from where they were tested.
 | Fixed labels | HP, MP, RISK, WT, COMMAND, MENU, WARNING, HELP, CAUTION, CHECK, INFORMATION, INFO, TIME, SAVE, CLEAR, MAP | Other baked text listed below; remaining fixed-label surround review; WT surround needs a natural-scene check |
 | New fixed words and popups | 66 sprites: notices/interactions, equipment/body/affinity popups, combat/status and spell labels | Natural-event, remaining palette and Android checks |
 | Affinity popup signs | Separate +/− with square native-colour surrounds | Android confirmation of this correction |
-| Material initials | All seven, with metallic shading, dark borders and native-sized footprints | Broader natural equipment scenes and Android testing |
+| Material initials (art edition only) | All seven, with metallic shading, dark borders and native-sized footprints | Broader natural equipment scenes |
 | Save text | NO. and save-time colon, captured in the memory-card load scene | Broader save/load testing |
 | Current/max separator | Round dot with dark surround | Artist's intended dot/diamond shape remains ambiguous |
 | CPU-composited text | Rendering path identified | Investigate text that may bypass ordinary glyph replacement |
@@ -34,14 +35,21 @@ baseline, bearings, counters and stroke weight, preserve the entire dark
 surround, then test actual rendering and unaffected graphics. Source hashes
 and matching bounds alone do not prove visual fidelity.
 
-## Later: other UI artwork
+## Optional UI artwork
 
-Body/limb silhouettes, equipment/condition/affinity icons, controller prompts,
-arrows, bars and panel decoration need careful individual remakes. They are
-not included in the current font work or progress estimate. World and character
-textures are outside this project's current scope.
+**Included:** seven material badges and the body-status diagram in equipped and
+empty-hand poses. The silhouettes use the maintainer's flat cyan/black artwork,
+with the game's health tints. They have been reviewed in game.
+
+**Remaining:** equipment/condition/affinity icons, controller prompts, buttons,
+arrows, bars and panel decoration need individual review. These are excluded
+from the font progress estimate. The fonts edition keeps these graphics and
+the badges/body diagram original. World and character textures are outside scope.
 
 ## Test coverage
+
+See [v0.7 testing](TESTING.md#v07-beta) for current edition checks. The following
+notes preserve the scope of earlier tests.
 
 All seven material initials were checked in 14 Windows draw instances at native
 and enlarged sizes, with no changes outside those regions. The normal equipment

@@ -14,7 +14,7 @@ metrics and border repairs. The repository also includes a [release packager](..
 [v0.5 editing records](editing-records-v0.5.json) cover fixed words and combat text.
 
 - Original Vagrant Story art and typography: Square / original rights holders.
-- Font direction, selection and Windows/Android testing:
+- Art direction and interpretation:
   [diodiogod](https://github.com/diodiogod).
 - Reconstruction and tooling: AI assistance through OpenAI Codex and its
   built-in image-editing tool.
@@ -30,3 +30,6 @@ This is an unofficial fan modification. Original game material is not claimed
 as newly owned work. No game image, BIOS, emulator or saves are distributed.
 
 Material badges use reviewed metallic interpretations with thick dark backing and native-sized sprite footprints. [Material editing record](editing-records-v0.6.json).
+
+The artwork is optional in **HD Fonts + UI Art**. [Art direction](ART-DIRECTION.md)
+and [body editing record](editing-records-v0.7.json).

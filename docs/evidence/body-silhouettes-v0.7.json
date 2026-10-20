@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437",
+  "source_artwork": "Maintainer-painted armed torso, legs, head and unarmed arms; supplied as three registered 1152x1152 PNGs",
+  "source_hashes": {
+    "armed torso.png": "4feeb3d8c3679185dcc23162f171112f5a4474072781d15f5d219fc1f85a7455",
+    "head and unarmed.png": "e546062ae8fad45eb6066ea08f2d4a4cb4a60aa48d50d26c30a51f7fa465562c",
+    "legs.png": "363b65d1e38515341a72ee72347ca3c47fe3a2411c83f6843b0b3bd5321cdad6"
+  },
+  "source_canvas": [
+    1152,
+    1152
+  ],
+  "native_assembled_canvas": [
+    40,
+    40
+  ],
+  "replacement_scale": 8,
+  "independent_part_refitting": false,
+  "source_artwork_redrawn": false,
+  "source_pose_roundtrip_exact": true,
+  "game_sprite_roundtrip_exact": true,
+  "opaque_black_encoding_rgb": [
+    1,
+    1,
+    1
+  ],
+  "alpha_threshold": 8,
+  "hidden_join_overlap_texels": 2,
+  "hidden_overlap_changes_assembled_poses": false,
+  "rendering": {
+    "emulator": "DuckStation 0.1-12083",
+    "renderer": "Vulkan",
+    "resolution_scale": 5,
+    "texture_filters": "Nearest",
+    "PGXP": true,
+    "both_poses": {
+      "unarmed": {
+        "frame_sha256": "1275b3e0c83e8eca62faf46f94dc52e1f4d59ec08376ab37a78c7a353d70086f",
+        "state_sha256": "e8e4b52415294812a6ca99dd59d6c2e02cad7d20be256a1002c067e263524b87",
+        "body_framebuffer_box": [
+          90,
+          1566,
+          411,
+          1908
+        ],
+        "presentation_guard_pixels": 1,
+        "changed_pixels_outside_body": 0,
+        "actual_black_core_pixels": 47,
+        "actual_nonblack_core_pixels": 0,
+        "head_black_core_pixels": 143,
+        "head_nonblack_core_pixels": 0,
+        "head_erosion_source_texels": 2,
+        "body_erosion_source_texels": 3
+      },
+      "armed": {
+        "frame_sha256": "8cf3d6681b6120f819700a88efbe5c3f67653b61b7a0fc4a64bf36d1a3877a53",
+        "state_sha256": "91400b7d647356906eb0d09a607a7f4480b283256fc16121b77d109b38e239cd",
+        "body_framebuffer_box": [
+          90,
+          1566,
+          411,
+          1908
+        ],
+        "presentation_guard_pixels": 1,
+        "changed_pixels_outside_body": 0,
+        "actual_black_core_pixels": 24,
+        "actual_nonblack_core_pixels": 0,
+        "head_black_core_pixels": 143,
+        "head_nonblack_core_pixels": 0,
+        "head_erosion_source_texels": 2,
+        "body_erosion_source_texels": 3
+      }
+    }
+  },
+  "maintainer_report": {
+    "date": "2026-10-20",
+    "quote": "Okay, I liked it in game. I think it's the correct art direction for the HD sprites.",
+    "supplied_test_archive_sha256": "0fe28db09c58a6760b908e2362f68ae074ae9c26a9063e457c6c2f14952ef1b5",
+    "device_capture_or_on_device_hash_recorded": false
+  },
+  "scope": "Selected scenes and poses; not a complete playthrough."
+}

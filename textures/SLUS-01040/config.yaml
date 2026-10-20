@@ -1,4 +1,4 @@
-# Font-only texture replacement; no world textures are included.
+# UI texture replacements; the release package selects fonts or fonts plus artwork.
 DumpTexturePages: true
 DumpFullTexturePages: false
 DumpTextureWidthThreshold: 1

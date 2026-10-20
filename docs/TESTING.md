@@ -1,5 +1,38 @@
 # Testing
 
+## v0.7 beta
+
+Both editions use the same 101 font PNGs, byte-identical to the font assets in
+v0.6. The art edition adds two material-palette rectangles and one body-sprite
+rectangle. The final art payload matches the maintainer-approved private v57
+pack; only the release archive name and desktop metadata change.
+
+Both body poses passed actual DuckStation 0.1-12083 Vulkan rendering checks
+at 5x, both filters Nearest, PGXP on. The black outline stays opaque over the
+floor; a previously visible internal join gap was corrected without changing
+the assembled silhouettes. Matching frames changed only inside the body region.
+[Body evidence](evidence/body-silhouettes-v0.7.json).
+
+The maintainer tested the supplied art pack in game and approved it on
+2026-10-20. The surrounding test context was Android; no new phone model,
+emulator build or on-device hash was recorded. A separate phone import of the
+fonts edition has not been reported.
+
+Current Windows edition-preservation checks and packaging results are recorded
+in [edition evidence](evidence/editions-v0.7.json) and
+[package manifests](v0.7/packages.json). Android import rules, file hashes and
+ZIP integrity are checked separately from device testing. These selected
+scenes do not establish complete game or device coverage.
+
+In matching Windows frames, both fonts-only body poses and all seven native
+material badges (at two draw sizes) match the original graphics pixel-for-pixel.
+The two editions' HUD text matches exactly; their differences are confined to
+the selected artwork regions.
+
+The release Android UI-art ZIP is byte-identical to the approved private test
+ZIP. Only its download filename changes. The desktop packages also include
+edition-specific ABOUT text and the optional configuration file.
+
 ## v0.6 beta
 
 All seven material badges appeared in DuckStation 0.1-12083, Vulkan at 5x,

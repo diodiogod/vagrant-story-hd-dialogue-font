@@ -1,67 +1,54 @@
-# Vagrant Story Original Style HD Fonts
+# Vagrant Story HD Fonts & UI
 
-An 8x font pack for **DuckStation · Vagrant Story USA (SLUS-01040)**.
-Sharper dialogue, menus and HUD text, keeping the original style and spacing.
+An 8× texture pack for **DuckStation · Vagrant Story USA (SLUS-01040)**.
+Sharper dialogue, menus and HUD text, guided by the original lettering.
 
-**v0.6 beta:** [Android ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.6-beta/vagrant-story-font-v0.6-android.zip) · [Desktop ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.6-beta/vagrant-story-font-v0.6-desktop.zip) · [Release notes](RELEASE-NOTES.md)
+## Choose your edition
 
-![Equipment menu with HD fonts and material badges](assets/equipment-v0.6.png)
+Readability and redrawing artwork are different goals. Keep the original pixel
+art with **HD Fonts**, or try our optional sprite interpretations with
+**HD Fonts + UI Art**. Both include the same fonts.
 
-## What's new
+<!-- downloads:start -->
+**v0.7 beta**
 
-- Seven HD material initials: Wood, Leather, Bronze, Iron, Hagane, Silver and Damascus.
-- Metallic shading, thick dark borders and corrected sprite footprints.
-- Also includes 66 combat/status text sprites and sharper affinity-popup +/− signs.
-- 103 replacement PNGs at 8x.
+| Edition | What changes | Android | Desktop |
+| --- | --- | --- | --- |
+| **HD Fonts** | Dialogue, menus, HUD and combat text; original pixel artwork | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.7-beta/vagrant-story-fonts-v0.7-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.7-beta/vagrant-story-fonts-v0.7-desktop.zip) |
+| **HD Fonts + UI Art** · WIP | Same fonts, plus material badges and body silhouettes | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.7-beta/vagrant-story-ui-art-v0.7-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.7-beta/vagrant-story-ui-art-v0.7-desktop.zip) |
+<!-- downloads:end -->
 
-**Rough font/text progress: 90%.** Remaining fixed labels and rare symbols are
-on the [roadmap](docs/COVERAGE.md). Other UI artwork is planned for later.
+The pixel art is part of the game's character. The art edition offers another
+look, based on our interpretation; it is unfinished, with buttons and other
+icons still to come. [Art direction](docs/ART-DIRECTION.md).
 
-[Visual changelog and comparisons](CHANGELOG.md).
+![HD dialogue and edition comparison](assets/cover-v0.7.png)
+
+![Dialogue font comparison](assets/style-comparison.png)
+
+**Install one edition.** When switching, remove the previous replacement files
+first—importing another ZIP does not remove its artwork. [Switching editions](docs/INSTALL.md#switching-editions).
 
 ## Install
 
-### Android
+**Android:** leave the ZIP zipped. Stop the game, then use
+**Transfer Data → ZIP file → Import** and choose **Textures** if asked.
 
-1. Download the **Android ZIP** and leave it zipped.
-2. Stop the game, then use **Transfer Data → ZIP file → Import** in DuckStation.
-3. Select the ZIP and choose **Textures** if asked.
-4. Enable **Texture Cache** and **Texture Replacements** with a hardware renderer.
-5. Set **Texture Filtering** and **Sprite Texture Filtering** to **Nearest Neighbor**.
-6. Restart the game. Try 4x/5x internal resolution.
+**Desktop:** extract the ZIP into DuckStation's `textures` folder, giving you
+`textures/SLUS-01040/replacements/`.
 
-**Android 0.1-8969:** disable **PGXP Geometry Correction** in Vagrant Story's
-per-game settings to avoid distorted menu letters. This loses PGXP's 3D
-improvements. Windows 0.1-12083 passed our menu test with PGXP on;
-newer Android builds haven't been tested. [Details](docs/PGXP.md).
+Enable **Texture Cache** and **Texture Replacements** with a hardware renderer.
+Set **Texture Filtering** and **Sprite Texture Filtering** to **Nearest Neighbor**,
+then restart the game. Try 4×/5× internal resolution.
 
-### Desktop
+**Android 0.1-8969:** turn off **PGXP Geometry Correction** for this game to avoid
+distorted menu letters. [Compatibility](docs/PGXP.md) · [Installation help](docs/INSTALL.md).
 
-Extract the **Desktop ZIP** into DuckStation's `textures` folder so it contains
-`textures/SLUS-01040/replacements/`. Enable **Texture Cache** and
-**Texture Replacements**, set **both texture filters to Nearest Neighbor**,
-and restart the game.
+Font/text progress: **roughly 90%**. [Coverage and roadmap](docs/COVERAGE.md).
+Earlier dialogue-only downloads remain in [older releases](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases).
 
-Upgrading an experimental menu/UI pack? Back it up and remove its old
-replacements first. Published v0.2–v0.4 can be upgraded by import.
-[Installation help and troubleshooting](docs/INSTALL.md).
+[Visual changelog](CHANGELOG.md) · [Release notes](RELEASE-NOTES.md) · [Testing](docs/TESTING.md) · [Method and credits](docs/CREDITS.md)
 
-## Screenshots
-
-![Dialogue](assets/windows-dialogue-v0.2.png)
-
-[UI borders](docs/images/compact-ui-labels-v0.4.png) · [Menu heights](docs/images/font-heights-preview.png)
-
-[Combat text](docs/images/combat-labels-v0.5.png) · [Word spacing](docs/images/combat-spacing-v0.5.png) · [Fixed labels and popups](docs/images/fixed-labels-v0.5.png)
-
-[Material badges: original / HD](docs/images/material-badges-v0.6.png)
-
-## More
-
-[Visual changelog](CHANGELOG.md) · [Coverage and roadmap](docs/COVERAGE.md) · [Compatibility](docs/PGXP.md) · [Testing](docs/TESTING.md) · [Method and credits](docs/CREDITS.md)
-
-For bug reports, include a screenshot, game serial, DuckStation version,
-device/renderer and PGXP/filter settings.
-
-Unofficial fan project, made with AI-assisted reconstruction and manual review.
-Original art belongs to its rights holders. No game, BIOS or emulator included.
+Unofficial fan project. Art direction and interpretation by
+[diodiogod](https://github.com/diodiogod). Original art belongs to its rights
+holders. No game, BIOS or emulator included.

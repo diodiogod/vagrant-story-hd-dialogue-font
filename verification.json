@@ -1,12 +1,12 @@
 {
-  "name": "Vagrant Story Original Style HD Fonts",
-  "version": "0.6-beta",
-  "package_version": "0.6",
-  "date": "2026-10-17",
+  "name": "Vagrant Story HD Fonts & UI",
+  "version": "0.7-beta",
+  "package_version": "0.7",
+  "date": "2026-10-20",
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
-  "pngs": 103,
-  "pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8",
+  "pngs": 104,
+  "pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -293,6 +293,10 @@
       "sha256": "ac8984032f46c5bfc3eec061c046347ef4d7084defa688affdfc258ba4a86679"
     },
     {
+      "filename": "texpage-STP4-A9FBF4E578AF475A-9F8A5175F34347CA-64x256-0-160-72x48-P0-15.png",
+      "sha256": "5c9870d6c62b85edcf544fe4464927f1149b322f2e1aa4cab2a54693d1df8062"
+    },
+    {
       "filename": "texpage-STP4-C5DBCE552D387569-69491D7E26769824-64x256-0-75-252x21-P0-15.png",
       "sha256": "4d8ddf6d9748dd6f8dffef36a8e2985ca22f6d0ac8184da90e1c57df1b76104d"
     },
@@ -545,16 +549,20 @@
       "Hagane",
       "Silver",
       "Damascus"
+    ],
+    "body_silhouettes": [
+      "sword and shield",
+      "empty hands"
     ]
   },
   "rough_progress": {
     "percent": 90,
     "kind": "Rough font/text estimate; other artwork excluded"
   },
-  "previous_release": "docs/v0.4/verification.json",
-  "unchanged_published_pngs": 55,
-  "changed_published_pngs": 4,
-  "added_pngs": 44,
+  "previous_release": "docs/v0.6/verification.json",
+  "unchanged_published_pngs": 103,
+  "changed_published_pngs": 0,
+  "added_pngs": 1,
   "windows": {
     "version": "0.1-12083-g00e299795",
     "renderer": "Vulkan",
@@ -602,12 +610,19 @@
       "equipment_menu_checked": true,
       "evidence": "docs/evidence/materials-rendered-v0.6.json",
       "equipment_evidence": "docs/evidence/materials-equipment-v0.6.json"
+    },
+    "body_silhouettes": {
+      "pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437",
+      "both_poses_checked": true,
+      "changed_pixels_outside_body": 0,
+      "black_border_core_failures": 0,
+      "evidence": "docs/evidence/body-silhouettes-v0.7.json"
     }
   },
   "android": {
     "version": "0.1-8969-g611bb8fb4",
     "import_contract_verified": true,
-    "current_payload_device_tested": false,
+    "current_payload_device_tested": true,
     "pgxp_workaround": "Disable PGXP Geometry Correction per game; both filters Nearest Neighbor",
     "previous_device_reports": "docs/v0.4/verification.json",
     "lookup_coordinate_rule_verified_in_source": true,
@@ -620,7 +635,12 @@
       "device_capture_or_on_device_hash_recorded": false,
       "current_popup_sign_revision_device_tested": false
     },
-    "material_badges_device_tested": false
+    "material_badges_device_tested": false,
+    "device_evidence": "Maintainer approved the supplied v57 UI-art test in game on 2026-10-20; no new device/build identifier or on-device hash was recorded.",
+    "tested_pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437",
+    "tested_archive_sha256": "0fe28db09c58a6760b908e2362f68ae074ae9c26a9063e457c6c2f14952ef1b5",
+    "fonts_edition_separate_device_import_tested": false,
+    "material_badges_device_test_scope": "The supplied full art pack was approved in game; no all-seven-material device specimen was recorded."
   },
   "user_visual_acceptance": {
     "combat_comparison_accepted": true,
@@ -628,7 +648,10 @@
     "reviewed_pack_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
     "full_gameplay_acceptance": false,
     "material_artwork_selected": true,
-    "material_pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8"
+    "material_pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8",
+    "body_silhouettes_accepted": true,
+    "body_pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437",
+    "body_acceptance_date": "2026-10-20"
   },
   "menu_glow": {
     "included_in_pack": true,
@@ -655,8 +678,38 @@
   "known_issues": {
     "information_framebuffer_ghost": "Native framebuffer-copy lettering can remain beneath the HD heading. Transparency retained; no black-fill workaround included."
   },
-  "release_packages": "docs/v0.6/packages.json",
-  "status": "v0.6 beta release",
+  "release_packages": "docs/v0.7/packages.json",
+  "status": "v0.7 beta release",
   "previous_development": "docs/v0.5/verification.json",
-  "unchanged_v05_pngs": 101
+  "unchanged_v05_pngs": 101,
+  "edition_manifest": "editions.json",
+  "editions": {
+    "fonts": {
+      "name": "HD Fonts",
+      "pngs": 101,
+      "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b"
+    },
+    "ui-art": {
+      "name": "HD Fonts + UI Art",
+      "pngs": 104,
+      "pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437"
+    }
+  },
+  "shared_fonts_reference": {
+    "manifest": "docs/v0.6/verification.json",
+    "excluded_art_files": [
+      "texpage-STP4-A4CF47DD968DAA08-2DA679AB1517DDF5-64x256-216-200-24x24-P0-15.png",
+      "texpage-STP4-A4CF47DD968DAA08-FE811BB97D77F258-64x256-216-200-24x24-P0-15.png"
+    ]
+  },
+  "body_artwork": {
+    "poses": [
+      "sword and shield",
+      "empty hands"
+    ],
+    "shared_sprite_pieces": 7,
+    "method": "Maintainer-painted flat silhouette, with opaque black surround",
+    "exact_reviewed_pose_reassembly": true,
+    "source_and_render_evidence": "docs/evidence/body-silhouettes-v0.7.json"
+  }
 }

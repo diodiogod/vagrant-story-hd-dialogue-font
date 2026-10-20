@@ -1,5 +1,19 @@
 # Visual changelog
 
+## v0.7 beta — 2026-10-20
+
+Two complete editions share the same fonts. The art edition adds the material
+badges and manually painted body-status sprites; the fonts edition keeps the
+original pixel artwork. Both equipped and empty-hand poses are included.
+
+![Original / HD Fonts / HD Fonts + UI Art](assets/editions-v0.7.png)
+
+![Body silhouettes: original / HD](docs/images/body-silhouettes-v0.7.png)
+
+[Release notes](RELEASE-NOTES.md) · [Art direction](docs/ART-DIRECTION.md).
+
+---
+
 ## v0.6 beta — 2026-10-17
 
 - Added all seven material initials with reviewed metallic shading and thick dark borders.

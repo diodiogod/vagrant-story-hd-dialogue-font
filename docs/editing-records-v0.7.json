@@ -1,0 +1,17 @@
+{
+  "artwork": "Maintainer-painted armed torso, legs, head and unarmed arms; supplied as three registered 1152x1152 PNGs",
+  "source_hashes": {
+    "armed torso.png": "4feeb3d8c3679185dcc23162f171112f5a4474072781d15f5d219fc1f85a7455",
+    "head and unarmed.png": "e546062ae8fad45eb6066ea08f2d4a4cb4a60aa48d50d26c30a51f7fa465562c",
+    "legs.png": "363b65d1e38515341a72ee72347ca3c47fe3a2411c83f6843b0b3bd5321cdad6"
+  },
+  "workflow": [
+    "Preserve the supplied silhouette and its single registered canvas.",
+    "Remove detached export specks and hidden matte debris; preserve intended black and cyan.",
+    "Assemble both complete poses before splitting seven shared and pose-specific sprites.",
+    "Encode black so it stays opaque in the game; add identical hidden black overlap at internal joins.",
+    "Check exact reassembly and actual game rendering; obtain maintainer acceptance."
+  ],
+  "artwork_generation": "No AI redraw of the final supplied body artwork.",
+  "art_is_optional": true
+}

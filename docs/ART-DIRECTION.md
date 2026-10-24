@@ -15,7 +15,8 @@ those changes optional rather than making them a requirement for clearer text.
 | Numbers, punctuation and readable +/− signs | HD | HD |
 | Material badges (W, L, B, I, H, S, D) | Original | Reinterpreted |
 | Body-status silhouettes | Original | Manually painted HD sprites |
-| Other icons, buttons and decoration | Original | Original until individually reviewed |
+| Selected equipment/category badges, arrows and expressions | Original | Reviewed HD artwork; badges WIP |
+| Remaining icons, buttons and decoration | Original | Original until individually reviewed |
 | World and character textures | Original | Original |
 
 The material initials are treated as badges: their colour, bevel and backing

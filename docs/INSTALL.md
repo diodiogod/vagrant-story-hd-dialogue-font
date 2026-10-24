@@ -62,15 +62,10 @@ On Android, use your existing file-access method or an emulator export/import
 workflow that lets you remove the old texture files. Importing the fonts ZIP
 over the art ZIP alone will leave its badges and silhouettes installed.
 
-Both editions share the same 101 font files. The art edition adds these three
-files; removing **all three** from an otherwise clean current installation
-returns it to HD Fonts:
-
-```text
-texpage-STP4-A4CF47DD968DAA08-2DA679AB1517DDF5-64x256-216-200-24x24-P0-15.png
-texpage-STP4-A4CF47DD968DAA08-FE811BB97D77F258-64x256-216-200-24x24-P0-15.png
-texpage-STP4-A9FBF4E578AF475A-9F8A5175F34347CA-64x256-0-160-72x48-P0-15.png
-```
+Both editions share the same 101 font files. The art edition adds 20 optional
+texture files. To return to HD Fonts, remove every file in the `ui-art` group of
+[editions.json](../editions.json), or replace this pack's folder with a clean
+Fonts installation. The three-file removal list from v0.7 is no longer sufficient.
 
 The [edition manifest](../editions.json) records the exact selection. Avoid
 combining overlapping font packs. Disable Texture Replacements to return to

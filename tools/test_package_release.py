@@ -19,9 +19,9 @@ class ReleaseTests(unittest.TestCase):
         self.assertEqual(reference, self.editions['fonts'])
         self.assertEqual(101,len(reference))
 
-    def test_art_is_only_the_three_optional_rectangles(self):
+    def test_art_is_only_the_reviewed_optional_rectangles(self):
         optional = set(self.editions['ui-art'])-set(self.editions['fonts'])
-        self.assertEqual(3,len(optional))
+        self.assertEqual(20,len(optional))
         self.assertEqual(2,sum('-A4CF47DD968DAA08-' in n for n in optional))
         self.assertEqual(1,sum('-A9FBF4E578AF475A-' in n for n in optional))
         for name, value in self.editions['fonts'].items():
@@ -42,9 +42,37 @@ class ReleaseTests(unittest.TestCase):
                     self.assertTrue(all(n.startswith('SLUS-01040/') for n in z.namelist()))
                     self.assertIn(self.selection['editions'][record['edition']]['name'],z.read('SLUS-01040/ABOUT.txt').decode())
 
-    def test_art_android_zip_matches_approved_test_bytes(self):
+    def test_android_approval_does_not_carry_over_to_changed_payload(self):
         art = next(r for r in self.report['archives'] if r['edition']=='ui-art' and r['platform']=='android')
-        self.assertEqual(self.manifest['android']['tested_archive_sha256'],art['sha256'])
+        device = self.manifest['android']
+        if device['current_payload_device_tested']:
+            self.assertEqual(device['tested_archive_sha256'],art['sha256'])
+            self.assertEqual(device['tested_pack_fingerprint'],art['pack_fingerprint'])
+        else:
+            self.assertNotEqual(device['tested_pack_fingerprint'],art['pack_fingerprint'])
+            self.assertFalse(self.manifest['badge_artwork']['android_tested'])
+
+    def test_android_import_report_describes_current_payload(self):
+        report = read_json(ROOT/'verification-android-import.json')
+        self.assertEqual(self.manifest['pack_fingerprint'],report['pack_fingerprint'])
+        self.assertEqual(self.manifest['pngs'],report['matching_texture_entries'])
+        self.assertEqual(self.manifest['editions'],report['editions'])
+        self.assertEqual(self.manifest['android']['current_payload_device_tested'],
+                         report['current_payload_device_tested'])
+
+    def test_badges_are_art_only_and_have_correct_category_mappings(self):
+        record = read_json(ROOT/'docs/editing-records-v0.8.json')
+        assets = {r['name']:r for r in record['assets']}
+        expected = {'dagger':[80,96,16,16], 'sword':[144,96,16,16],
+                    'great-sword':[160,96,16,16], 'polearm':[96,96,16,16],
+                    'crossbow':[48,112,16,16], 'shield':[64,112,16,16],
+                    'grips-category':[152,128,16,16], 'shield-category':[168,128,16,16]}
+        for name, rect in expected.items():
+            self.assertEqual(rect,assets[name]['native_rect'])
+        for asset in assets.values():
+            self.assertIn(asset['filename'],self.selection['groups']['ui-art'])
+            self.assertNotIn(asset['filename'],self.editions['fonts'])
+            self.assertEqual(asset['master_sha256'],digest((ROOT/asset['master']).read_bytes()))
 
     def test_edition_misclassification_is_rejected(self):
         wrong = copy.deepcopy(self.selection)
@@ -76,7 +104,7 @@ class ReleaseTests(unittest.TestCase):
     def test_switching_requires_removal_of_old_art(self):
         old_art = self.editions['ui-art']
         imported_fonts = dict(old_art,**self.editions['fonts'])
-        self.assertEqual(104,len(imported_fonts))
+        self.assertEqual(121,len(imported_fonts))
         self.assertNotEqual(imported_fonts,self.editions['fonts'])
         for name in self.selection['groups']['ui-art']:
             imported_fonts.pop(name)

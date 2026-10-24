@@ -1,12 +1,12 @@
 {
   "name": "Vagrant Story HD Fonts & UI",
-  "version": "0.7-beta",
-  "package_version": "0.7",
-  "date": "2026-10-20",
+  "version": "0.8-beta",
+  "package_version": "0.8",
+  "date": "2026-10-24",
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
-  "pngs": 104,
-  "pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437",
+  "pngs": 121,
+  "pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -101,6 +101,18 @@
       "sha256": "e550170d9a5b79bf6fedb5b9c68921a17fea10f6fb4592713e7c725ad00dc521"
     },
     {
+      "filename": "texpage-STP4-2E1D092928BF69A4-7818540C2AD3B887-64x256-152-32-16x16-P0-15.png",
+      "sha256": "e23764d960411d88a572e599ba2f7c24b00221e7d23776ff8863f084384c634c"
+    },
+    {
+      "filename": "texpage-STP4-3522B1686F8B8FF7-04763BAD5CD988E4-64x256-144-96-16x16-P0-15.png",
+      "sha256": "dcd54cbb760b9e41d06477bb6bcde7e01a74bc117c6b0955140fb892fafccfff"
+    },
+    {
+      "filename": "texpage-STP4-393EA0F194DCBBEA-7818540C2AD3B887-64x256-88-24-32x16-P0-15.png",
+      "sha256": "c05acf85af05052e89d07b617a978bde9a4bc91f3a0d6c498cc43a50e0ec10da"
+    },
+    {
       "filename": "texpage-STP4-399D676EC92E7604-69491D7E26769824-64x256-144-216-44x8-P0-15.png",
       "sha256": "b3406e363575f793944da84ce426ac6c9477dce48ad7fa85e8e1e1e6fbf20a68"
     },
@@ -133,6 +145,18 @@
       "sha256": "d4ec220b29c35d2d22151e082ca16b5030da50483afb6566ba0ed21869be473e"
     },
     {
+      "filename": "texpage-STP4-4A12F2FADDB30DE3-04763BAD5CD988E4-64x256-168-128-16x16-P0-15.png",
+      "sha256": "5999460c2a41a55c51f909061c889ba9f4495d1a23aba2d396ffd201f6ea6a71"
+    },
+    {
+      "filename": "texpage-STP4-4A12F2FADDB30DE3-46BA6415FDAFFA69-64x256-168-128-16x16-P0-15.png",
+      "sha256": "4de8ff4f65ecad952cfe9bc675de56635b7e399ab97947b055279e82c82d2e17"
+    },
+    {
+      "filename": "texpage-STP4-50B6949E9356EDF4-7818540C2AD3B887-64x256-120-17-32x30-P0-15.png",
+      "sha256": "ef3d0ef54431e581a6cb144446ced19f6044eb7c5dce87ee97dc6710e111645c"
+    },
+    {
       "filename": "texpage-STP4-59C83B3D7F8E8F8A-69491D7E26769824-64x256-96-152-52x8-P0-15.png",
       "sha256": "58585a6f9e9b2a19fa4562c377cf9efc5cc5c0b0e419253280e236ca2832c3d8"
     },
@@ -147,6 +171,10 @@
     {
       "filename": "texpage-STP4-59C83B3D7F8E8F8A-9F8A5175F34347CA-64x256-96-152-52x8-P0-15.png",
       "sha256": "c2bb63045e0f8b4773038c4babea6b6be84d859cb4170fa1f2d54c86fc0b1082"
+    },
+    {
+      "filename": "texpage-STP4-609670C0A7973540-46BA6415FDAFFA69-64x256-48-48-16x16-P0-15.png",
+      "sha256": "e1a6bb70def374f80d69d5621665d047142c70f1818605262adf4dfd018a6d42"
     },
     {
       "filename": "texpage-STP4-63214267CBDD5564-69491D7E26769824-64x256-64-144-36x8-P0-15.png",
@@ -197,6 +225,10 @@
       "sha256": "d8fb2d1ef0eae83d72645117a16c751d5e1a8d26450103ccf2ace4b2fe8e29da"
     },
     {
+      "filename": "texpage-STP4-7EE95D074AFECF30-04763BAD5CD988E4-64x256-64-112-16x16-P0-15.png",
+      "sha256": "57f06a216b27c96d7d29b4e0074d1ac3623fa9a7c86c68ce41a359df6dafa59d"
+    },
+    {
       "filename": "texpage-STP4-7F915802249DEA01-69491D7E26769824-64x256-144-0-84x9-P0-15.png",
       "sha256": "490c9b5499ba9ad58e2abe110640ad6ef97ee1984bed1c8794bef028fa95301e"
     },
@@ -211,6 +243,10 @@
     {
       "filename": "texpage-STP4-7F915802249DEA01-9F8A5175F34347CA-64x256-144-0-84x9-P0-15.png",
       "sha256": "f4f1fd4bb4db5738d4e2846853bf0886d382a8f0ddc6a35ad309af95ec50f23d"
+    },
+    {
+      "filename": "texpage-STP4-81B1A8A139BEE56D-04763BAD5CD988E4-64x256-96-96-16x16-P0-15.png",
+      "sha256": "e022229bbc94e19cd5d0816573e680a1235bc5bd65ec266a88cf07c90b4c0ff3"
     },
     {
       "filename": "texpage-STP4-8BF5446EDF5266EA-69491D7E26769824-64x256-216-160-40x8-P0-15.png",
@@ -235,6 +271,10 @@
     {
       "filename": "texpage-STP4-8DF128B9AC5FC374-E41C34F07CB9645A-64x256-64-0-76x10-P0-15.png",
       "sha256": "884a676de7bec74084e4e010aa88e3b797b02202227a41368deeeccf2e89e281"
+    },
+    {
+      "filename": "texpage-STP4-8E0047161253B7FE-04763BAD5CD988E4-64x256-80-96-16x16-P0-15.png",
+      "sha256": "86fa5ce665d1d8e07f37c579f6ec4ca2a706316e15c8518f9d5888f909883fb6"
     },
     {
       "filename": "texpage-STP4-9CC4299A919F823F-1F9BDD95E92A3639-64x256-0-0-252x108-P0-15.png",
@@ -269,6 +309,10 @@
       "sha256": "c1430a97ae7fca423dbfdc98475e20be12638f2be2306178dae868b007e3ad32"
     },
     {
+      "filename": "texpage-STP4-9E2F6F8B67440783-7818540C2AD3B887-64x256-64-16-24x24-P0-15.png",
+      "sha256": "733cd09568f07ef6ad4608a8916eed5f3fee5ca4753c2aa247e1b063e28c4fa0"
+    },
+    {
       "filename": "texpage-STP4-A221C16A2EE15BD0-69491D7E26769824-64x256-144-160-36x56-P0-15.png",
       "sha256": "382f0ae0d4e58da698fb123b80f7008c4d10d260806a8d00b2bea3a5ee2a9175"
     },
@@ -297,6 +341,10 @@
       "sha256": "5c9870d6c62b85edcf544fe4464927f1149b322f2e1aa4cab2a54693d1df8062"
     },
     {
+      "filename": "texpage-STP4-B4CC01B964363851-04763BAD5CD988E4-64x256-48-112-16x16-P0-15.png",
+      "sha256": "ef088b58533a1898b5db8cd34a4a9254a61ad50568b9f3ba48770f6504e6f71f"
+    },
+    {
       "filename": "texpage-STP4-C5DBCE552D387569-69491D7E26769824-64x256-0-75-252x21-P0-15.png",
       "sha256": "4d8ddf6d9748dd6f8dffef36a8e2985ca22f6d0ac8184da90e1c57df1b76104d"
     },
@@ -313,6 +361,10 @@
       "sha256": "18346729a79d17c186d97534a0962657bd1e645ae83c4d3d2337e1cbb90ed1e2"
     },
     {
+      "filename": "texpage-STP4-CAD732B261D48042-7818540C2AD3B887-64x256-160-17-20x13-P0-15.png",
+      "sha256": "29019c416b954a0890b54abeb8d653a330dcd44675519b88ac1ed36131be3b44"
+    },
+    {
       "filename": "texpage-STP4-CE6C0807FBBE79F2-69491D7E26769824-64x256-32-8-8x8-P0-15.png",
       "sha256": "6523062da70ab1b814cec21ad517e73001d0b83b328ec7e8971e7849f68bfe80"
     },
@@ -327,6 +379,14 @@
     {
       "filename": "texpage-STP4-CE6C0807FBBE79F2-9F8A5175F34347CA-64x256-32-8-8x8-P0-15.png",
       "sha256": "c79041b95064b4b22350c19beb0fa4d5ffb49e1836f11774b142273b3054351f"
+    },
+    {
+      "filename": "texpage-STP4-D61ABE66191E9512-04763BAD5CD988E4-64x256-152-128-16x16-P0-15.png",
+      "sha256": "67eac3ce6d981f5b59458755516e1fbaab1a108849c512d19db9b9f050751306"
+    },
+    {
+      "filename": "texpage-STP4-D61ABE66191E9512-46BA6415FDAFFA69-64x256-152-128-16x16-P0-15.png",
+      "sha256": "51a8faf18bd64aca6e388ee98ff2fa4d3fde62306c7b48ef29a2c63a691573ed"
     },
     {
       "filename": "texpage-STP4-D7E6C141060784E6-CBF39C0936C27EBA-64x256-152-52-98x12-P0-15.png",
@@ -375,6 +435,14 @@
     {
       "filename": "texpage-STP4-E8B6357C6F2FE316-9F8A5175F34347CA-64x256-104-144-56x8-P0-15.png",
       "sha256": "7996e42419d3e2d9ad122cc8848b4b00567bebf49863bde1b23489881ea92552"
+    },
+    {
+      "filename": "texpage-STP4-E957689F9EA7BE2F-04763BAD5CD988E4-64x256-160-96-16x16-P0-15.png",
+      "sha256": "2982c512e4dfb1b53eeb682a3122d99ccff97560d2b838cedd6ed5b305383335"
+    },
+    {
+      "filename": "texpage-STP4-EC7516EF3A0814FA-3449EFD8F4382281-64x256-32-48-16x16-P0-15.png",
+      "sha256": "6dcbdc0b3f26f44ea174cc4c42bd1cf21b93ab09399df82d09b9b77fbca543e1"
     },
     {
       "filename": "texpage-STP4-ECB5D35CFC197F2E-69491D7E26769824-64x256-72-160-68x56-P0-15.png",
@@ -553,16 +621,37 @@
     "body_silhouettes": [
       "sword and shield",
       "empty hands"
+    ],
+    "equipment_badges": [
+      "Dagger",
+      "Sword",
+      "Great Sword",
+      "Polearm",
+      "Crossbow",
+      "Shield"
+    ],
+    "category_badges": [
+      "Grips",
+      "Shields"
+    ],
+    "selected_graphics": [
+      "Diagonal cursor",
+      "Up arrow",
+      "Normal bubble",
+      "Low bubble",
+      "Spiky bubble",
+      "Heart",
+      "Emphasis marks"
     ]
   },
   "rough_progress": {
     "percent": 90,
     "kind": "Rough font/text estimate; other artwork excluded"
   },
-  "previous_release": "docs/v0.6/verification.json",
-  "unchanged_published_pngs": 103,
+  "previous_release": "docs/v0.7/verification.json",
+  "unchanged_published_pngs": 104,
   "changed_published_pngs": 0,
-  "added_pngs": 1,
+  "added_pngs": 17,
   "windows": {
     "version": "0.1-12083-g00e299795",
     "renderer": "Vulkan",
@@ -617,12 +706,19 @@
       "changed_pixels_outside_body": 0,
       "black_border_core_failures": 0,
       "evidence": "docs/evidence/body-silhouettes-v0.7.json"
+    },
+    "badge_artwork": {
+      "pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6",
+      "instances": 20,
+      "changed_pixels_outside_artwork": 0,
+      "opaque_black_verified": true,
+      "scope": "Controlled native-size and 2x draws, including selected/inactive category variants; not complete natural-gameplay coverage."
     }
   },
   "android": {
     "version": "0.1-8969-g611bb8fb4",
     "import_contract_verified": true,
-    "current_payload_device_tested": true,
+    "current_payload_device_tested": false,
     "pgxp_workaround": "Disable PGXP Geometry Correction per game; both filters Nearest Neighbor",
     "previous_device_reports": "docs/v0.4/verification.json",
     "lookup_coordinate_rule_verified_in_source": true,
@@ -636,7 +732,7 @@
       "current_popup_sign_revision_device_tested": false
     },
     "material_badges_device_tested": false,
-    "device_evidence": "Maintainer approved the supplied v57 UI-art test in game on 2026-10-20; no new device/build identifier or on-device hash was recorded.",
+    "device_evidence": "Previous reports retained below. The new badge patch awaits Android testing.",
     "tested_pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437",
     "tested_archive_sha256": "0fe28db09c58a6760b908e2362f68ae074ae9c26a9063e457c6c2f14952ef1b5",
     "fonts_edition_separate_device_import_tested": false,
@@ -678,8 +774,8 @@
   "known_issues": {
     "information_framebuffer_ghost": "Native framebuffer-copy lettering can remain beneath the HD heading. Transparency retained; no black-fill workaround included."
   },
-  "release_packages": "docs/v0.7/packages.json",
-  "status": "v0.7 beta release",
+  "release_packages": "docs/v0.8/packages.json",
+  "status": "v0.8 beta prepared locally; unpublished",
   "previous_development": "docs/v0.5/verification.json",
   "unchanged_v05_pngs": 101,
   "edition_manifest": "editions.json",
@@ -691,8 +787,8 @@
     },
     "ui-art": {
       "name": "HD Fonts + UI Art",
-      "pngs": 104,
-      "pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437"
+      "pngs": 121,
+      "pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6"
     }
   },
   "shared_fonts_reference": {
@@ -711,5 +807,14 @@
     "method": "Maintainer-painted flat silhouette, with opaque black surround",
     "exact_reviewed_pose_reassembly": true,
     "source_and_render_evidence": "docs/evidence/body-silhouettes-v0.7.json"
+  },
+  "badge_artwork": {
+    "work_in_progress": true,
+    "source_art_approved": true,
+    "android_tested": false,
+    "editing_record": "docs/editing-records-v0.8.json",
+    "registration_evidence": "docs/evidence/badges-registration-v0.8.json",
+    "windows_rendered": true,
+    "render_evidence": "docs/evidence/badges-rendered-v0.8.json"
   }
 }

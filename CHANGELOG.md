@@ -1,5 +1,18 @@
 # Visual changelog
 
+## v0.8 beta — Equipment and category badges (WIP)
+
+The first badge batch adds the maintainer's Dagger, Sword, Great Sword, Polearm,
+Crossbow and Shield designs, plus Grips and Shields category tabs. Remaining
+badges keep their original artwork. The optional art edition also includes the
+reviewed arrows, paper bubbles, heart and emphasis marks. Shared fonts are unchanged.
+
+![Original sprites and registered badge exports](docs/images/badges-v0.8.png)
+
+[Arrows and expressions in the renderer](docs/images/arrows-expressions-v0.8.png).
+[Badge renderer comparison](docs/images/badges-rendered-v0.8.png). New badge Android testing is pending.
+
+
 ## v0.7 beta — 2026-10-20
 
 Two complete editions share the same fonts. The art edition adds the material

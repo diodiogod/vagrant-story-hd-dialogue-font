@@ -1,3 +1,17 @@
+# v0.8 beta — Badge artwork in progress
+
+- Adds six equipment badges and the Grips/Shields category badges, with selected and inactive colors.
+- Includes the previously reviewed arrows, paper bubbles, heart and emphasis marks.
+- Badge artwork remains a work in progress; unfinished icons retain their original artwork.
+- The maintainer created the badge designs using local models, selection/inpainting and manual Photoshop editing.
+- HD Fonts stays unchanged at 101 PNGs. HD Fonts + UI Art contains 121 PNGs.
+
+New badges await Android playtesting. Install one complete edition; remove the
+old art files when switching to Fonts. This version is prepared locally and has
+not been published.
+
+---
+
 # v0.7 beta — Two editions
 
 - **HD Fonts:** the shared dialogue, menu, HUD and combat lettering, with original pixel artwork.

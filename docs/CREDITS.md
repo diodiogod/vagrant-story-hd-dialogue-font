@@ -33,3 +33,7 @@ Material badges use reviewed metallic interpretations with thick dark backing an
 
 The artwork is optional in **HD Fonts + UI Art**. [Art direction](ART-DIRECTION.md)
 and [body editing record](editing-records-v0.7.json).
+
+The equipment/category badges combine the maintainer's local-model generation,
+selection and inpainting with manual Photoshop editing. Art direction and
+interpretation by diodiogod. [Badge editing records](editing-records-v0.8.json).

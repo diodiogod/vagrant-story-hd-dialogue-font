@@ -1,0 +1,222 @@
+{
+  "status": "passed",
+  "pack_fingerprint": "d1571949c298ef7eba2b8f53049cde65a192a1d86d2acc9410dff6095fbf9c98",
+  "native_frame": "J:\\Aitools\\decomp\\personal-mods\\hd-dialogue-font\\font-expansion-v03\\combat-render-v25\\captures\\ui-art-v67-native-2\\frame.png",
+  "native_frame_sha256": "f5f5f654e8afa1651e178386222a08ec464b44fb8b451b68a5cfd627a7732559",
+  "hd_frame": "J:\\Aitools\\decomp\\personal-mods\\hd-dialogue-font\\font-expansion-v03\\combat-render-v25\\captures\\ui-art-v67-hd-2\\frame.png",
+  "hd_frame_sha256": "f43b6c871e46e1cb4be4581f1bdb1430e7c8a23bccc64973994018bf4908bd98",
+  "source_state_sha256": "4b843a5c2c0585c394536b642a410fea128ca7b70a288e271a4d7d6c903bf4c6",
+  "presentation": [
+    27.999967336654663,
+    0.0,
+    2571.999955177307,
+    1908.0
+  ],
+  "screen_size": [
+    320,
+    224
+  ],
+  "display_dimensions_derived_from_present_shader": true,
+  "changed_pixels_outside_artwork": 0,
+  "samples": [
+    {
+      "name": "diagonal-arrow",
+      "zoom": 1,
+      "frame_box": [
+        185,
+        219,
+        317,
+        360
+      ],
+      "changed_pixels": 9136,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "diagonal-arrow",
+      "zoom": 2,
+      "frame_box": [
+        185,
+        526,
+        444,
+        803
+      ],
+      "changed_pixels": 35537,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "up-arrow",
+      "zoom": 1,
+      "frame_box": [
+        781,
+        219,
+        913,
+        360
+      ],
+      "changed_pixels": 6399,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "up-arrow",
+      "zoom": 2,
+      "frame_box": [
+        781,
+        526,
+        1040,
+        803
+      ],
+      "changed_pixels": 25012,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "speech-bubble",
+      "zoom": 1,
+      "frame_box": [
+        1377,
+        219,
+        1573,
+        428
+      ],
+      "changed_pixels": 25760,
+      "black_core_samples": 695,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "speech-bubble",
+      "zoom": 2,
+      "frame_box": [
+        1377,
+        526,
+        1763,
+        939
+      ],
+      "changed_pixels": 101932,
+      "black_core_samples": 7789,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "low-bubble",
+      "zoom": 1,
+      "frame_box": [
+        1973,
+        219,
+        2233,
+        360
+      ],
+      "changed_pixels": 24350,
+      "black_core_samples": 7,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "low-bubble",
+      "zoom": 2,
+      "frame_box": [
+        1973,
+        526,
+        2487,
+        803
+      ],
+      "changed_pixels": 96032,
+      "black_core_samples": 1769,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "spiky-burst",
+      "zoom": 1,
+      "frame_box": [
+        185,
+        1071,
+        428,
+        1331
+      ],
+      "changed_pixels": 35040,
+      "black_core_samples": 337,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "spiky-burst",
+      "zoom": 2,
+      "frame_box": [
+        185,
+        1378,
+        666,
+        1893
+      ],
+      "changed_pixels": 138125,
+      "black_core_samples": 8255,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "stress-marks",
+      "zoom": 1,
+      "frame_box": [
+        781,
+        1071,
+        945,
+        1186
+      ],
+      "changed_pixels": 9426,
+      "black_core_samples": 348,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "stress-marks",
+      "zoom": 2,
+      "frame_box": [
+        781,
+        1378,
+        1104,
+        1604
+      ],
+      "changed_pixels": 36208,
+      "black_core_samples": 5288,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "heart",
+      "zoom": 1,
+      "frame_box": [
+        1377,
+        1071,
+        1509,
+        1212
+      ],
+      "changed_pixels": 7829,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "heart",
+      "zoom": 2,
+      "frame_box": [
+        1377,
+        1378,
+        1636,
+        1655
+      ],
+      "changed_pixels": 30425,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    }
+  ],
+  "scope": "Actual presented Vulkan frame from controlled native/2x sprite specimen.",
+  "natural_gameplay_coverage": false,
+  "android_device_tested": false
+}

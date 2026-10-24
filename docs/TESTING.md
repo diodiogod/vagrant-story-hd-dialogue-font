@@ -1,5 +1,27 @@
 # Testing
 
+## v0.8 beta
+
+The new badge batch passed 20 controlled DuckStation Vulkan draw checks: ten
+registered palette variants at native size and 2x. Black silhouette interiors
+remain opaque, and the matched frames have zero changed pixels outside the test
+regions. This verifies the supplied exports in the renderer, not every natural
+menu interaction or Android device behavior.
+
+[Rendered comparison](images/badges-rendered-v0.8.png) ·
+[Measurements](evidence/badges-rendered-v0.8.json) ·
+[Registration and source hashes](evidence/badges-registration-v0.8.json).
+
+All 104 published v0.7 textures remain byte-identical. The seven previously
+reviewed arrow/expression exports are retained from the private Android test;
+[their earlier renderer evidence](evidence/arrows-expressions-v0.8.json) applies
+to that earlier pack fingerprint. Both editions retain the same 101 font files.
+
+The new Android badge package awaits maintainer testing. Archive paths, hashes,
+dimensions and CRCs pass the importer/package checks. Previous device approval
+is kept as historical evidence and is not assigned to this new payload.
+[Packages](v0.8/packages.json).
+
 ## v0.7 beta
 
 Both editions use the same 101 font PNGs, byte-identical to the font assets in

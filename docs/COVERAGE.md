@@ -1,6 +1,6 @@
 # Font coverage and roadmap
 
-Updated 2026-10-20. v0.7 beta: HD Fonts has 101 PNGs; HD Fonts + UI Art has 104.
+Updated 2026-10-24. v0.8 beta: HD Fonts has 101 PNGs; HD Fonts + UI Art has 121.
 Both use the same 8x fonts. [Edition scope](ART-DIRECTION.md).
 Coverage describes reconstructed assets, separately from where they were tested.
 
@@ -41,14 +41,18 @@ and matching bounds alone do not prove visual fidelity.
 empty-hand poses. The silhouettes use the maintainer's flat cyan/black artwork,
 with the game's health tints. They have been reviewed in game.
 
-**Remaining:** equipment/condition/affinity icons, controller prompts, buttons,
-arrows, bars and panel decoration need individual review. These are excluded
+**New WIP batch:** Dagger, Sword, Great Sword, Polearm, Crossbow and Shield;
+Grips/Shields category tabs; diagonal/up arrows, three paper bubbles, heart and
+emphasis marks. The badge batch awaits Android testing.
+
+**Remaining:** the other equipment/category/condition/affinity icons, controller
+prompts, buttons, remaining arrows, bars and panel decoration need individual review. These are excluded
 from the font progress estimate. The fonts edition keeps these graphics and
 the badges/body diagram original. World and character textures are outside scope.
 
 ## Test coverage
 
-See [v0.7 testing](TESTING.md#v07-beta) for current edition checks. The following
+See [v0.8 testing](TESTING.md#v08-beta) for current edition checks. The following
 notes preserve the scope of earlier tests.
 
 All seven material initials were checked in 14 Windows draw instances at native

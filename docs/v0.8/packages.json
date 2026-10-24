@@ -1,0 +1,45 @@
+{
+  "version": "0.8-beta",
+  "status": "Validated release packages",
+  "shared_fonts_identical": true,
+  "dialogue_unchanged": true,
+  "android_import_path_controls_passed": true,
+  "archives": [
+    {
+      "name": "vagrant-story-fonts-v0.8-android.zip",
+      "edition": "fonts",
+      "platform": "android",
+      "pngs": 101,
+      "bytes": 7099300,
+      "sha256": "fda6f1aaed9b4c5d107e9626f807b62124e2984309d371663ff6c980ae8258fb",
+      "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b"
+    },
+    {
+      "name": "vagrant-story-fonts-v0.8-desktop.zip",
+      "edition": "fonts",
+      "platform": "desktop",
+      "pngs": 101,
+      "bytes": 7098146,
+      "sha256": "4465d67ea5b178cf51d73e1a4d29025f0b466000fb6bfe41e240f9fbe24491fe",
+      "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b"
+    },
+    {
+      "name": "vagrant-story-ui-art-v0.8-android.zip",
+      "edition": "ui-art",
+      "platform": "android",
+      "pngs": 121,
+      "bytes": 7545826,
+      "sha256": "a6ef11d660a46abfa15b1e27d05eab6d833df2e799d51996cd99f18de6cff635",
+      "pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6"
+    },
+    {
+      "name": "vagrant-story-ui-art-v0.8-desktop.zip",
+      "edition": "ui-art",
+      "platform": "desktop",
+      "pngs": 121,
+      "bytes": 7544352,
+      "sha256": "ba4e22063ab1c747510d3e867cdad35d82fbfc84af0dbde4f86d5b0e55e28abe",
+      "pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6"
+    }
+  ]
+}

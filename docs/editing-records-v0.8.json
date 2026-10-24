@@ -1,0 +1,532 @@
+{
+  "art_direction_and_interpretation": "diodiogod",
+  "badge_workflow": "Maintainer-selected local-model generation and inpainting, followed by manual Photoshop editing.",
+  "new_generation_during_integration": false,
+  "masters_preserved_byte_for_byte": true,
+  "registration": "Full 512x512 canvases downsampled to 128x128, retaining original cell placement.",
+  "alpha": "Threshold 128 before and after premultiplied-alpha Lanczos downsampling; STP4 alpha 128, nonzero RGB black carrier.",
+  "category_states": "Selected artwork retains user colors. Inactive category badges use native palette hue/saturation transfer, preserving value, alpha and black.",
+  "grips_assignment": "Maintainer explicitly approved Crossbow.png for Grips.",
+  "assets": [
+    {
+      "name": "crossbow",
+      "master": "assets/sources/badges-v0.8/Crossbow turq.png",
+      "master_sha256": "5009567904d43a214212c7e9a68d113cbb9b28119f2f3d2aa29b35d470d8c9e2",
+      "source_id": "item-048-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        48,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        48,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-B4CC01B964363851-04763BAD5CD988E4-64x256-48-112-16x16-P0-15.png",
+      "sha256": "ef088b58533a1898b5db8cd34a4a9254a61ad50568b9f3ba48770f6504e6f71f",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "sword",
+      "master": "assets/sources/badges-v0.8/sword.png",
+      "master_sha256": "16bd3c41bdadba86bfed58023de068cc88e7b1c6fdf1affb694eb7dc9b02ff3b",
+      "source_id": "item-144-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        144,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        144,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-3522B1686F8B8FF7-04763BAD5CD988E4-64x256-144-96-16x16-P0-15.png",
+      "sha256": "dcd54cbb760b9e41d06477bb6bcde7e01a74bc117c6b0955140fb892fafccfff",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "polearm",
+      "master": "assets/sources/badges-v0.8/spear.png",
+      "master_sha256": "3005902e01accbea0457113d22fd4fe92d33d9ee179818e419b4fba7b23abb92",
+      "source_id": "item-096-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        96,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        96,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-81B1A8A139BEE56D-04763BAD5CD988E4-64x256-96-96-16x16-P0-15.png",
+      "sha256": "e022229bbc94e19cd5d0816573e680a1235bc5bd65ec266a88cf07c90b4c0ff3",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "dagger",
+      "master": "assets/sources/badges-v0.8/dagger.png",
+      "master_sha256": "33add997f2062d5d3f46a7e8a0072267c3802addaaaf54f36a3c88b6d27cbf23",
+      "source_id": "item-080-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        80,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        80,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-8E0047161253B7FE-04763BAD5CD988E4-64x256-80-96-16x16-P0-15.png",
+      "sha256": "86fa5ce665d1d8e07f37c579f6ec4ca2a706316e15c8518f9d5888f909883fb6",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "shield",
+      "master": "assets/sources/badges-v0.8/sword blue.png",
+      "master_sha256": "9786a08eecb15d83b02fe56fe9e9aae51386ca2b0ff43f2650fbd860520a56ff",
+      "source_id": "item-064-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        64,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        64,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-7EE95D074AFECF30-04763BAD5CD988E4-64x256-64-112-16x16-P0-15.png",
+      "sha256": "57f06a216b27c96d7d29b4e0074d1ac3623fa9a7c86c68ce41a359df6dafa59d",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "great-sword",
+      "master": "assets/sources/badges-v0.8/great sword.png",
+      "master_sha256": "f5946cc6bb3ee80cac1da659659cbcafd33a82645d8059730594c5f6b4b4c193",
+      "source_id": "item-160-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        160,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        160,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-E957689F9EA7BE2F-04763BAD5CD988E4-64x256-160-96-16x16-P0-15.png",
+      "sha256": "2982c512e4dfb1b53eeb682a3122d99ccff97560d2b838cedd6ed5b305383335",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "shield-category",
+      "master": "assets/sources/badges-v0.8/sword yellow.png",
+      "master_sha256": "e3dd5435a1532a06e4c9a06a42ecb536a7a579444a7339cd70d4b90678edc599",
+      "source_id": "action-symbol-04",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-4A12F2FADDB30DE3-46BA6415FDAFFA69-64x256-168-128-16x16-P0-15.png",
+      "sha256": "4de8ff4f65ecad952cfe9bc675de56635b7e399ab97947b055279e82c82d2e17",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "shield-category-inactive",
+      "master": "assets/sources/badges-v0.8/sword yellow.png",
+      "master_sha256": "e3dd5435a1532a06e4c9a06a42ecb536a7a579444a7339cd70d4b90678edc599",
+      "source_id": "action-symbol-04",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-4A12F2FADDB30DE3-04763BAD5CD988E4-64x256-168-128-16x16-P0-15.png",
+      "sha256": "5999460c2a41a55c51f909061c889ba9f4495d1a23aba2d396ffd201f6ea6a71",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native gold-to-turquoise hue shift and saturation ratio; value, alpha and black unchanged"
+    },
+    {
+      "name": "grips-category",
+      "master": "assets/sources/badges-v0.8/Crossbow.png",
+      "master_sha256": "41ba61fd16c3bb3ac1745a2db6ad90dc35a79f6c23294b49f108178d39b7800e",
+      "source_id": "action-symbol-03",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-D61ABE66191E9512-46BA6415FDAFFA69-64x256-152-128-16x16-P0-15.png",
+      "sha256": "51a8faf18bd64aca6e388ee98ff2fa4d3fde62306c7b48ef29a2c63a691573ed",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "grips-category-inactive",
+      "master": "assets/sources/badges-v0.8/Crossbow.png",
+      "master_sha256": "41ba61fd16c3bb3ac1745a2db6ad90dc35a79f6c23294b49f108178d39b7800e",
+      "source_id": "action-symbol-03",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-D61ABE66191E9512-04763BAD5CD988E4-64x256-152-128-16x16-P0-15.png",
+      "sha256": "67eac3ce6d981f5b59458755516e1fbaab1a108849c512d19db9b9f050751306",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native gold-to-turquoise hue shift and saturation ratio; value, alpha and black unchanged"
+    }
+  ]
+}

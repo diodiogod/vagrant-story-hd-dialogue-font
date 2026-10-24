@@ -1,0 +1,1025 @@
+{
+  "status": "Passed controlled Windows rendering; Android testing pending",
+  "pngs": 121,
+  "pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6",
+  "baseline_111_files_unchanged": true,
+  "source_system_sha256": "fde976eb1ee43f575d10f7cec0c7359bcad28f438d19e39cea096a3053a31436",
+  "new_artwork": [
+    {
+      "name": "crossbow",
+      "master": "Crossbow turq.png",
+      "master_sha256": "5009567904d43a214212c7e9a68d113cbb9b28119f2f3d2aa29b35d470d8c9e2",
+      "source_id": "item-048-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        48,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        48,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-B4CC01B964363851-04763BAD5CD988E4-64x256-48-112-16x16-P0-15.png",
+      "sha256": "ef088b58533a1898b5db8cd34a4a9254a61ad50568b9f3ba48770f6504e6f71f",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "sword",
+      "master": "sword.png",
+      "master_sha256": "16bd3c41bdadba86bfed58023de068cc88e7b1c6fdf1affb694eb7dc9b02ff3b",
+      "source_id": "item-144-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        144,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        144,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-3522B1686F8B8FF7-04763BAD5CD988E4-64x256-144-96-16x16-P0-15.png",
+      "sha256": "dcd54cbb760b9e41d06477bb6bcde7e01a74bc117c6b0955140fb892fafccfff",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "polearm",
+      "master": "spear.png",
+      "master_sha256": "3005902e01accbea0457113d22fd4fe92d33d9ee179818e419b4fba7b23abb92",
+      "source_id": "item-096-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        96,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        96,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-81B1A8A139BEE56D-04763BAD5CD988E4-64x256-96-96-16x16-P0-15.png",
+      "sha256": "e022229bbc94e19cd5d0816573e680a1235bc5bd65ec266a88cf07c90b4c0ff3",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "dagger",
+      "master": "dagger.png",
+      "master_sha256": "33add997f2062d5d3f46a7e8a0072267c3802addaaaf54f36a3c88b6d27cbf23",
+      "source_id": "item-080-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        80,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        80,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-8E0047161253B7FE-04763BAD5CD988E4-64x256-80-96-16x16-P0-15.png",
+      "sha256": "86fa5ce665d1d8e07f37c579f6ec4ca2a706316e15c8518f9d5888f909883fb6",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "shield",
+      "master": "sword blue.png",
+      "master_sha256": "9786a08eecb15d83b02fe56fe9e9aae51386ca2b0ff43f2650fbd860520a56ff",
+      "source_id": "item-064-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        64,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        64,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-7EE95D074AFECF30-04763BAD5CD988E4-64x256-64-112-16x16-P0-15.png",
+      "sha256": "57f06a216b27c96d7d29b4e0074d1ac3623fa9a7c86c68ce41a359df6dafa59d",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "great-sword",
+      "master": "great sword.png",
+      "master_sha256": "f5946cc6bb3ee80cac1da659659cbcafd33a82645d8059730594c5f6b4b4c193",
+      "source_id": "item-160-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        160,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        160,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-E957689F9EA7BE2F-04763BAD5CD988E4-64x256-160-96-16x16-P0-15.png",
+      "sha256": "2982c512e4dfb1b53eeb682a3122d99ccff97560d2b838cedd6ed5b305383335",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "shield-category",
+      "master": "sword yellow.png",
+      "master_sha256": "e3dd5435a1532a06e4c9a06a42ecb536a7a579444a7339cd70d4b90678edc599",
+      "source_id": "action-symbol-04",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-4A12F2FADDB30DE3-46BA6415FDAFFA69-64x256-168-128-16x16-P0-15.png",
+      "sha256": "4de8ff4f65ecad952cfe9bc675de56635b7e399ab97947b055279e82c82d2e17",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "shield-category-inactive",
+      "master": "sword yellow.png",
+      "master_sha256": "e3dd5435a1532a06e4c9a06a42ecb536a7a579444a7339cd70d4b90678edc599",
+      "source_id": "action-symbol-04",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-4A12F2FADDB30DE3-04763BAD5CD988E4-64x256-168-128-16x16-P0-15.png",
+      "sha256": "5999460c2a41a55c51f909061c889ba9f4495d1a23aba2d396ffd201f6ea6a71",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native gold-to-turquoise hue shift and saturation ratio; value, alpha and black unchanged"
+    },
+    {
+      "name": "grips-category",
+      "master": "Crossbow.png",
+      "master_sha256": "41ba61fd16c3bb3ac1745a2db6ad90dc35a79f6c23294b49f108178d39b7800e",
+      "source_id": "action-symbol-03",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-D61ABE66191E9512-46BA6415FDAFFA69-64x256-152-128-16x16-P0-15.png",
+      "sha256": "51a8faf18bd64aca6e388ee98ff2fa4d3fde62306c7b48ef29a2c63a691573ed",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors"
+    },
+    {
+      "name": "grips-category-inactive",
+      "master": "Crossbow.png",
+      "master_sha256": "41ba61fd16c3bb3ac1745a2db6ad90dc35a79f6c23294b49f108178d39b7800e",
+      "source_id": "action-symbol-03",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-D61ABE66191E9512-04763BAD5CD988E4-64x256-152-128-16x16-P0-15.png",
+      "sha256": "67eac3ce6d981f5b59458755516e1fbaab1a108849c512d19db9b9f050751306",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native gold-to-turquoise hue shift and saturation ratio; value, alpha and black unchanged"
+    }
+  ],
+  "files": [
+    {
+      "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
+      "sha256": "d896303d9bfc73ec96f3466ba93807c544b95565fd0f8e529788e65ff9bc0217"
+    },
+    {
+      "filename": "texpage-STP4-065D13C54C34C0FB-91271A90116ED761-64x256-228-0-28x16-P0-15.png",
+      "sha256": "b304d2e58c32f4729afc90e021da5d4698e5d4aff668d9cb0956679f1731360b"
+    },
+    {
+      "filename": "texpage-STP4-065D13C54C34C0FB-949BF2FB15C35AF8-64x256-228-0-28x16-P0-15.png",
+      "sha256": "4f55061f6492cc1f594b096466c805192d134b95eea9cfabb78013eb74f9c182"
+    },
+    {
+      "filename": "texpage-STP4-065D13C54C34C0FB-9F8A5175F34347CA-64x256-228-0-28x16-P0-15.png",
+      "sha256": "29db8ced637fc9a30a8b1de212dd6a071a998db597ea020b1b7010104ac1ce85"
+    },
+    {
+      "filename": "texpage-STP4-0F13A213B8EAF218-69491D7E26769824-64x256-0-0-144x12-P0-15.png",
+      "sha256": "09a5433faa79b0ff34c203cae03f618ee894bb9ad131b6e9c333bd5a533aa4a7"
+    },
+    {
+      "filename": "texpage-STP4-0F13A213B8EAF218-91271A90116ED761-64x256-0-0-144x12-P0-15.png",
+      "sha256": "4336e9a83bcf17e16044af393aeee56302fec2f04b191d1083469952381cca75"
+    },
+    {
+      "filename": "texpage-STP4-0F13A213B8EAF218-949BF2FB15C35AF8-64x256-0-0-144x12-P0-15.png",
+      "sha256": "41e79540967adc6bed1bdcfbabf3ed88deb3d397b6f2f7296001707a8699faa5"
+    },
+    {
+      "filename": "texpage-STP4-0F13A213B8EAF218-9F8A5175F34347CA-64x256-0-0-144x12-P0-15.png",
+      "sha256": "f6cdec63f220d0b4a0e0725255a736295daa1642e49e3808e1947f5c584c05b2"
+    },
+    {
+      "filename": "texpage-STP4-175BD66E8BC2BA6E-69491D7E26769824-64x256-64-152-28x8-P0-15.png",
+      "sha256": "87f974a15c1aeaf698e041d11445dd7ca66d5dcc15c3f71febc4ea5ebcccc8d5"
+    },
+    {
+      "filename": "texpage-STP4-175BD66E8BC2BA6E-91271A90116ED761-64x256-64-152-28x8-P0-15.png",
+      "sha256": "0f132b502368b592f5a2160b07d39977e381e1d81af08c7df2178f3e3af75d31"
+    },
+    {
+      "filename": "texpage-STP4-175BD66E8BC2BA6E-949BF2FB15C35AF8-64x256-64-152-28x8-P0-15.png",
+      "sha256": "8bac5be8ee3e98d2b69e0c1fea5b8f956de119dc5f391f828eb3033399e4cb9e"
+    },
+    {
+      "filename": "texpage-STP4-175BD66E8BC2BA6E-9F8A5175F34347CA-64x256-64-152-28x8-P0-15.png",
+      "sha256": "3ab9b1dacdcc2a7f7cfdda4de7cf6fa3aa00fb4c60f3c6b9e5889eb70088ffbc"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-69491D7E26769824-64x256-0-108-252x96-P0-15.png",
+      "sha256": "530a8e707600d2a42778f9e793a2e311b4dc6a5864c762aabd1164fbbf697674"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-91271A90116ED761-64x256-0-108-252x96-P0-15.png",
+      "sha256": "db473710b10a752e333460bcdc359fba3661c57f76da94dfe4ed140ab7c3ed41"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-949BF2FB15C35AF8-64x256-0-108-252x96-P0-15.png",
+      "sha256": "e6f5afe379ef229a87ed3049f8d8faabd4a58d2c0675ab441cd9b4094b7dc4aa"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-D440A040EAA21F84-64x256-0-108-252x96-P0-15.png",
+      "sha256": "dbcf39b46d5d69c35222315e6470b8c93aa94b3fb39dd7fa07007ed10e67e21d"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-D45C39FFA626E99E-64x256-0-108-252x96-P0-15.png",
+      "sha256": "51324f3f04b23626afe853252ce7a5dca9d32be42a084bb7159c67c606f64665"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-D927CFCFEC5B4154-64x256-0-108-252x96-P0-15.png",
+      "sha256": "7095910082546bee4780d2f0f91b4ad236c4c59418408234ec0d9c197166e618"
+    },
+    {
+      "filename": "texpage-STP4-1ED72322D46CD91B-D9BF3D211F8FA474-64x256-0-108-252x96-P0-15.png",
+      "sha256": "bdbce35e5c4d7d92f427ec3f59897987dfcbd450ac8a9ca97d3dac3e65c8b713"
+    },
+    {
+      "filename": "texpage-STP4-209834EB22EE6F88-69491D7E26769824-64x256-224-112-28x16-P0-15.png",
+      "sha256": "cc8993a58596bbbf97dd70a4efd1fcb210f0925d20edd335c0312359089a9542"
+    },
+    {
+      "filename": "texpage-STP4-209834EB22EE6F88-91271A90116ED761-64x256-224-112-28x16-P0-15.png",
+      "sha256": "467867c9b7eb7e4520fa5e738849dec7625b713eeb6aec2a041c508e2d6b82fc"
+    },
+    {
+      "filename": "texpage-STP4-209834EB22EE6F88-949BF2FB15C35AF8-64x256-224-112-28x16-P0-15.png",
+      "sha256": "5e2cb9e8e928b6e616a5b7d312d0026973dc924fcf12147022330136e0b8bbd6"
+    },
+    {
+      "filename": "texpage-STP4-209834EB22EE6F88-9F8A5175F34347CA-64x256-224-112-28x16-P0-15.png",
+      "sha256": "e550170d9a5b79bf6fedb5b9c68921a17fea10f6fb4592713e7c725ad00dc521"
+    },
+    {
+      "filename": "texpage-STP4-2E1D092928BF69A4-7818540C2AD3B887-64x256-152-32-16x16-P0-15.png",
+      "sha256": "e23764d960411d88a572e599ba2f7c24b00221e7d23776ff8863f084384c634c"
+    },
+    {
+      "filename": "texpage-STP4-3522B1686F8B8FF7-04763BAD5CD988E4-64x256-144-96-16x16-P0-15.png",
+      "sha256": "dcd54cbb760b9e41d06477bb6bcde7e01a74bc117c6b0955140fb892fafccfff"
+    },
+    {
+      "filename": "texpage-STP4-393EA0F194DCBBEA-7818540C2AD3B887-64x256-88-24-32x16-P0-15.png",
+      "sha256": "c05acf85af05052e89d07b617a978bde9a4bc91f3a0d6c498cc43a50e0ec10da"
+    },
+    {
+      "filename": "texpage-STP4-399D676EC92E7604-69491D7E26769824-64x256-144-216-44x8-P0-15.png",
+      "sha256": "b3406e363575f793944da84ce426ac6c9477dce48ad7fa85e8e1e1e6fbf20a68"
+    },
+    {
+      "filename": "texpage-STP4-399D676EC92E7604-91271A90116ED761-64x256-144-216-44x8-P0-15.png",
+      "sha256": "d2523c9c355e100f3ff1a26408be1d3eda01e9d1f1eaceb586052332aa7ea698"
+    },
+    {
+      "filename": "texpage-STP4-399D676EC92E7604-949BF2FB15C35AF8-64x256-144-216-44x8-P0-15.png",
+      "sha256": "8c889f8596f04c7fa1ca7fb7b0429f30b5562c9fa77f9e77115b6f7df9faf790"
+    },
+    {
+      "filename": "texpage-STP4-399D676EC92E7604-9F8A5175F34347CA-64x256-144-216-44x8-P0-15.png",
+      "sha256": "da9a7ce179202fc73b4a390b6d6ff7cda710fff1c38505c757439248c0db0052"
+    },
+    {
+      "filename": "texpage-STP4-3EB1A7E80C681B76-69491D7E26769824-64x256-192-152-20x8-P0-15.png",
+      "sha256": "0b7e322b50eb572668209db3c18d8d19785c7079d220b3582ca2382ab661c610"
+    },
+    {
+      "filename": "texpage-STP4-3EB1A7E80C681B76-91271A90116ED761-64x256-192-152-20x8-P0-15.png",
+      "sha256": "d46f5d02a9f9282384d684f49a12ab95cd93625a128da0338a5f07465c7aff96"
+    },
+    {
+      "filename": "texpage-STP4-3EB1A7E80C681B76-949BF2FB15C35AF8-64x256-192-152-20x8-P0-15.png",
+      "sha256": "b7ed82a4564084f737c32f61dc68977d29d2ded95a2dc0f6bf14b37e969e4465"
+    },
+    {
+      "filename": "texpage-STP4-3EB1A7E80C681B76-9F8A5175F34347CA-64x256-192-152-20x8-P0-15.png",
+      "sha256": "d4ec220b29c35d2d22151e082ca16b5030da50483afb6566ba0ed21869be473e"
+    },
+    {
+      "filename": "texpage-STP4-4A12F2FADDB30DE3-04763BAD5CD988E4-64x256-168-128-16x16-P0-15.png",
+      "sha256": "5999460c2a41a55c51f909061c889ba9f4495d1a23aba2d396ffd201f6ea6a71"
+    },
+    {
+      "filename": "texpage-STP4-4A12F2FADDB30DE3-46BA6415FDAFFA69-64x256-168-128-16x16-P0-15.png",
+      "sha256": "4de8ff4f65ecad952cfe9bc675de56635b7e399ab97947b055279e82c82d2e17"
+    },
+    {
+      "filename": "texpage-STP4-50B6949E9356EDF4-7818540C2AD3B887-64x256-120-17-32x30-P0-15.png",
+      "sha256": "ef3d0ef54431e581a6cb144446ced19f6044eb7c5dce87ee97dc6710e111645c"
+    },
+    {
+      "filename": "texpage-STP4-59C83B3D7F8E8F8A-69491D7E26769824-64x256-96-152-52x8-P0-15.png",
+      "sha256": "58585a6f9e9b2a19fa4562c377cf9efc5cc5c0b0e419253280e236ca2832c3d8"
+    },
+    {
+      "filename": "texpage-STP4-59C83B3D7F8E8F8A-91271A90116ED761-64x256-96-152-52x8-P0-15.png",
+      "sha256": "606727df89317b2b5b817fe97eeb9e2830046e0bd319d712ef6c9505d169b820"
+    },
+    {
+      "filename": "texpage-STP4-59C83B3D7F8E8F8A-949BF2FB15C35AF8-64x256-96-152-52x8-P0-15.png",
+      "sha256": "fe7af7c38fdc4c978e4343e71a442ab6fd0ee54f1ef95ec33e8a6a5dd27ae5a4"
+    },
+    {
+      "filename": "texpage-STP4-59C83B3D7F8E8F8A-9F8A5175F34347CA-64x256-96-152-52x8-P0-15.png",
+      "sha256": "c2bb63045e0f8b4773038c4babea6b6be84d859cb4170fa1f2d54c86fc0b1082"
+    },
+    {
+      "filename": "texpage-STP4-609670C0A7973540-46BA6415FDAFFA69-64x256-48-48-16x16-P0-15.png",
+      "sha256": "e1a6bb70def374f80d69d5621665d047142c70f1818605262adf4dfd018a6d42"
+    },
+    {
+      "filename": "texpage-STP4-63214267CBDD5564-69491D7E26769824-64x256-64-144-36x8-P0-15.png",
+      "sha256": "d6a04f06ddbfedc9d19a39cd43117c64e50fdb21e4bfc24c52bb9bb42e19975d"
+    },
+    {
+      "filename": "texpage-STP4-63214267CBDD5564-91271A90116ED761-64x256-64-144-36x8-P0-15.png",
+      "sha256": "d2abe13beced301420f749e93bab616771c5b71b54dae9cc537fcde3f2c65daf"
+    },
+    {
+      "filename": "texpage-STP4-63214267CBDD5564-949BF2FB15C35AF8-64x256-64-144-36x8-P0-15.png",
+      "sha256": "23e1aaf5a54be2a8489149e84d37d744ec668402675733cc8c9dd5e8f345950c"
+    },
+    {
+      "filename": "texpage-STP4-63214267CBDD5564-9F8A5175F34347CA-64x256-64-144-36x8-P0-15.png",
+      "sha256": "f416925731755cf14641ad052b1b3a445e895a436210deca6f37a2532d85734d"
+    },
+    {
+      "filename": "texpage-STP4-684DD2F3BE08E36E-CBF39C0936C27EBA-64x256-0-64-256x60-P0-15.png",
+      "sha256": "d7c6d8451229deeb455b31afe64a73a142c817e7b4efe770b733cbb7717b538e"
+    },
+    {
+      "filename": "texpage-STP4-684DD2F3BE08E36E-E41C34F07CB9645A-64x256-0-64-256x60-P0-15.png",
+      "sha256": "10e217f4745ca59f7026d7d33e469587caccae7a398da08e924d8705d1250dd9"
+    },
+    {
+      "filename": "texpage-STP4-780CA6605AA2A1DE-69491D7E26769824-64x256-104-56-48x8-P0-15.png",
+      "sha256": "aaf0ea968fcd1d663e1a8aa6badb3b079168598e2fc8202feeb1157078232c8a"
+    },
+    {
+      "filename": "texpage-STP4-780CA6605AA2A1DE-91271A90116ED761-64x256-104-56-48x8-P0-15.png",
+      "sha256": "06ac4493f521a1ceb0d0ba513168b464c5b8c26f705c135b52511d35ec6a65f1"
+    },
+    {
+      "filename": "texpage-STP4-780CA6605AA2A1DE-949BF2FB15C35AF8-64x256-104-56-48x8-P0-15.png",
+      "sha256": "24ea9e52a324eedd16fd759d3f13ddf383384ec496561083c1eff7162c2a4cb7"
+    },
+    {
+      "filename": "texpage-STP4-780CA6605AA2A1DE-9F8A5175F34347CA-64x256-104-56-48x8-P0-15.png",
+      "sha256": "de1f1a495693344870dcb05a40c4edf49744789ac5d81dea989ad9b614e4bda8"
+    },
+    {
+      "filename": "texpage-STP4-7E07BD1CA8D2311F-CBF39C0936C27EBA-64x256-182-40-56x12-P0-15.png",
+      "sha256": "b31fddd70ef8b8a245e8af7e80245b3be054ec6d049b7a85034635302260c77c"
+    },
+    {
+      "filename": "texpage-STP4-7E07BD1CA8D2311F-E41C34F07CB9645A-64x256-182-40-56x12-P0-15.png",
+      "sha256": "d8fb2d1ef0eae83d72645117a16c751d5e1a8d26450103ccf2ace4b2fe8e29da"
+    },
+    {
+      "filename": "texpage-STP4-7EE95D074AFECF30-04763BAD5CD988E4-64x256-64-112-16x16-P0-15.png",
+      "sha256": "57f06a216b27c96d7d29b4e0074d1ac3623fa9a7c86c68ce41a359df6dafa59d"
+    },
+    {
+      "filename": "texpage-STP4-7F915802249DEA01-69491D7E26769824-64x256-144-0-84x9-P0-15.png",
+      "sha256": "490c9b5499ba9ad58e2abe110640ad6ef97ee1984bed1c8794bef028fa95301e"
+    },
+    {
+      "filename": "texpage-STP4-7F915802249DEA01-91271A90116ED761-64x256-144-0-84x9-P0-15.png",
+      "sha256": "f7436e0b395078436c5b8fd350d35fedefca5e65228c3d463e39c5be7e806f44"
+    },
+    {
+      "filename": "texpage-STP4-7F915802249DEA01-949BF2FB15C35AF8-64x256-144-0-84x9-P0-15.png",
+      "sha256": "b205614cbcdc86b7fa7b451c776889140fd0af8e8f7bcc2aca086cf6d22992cf"
+    },
+    {
+      "filename": "texpage-STP4-7F915802249DEA01-9F8A5175F34347CA-64x256-144-0-84x9-P0-15.png",
+      "sha256": "f4f1fd4bb4db5738d4e2846853bf0886d382a8f0ddc6a35ad309af95ec50f23d"
+    },
+    {
+      "filename": "texpage-STP4-81B1A8A139BEE56D-04763BAD5CD988E4-64x256-96-96-16x16-P0-15.png",
+      "sha256": "e022229bbc94e19cd5d0816573e680a1235bc5bd65ec266a88cf07c90b4c0ff3"
+    },
+    {
+      "filename": "texpage-STP4-8BF5446EDF5266EA-69491D7E26769824-64x256-216-160-40x8-P0-15.png",
+      "sha256": "ddc8f62bcffaee5c886b5afcf5a293467449c4da6b4eb560c17e6e084172edb6"
+    },
+    {
+      "filename": "texpage-STP4-8BF5446EDF5266EA-91271A90116ED761-64x256-216-160-40x8-P0-15.png",
+      "sha256": "358749a1bfc4e67266147d2d5f9774c156c8cc1556bb42c8f34a12f9ab6a595a"
+    },
+    {
+      "filename": "texpage-STP4-8BF5446EDF5266EA-949BF2FB15C35AF8-64x256-216-160-40x8-P0-15.png",
+      "sha256": "5c0609fff237452de68d60143a3e1d2368a7961e01a35546cbc5cee112ed6c1f"
+    },
+    {
+      "filename": "texpage-STP4-8BF5446EDF5266EA-9F8A5175F34347CA-64x256-216-160-40x8-P0-15.png",
+      "sha256": "bf5693d43b7d58cba38bed6aeacf673b0b9ff99f399bdb265da363c1c6a200cc"
+    },
+    {
+      "filename": "texpage-STP4-8DF128B9AC5FC374-CBF39C0936C27EBA-64x256-64-0-76x10-P0-15.png",
+      "sha256": "d8413368a97156ecb08317cd4d4e33602c3082e9cf4f135c4a548abb990dbded"
+    },
+    {
+      "filename": "texpage-STP4-8DF128B9AC5FC374-E41C34F07CB9645A-64x256-64-0-76x10-P0-15.png",
+      "sha256": "884a676de7bec74084e4e010aa88e3b797b02202227a41368deeeccf2e89e281"
+    },
+    {
+      "filename": "texpage-STP4-8E0047161253B7FE-04763BAD5CD988E4-64x256-80-96-16x16-P0-15.png",
+      "sha256": "86fa5ce665d1d8e07f37c579f6ec4ca2a706316e15c8518f9d5888f909883fb6"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-1F9BDD95E92A3639-64x256-0-0-252x108-P0-15.png",
+      "sha256": "3e0fad94b63ad9d4ee12f5944a9085bbba4ba69ee4d2bcc2621c6a1ac77a59c0"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-7FA7ABE4DBD7A20F-64x256-0-0-252x108-P0-15.png",
+      "sha256": "e8465ee77e6ce32241b30d3fd96decfdd2f5b44549279f6cc9fff1ceb9713d4a"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-A37DFA8336CD2FC7-64x256-0-0-252x108-P0-15.png",
+      "sha256": "c40fe07216fe8639a19422ca3839a6cf0cbdbfcaaec29686b0457f3d1e3e5000"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-AC64BD0B34CD4DBE-64x256-0-0-252x108-P0-15.png",
+      "sha256": "c80c541498105674e44e7f2ee24c99afdca56a3d9074f1e4b8f61a83ee288c37"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-D440A040EAA21F84-64x256-0-0-252x108-P0-15.png",
+      "sha256": "490d03bdde7f87b7be5293259af871fff60cde624af50f8ac210510407d73089"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-D45C39FFA626E99E-64x256-0-0-252x108-P0-15.png",
+      "sha256": "3dbef2d45b4ce43b997d0f9cd332572f2de8999ed669dff57a5d4b5223490727"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-D927CFCFEC5B4154-64x256-0-0-252x108-P0-15.png",
+      "sha256": "83eedb49bd99bcdd61410e47dda00f6e2b1ef4465696a789f4e9532e1eb32244"
+    },
+    {
+      "filename": "texpage-STP4-9CC4299A919F823F-D9BF3D211F8FA474-64x256-0-0-252x108-P0-15.png",
+      "sha256": "c1430a97ae7fca423dbfdc98475e20be12638f2be2306178dae868b007e3ad32"
+    },
+    {
+      "filename": "texpage-STP4-9E2F6F8B67440783-7818540C2AD3B887-64x256-64-16-24x24-P0-15.png",
+      "sha256": "733cd09568f07ef6ad4608a8916eed5f3fee5ca4753c2aa247e1b063e28c4fa0"
+    },
+    {
+      "filename": "texpage-STP4-A221C16A2EE15BD0-69491D7E26769824-64x256-144-160-36x56-P0-15.png",
+      "sha256": "382f0ae0d4e58da698fb123b80f7008c4d10d260806a8d00b2bea3a5ee2a9175"
+    },
+    {
+      "filename": "texpage-STP4-A221C16A2EE15BD0-91271A90116ED761-64x256-144-160-36x56-P0-15.png",
+      "sha256": "36e8a57bb31f9ffd4565d30edf9bbc0d21558072640e5932957590b57bf5aa25"
+    },
+    {
+      "filename": "texpage-STP4-A221C16A2EE15BD0-949BF2FB15C35AF8-64x256-144-160-36x56-P0-15.png",
+      "sha256": "ffd9e0e973c43a502d978a1f4e1712f4cdd527df7c33562ccd8379e1d65e5388"
+    },
+    {
+      "filename": "texpage-STP4-A221C16A2EE15BD0-9F8A5175F34347CA-64x256-144-160-36x56-P0-15.png",
+      "sha256": "e5157bdc010b6ea9ccabe8c2a46fffaf8637be612da1ae6db50242f2eef47cd1"
+    },
+    {
+      "filename": "texpage-STP4-A4CF47DD968DAA08-2DA679AB1517DDF5-64x256-216-200-24x24-P0-15.png",
+      "sha256": "8f73c04df83ff7b6a85a2aabf0092f406b1672b248ce76ab94cbaf1283fc02d9"
+    },
+    {
+      "filename": "texpage-STP4-A4CF47DD968DAA08-FE811BB97D77F258-64x256-216-200-24x24-P0-15.png",
+      "sha256": "ac8984032f46c5bfc3eec061c046347ef4d7084defa688affdfc258ba4a86679"
+    },
+    {
+      "filename": "texpage-STP4-A9FBF4E578AF475A-9F8A5175F34347CA-64x256-0-160-72x48-P0-15.png",
+      "sha256": "5c9870d6c62b85edcf544fe4464927f1149b322f2e1aa4cab2a54693d1df8062"
+    },
+    {
+      "filename": "texpage-STP4-B4CC01B964363851-04763BAD5CD988E4-64x256-48-112-16x16-P0-15.png",
+      "sha256": "ef088b58533a1898b5db8cd34a4a9254a61ad50568b9f3ba48770f6504e6f71f"
+    },
+    {
+      "filename": "texpage-STP4-C5DBCE552D387569-69491D7E26769824-64x256-0-75-252x21-P0-15.png",
+      "sha256": "4d8ddf6d9748dd6f8dffef36a8e2985ca22f6d0ac8184da90e1c57df1b76104d"
+    },
+    {
+      "filename": "texpage-STP4-C5DBCE552D387569-91271A90116ED761-64x256-0-75-252x21-P0-15.png",
+      "sha256": "7afab6bec3846a814d5601f3441c9a8666c5df3c4c2903af96d457c1fe1afa3d"
+    },
+    {
+      "filename": "texpage-STP4-C5DBCE552D387569-949BF2FB15C35AF8-64x256-0-75-252x21-P0-15.png",
+      "sha256": "210497a729d3cd00d94d0c884a3b9e2ca1f44688e0be088bc3a123e1c2f21fb8"
+    },
+    {
+      "filename": "texpage-STP4-C5DBCE552D387569-9F8A5175F34347CA-64x256-0-75-252x21-P0-15.png",
+      "sha256": "18346729a79d17c186d97534a0962657bd1e645ae83c4d3d2337e1cbb90ed1e2"
+    },
+    {
+      "filename": "texpage-STP4-CAD732B261D48042-7818540C2AD3B887-64x256-160-17-20x13-P0-15.png",
+      "sha256": "29019c416b954a0890b54abeb8d653a330dcd44675519b88ac1ed36131be3b44"
+    },
+    {
+      "filename": "texpage-STP4-CE6C0807FBBE79F2-69491D7E26769824-64x256-32-8-8x8-P0-15.png",
+      "sha256": "6523062da70ab1b814cec21ad517e73001d0b83b328ec7e8971e7849f68bfe80"
+    },
+    {
+      "filename": "texpage-STP4-CE6C0807FBBE79F2-91271A90116ED761-64x256-32-8-8x8-P0-15.png",
+      "sha256": "2df66fc8b175311c05fef0c4e07e0f72513049dff263617b796d1cb727f1de69"
+    },
+    {
+      "filename": "texpage-STP4-CE6C0807FBBE79F2-949BF2FB15C35AF8-64x256-32-8-8x8-P0-15.png",
+      "sha256": "3ae4a2f79d34397f0ceb12c305c526aa9d43d6f8469631f12a0e13f1df260897"
+    },
+    {
+      "filename": "texpage-STP4-CE6C0807FBBE79F2-9F8A5175F34347CA-64x256-32-8-8x8-P0-15.png",
+      "sha256": "c79041b95064b4b22350c19beb0fa4d5ffb49e1836f11774b142273b3054351f"
+    },
+    {
+      "filename": "texpage-STP4-D61ABE66191E9512-04763BAD5CD988E4-64x256-152-128-16x16-P0-15.png",
+      "sha256": "67eac3ce6d981f5b59458755516e1fbaab1a108849c512d19db9b9f050751306"
+    },
+    {
+      "filename": "texpage-STP4-D61ABE66191E9512-46BA6415FDAFFA69-64x256-152-128-16x16-P0-15.png",
+      "sha256": "51a8faf18bd64aca6e388ee98ff2fa4d3fde62306c7b48ef29a2c63a691573ed"
+    },
+    {
+      "filename": "texpage-STP4-D7E6C141060784E6-CBF39C0936C27EBA-64x256-152-52-98x12-P0-15.png",
+      "sha256": "c9ddbb5653a2019882ce7e69fbb659809f40623834fa25bcfbab968c8bb5974d"
+    },
+    {
+      "filename": "texpage-STP4-D7E6C141060784E6-E41C34F07CB9645A-64x256-152-52-98x12-P0-15.png",
+      "sha256": "7c4b024d9c9787550629e52319229a0d75899f79f8dc77956beb91d9d92255b9"
+    },
+    {
+      "filename": "texpage-STP4-DC77F9A2BD1790E6-69491D7E26769824-64x256-144-9-80x7-P0-15.png",
+      "sha256": "ac8e0575c9416863ab51b87ae79467f57c03c81dc374a7510406ba66de4fac29"
+    },
+    {
+      "filename": "texpage-STP4-DC77F9A2BD1790E6-91271A90116ED761-64x256-144-9-80x7-P0-15.png",
+      "sha256": "0a588c8a31aedb40a9523f78e4df63121b35d86f25a1e5b287c73d5158c3a9b0"
+    },
+    {
+      "filename": "texpage-STP4-DC77F9A2BD1790E6-949BF2FB15C35AF8-64x256-144-9-80x7-P0-15.png",
+      "sha256": "ca297a1c7f678e7fbd27bc6066b04a29b345ef6a243d691f389793fab6b8376f"
+    },
+    {
+      "filename": "texpage-STP4-DC77F9A2BD1790E6-9F8A5175F34347CA-64x256-144-9-80x7-P0-15.png",
+      "sha256": "cb3aff3c185d845000d244a76e2d48d543201b43095e7814cf56b821673bf2dc"
+    },
+    {
+      "filename": "texpage-STP4-E53FBEE44293F354-CBF39C0936C27EBA-64x256-216-28-28x12-P0-15.png",
+      "sha256": "8bd1bf8c0ccc1330bff0139828fb38f2fdc0234f1bbfbe2135f9c231e9332972"
+    },
+    {
+      "filename": "texpage-STP4-E53FBEE44293F354-E41C34F07CB9645A-64x256-216-28-28x12-P0-15.png",
+      "sha256": "7558a243a63c9c38935311dfdd4b9f3858bc0c2c009f2db7ac45cdded14164a4"
+    },
+    {
+      "filename": "texpage-STP4-E8B6357C6F2FE316-69491D7E26769824-64x256-104-144-56x8-P0-15.png",
+      "sha256": "9b28d8d34facc27b8b6bb848e00660c656e22f44f9ec91e2aa4b0b466c37cf88"
+    },
+    {
+      "filename": "texpage-STP4-E8B6357C6F2FE316-91271A90116ED761-64x256-104-144-56x8-P0-15.png",
+      "sha256": "e4f2bbc66a1fb675786d221100aae1e2eaf9b94a351e90d4e9fb9ecc981441c2"
+    },
+    {
+      "filename": "texpage-STP4-E8B6357C6F2FE316-949BF2FB15C35AF8-64x256-104-144-56x8-P0-15.png",
+      "sha256": "b654a6f91ee088510a3ae637baead2cf048a72b2b3cff52b367bc66d67e0f287"
+    },
+    {
+      "filename": "texpage-STP4-E8B6357C6F2FE316-9F8A5175F34347CA-64x256-104-144-56x8-P0-15.png",
+      "sha256": "7996e42419d3e2d9ad122cc8848b4b00567bebf49863bde1b23489881ea92552"
+    },
+    {
+      "filename": "texpage-STP4-E957689F9EA7BE2F-04763BAD5CD988E4-64x256-160-96-16x16-P0-15.png",
+      "sha256": "2982c512e4dfb1b53eeb682a3122d99ccff97560d2b838cedd6ed5b305383335"
+    },
+    {
+      "filename": "texpage-STP4-EC7516EF3A0814FA-3449EFD8F4382281-64x256-32-48-16x16-P0-15.png",
+      "sha256": "6dcbdc0b3f26f44ea174cc4c42bd1cf21b93ab09399df82d09b9b77fbca543e1"
+    },
+    {
+      "filename": "texpage-STP4-ECB5D35CFC197F2E-69491D7E26769824-64x256-72-160-68x56-P0-15.png",
+      "sha256": "1526137de0183afcce90fc279218c558c47d5dce9ba3d3dd7a427176d93c5174"
+    },
+    {
+      "filename": "texpage-STP4-ECB5D35CFC197F2E-91271A90116ED761-64x256-72-160-68x56-P0-15.png",
+      "sha256": "66ec1713da6ae17d4e95401bc9a6b229b2cd495e262c5cf33e9c71f6a4a84aa0"
+    },
+    {
+      "filename": "texpage-STP4-ECB5D35CFC197F2E-949BF2FB15C35AF8-64x256-72-160-68x56-P0-15.png",
+      "sha256": "a8a80b426feceace0b5556772eb1684a2d49acd5ff1576d27485a7d59624a9ca"
+    },
+    {
+      "filename": "texpage-STP4-ECB5D35CFC197F2E-9F8A5175F34347CA-64x256-72-160-68x56-P0-15.png",
+      "sha256": "e3a3c51e5350c546f2182b22d87fd69a9b7e9f5be431664b1b35242c7e66ecf6"
+    },
+    {
+      "filename": "texpage-STP4-FE9EF826FAD28E95-69491D7E26769824-64x256-192-144-64x8-P0-15.png",
+      "sha256": "a4bb30e68423d22302f4907ed2ac027ac615fe9f0160dd225f2c423bce8243ae"
+    },
+    {
+      "filename": "texpage-STP4-FE9EF826FAD28E95-91271A90116ED761-64x256-192-144-64x8-P0-15.png",
+      "sha256": "de92a23af763894466c800fac28eed4d44b384914d3d3b359a49e0d77c6a86ec"
+    },
+    {
+      "filename": "texpage-STP4-FE9EF826FAD28E95-949BF2FB15C35AF8-64x256-192-144-64x8-P0-15.png",
+      "sha256": "1769106e608930e953803504c009dfd2162852d2604d417879f72ffc93913427"
+    },
+    {
+      "filename": "texpage-STP4-FE9EF826FAD28E95-9F8A5175F34347CA-64x256-192-144-64x8-P0-15.png",
+      "sha256": "581b761aebfec89fa7f94e5e6a828dcc04bcba8e919d7ce5642de223ba804555"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-69491D7E26769824-64x256-0-64-220x10-P0-15.png",
+      "sha256": "73c260fe6863abc39f09a9afbac544a945e4cebfb8c207116f46adf76c28d8f2"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-91271A90116ED761-64x256-0-64-220x10-P0-15.png",
+      "sha256": "4bbe568b4efac88e6cea3a645902399c8478ba373289bd309c961dba7c9ee7a2"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-949BF2FB15C35AF8-64x256-0-64-220x10-P0-15.png",
+      "sha256": "a82f3df455b1ddb14962332c229ba0d61c80f3ff2641179ceb8fff4a8c3ba933"
+    },
+    {
+      "filename": "texpage-STP4-FF2CE403CBF8BAA9-9F8A5175F34347CA-64x256-0-64-220x10-P0-15.png",
+      "sha256": "c5b7eb0b2be44da5aa1bc14b635b3c0d5bc2a823ee9e4a16b7524c8b423c9191"
+    }
+  ],
+  "source_masters_unchanged": true,
+  "generation": false,
+  "android_device_tested": false,
+  "mapping_evidence": [
+    "MAINMENU.PRG/58EC.c iconUvs",
+    "MENU/items0.h category selected/inactive CLUT",
+    "MENU3.PRG/menuText.yaml category order"
+  ],
+  "grips_mapping": "User explicitly approved Crossbow.png for Grips on 2026-10-24",
+  "no_overlapping_same_palette_registrations": true
+}

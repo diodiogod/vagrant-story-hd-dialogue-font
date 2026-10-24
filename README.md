@@ -6,12 +6,12 @@ Sharper dialogue, menus and HUD text, guided by the original lettering.
 ## Choose your edition
 
 <!-- downloads:start -->
-**v0.7 beta**
+**v0.8 beta**
 
 | Edition | What changes | Android | Desktop |
 | --- | --- | --- | --- |
-| **HD Fonts** | Dialogue, menus, HUD and combat text; original pixel artwork | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.7-beta/vagrant-story-fonts-v0.7-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.7-beta/vagrant-story-fonts-v0.7-desktop.zip) |
-| **HD Fonts + UI Art** · WIP | Same fonts, plus material badges and body silhouettes | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.7-beta/vagrant-story-ui-art-v0.7-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.7-beta/vagrant-story-ui-art-v0.7-desktop.zip) |
+| **HD Fonts** | Dialogue, menus, HUD and combat text; original pixel artwork | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.8-beta/vagrant-story-fonts-v0.8-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.8-beta/vagrant-story-fonts-v0.8-desktop.zip) |
+| **HD Fonts + UI Art** · WIP | Same fonts, plus badges, body silhouettes and selected UI graphics | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.8-beta/vagrant-story-ui-art-v0.8-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.8-beta/vagrant-story-ui-art-v0.8-desktop.zip) |
 <!-- downloads:end -->
 
 Both editions share the same fonts. The original pixel art is part of the game's
@@ -21,9 +21,10 @@ character, so our sprite interpretations stay optional. [Art direction](docs/ART
 
 ## What's new
 
-- Two editions: HD Fonts and HD Fonts + UI Art.
-- New body-status silhouettes for equipped and empty-hand poses in the art edition.
-- Material badges stay with the optional artwork; both editions share all 101 font textures.
+- First equipment/category badge batch: Dagger, Sword, Great Sword, Polearm, Crossbow, Shield, and the Grips/Shields category tabs.
+- Reviewed arrows, paper bubbles, heart and emphasis marks join the UI Art edition.
+- **Badge artwork is a work in progress:** completed designs appear alongside the original icons while the remaining badges are being made.
+- Both editions still share the same 101 font textures.
 
 **Rough font/text progress: 90%.** Buttons and other UI artwork remain in progress.
 [Roadmap](docs/COVERAGE.md) · [Release notes](RELEASE-NOTES.md) · [Visual changelog](CHANGELOG.md).
@@ -62,6 +63,8 @@ and restart the game. [Installation help](docs/INSTALL.md).
 [Combat text](docs/images/combat-labels-v0.5.png) · [Word spacing](docs/images/combat-spacing-v0.5.png) · [Fixed labels and popups](docs/images/fixed-labels-v0.5.png) · [Affinity signs](docs/images/affinity-signs-v0.5.png)
 
 [Material badges](docs/images/material-badges-v0.6.png) · [Body silhouettes](docs/images/body-silhouettes-v0.7.png)
+
+[Equipment/category badges — WIP](docs/images/badges-v0.8.png) · [Arrows and expressions](docs/images/arrows-expressions-v0.8.png)
 
 ## More
 

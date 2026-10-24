@@ -1,0 +1,306 @@
+{
+  "status": "passed",
+  "pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6",
+  "native_frame": "J:\\Aitools\\decomp\\personal-mods\\hd-dialogue-font\\font-expansion-v03\\combat-render-v25\\captures\\badges-v77-native\\frame.png",
+  "native_frame_sha256": "4d97f160164b33b7e32bd120e6f350a765bccd6773faa34509178d44925ce55c",
+  "hd_frame": "J:\\Aitools\\decomp\\personal-mods\\hd-dialogue-font\\font-expansion-v03\\combat-render-v25\\captures\\badges-v77-hd\\frame.png",
+  "hd_frame_sha256": "2f69f969cc7caee9a674deaf4416d4eb4779cf376deb40a2a1c1ce698b2159fe",
+  "source_state_sha256": "c788dd92b61a8e6937c5a870ab79605a7a340733c1df3411635de8f4e4087454",
+  "presentation": [
+    27.999967336654663,
+    0.0,
+    2571.999955177307,
+    1908.0
+  ],
+  "screen_size": [
+    320,
+    224
+  ],
+  "display_dimensions_derived_from_present_shader": true,
+  "changed_pixels_outside_artwork": 0,
+  "samples": [
+    {
+      "name": "crossbow",
+      "zoom": 1,
+      "frame_box": [
+        121,
+        117,
+        253,
+        258
+      ],
+      "changed_pixels": 16966,
+      "black_core_samples": 1092,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "crossbow",
+      "zoom": 2,
+      "frame_box": [
+        121,
+        372,
+        380,
+        650
+      ],
+      "changed_pixels": 67264,
+      "black_core_samples": 5930,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "sword",
+      "zoom": 1,
+      "frame_box": [
+        606,
+        117,
+        738,
+        258
+      ],
+      "changed_pixels": 16966,
+      "black_core_samples": 855,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "sword",
+      "zoom": 2,
+      "frame_box": [
+        606,
+        372,
+        865,
+        650
+      ],
+      "changed_pixels": 67255,
+      "black_core_samples": 4402,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "polearm",
+      "zoom": 1,
+      "frame_box": [
+        1091,
+        117,
+        1223,
+        258
+      ],
+      "changed_pixels": 16968,
+      "black_core_samples": 700,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "polearm",
+      "zoom": 2,
+      "frame_box": [
+        1091,
+        372,
+        1350,
+        650
+      ],
+      "changed_pixels": 67042,
+      "black_core_samples": 3821,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "dagger",
+      "zoom": 1,
+      "frame_box": [
+        1576,
+        117,
+        1708,
+        258
+      ],
+      "changed_pixels": 17039,
+      "black_core_samples": 307,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "dagger",
+      "zoom": 2,
+      "frame_box": [
+        1576,
+        372,
+        1835,
+        650
+      ],
+      "changed_pixels": 67250,
+      "black_core_samples": 1959,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "shield",
+      "zoom": 1,
+      "frame_box": [
+        2061,
+        117,
+        2193,
+        258
+      ],
+      "changed_pixels": 17055,
+      "black_core_samples": 1311,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "shield",
+      "zoom": 2,
+      "frame_box": [
+        2061,
+        372,
+        2320,
+        650
+      ],
+      "changed_pixels": 67232,
+      "black_core_samples": 7095,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "great-sword",
+      "zoom": 1,
+      "frame_box": [
+        121,
+        969,
+        253,
+        1110
+      ],
+      "changed_pixels": 16970,
+      "black_core_samples": 1166,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "great-sword",
+      "zoom": 2,
+      "frame_box": [
+        121,
+        1224,
+        380,
+        1501
+      ],
+      "changed_pixels": 67261,
+      "black_core_samples": 5697,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "shield-category",
+      "zoom": 1,
+      "frame_box": [
+        606,
+        969,
+        738,
+        1110
+      ],
+      "changed_pixels": 15746,
+      "black_core_samples": 1292,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "shield-category",
+      "zoom": 2,
+      "frame_box": [
+        606,
+        1224,
+        865,
+        1501
+      ],
+      "changed_pixels": 62287,
+      "black_core_samples": 6956,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "shield-category-inactive",
+      "zoom": 1,
+      "frame_box": [
+        1091,
+        969,
+        1223,
+        1110
+      ],
+      "changed_pixels": 15760,
+      "black_core_samples": 1292,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "shield-category-inactive",
+      "zoom": 2,
+      "frame_box": [
+        1091,
+        1224,
+        1350,
+        1501
+      ],
+      "changed_pixels": 62185,
+      "black_core_samples": 6959,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "grips-category",
+      "zoom": 1,
+      "frame_box": [
+        1576,
+        969,
+        1708,
+        1110
+      ],
+      "changed_pixels": 15815,
+      "black_core_samples": 544,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "grips-category",
+      "zoom": 2,
+      "frame_box": [
+        1576,
+        1224,
+        1835,
+        1501
+      ],
+      "changed_pixels": 62295,
+      "black_core_samples": 4012,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "grips-category-inactive",
+      "zoom": 1,
+      "frame_box": [
+        2061,
+        969,
+        2193,
+        1110
+      ],
+      "changed_pixels": 15829,
+      "black_core_samples": 544,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0
+    },
+    {
+      "name": "grips-category-inactive",
+      "zoom": 2,
+      "frame_box": [
+        2061,
+        1224,
+        2320,
+        1501
+      ],
+      "changed_pixels": 62275,
+      "black_core_samples": 4010,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0
+    }
+  ],
+  "scope": "Actual presented Vulkan frame from controlled native/2x sprite specimen.",
+  "natural_gameplay_coverage": false,
+  "android_device_tested": false
+}

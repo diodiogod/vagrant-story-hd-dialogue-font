@@ -26,7 +26,14 @@ reviewed arrows, paper bubbles, heart and emphasis marks. Shared fonts are uncha
 
 ![Original sprites and registered badge exports](docs/images/badges-v0.8.png)
 
-[Arrows and expressions in the renderer](docs/images/arrows-expressions-v0.8.png).
+### Arrows, speech balloons and expression symbols
+
+Original artwork on the left, HD artwork on the right, captured in the game
+renderer. Includes both arrows, all three speech balloons, emphasis marks and
+the heart.
+
+![Original and HD arrows, speech balloons, emphasis marks and heart](docs/images/arrows-expressions-v0.8.png)
+
 [Badge renderer comparison](docs/images/badges-rendered-v0.8.png). The maintainer tested the supplied Android package and reported it working well on 2026-10-24.
 
 

@@ -718,7 +718,7 @@
   "android": {
     "version": "0.1-8969-g611bb8fb4",
     "import_contract_verified": true,
-    "current_payload_device_tested": false,
+    "current_payload_device_tested": true,
     "pgxp_workaround": "Disable PGXP Geometry Correction per game; both filters Nearest Neighbor",
     "previous_device_reports": "docs/v0.4/verification.json",
     "lookup_coordinate_rule_verified_in_source": true,
@@ -732,11 +732,15 @@
       "current_popup_sign_revision_device_tested": false
     },
     "material_badges_device_tested": false,
-    "device_evidence": "Previous reports retained below. The new badge patch awaits Android testing.",
-    "tested_pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437",
-    "tested_archive_sha256": "0fe28db09c58a6760b908e2362f68ae074ae9c26a9063e457c6c2f14952ef1b5",
+    "device_evidence": "Maintainer reported the supplied v0.8 Android UI-art ZIP working well on 2026-10-24. No new device/build identifier or on-device hash was recorded; this is a user gameplay report, not exhaustive scene coverage.",
+    "tested_pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6",
+    "tested_archive_sha256": "a6ef11d660a46abfa15b1e27d05eab6d833df2e799d51996cd99f18de6cff635",
     "fonts_edition_separate_device_import_tested": false,
-    "material_badges_device_test_scope": "The supplied full art pack was approved in game; no all-seven-material device specimen was recorded."
+    "material_badges_device_test_scope": "The supplied full art pack was approved in game; no all-seven-material device specimen was recorded.",
+    "previous_v07_device_approval": {
+      "tested_pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437",
+      "tested_archive_sha256": "0fe28db09c58a6760b908e2362f68ae074ae9c26a9063e457c6c2f14952ef1b5"
+    }
   },
   "user_visual_acceptance": {
     "combat_comparison_accepted": true,
@@ -775,7 +779,7 @@
     "information_framebuffer_ghost": "Native framebuffer-copy lettering can remain beneath the HD heading. Transparency retained; no black-fill workaround included."
   },
   "release_packages": "docs/v0.8/packages.json",
-  "status": "v0.8 beta prepared locally; unpublished",
+  "status": "v0.8 beta release",
   "previous_development": "docs/v0.5/verification.json",
   "unchanged_v05_pngs": 101,
   "edition_manifest": "editions.json",
@@ -811,7 +815,7 @@
   "badge_artwork": {
     "work_in_progress": true,
     "source_art_approved": true,
-    "android_tested": false,
+    "android_tested": true,
     "editing_record": "docs/editing-records-v0.8.json",
     "registration_evidence": "docs/evidence/badges-registration-v0.8.json",
     "windows_rendered": true,

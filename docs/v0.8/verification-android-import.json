@@ -9,15 +9,15 @@
   "config_yaml_excluded": true,
   "pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6",
   "format_verified_against_apk": true,
-  "device_evidence": "New badge payload awaits Android testing. Prior device approval applies only to the historical v0.7 payload.",
+  "device_evidence": "Maintainer reported the supplied v0.8 Android UI-art ZIP working well on 2026-10-24. No new device/build identifier or on-device hash was recorded; this is a user gameplay report, not exhaustive scene coverage.",
   "required_filter_settings": {
     "texture_filtering": "Nearest Neighbor",
     "sprite_texture_filtering": "Nearest Neighbor"
   },
   "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
-  "archive_hashes": "release-assets/SHA256SUMS.txt (locally prepared)",
-  "status": "v0.8 beta prepared locally; unpublished",
-  "current_payload_device_tested": false,
+  "archive_hashes": "GitHub release v0.8-beta: SHA256SUMS.txt",
+  "status": "v0.8 beta release",
+  "current_payload_device_tested": true,
   "preceding_v05_device_report": {
     "evidence": "Maintainer reported the supplied Android package looks great; only affinity + appeared blurry.",
     "associated_package_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
@@ -38,7 +38,7 @@
       "pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6"
     }
   },
-  "device_tested_test_archive_sha256": "0fe28db09c58a6760b908e2362f68ae074ae9c26a9063e457c6c2f14952ef1b5",
+  "device_tested_test_archive_sha256": "a6ef11d660a46abfa15b1e27d05eab6d833df2e799d51996cd99f18de6cff635",
   "edition_archive_hashes_pending": false,
   "archive_manifest": "docs/v0.8/packages.json"
 }

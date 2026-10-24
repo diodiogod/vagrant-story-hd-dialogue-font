@@ -7,10 +7,27 @@ Crossbow and Shield designs, plus Grips and Shields category tabs. Remaining
 badges keep their original artwork. The optional art edition also includes the
 reviewed arrows, paper bubbles, heart and emphasis marks. Shared fonts are unchanged.
 
+- **Dagger:** new black silhouette on the turquoise beveled badge.
+- **Sword:** scimitar silhouette sized for the regular Sword slot.
+- **Great Sword:** separate large-blade silhouette in its correct category slot.
+- **Polearm:** spear silhouette with the maintainer's selected details.
+- **Crossbow:** diagonal crossbow silhouette on the turquoise equipment badge.
+- **Shield:** shield silhouette on the turquoise equipment badge.
+- **Grips category:** the maintainer-approved hilt design on the round badge, with gold selected and turquoise inactive variants.
+- **Shields category:** round shield badge with gold selected and turquoise inactive variants.
+- **Diagonal cursor:** illuminated 3D shape with a visible underside and dark border.
+- **Up arrow:** curved arrow-tip silhouette with a continuous gradient.
+- **Normal speech bubble:** maintainer-supplied paper texture and black outline.
+- **Low speech bubble:** maintainer-supplied wide paper bubble.
+- **Spiky speech bubble:** maintainer-supplied burst shape and paper texture.
+- **Heart:** maintainer-selected red heart with its white outline.
+- **Emphasis marks:** selected three-stroke design with a thicker black border.
+
+
 ![Original sprites and registered badge exports](docs/images/badges-v0.8.png)
 
 [Arrows and expressions in the renderer](docs/images/arrows-expressions-v0.8.png).
-[Badge renderer comparison](docs/images/badges-rendered-v0.8.png). New badge Android testing is pending.
+[Badge renderer comparison](docs/images/badges-rendered-v0.8.png). The maintainer tested the supplied Android package and reported it working well on 2026-10-24.
 
 
 ## v0.7 beta — 2026-10-20

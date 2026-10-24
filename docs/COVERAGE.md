@@ -43,7 +43,7 @@ with the game's health tints. They have been reviewed in game.
 
 **New WIP batch:** Dagger, Sword, Great Sword, Polearm, Crossbow and Shield;
 Grips/Shields category tabs; diagonal/up arrows, three paper bubbles, heart and
-emphasis marks. The badge batch awaits Android testing.
+emphasis marks. The maintainer approved the supplied badge batch in Android gameplay on 2026-10-24; broader scene coverage remains open.
 
 **Remaining:** the other equipment/category/condition/affinity icons, controller
 prompts, buttons, remaining arrows, bars and panel decoration need individual review. These are excluded

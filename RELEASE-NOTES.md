@@ -1,14 +1,30 @@
 # v0.8 beta — Badge artwork in progress
 
-- Adds six equipment badges and the Grips/Shields category badges, with selected and inactive colors.
-- Includes the previously reviewed arrows, paper bubbles, heart and emphasis marks.
-- Badge artwork remains a work in progress; unfinished icons retain their original artwork.
-- The maintainer created the badge designs using local models, selection/inpainting and manual Photoshop editing.
-- HD Fonts stays unchanged at 101 PNGs. HD Fonts + UI Art contains 121 PNGs.
+- **Dagger:** new black silhouette on the turquoise beveled badge.
+- **Sword:** scimitar silhouette sized for the regular Sword slot.
+- **Great Sword:** separate large-blade silhouette in its correct category slot.
+- **Polearm:** spear silhouette with the maintainer's selected details.
+- **Crossbow:** diagonal crossbow silhouette on the turquoise equipment badge.
+- **Shield:** shield silhouette on the turquoise equipment badge.
+- **Grips category:** the maintainer-approved hilt design on the round badge, with gold selected and turquoise inactive variants.
+- **Shields category:** round shield badge with gold selected and turquoise inactive variants.
+- **Diagonal cursor:** illuminated 3D shape with a visible underside and dark border.
+- **Up arrow:** curved arrow-tip silhouette with a continuous gradient.
+- **Normal speech bubble:** maintainer-supplied paper texture and black outline.
+- **Low speech bubble:** maintainer-supplied wide paper bubble.
+- **Spiky speech bubble:** maintainer-supplied burst shape and paper texture.
+- **Heart:** maintainer-selected red heart with its white outline.
+- **Emphasis marks:** selected three-stroke design with a thicker black border.
 
-New badges await Android playtesting. Install one complete edition; remove the
-old art files when switching to Fonts. This version is prepared locally and has
-not been published.
+Badge artwork remains a work in progress; unfinished icons keep their original
+artwork. The badge designs combine the maintainer's local-model generation,
+selection/inpainting and manual Photoshop editing.
+
+HD Fonts stays unchanged at 101 PNGs. HD Fonts + UI Art contains 121 PNGs.
+The maintainer tested the supplied Android art package and reported it working
+well on 2026-10-24. Desktop renderer and package checks also passed.
+
+Install one complete edition. Remove old art files when switching to HD Fonts.
 
 ---
 

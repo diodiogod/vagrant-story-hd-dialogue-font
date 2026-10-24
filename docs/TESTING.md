@@ -17,9 +17,10 @@ reviewed arrow/expression exports are retained from the private Android test;
 [their earlier renderer evidence](evidence/arrows-expressions-v0.8.json) applies
 to that earlier pack fingerprint. Both editions retain the same 101 font files.
 
-The new Android badge package awaits maintainer testing. Archive paths, hashes,
-dimensions and CRCs pass the importer/package checks. Previous device approval
-is kept as historical evidence and is not assigned to this new payload.
+The maintainer tested the supplied Android badge package and reported it working
+well on 2026-10-24. This report is associated with the supplied ZIP hash; no new
+device/build identifier or on-device hash was recorded. Archive paths, hashes,
+dimensions and CRCs pass the importer/package checks.
 [Packages](v0.8/packages.json).
 
 ## v0.7 beta

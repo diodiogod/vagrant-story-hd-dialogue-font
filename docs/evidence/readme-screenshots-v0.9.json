@@ -1,0 +1,70 @@
+{
+  "purpose": "README screenshot refresh; no texture or release package changes",
+  "version": "0.9-beta",
+  "game": "Vagrant Story USA SLUS-01040",
+  "source_state_sha256": "e11101701cbd09856ce562f8568fdcaf0e381541eb8bb54d5c5ac8cbd3daac40",
+  "natural_menu_state_copied_without_changes": true,
+  "emulator_chrome_excluded": true,
+  "generated_or_repainted_game_content": false,
+  "captures": {
+    "ui-art": {
+      "pack_fingerprint": "2220acdb1f8355b73506a08748f31c75ce2607e78e68b808602fbd4789f3754e",
+      "pngs": 161,
+      "captured_frame_sha256": "884ece450a643074c4b0702afba98ed2bfa2ccd6192f9dd20116419b82334702",
+      "frame": 3000,
+      "crop_box_derived_from_present_pipeline": [
+        28,
+        0,
+        2572,
+        1908
+      ],
+      "output": "assets/equipment-v0.9.png",
+      "sha256": "422654562efd02bd48b5b9a94fce98fa368b3ccf69fde4238c3451d778e7c829",
+      "size": [
+        1800,
+        1350
+      ],
+      "actual_presented_Vulkan_frame": true
+    },
+    "fonts": {
+      "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b",
+      "pngs": 101,
+      "captured_frame_sha256": "874034fb3103fa7d78ea72aec342f1d806a04aed6e0a5829a825b5c40deb6ad3",
+      "frame": 3000,
+      "crop_box_derived_from_present_pipeline": [
+        28,
+        0,
+        2572,
+        1908
+      ],
+      "output": "assets/equipment-fonts-v0.9.png",
+      "sha256": "a05efd045c815aabc39a9fb0425c4b21c3e4c8b2dd2e1b51f0e6569b2b6ddd7a",
+      "size": [
+        1800,
+        1350
+      ],
+      "actual_presented_Vulkan_frame": true
+    }
+  },
+  "cover": {
+    "output": "assets/cover-v0.9.png",
+    "sha256": "2c2c30f71144c9b904a1ba6398e89f8f7edc591bf4bdfe3bf1dc00e2cc012d83",
+    "size": [
+      1440,
+      1468
+    ],
+    "dialogue_source": "assets/windows-dialogue-v0.2.png",
+    "dialogue_source_sha256": "efa9e2b267714261b4325f5e39db52995554a12738ca762805160aecbc3b80f2",
+    "dialogue_source_crop": [
+      88,
+      214,
+      1712,
+      1170
+    ],
+    "dialogue_panel_preserved": true,
+    "dialogue_font_textures_unchanged": 7,
+    "edition_comparison": "assets/editions-v0.9.png",
+    "comparison_sha256": "9fb583073d5d358cdad35270cbb5e33863c2e74e7ce855f1f1627a6aca00a40c",
+    "layout": "Reviewed dialogue scene above current natural equipment-menu captures for both editions."
+  }
+}

@@ -967,6 +967,11 @@
       "evidence": "Maintainer: this is much better... I will prepare the rest of the icons before making a new release.",
       "pack_fingerprint": "8df3efe66f7a727bb1eee6a5ed62284bed6b6417e97e70193f5dea4d518c9415",
       "final_release_device_test_claimed": false
+    },
+    "v09_release_approved": {
+      "date": "2026-11-07",
+      "evidence": "Maintainer: looks great you can push",
+      "current_payload_android_device_test_claimed": false
     }
   },
   "menu_glow": {
@@ -995,7 +1000,7 @@
     "information_framebuffer_ghost": "Native framebuffer-copy lettering can remain beneath the HD heading. Transparency retained; no black-fill workaround included."
   },
   "release_packages": "docs/v0.9/packages.json",
-  "status": "Prepared v0.9 beta release; not yet published",
+  "status": "v0.9 beta release",
   "previous_development": "docs/v0.5/verification.json",
   "unchanged_v05_pngs": 101,
   "edition_manifest": "editions.json",

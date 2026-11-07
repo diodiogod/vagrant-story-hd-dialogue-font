@@ -16,7 +16,7 @@
   },
   "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
   "archive_hashes": "GitHub release v0.9-beta: SHA256SUMS.txt",
-  "status": "Prepared v0.9 beta packages; not yet published",
+  "status": "v0.9 beta release",
   "current_payload_device_tested": false,
   "preceding_v05_device_report": {
     "evidence": "Maintainer reported the supplied Android package looks great; only affinity + appeared blurry.",

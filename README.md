@@ -17,7 +17,7 @@ Sharper dialogue, menus and HUD text, guided by the original lettering.
 Both editions share the same fonts. The original pixel art is part of the game's
 character, so our sprite interpretations stay optional. [Art direction](docs/ART-DIRECTION.md).
 
-![HD dialogue and current edition comparison](assets/cover-v0.9.png)
+![HD dialogue and edition comparison](assets/cover-v0.7.png)
 
 ## What's new
 
@@ -56,8 +56,6 @@ and restart the game. [Installation help](docs/INSTALL.md).
 ## Screenshots
 
 ![Equipment menu with v0.9 HD fonts, badges, cursor and controller prompt](assets/equipment-v0.9.png)
-
-[Compare both editions](assets/editions-v0.9.png) · [HD Fonts menu](assets/equipment-fonts-v0.9.png)
 
 ![Dialogue font comparison](assets/style-comparison.png)
 

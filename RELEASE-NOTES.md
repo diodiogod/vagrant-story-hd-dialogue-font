@@ -1,3 +1,29 @@
+# v0.9 beta — Menu artwork progress
+
+- Adds all eight controller prompts: Triangle, Square, Circle, Cross, L1, R1, L2 and R2.
+- Adds equipment and grip artwork for Short Grip, Long Grip, Polearm Grip, Crossbow Bolt, Axe & Mace, Great Axe, Staff, Heavy Mace, Helm, Breast Armor, Leggings, Glove / Bare Hands, Accessory and Gem.
+- Adds Weapons, Blades, Armor, Gems, Misc and Options category artwork and refreshes Grips / Shields. All eight tabs have orange selected and turquoise inactive states.
+- Adds EQP / SET markers and the separate attention **!** symbol.
+- Includes an additional Misc source graphic; its natural-gameplay use remains unconfirmed.
+
+Menu artwork remains **a work in progress**. Unfinished sprites retain their
+original artwork. Art direction and interpretation by diodiogod; designs combine
+local-model work and manual Photoshop editing.
+
+**HD Fonts:** unchanged, 101 PNGs. **HD Fonts + UI Art:** 161 PNGs.
+Both editions remain available for Android and desktop. The arrows, paper
+balloons, heart and emphasis marks from v0.8 are retained.
+
+All 44 new or updated palette variants passed controlled Windows Vulkan
+renderer checks, with no changed pixels outside their draw regions. Source
+masters are preserved. The three newest designs and final release archive
+still need Android device testing; earlier test reports remain separate.
+
+Install one complete edition. When returning to HD Fonts, remove the previous
+artwork files first. [Visual changelog](CHANGELOG.md) · [Testing](docs/TESTING.md).
+
+---
+
 # v0.8 beta — Badge artwork in progress
 
 - **Dagger:** new black silhouette on the turquoise beveled badge.

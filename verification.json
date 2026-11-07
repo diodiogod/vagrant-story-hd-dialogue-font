@@ -1,12 +1,12 @@
 {
   "name": "Vagrant Story HD Fonts & UI",
-  "version": "0.8-beta",
-  "package_version": "0.8",
-  "date": "2026-10-24",
+  "version": "0.9-beta",
+  "package_version": "0.9",
+  "date": "2026-11-07",
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
-  "pngs": 121,
-  "pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6",
+  "pngs": 161,
+  "pack_fingerprint": "2220acdb1f8355b73506a08748f31c75ce2607e78e68b808602fbd4789f3754e",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -25,6 +25,14 @@
       "sha256": "29db8ced637fc9a30a8b1de212dd6a071a998db597ea020b1b7010104ac1ce85"
     },
     {
+      "filename": "texpage-STP4-09F8AFD007F1419D-04763BAD5CD988E4-64x256-16-96-16x16-P0-15.png",
+      "sha256": "a531308efa42aef9552c50139332088e98ea1ea831eb393ba414913577e26bb7"
+    },
+    {
+      "filename": "texpage-STP4-0AC7BBF1A12BF512-B8B860E78B335DFB-64x256-0-144-16x16-P0-15.png",
+      "sha256": "eadf463ac7f292c366d93280825d4dfb53d0b698e0074343e9548de6f3e74c22"
+    },
+    {
       "filename": "texpage-STP4-0F13A213B8EAF218-69491D7E26769824-64x256-0-0-144x12-P0-15.png",
       "sha256": "09a5433faa79b0ff34c203cae03f618ee894bb9ad131b6e9c333bd5a533aa4a7"
     },
@@ -41,6 +49,14 @@
       "sha256": "f6cdec63f220d0b4a0e0725255a736295daa1642e49e3808e1947f5c584c05b2"
     },
     {
+      "filename": "texpage-STP4-1437AEE310705725-04763BAD5CD988E4-64x256-80-112-16x16-P0-15.png",
+      "sha256": "0ec385cb027f44832f81c6f50f324f5797176e35c1244f8cba43264ceee77eb7"
+    },
+    {
+      "filename": "texpage-STP4-174E5206148CA38C-04763BAD5CD988E4-64x256-160-112-16x16-P0-15.png",
+      "sha256": "a3ef31a5195fc6afe4d020b68f89ba25f203ac4247ad41f6164ad065afaa2120"
+    },
+    {
       "filename": "texpage-STP4-175BD66E8BC2BA6E-69491D7E26769824-64x256-64-152-28x8-P0-15.png",
       "sha256": "87f974a15c1aeaf698e041d11445dd7ca66d5dcc15c3f71febc4ea5ebcccc8d5"
     },
@@ -55,6 +71,14 @@
     {
       "filename": "texpage-STP4-175BD66E8BC2BA6E-9F8A5175F34347CA-64x256-64-152-28x8-P0-15.png",
       "sha256": "3ab9b1dacdcc2a7f7cfdda4de7cf6fa3aa00fb4c60f3c6b9e5889eb70088ffbc"
+    },
+    {
+      "filename": "texpage-STP4-1E2691864D8C7558-04763BAD5CD988E4-64x256-136-128-16x16-P0-15.png",
+      "sha256": "6020569928926fe793714e4866aada3bffa33a3ff9db96e19ff5f63021a4ff3c"
+    },
+    {
+      "filename": "texpage-STP4-1E2691864D8C7558-46BA6415FDAFFA69-64x256-136-128-16x16-P0-15.png",
+      "sha256": "554d97922001660c8c953c7af587757e00f5f2983400c1c4a873c9aa47de9e4a"
     },
     {
       "filename": "texpage-STP4-1ED72322D46CD91B-69491D7E26769824-64x256-0-108-252x96-P0-15.png",
@@ -101,8 +125,20 @@
       "sha256": "e550170d9a5b79bf6fedb5b9c68921a17fea10f6fb4592713e7c725ad00dc521"
     },
     {
+      "filename": "texpage-STP4-2DB4DDD1C8AB81C5-04763BAD5CD988E4-64x256-216-128-16x16-P0-15.png",
+      "sha256": "2a04272686b514f9ead77a5a720d97016932ca618ec761f0f8362ca7502f7984"
+    },
+    {
+      "filename": "texpage-STP4-2DB4DDD1C8AB81C5-46BA6415FDAFFA69-64x256-216-128-16x16-P0-15.png",
+      "sha256": "e01e5cd5db2eea39581286adeb7e8f2d236440eef6d095b3b9d3abf086284cd2"
+    },
+    {
       "filename": "texpage-STP4-2E1D092928BF69A4-7818540C2AD3B887-64x256-152-32-16x16-P0-15.png",
       "sha256": "e23764d960411d88a572e599ba2f7c24b00221e7d23776ff8863f084384c634c"
+    },
+    {
+      "filename": "texpage-STP4-2F762DAF330F4507-04763BAD5CD988E4-64x256-32-112-16x16-P0-15.png",
+      "sha256": "0662b68b27040703f62b96593012d1c722ee45517757dfb69a2ff440b355c07a"
     },
     {
       "filename": "texpage-STP4-3522B1686F8B8FF7-04763BAD5CD988E4-64x256-144-96-16x16-P0-15.png",
@@ -146,11 +182,15 @@
     },
     {
       "filename": "texpage-STP4-4A12F2FADDB30DE3-04763BAD5CD988E4-64x256-168-128-16x16-P0-15.png",
-      "sha256": "5999460c2a41a55c51f909061c889ba9f4495d1a23aba2d396ffd201f6ea6a71"
+      "sha256": "2bbec43d0164a4a2aab07ad95bff5ac20615b21ef9285761b2e12b1ea410c7be"
     },
     {
       "filename": "texpage-STP4-4A12F2FADDB30DE3-46BA6415FDAFFA69-64x256-168-128-16x16-P0-15.png",
-      "sha256": "4de8ff4f65ecad952cfe9bc675de56635b7e399ab97947b055279e82c82d2e17"
+      "sha256": "61060f2fe0687796bc41f9e1c03083d637fb245f5e32723b928697a8956f99b7"
+    },
+    {
+      "filename": "texpage-STP4-4BC27480C3D2190F-04763BAD5CD988E4-64x256-128-112-16x16-P0-15.png",
+      "sha256": "919531e8502bc6f53413726a8df68b5342a39830c80145f386a9ca7dfcd20e42"
     },
     {
       "filename": "texpage-STP4-50B6949E9356EDF4-7818540C2AD3B887-64x256-120-17-32x30-P0-15.png",
@@ -193,12 +233,32 @@
       "sha256": "f416925731755cf14641ad052b1b3a445e895a436210deca6f37a2532d85734d"
     },
     {
+      "filename": "texpage-STP4-6416CB4A156A3756-04763BAD5CD988E4-64x256-112-112-16x16-P0-15.png",
+      "sha256": "ec6f816b25419f1f1bd6564408f959e6973ab346d60afe664d46b5910dc092b5"
+    },
+    {
       "filename": "texpage-STP4-684DD2F3BE08E36E-CBF39C0936C27EBA-64x256-0-64-256x60-P0-15.png",
       "sha256": "d7c6d8451229deeb455b31afe64a73a142c817e7b4efe770b733cbb7717b538e"
     },
     {
       "filename": "texpage-STP4-684DD2F3BE08E36E-E41C34F07CB9645A-64x256-0-64-256x60-P0-15.png",
       "sha256": "10e217f4745ca59f7026d7d33e469587caccae7a398da08e924d8705d1250dd9"
+    },
+    {
+      "filename": "texpage-STP4-69DAF58FA1D36587-B8B860E78B335DFB-64x256-0-128-16x16-P0-15.png",
+      "sha256": "b92b5d52460d5771333902ab98ae158a66f079c5855f30e7fd5106238a384e83"
+    },
+    {
+      "filename": "texpage-STP4-6EF1FB17AD7286EE-04763BAD5CD988E4-64x256-16-112-16x16-P0-15.png",
+      "sha256": "2e1d5d1eb00a985ac9c86fa62929e9bc2db89a92128be09e79c99af7b44e0bc3"
+    },
+    {
+      "filename": "texpage-STP4-727DDA39F7E68DAF-04763BAD5CD988E4-64x256-80-128-16x16-P0-15.png",
+      "sha256": "3ac90084ce4037d29f183195437c47ef01c650fd5678a7c97249d46ae6013989"
+    },
+    {
+      "filename": "texpage-STP4-727DDA39F7E68DAF-46BA6415FDAFFA69-64x256-80-128-16x16-P0-15.png",
+      "sha256": "f75226e6eabbf1516093041d4b227ca7aca31a5dbd1bb024df696ac7e7397c70"
     },
     {
       "filename": "texpage-STP4-780CA6605AA2A1DE-69491D7E26769824-64x256-104-56-48x8-P0-15.png",
@@ -217,12 +277,32 @@
       "sha256": "de1f1a495693344870dcb05a40c4edf49744789ac5d81dea989ad9b614e4bda8"
     },
     {
+      "filename": "texpage-STP4-7A083D969F08747E-04763BAD5CD988E4-64x256-224-96-16x16-P0-15.png",
+      "sha256": "5638c04490d86b5ad80f216c65e1263c662369281e89c267d640a9eaaa26616b"
+    },
+    {
+      "filename": "texpage-STP4-7A96975DA9945DF6-04763BAD5CD988E4-64x256-0-112-16x16-P0-15.png",
+      "sha256": "669ab43598276020d0718b46af6c50720a3c828b29453a5fd00c256d9d0c80a2"
+    },
+    {
+      "filename": "texpage-STP4-7D4405E464E7BFEA-04763BAD5CD988E4-64x256-208-96-16x16-P0-15.png",
+      "sha256": "5e29f30af5b8d7e3437eafafad82c12b9cf45a3fa163d830e294159aa4692f8d"
+    },
+    {
       "filename": "texpage-STP4-7E07BD1CA8D2311F-CBF39C0936C27EBA-64x256-182-40-56x12-P0-15.png",
       "sha256": "b31fddd70ef8b8a245e8af7e80245b3be054ec6d049b7a85034635302260c77c"
     },
     {
       "filename": "texpage-STP4-7E07BD1CA8D2311F-E41C34F07CB9645A-64x256-182-40-56x12-P0-15.png",
       "sha256": "d8fb2d1ef0eae83d72645117a16c751d5e1a8d26450103ccf2ace4b2fe8e29da"
+    },
+    {
+      "filename": "texpage-STP4-7E79F5657F5A45C2-04763BAD5CD988E4-64x256-200-128-16x16-P0-15.png",
+      "sha256": "094aeae603f704c03b831a03f9295f87a6cbf92ec7548e919d2f9dd0b11fa755"
+    },
+    {
+      "filename": "texpage-STP4-7E79F5657F5A45C2-46BA6415FDAFFA69-64x256-200-128-16x16-P0-15.png",
+      "sha256": "a776deb75168e1ebb9c0bf066d3752bef40b6e9e9e2606fdd2989a975b18858b"
     },
     {
       "filename": "texpage-STP4-7EE95D074AFECF30-04763BAD5CD988E4-64x256-64-112-16x16-P0-15.png",
@@ -277,6 +357,18 @@
       "sha256": "86fa5ce665d1d8e07f37c579f6ec4ca2a706316e15c8518f9d5888f909883fb6"
     },
     {
+      "filename": "texpage-STP4-8E4A8390FA06B52B-B8B860E78B335DFB-64x256-16-128-16x16-P0-15.png",
+      "sha256": "4214262c28474a38434a2b7d0b0d483e3766fbdceaa9bb8923a853460ddee451"
+    },
+    {
+      "filename": "texpage-STP4-9723FD7BCDBCE58B-04763BAD5CD988E4-64x256-232-128-16x16-P0-15.png",
+      "sha256": "b91e52c9ae672f4c3796c5bc96f376665db7ade29434fb1ed6f9b81f4ed3915a"
+    },
+    {
+      "filename": "texpage-STP4-9723FD7BCDBCE58B-46BA6415FDAFFA69-64x256-232-128-16x16-P0-15.png",
+      "sha256": "d629ff6ed950b11340c72464b978f22bcbe41fcabc6c37bd7c3a16189eb990b3"
+    },
+    {
       "filename": "texpage-STP4-9CC4299A919F823F-1F9BDD95E92A3639-64x256-0-0-252x108-P0-15.png",
       "sha256": "3e0fad94b63ad9d4ee12f5944a9085bbba4ba69ee4d2bcc2621c6a1ac77a59c0"
     },
@@ -309,6 +401,10 @@
       "sha256": "c1430a97ae7fca423dbfdc98475e20be12638f2be2306178dae868b007e3ad32"
     },
     {
+      "filename": "texpage-STP4-9D47EB53D7E8082A-04763BAD5CD988E4-64x256-112-96-16x16-P0-15.png",
+      "sha256": "e5047ae0bcbd50ddff545d3481d628936414d6b3bdc6c0d170449e9a1ae48ca3"
+    },
+    {
       "filename": "texpage-STP4-9E2F6F8B67440783-7818540C2AD3B887-64x256-64-16-24x24-P0-15.png",
       "sha256": "733cd09568f07ef6ad4608a8916eed5f3fee5ca4753c2aa247e1b063e28c4fa0"
     },
@@ -329,6 +425,10 @@
       "sha256": "e5157bdc010b6ea9ccabe8c2a46fffaf8637be612da1ae6db50242f2eef47cd1"
     },
     {
+      "filename": "texpage-STP4-A2FD3EF51CFD9737-B8B860E78B335DFB-64x256-48-144-16x16-P0-15.png",
+      "sha256": "3d24943db6df5fe71c5c7e9d63154b0187d738fb344f2a8acd510d85885e76f3"
+    },
+    {
       "filename": "texpage-STP4-A4CF47DD968DAA08-2DA679AB1517DDF5-64x256-216-200-24x24-P0-15.png",
       "sha256": "8f73c04df83ff7b6a85a2aabf0092f406b1672b248ce76ab94cbaf1283fc02d9"
     },
@@ -341,8 +441,32 @@
       "sha256": "5c9870d6c62b85edcf544fe4464927f1149b322f2e1aa4cab2a54693d1df8062"
     },
     {
+      "filename": "texpage-STP4-AD64CFEEF9AC4182-04763BAD5CD988E4-64x256-184-128-16x16-P0-15.png",
+      "sha256": "11337fc8e8b1c74b98c044d406d2a9f4f118b4211524f7b83a004710f6491155"
+    },
+    {
+      "filename": "texpage-STP4-AD64CFEEF9AC4182-46BA6415FDAFFA69-64x256-184-128-16x16-P0-15.png",
+      "sha256": "3b4435f7d6826222d2ba55af687b0d95a62fa259be327d40e9f1647da299e68b"
+    },
+    {
+      "filename": "texpage-STP4-ADEA00972F8BF0A3-04763BAD5CD988E4-64x256-120-128-16x16-P0-15.png",
+      "sha256": "1fac4fdb2c7086d996c505ce11140567e1f16b71498f1fec7f9d908a78dfb898"
+    },
+    {
+      "filename": "texpage-STP4-ADEA00972F8BF0A3-46BA6415FDAFFA69-64x256-120-128-16x16-P0-15.png",
+      "sha256": "807d647147f5078d66be06607a176ba239fb61cd80c963aec2dfafb592e0b7a5"
+    },
+    {
+      "filename": "texpage-STP4-AFF50050EFF7F21F-B8B860E78B335DFB-64x256-32-144-16x16-P0-15.png",
+      "sha256": "8317b0c0ce7207201f29a1ada28fb6c9688abe1961d31e6588478bf543b84ab4"
+    },
+    {
       "filename": "texpage-STP4-B4CC01B964363851-04763BAD5CD988E4-64x256-48-112-16x16-P0-15.png",
       "sha256": "ef088b58533a1898b5db8cd34a4a9254a61ad50568b9f3ba48770f6504e6f71f"
+    },
+    {
+      "filename": "texpage-STP4-B8478CFD0B986005-04763BAD5CD988E4-64x256-32-96-16x16-P0-15.png",
+      "sha256": "2bd11efbf95dfb9c60feae2bbfd8165a87b0b3ce9a32dadf7d0bb416beef70f0"
     },
     {
       "filename": "texpage-STP4-C5DBCE552D387569-69491D7E26769824-64x256-0-75-252x21-P0-15.png",
@@ -359,6 +483,14 @@
     {
       "filename": "texpage-STP4-C5DBCE552D387569-9F8A5175F34347CA-64x256-0-75-252x21-P0-15.png",
       "sha256": "18346729a79d17c186d97534a0962657bd1e645ae83c4d3d2337e1cbb90ed1e2"
+    },
+    {
+      "filename": "texpage-STP4-C71B84D405E30E12-04763BAD5CD988E4-64x256-128-96-16x16-P0-15.png",
+      "sha256": "ab1eb7f6dc0658a12f9738fc036adaaf5e0560b3898c26e34db2a6a30872e485"
+    },
+    {
+      "filename": "texpage-STP4-C9BACB2D7411ECD4-B8B860E78B335DFB-64x256-32-128-16x16-P0-15.png",
+      "sha256": "955dd39f58279fac5ef02bdde1c6cd0101193e617b9c424c48f7dca368919344"
     },
     {
       "filename": "texpage-STP4-CAD732B261D48042-7818540C2AD3B887-64x256-160-17-20x13-P0-15.png",
@@ -381,12 +513,20 @@
       "sha256": "c79041b95064b4b22350c19beb0fa4d5ffb49e1836f11774b142273b3054351f"
     },
     {
+      "filename": "texpage-STP4-CFDA012B966B24B4-B8B860E78B335DFB-64x256-48-128-16x16-P0-15.png",
+      "sha256": "bed948c1321d2577aec3364ca51383039335ea60bd1e7f9842aa6eb3555b45b8"
+    },
+    {
+      "filename": "texpage-STP4-D4E4C8F91ECB03DA-04763BAD5CD988E4-64x256-96-112-16x16-P0-15.png",
+      "sha256": "799c3c48e631ff9ac78250d6dc7334c40aaf175b85fead3f9a730ecfb0bcf49c"
+    },
+    {
       "filename": "texpage-STP4-D61ABE66191E9512-04763BAD5CD988E4-64x256-152-128-16x16-P0-15.png",
-      "sha256": "67eac3ce6d981f5b59458755516e1fbaab1a108849c512d19db9b9f050751306"
+      "sha256": "c89f7cc9e260eebd63b5596c9cfe6deb016000a1985d13d3960da3d2e20b4eb3"
     },
     {
       "filename": "texpage-STP4-D61ABE66191E9512-46BA6415FDAFFA69-64x256-152-128-16x16-P0-15.png",
-      "sha256": "51a8faf18bd64aca6e388ee98ff2fa4d3fde62306c7b48ef29a2c63a691573ed"
+      "sha256": "c3564bd19ce8d6bd93c708bcedd4f04165ac4dcf4bf31b87d40d2128ed0feebc"
     },
     {
       "filename": "texpage-STP4-D7E6C141060784E6-CBF39C0936C27EBA-64x256-152-52-98x12-P0-15.png",
@@ -395,6 +535,10 @@
     {
       "filename": "texpage-STP4-D7E6C141060784E6-E41C34F07CB9645A-64x256-152-52-98x12-P0-15.png",
       "sha256": "7c4b024d9c9787550629e52319229a0d75899f79f8dc77956beb91d9d92255b9"
+    },
+    {
+      "filename": "texpage-STP4-DC022D0BBC6C6F70-04763BAD5CD988E4-64x256-176-96-16x16-P0-15.png",
+      "sha256": "e330ebe6ca6fb5ad5883e881eade39a75f1ae9e8598d1ba2ceb80efe18236223"
     },
     {
       "filename": "texpage-STP4-DC77F9A2BD1790E6-69491D7E26769824-64x256-144-9-80x7-P0-15.png",
@@ -411,6 +555,10 @@
     {
       "filename": "texpage-STP4-DC77F9A2BD1790E6-9F8A5175F34347CA-64x256-144-9-80x7-P0-15.png",
       "sha256": "cb3aff3c185d845000d244a76e2d48d543201b43095e7814cf56b821673bf2dc"
+    },
+    {
+      "filename": "texpage-STP4-DFB80ADD5686C4F0-7818540C2AD3B887-64x256-152-17-8x12-P0-15.png",
+      "sha256": "5149e0d3490e985b87669b4cd701a824c50a3a5b5fddecf8a9db45020858603c"
     },
     {
       "filename": "texpage-STP4-E53FBEE44293F354-CBF39C0936C27EBA-64x256-216-28-28x12-P0-15.png",
@@ -437,6 +585,14 @@
       "sha256": "7996e42419d3e2d9ad122cc8848b4b00567bebf49863bde1b23489881ea92552"
     },
     {
+      "filename": "texpage-STP4-E8CBB191741EB724-04763BAD5CD988E4-64x256-96-128-16x16-P0-15.png",
+      "sha256": "15f866926b465a8799ca9c5be4efc0eeaf6cd77c9239557f45235b8cf9dad60e"
+    },
+    {
+      "filename": "texpage-STP4-E8CBB191741EB724-46BA6415FDAFFA69-64x256-96-128-16x16-P0-15.png",
+      "sha256": "268d13fceeaa740eea8ed98c38ed2f67d396c9d3bf8e5bc70e0ea6c4c00b6da7"
+    },
+    {
       "filename": "texpage-STP4-E957689F9EA7BE2F-04763BAD5CD988E4-64x256-160-96-16x16-P0-15.png",
       "sha256": "2982c512e4dfb1b53eeb682a3122d99ccff97560d2b838cedd6ed5b305383335"
     },
@@ -459,6 +615,10 @@
     {
       "filename": "texpage-STP4-ECB5D35CFC197F2E-9F8A5175F34347CA-64x256-72-160-68x56-P0-15.png",
       "sha256": "e3a3c51e5350c546f2182b22d87fd69a9b7e9f5be431664b1b35242c7e66ecf6"
+    },
+    {
+      "filename": "texpage-STP4-F68AD321327F0FB8-B8B860E78B335DFB-64x256-16-144-16x16-P0-15.png",
+      "sha256": "8f9eb5dc8221872a8435406839683188880459c0168ba0badcc82f582bdbab07"
     },
     {
       "filename": "texpage-STP4-FE9EF826FAD28E95-69491D7E26769824-64x256-192-144-64x8-P0-15.png",
@@ -626,13 +786,33 @@
       "Dagger",
       "Sword",
       "Great Sword",
+      "Axe & Mace",
+      "Great Axe",
+      "Staff",
+      "Heavy Mace",
       "Polearm",
       "Crossbow",
-      "Shield"
+      "Shield",
+      "Short Grip",
+      "Long Grip",
+      "Polearm Grip",
+      "Crossbow Bolt",
+      "Helm",
+      "Breast Armor",
+      "Leggings",
+      "Glove / Bare Hands",
+      "Accessory",
+      "Gem"
     ],
     "category_badges": [
+      "Weapons",
+      "Blades",
       "Grips",
-      "Shields"
+      "Shields",
+      "Armor",
+      "Gems",
+      "Misc",
+      "Options"
     ],
     "selected_graphics": [
       "Diagonal cursor",
@@ -641,17 +821,35 @@
       "Low bubble",
       "Spiky bubble",
       "Heart",
-      "Emphasis marks"
+      "Emphasis marks",
+      "Attention exclamation"
+    ],
+    "controller_prompts": [
+      "Triangle",
+      "Square",
+      "Circle",
+      "Cross",
+      "L1",
+      "R1",
+      "L2",
+      "R2"
+    ],
+    "menu_markers": [
+      "EQP",
+      "SET"
+    ],
+    "unconfirmed_usage_artwork": [
+      "Misc source graphic, item-016-096"
     ]
   },
   "rough_progress": {
     "percent": 90,
     "kind": "Rough font/text estimate; other artwork excluded"
   },
-  "previous_release": "docs/v0.7/verification.json",
-  "unchanged_published_pngs": 104,
-  "changed_published_pngs": 0,
-  "added_pngs": 17,
+  "previous_release": "docs/v0.8/verification.json",
+  "unchanged_published_pngs": 117,
+  "changed_published_pngs": 4,
+  "added_pngs": 40,
   "windows": {
     "version": "0.1-12083-g00e299795",
     "renderer": "Vulkan",
@@ -713,12 +911,20 @@
       "changed_pixels_outside_artwork": 0,
       "opaque_black_verified": true,
       "scope": "Controlled native-size and 2x draws, including selected/inactive category variants; not complete natural-gameplay coverage."
+    },
+    "ui_artwork": {
+      "pack_fingerprint": "2220acdb1f8355b73506a08748f31c75ce2607e78e68b808602fbd4789f3754e",
+      "instances": 44,
+      "changed_pixels_outside_artwork": 0,
+      "opaque_black_verified": true,
+      "scope": "Actual presented Vulkan frame from controlled 2x sprite specimen; not natural-menu coverage.",
+      "evidence": "docs/evidence/ui-art-rendered-v0.9.json"
     }
   },
   "android": {
     "version": "0.1-8969-g611bb8fb4",
     "import_contract_verified": true,
-    "current_payload_device_tested": true,
+    "current_payload_device_tested": false,
     "pgxp_workaround": "Disable PGXP Geometry Correction per game; both filters Nearest Neighbor",
     "previous_device_reports": "docs/v0.4/verification.json",
     "lookup_coordinate_rule_verified_in_source": true,
@@ -732,7 +938,7 @@
       "current_popup_sign_revision_device_tested": false
     },
     "material_badges_device_tested": false,
-    "device_evidence": "Maintainer reported the supplied v0.8 Android UI-art ZIP working well on 2026-10-24. No new device/build identifier or on-device hash was recorded; this is a user gameplay report, not exhaustive scene coverage.",
+    "device_evidence": "The maintainer approved the preceding private artwork preview. The three newest assets and final release archive have not been reported tested on an Android device.",
     "tested_pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6",
     "tested_archive_sha256": "a6ef11d660a46abfa15b1e27d05eab6d833df2e799d51996cd99f18de6cff635",
     "fonts_edition_separate_device_import_tested": false,
@@ -740,6 +946,11 @@
     "previous_v07_device_approval": {
       "tested_pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437",
       "tested_archive_sha256": "0fe28db09c58a6760b908e2362f68ae074ae9c26a9063e457c6c2f14952ef1b5"
+    },
+    "previous_v08_device_approval": {
+      "tested_pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6",
+      "tested_archive_sha256": "a6ef11d660a46abfa15b1e27d05eab6d833df2e799d51996cd99f18de6cff635",
+      "device_evidence": "Maintainer reported the supplied v0.8 Android UI-art ZIP working well on 2026-10-24. No new device/build identifier or on-device hash was recorded; this is a user gameplay report, not exhaustive scene coverage."
     }
   },
   "user_visual_acceptance": {
@@ -751,7 +962,12 @@
     "material_pack_fingerprint": "3b85f50efdba57c7c2c6d0587025fdca817f9b23c93f73fa48005a9c465c3fc8",
     "body_silhouettes_accepted": true,
     "body_pack_fingerprint": "8e46faa98d4dddb267eabdf5d4fb80e66f5149b12fe2e1ad7a4faefbf0037437",
-    "body_acceptance_date": "2026-10-20"
+    "body_acceptance_date": "2026-10-20",
+    "preceding_menu_artwork_preview": {
+      "evidence": "Maintainer: this is much better... I will prepare the rest of the icons before making a new release.",
+      "pack_fingerprint": "8df3efe66f7a727bb1eee6a5ed62284bed6b6417e97e70193f5dea4d518c9415",
+      "final_release_device_test_claimed": false
+    }
   },
   "menu_glow": {
     "included_in_pack": true,
@@ -778,8 +994,8 @@
   "known_issues": {
     "information_framebuffer_ghost": "Native framebuffer-copy lettering can remain beneath the HD heading. Transparency retained; no black-fill workaround included."
   },
-  "release_packages": "docs/v0.8/packages.json",
-  "status": "v0.8 beta release",
+  "release_packages": "docs/v0.9/packages.json",
+  "status": "Prepared v0.9 beta release; not yet published",
   "previous_development": "docs/v0.5/verification.json",
   "unchanged_v05_pngs": 101,
   "edition_manifest": "editions.json",
@@ -791,8 +1007,8 @@
     },
     "ui-art": {
       "name": "HD Fonts + UI Art",
-      "pngs": 121,
-      "pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6"
+      "pngs": 161,
+      "pack_fingerprint": "2220acdb1f8355b73506a08748f31c75ce2607e78e68b808602fbd4789f3754e"
     }
   },
   "shared_fonts_reference": {
@@ -815,10 +1031,10 @@
   "badge_artwork": {
     "work_in_progress": true,
     "source_art_approved": true,
-    "android_tested": true,
-    "editing_record": "docs/editing-records-v0.8.json",
-    "registration_evidence": "docs/evidence/badges-registration-v0.8.json",
+    "android_tested": false,
+    "editing_record": "docs/editing-records-v0.9.json",
+    "registration_evidence": "docs/evidence/ui-art-registration-v0.9.json",
     "windows_rendered": true,
-    "render_evidence": "docs/evidence/badges-rendered-v0.8.json"
+    "render_evidence": "docs/evidence/ui-art-rendered-v0.9.json"
   }
 }

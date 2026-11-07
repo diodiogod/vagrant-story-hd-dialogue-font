@@ -1,0 +1,779 @@
+{
+  "status": "passed",
+  "pack_fingerprint": "2220acdb1f8355b73506a08748f31c75ce2607e78e68b808602fbd4789f3754e",
+  "native_frame": "docs/images/ui-art-native_frame-v0.9.png",
+  "native_frame_sha256": "1ebb87b9ffa5b6cdc9b1a963b6620a409bd9a1df8d36770f090a14c6d230349d",
+  "hd_frame": "docs/images/ui-art-hd_frame-v0.9.png",
+  "hd_frame_sha256": "a6c03cfd6d197196ec6f47a769491100635a33cf1a6f976e5c3e6315f347b114",
+  "source_state_sha256": "3ea0de5acc18c08d0d99f0574dfa0a08cad8a2c1f97b8159edecc3e39a0056e9",
+  "presentation": [
+    27.999967336654663,
+    0.0,
+    2571.999955177307,
+    1908.0
+  ],
+  "screen_size": [
+    320,
+    224
+  ],
+  "display_dimensions_derived_from_present_shader": true,
+  "changed_pixels_outside_artwork": 0,
+  "samples": [
+    {
+      "name": "accessory",
+      "zoom": 2,
+      "frame_box": [
+        89,
+        66,
+        348,
+        343
+      ],
+      "changed_pixels": 67438,
+      "black_core_samples": 1398,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "body-armor",
+      "zoom": 2,
+      "frame_box": [
+        391,
+        66,
+        650,
+        343
+      ],
+      "changed_pixels": 67437,
+      "black_core_samples": 15547,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "helm",
+      "zoom": 2,
+      "frame_box": [
+        693,
+        66,
+        953,
+        343
+      ],
+      "changed_pixels": 67447,
+      "black_core_samples": 13262,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "leggings",
+      "zoom": 2,
+      "frame_box": [
+        996,
+        66,
+        1255,
+        343
+      ],
+      "changed_pixels": 67448,
+      "black_core_samples": 6920,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "long-grip",
+      "zoom": 2,
+      "frame_box": [
+        1298,
+        66,
+        1557,
+        343
+      ],
+      "changed_pixels": 67443,
+      "black_core_samples": 942,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "polearm-grip",
+      "zoom": 2,
+      "frame_box": [
+        1600,
+        66,
+        1859,
+        343
+      ],
+      "changed_pixels": 67438,
+      "black_core_samples": 1165,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "gem",
+      "zoom": 2,
+      "frame_box": [
+        1902,
+        66,
+        2161,
+        343
+      ],
+      "changed_pixels": 67420,
+      "black_core_samples": 8,
+      "black_guard_source_texels": 1,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source contour coverage and available 3x3 interior",
+      "thin_contour_check": {
+        "source_points": 57,
+        "missing_points": 0,
+        "source_point_method": "One-source-texel guarded contour",
+        "maximum_distance_output_pixels": 1.0,
+        "raster_derived_tolerance_output_pixels": 3,
+        "missing_contour_negative_control_rejected": true
+      }
+    },
+    {
+      "name": "short-grip",
+      "zoom": 2,
+      "frame_box": [
+        2204,
+        66,
+        2463,
+        343
+      ],
+      "changed_pixels": 67232,
+      "black_core_samples": 3993,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "axe-and-mace",
+      "zoom": 2,
+      "frame_box": [
+        89,
+        355,
+        348,
+        633
+      ],
+      "changed_pixels": 67241,
+      "black_core_samples": 5418,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "great-axe",
+      "zoom": 2,
+      "frame_box": [
+        391,
+        355,
+        650,
+        633
+      ],
+      "changed_pixels": 67254,
+      "black_core_samples": 6648,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "glove-bare-hands",
+      "zoom": 2,
+      "frame_box": [
+        693,
+        355,
+        953,
+        633
+      ],
+      "changed_pixels": 67251,
+      "black_core_samples": 9748,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "staff",
+      "zoom": 2,
+      "frame_box": [
+        996,
+        355,
+        1255,
+        633
+      ],
+      "changed_pixels": 67253,
+      "black_core_samples": 3114,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "heavy-mace",
+      "zoom": 2,
+      "frame_box": [
+        1298,
+        355,
+        1557,
+        633
+      ],
+      "changed_pixels": 67244,
+      "black_core_samples": 8954,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "crossbow-bolt",
+      "zoom": 2,
+      "frame_box": [
+        1600,
+        355,
+        1859,
+        633
+      ],
+      "changed_pixels": 67250,
+      "black_core_samples": 494,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "misc-source-cell",
+      "zoom": 2,
+      "frame_box": [
+        1902,
+        355,
+        2161,
+        633
+      ],
+      "changed_pixels": 67242,
+      "black_core_samples": 10397,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "button-triangle",
+      "zoom": 2,
+      "frame_box": [
+        2204,
+        355,
+        2463,
+        633
+      ],
+      "changed_pixels": 43302,
+      "black_core_samples": 6661,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "button-square",
+      "zoom": 2,
+      "frame_box": [
+        89,
+        645,
+        348,
+        922
+      ],
+      "changed_pixels": 43077,
+      "black_core_samples": 6470,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "button-circle",
+      "zoom": 2,
+      "frame_box": [
+        391,
+        645,
+        650,
+        922
+      ],
+      "changed_pixels": 43103,
+      "black_core_samples": 6757,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "button-cross",
+      "zoom": 2,
+      "frame_box": [
+        693,
+        645,
+        953,
+        922
+      ],
+      "changed_pixels": 43094,
+      "black_core_samples": 6753,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "button-l1",
+      "zoom": 2,
+      "frame_box": [
+        996,
+        645,
+        1255,
+        922
+      ],
+      "changed_pixels": 59524,
+      "black_core_samples": 3009,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "button-r1",
+      "zoom": 2,
+      "frame_box": [
+        1298,
+        645,
+        1557,
+        922
+      ],
+      "changed_pixels": 59527,
+      "black_core_samples": 2977,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "button-l2",
+      "zoom": 2,
+      "frame_box": [
+        1600,
+        645,
+        1859,
+        922
+      ],
+      "changed_pixels": 59526,
+      "black_core_samples": 3017,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "button-r2",
+      "zoom": 2,
+      "frame_box": [
+        1902,
+        645,
+        2161,
+        922
+      ],
+      "changed_pixels": 59537,
+      "black_core_samples": 3019,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "weapons-category",
+      "zoom": 2,
+      "frame_box": [
+        2204,
+        645,
+        2463,
+        922
+      ],
+      "changed_pixels": 61628,
+      "black_core_samples": 7048,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "weapons-category-inactive",
+      "zoom": 2,
+      "frame_box": [
+        89,
+        935,
+        348,
+        1212
+      ],
+      "changed_pixels": 61695,
+      "black_core_samples": 7037,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "blades-category",
+      "zoom": 2,
+      "frame_box": [
+        391,
+        935,
+        650,
+        1212
+      ],
+      "changed_pixels": 61673,
+      "black_core_samples": 3368,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "blades-category-inactive",
+      "zoom": 2,
+      "frame_box": [
+        693,
+        935,
+        953,
+        1212
+      ],
+      "changed_pixels": 61673,
+      "black_core_samples": 3366,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "grips-category",
+      "zoom": 2,
+      "frame_box": [
+        996,
+        935,
+        1255,
+        1212
+      ],
+      "changed_pixels": 55260,
+      "black_core_samples": 4057,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "grips-category-inactive",
+      "zoom": 2,
+      "frame_box": [
+        1298,
+        935,
+        1557,
+        1212
+      ],
+      "changed_pixels": 55196,
+      "black_core_samples": 4061,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "shield-category",
+      "zoom": 2,
+      "frame_box": [
+        1600,
+        935,
+        1859,
+        1212
+      ],
+      "changed_pixels": 52169,
+      "black_core_samples": 7042,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "shield-category-inactive",
+      "zoom": 2,
+      "frame_box": [
+        1902,
+        935,
+        2161,
+        1212
+      ],
+      "changed_pixels": 52184,
+      "black_core_samples": 7097,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "armor-category",
+      "zoom": 2,
+      "frame_box": [
+        2204,
+        935,
+        2463,
+        1212
+      ],
+      "changed_pixels": 61633,
+      "black_core_samples": 14056,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "armor-category-inactive",
+      "zoom": 2,
+      "frame_box": [
+        89,
+        1224,
+        348,
+        1501
+      ],
+      "changed_pixels": 61709,
+      "black_core_samples": 14076,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "gems-category",
+      "zoom": 2,
+      "frame_box": [
+        391,
+        1224,
+        650,
+        1501
+      ],
+      "changed_pixels": 61687,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 1,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source contour coverage and available 3x3 interior",
+      "thin_contour_check": {
+        "source_points": 56,
+        "missing_points": 0,
+        "source_point_method": "One-source-texel guarded contour",
+        "maximum_distance_output_pixels": 1.0,
+        "raster_derived_tolerance_output_pixels": 3,
+        "missing_contour_negative_control_rejected": true
+      }
+    },
+    {
+      "name": "gems-category-inactive",
+      "zoom": 2,
+      "frame_box": [
+        693,
+        1224,
+        953,
+        1501
+      ],
+      "changed_pixels": 61684,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 1,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source contour coverage and available 3x3 interior",
+      "thin_contour_check": {
+        "source_points": 56,
+        "missing_points": 0,
+        "source_point_method": "One-source-texel guarded contour",
+        "maximum_distance_output_pixels": 1.0,
+        "raster_derived_tolerance_output_pixels": 3,
+        "missing_contour_negative_control_rejected": true
+      }
+    },
+    {
+      "name": "misc-category",
+      "zoom": 2,
+      "frame_box": [
+        996,
+        1224,
+        1255,
+        1501
+      ],
+      "changed_pixels": 61685,
+      "black_core_samples": 10364,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "misc-category-inactive",
+      "zoom": 2,
+      "frame_box": [
+        1298,
+        1224,
+        1557,
+        1501
+      ],
+      "changed_pixels": 61685,
+      "black_core_samples": 10336,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "options-category",
+      "zoom": 2,
+      "frame_box": [
+        1600,
+        1224,
+        1859,
+        1501
+      ],
+      "changed_pixels": 70142,
+      "black_core_samples": 4320,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "options-category-inactive",
+      "zoom": 2,
+      "frame_box": [
+        1902,
+        1224,
+        2161,
+        1501
+      ],
+      "changed_pixels": 70144,
+      "black_core_samples": 4313,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "badge-eqp",
+      "zoom": 2,
+      "frame_box": [
+        2204,
+        1224,
+        2463,
+        1501
+      ],
+      "changed_pixels": 61631,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 1,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source contour coverage and available 3x3 interior",
+      "thin_contour_check": {
+        "source_points": 40,
+        "missing_points": 0,
+        "source_point_method": "One-source-texel guarded contour",
+        "maximum_distance_output_pixels": 1.0,
+        "raster_derived_tolerance_output_pixels": 3,
+        "missing_contour_negative_control_rejected": true
+      }
+    },
+    {
+      "name": "badge-eqp-inactive",
+      "zoom": 2,
+      "frame_box": [
+        89,
+        1514,
+        348,
+        1791
+      ],
+      "changed_pixels": 61883,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 1,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source contour coverage and available 3x3 interior",
+      "thin_contour_check": {
+        "source_points": 40,
+        "missing_points": 0,
+        "source_point_method": "One-source-texel guarded contour",
+        "maximum_distance_output_pixels": 1.0,
+        "raster_derived_tolerance_output_pixels": 3,
+        "missing_contour_negative_control_rejected": true
+      }
+    },
+    {
+      "name": "badge-set",
+      "zoom": 2,
+      "frame_box": [
+        391,
+        1514,
+        650,
+        1791
+      ],
+      "changed_pixels": 56744,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 1,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source contour coverage and available 3x3 interior",
+      "thin_contour_check": {
+        "source_points": 9,
+        "missing_points": 0,
+        "source_point_method": "One-source-texel guarded contour",
+        "maximum_distance_output_pixels": 0.0,
+        "raster_derived_tolerance_output_pixels": 3,
+        "missing_contour_negative_control_rejected": true
+      }
+    },
+    {
+      "name": "badge-set-inactive",
+      "zoom": 2,
+      "frame_box": [
+        693,
+        1514,
+        953,
+        1791
+      ],
+      "changed_pixels": 56724,
+      "black_core_samples": 0,
+      "black_guard_source_texels": 1,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source contour coverage and available 3x3 interior",
+      "thin_contour_check": {
+        "source_points": 9,
+        "missing_points": 0,
+        "source_point_method": "One-source-texel guarded contour",
+        "maximum_distance_output_pixels": 0.0,
+        "raster_derived_tolerance_output_pixels": 3,
+        "missing_contour_negative_control_rejected": true
+      }
+    },
+    {
+      "name": "attention-exclamation",
+      "zoom": 2,
+      "frame_box": [
+        996,
+        1514,
+        1112,
+        1723
+      ],
+      "changed_pixels": 12456,
+      "black_core_samples": 3201,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    }
+  ],
+  "scope": "Actual presented Vulkan frame from controlled 2x sprite specimen; not natural-menu coverage.",
+  "natural_gameplay_coverage": false,
+  "android_device_tested": false
+}

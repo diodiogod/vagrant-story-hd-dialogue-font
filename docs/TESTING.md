@@ -1,5 +1,31 @@
 # Testing
 
+## v0.9 beta
+
+The final 161-file pack passed 44 controlled DuckStation Vulkan draw checks at
+2x sprite size: 14 equipment/grip designs, eight controller prompts, 16 category
+states, four EQP / SET states, the attention exclamation and the additional
+Misc source cell. Every variant appears in the actual presented frame; black
+interiors and thin contours remain opaque. Matched frames have **zero changed
+pixels outside the controlled draw regions**. This checks exports in the
+renderer, separately from natural menu/event coverage.
+
+[Render measurements](evidence/ui-art-rendered-v0.9.json) ·
+[Registration and source hashes](evidence/ui-art-registration-v0.9.json) ·
+[Editing records](editing-records-v0.9.json).
+
+All 101 shared fonts, the six equipment badges from v0.8 and the earlier arrows,
+balloons, heart, emphasis, material badges and body sprites are byte-identical.
+Four released Grips / Shields category state textures are replaced; 40 files
+are added. Android and desktop archives pass exact file-set, hash, dimension,
+CRC and importer-path checks, including rejected wrapper layouts.
+
+The maintainer approved the preceding private artwork preview. The newest
+EQP / SET / attention designs and this final archive have not been reported
+tested on an Android device. Earlier device reports below apply to their
+recorded packages. Unknown source-cell identities and full-game coverage remain
+open. The extra Misc graphic's normal-gameplay use is unconfirmed.
+
 ## v0.8 beta
 
 The new badge batch passed 20 controlled DuckStation Vulkan draw checks: ten

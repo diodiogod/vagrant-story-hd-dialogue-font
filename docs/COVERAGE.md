@@ -1,6 +1,6 @@
 # Font coverage and roadmap
 
-Updated 2026-10-24. v0.8 beta: HD Fonts has 101 PNGs; HD Fonts + UI Art has 121.
+Updated 2026-11-07. v0.9 beta: HD Fonts has 101 PNGs; HD Fonts + UI Art has 161.
 Both use the same 8x fonts. [Edition scope](ART-DIRECTION.md).
 Coverage describes reconstructed assets, separately from where they were tested.
 
@@ -41,18 +41,21 @@ and matching bounds alone do not prove visual fidelity.
 empty-hand poses. The silhouettes use the maintainer's flat cyan/black artwork,
 with the game's health tints. They have been reviewed in game.
 
-**New WIP batch:** Dagger, Sword, Great Sword, Polearm, Crossbow and Shield;
-Grips/Shields category tabs; diagonal/up arrows, three paper bubbles, heart and
-emphasis marks. The maintainer approved the supplied badge batch in Android gameplay on 2026-10-24; broader scene coverage remains open.
+**Menu artwork so far:** all eight category tabs (orange selected / turquoise
+inactive); 20 equipment, armor, gem and grip symbols; eight controller prompts;
+EQP / SET markers; diagonal/up arrows, three paper balloons, heart, emphasis
+marks and the attention exclamation. An additional Misc source cell is replaced,
+but its natural-gameplay use remains unconfirmed.
 
-**Remaining:** the other equipment/category/condition/affinity icons, controller
-prompts, buttons, remaining arrows, bars and panel decoration need individual review. These are excluded
-from the font progress estimate. The fonts edition keeps these graphics and
-the badges/body diagram original. World and character textures are outside scope.
+**Remaining:** unidentified source cells, the question and ellipsis markers,
+other condition/affinity icons, remaining arrows, bars and panel decoration.
+Menu art remains a work in progress and is excluded from the font progress
+estimate. HD Fonts keeps the original non-letter artwork. World and character
+textures are outside scope.
 
 ## Test coverage
 
-See [v0.8 testing](TESTING.md#v08-beta) for current edition checks. The following
+See [v0.9 testing](TESTING.md#v09-beta) for current edition checks. The following
 notes preserve the scope of earlier tests.
 
 All seven material initials were checked in 14 Windows draw instances at native

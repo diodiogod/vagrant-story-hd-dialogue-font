@@ -21,7 +21,7 @@ class ReleaseTests(unittest.TestCase):
 
     def test_art_is_only_the_reviewed_optional_rectangles(self):
         optional = set(self.editions['ui-art'])-set(self.editions['fonts'])
-        self.assertEqual(20,len(optional))
+        self.assertEqual(60,len(optional))
         self.assertEqual(2,sum('-A4CF47DD968DAA08-' in n for n in optional))
         self.assertEqual(1,sum('-A9FBF4E578AF475A-' in n for n in optional))
         for name, value in self.editions['fonts'].items():
@@ -74,6 +74,39 @@ class ReleaseTests(unittest.TestCase):
             self.assertNotIn(asset['filename'],self.editions['fonts'])
             self.assertEqual(asset['master_sha256'],digest((ROOT/asset['master']).read_bytes()))
 
+    def test_current_menu_artwork_matches_preserved_masters_and_rendered_pack(self):
+        record = read_json(ROOT/'docs/editing-records-v0.9.json')
+        assets = {r['name']:r for r in record['assets']}
+        self.assertEqual(44,len(assets))
+        expected = {'short-grip':[0,112,16,16], 'long-grip':[16,112,16,16],
+                    'polearm-grip':[32,112,16,16], 'crossbow-bolt':[224,96,16,16],
+                    'heavy-mace':[208,96,16,16], 'badge-eqp':[96,128,16,16],
+                    'badge-set':[80,128,16,16], 'attention-exclamation':[152,17,7,12]}
+        for name,rect in expected.items():
+            self.assertEqual(rect,assets[name]['native_rect'])
+        self.assertEqual([152,17,8,12],assets['attention-exclamation']['registration_rect'])
+        self.assertEqual(2,assets['attention-exclamation']['source_page'])
+        for asset in assets.values():
+            with self.subTest(asset=asset['name']):
+                self.assertEqual(asset['sha256'],self.editions['ui-art'][asset['filename']])
+                self.assertNotIn(asset['filename'],self.editions['fonts'])
+                self.assertEqual(asset['master_sha256'],digest((ROOT/asset['master']).read_bytes()))
+        evidence = read_json(ROOT/'docs/evidence/ui-art-rendered-v0.9.json')
+        self.assertEqual(self.manifest['pack_fingerprint'],evidence['pack_fingerprint'])
+        self.assertEqual('passed',evidence['status'])
+        self.assertEqual(0,evidence['changed_pixels_outside_artwork'])
+        self.assertEqual(set(assets),{r['name'] for r in evidence['samples']})
+
+    def test_previous_artwork_and_fonts_stay_unchanged_outside_category_updates(self):
+        prior = read_json(ROOT/'docs/v0.8/verification.json')
+        before = {r['filename']:r['sha256'] for r in prior['files']}
+        after = self.editions['ui-art']
+        self.assertEqual(40,len(set(after)-set(before)))
+        replaced = {n for n,h in before.items() if after[n]!=h}
+        self.assertEqual(4,len(replaced))
+        self.assertTrue(all('-152-128-16x16-' in n or '-168-128-16x16-' in n for n in replaced))
+        self.assertTrue(all(before[n]==h for n,h in self.editions['fonts'].items()))
+
     def test_edition_misclassification_is_rejected(self):
         wrong = copy.deepcopy(self.selection)
         body = next(n for n in wrong['groups']['ui-art'] if '-A9FBF4E578AF475A-' in n)
@@ -104,7 +137,7 @@ class ReleaseTests(unittest.TestCase):
     def test_switching_requires_removal_of_old_art(self):
         old_art = self.editions['ui-art']
         imported_fonts = dict(old_art,**self.editions['fonts'])
-        self.assertEqual(121,len(imported_fonts))
+        self.assertEqual(161,len(imported_fonts))
         self.assertNotEqual(imported_fonts,self.editions['fonts'])
         for name in self.selection['groups']['ui-art']:
             imported_fonts.pop(name)

@@ -15,7 +15,7 @@ those changes optional rather than making them a requirement for clearer text.
 | Numbers, punctuation and readable +/− signs | HD | HD |
 | Material badges (W, L, B, I, H, S, D) | Original | Reinterpreted |
 | Body-status silhouettes | Original | Manually painted HD sprites |
-| Selected equipment/category badges, arrows and expressions | Original | Reviewed HD artwork; badges WIP |
+| Selected equipment/category badges, controller prompts, EQP / SET and expressions | Original | Reviewed HD artwork; menu icons WIP |
 | Remaining icons, buttons and decoration | Original | Original until individually reviewed |
 | World and character textures | Original | Original |
 
@@ -30,9 +30,10 @@ recognize the shape at its actual game size. The body diagrams use flat fills
 and black outlines; the material badges use graphic metallic shading. Neither
 is presented as proof of what the original artists intended.
 
-The art edition is a work in progress. Buttons, controller prompts and other
-icons need their own review. Future art changes stay in this edition; font
-improvements remain shared. Comparisons go in the [visual changelog](../CHANGELOG.md).
+The art edition is a work in progress. The eight controller prompts are included;
+remaining icons and decoration need their own review. Future art changes stay
+in this edition; font improvements remain shared. Comparisons go in the
+[visual changelog](../CHANGELOG.md).
 
 ## Releases
 

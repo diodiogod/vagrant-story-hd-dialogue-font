@@ -1,5 +1,89 @@
 # Visual changelog
 
+## v0.9 beta — 2026-11-07 · Menu artwork progress
+
+The optional **HD Fonts + UI Art** edition adds more menu artwork while the
+remaining sprites are being made. **HD Fonts** keeps its original non-letter
+artwork; both editions share the same unchanged 101 font textures.
+Art direction and interpretation by diodiogod.
+
+### Category tabs
+
+All eight tabs use the final orange badge artwork with matching turquoise
+inactive states. Supplied outlines and placement are retained, including the
+separate equipment Gem and circular Gems category badge.
+
+| Category | Artwork |
+| --- | --- |
+| Weapons | Crossed weapons on the round badge |
+| Blades | Detached blade symbol on the round badge |
+| Grips | Maintainer-selected grip symbol on the round badge |
+| Shields | Shield symbol on the round badge |
+| Armor | Armor silhouette on the round badge |
+| Gems | Gem contour on the round badge |
+| Misc | Misc symbol on the round badge |
+| Options | Exclamation on the square badge |
+
+![Native category sprites and HD selected/inactive states](docs/images/categories-v0.9.png)
+
+### Equipment and grips
+
+| Icon | Addition |
+| --- | --- |
+| Short Grip | Detached hilt for daggers, swords and great swords |
+| Long Grip | Long handle for axes, maces and staves |
+| Polearm Grip | Polearm handle silhouette |
+| Crossbow Bolt | Bolt symbol in the fourth grip category |
+| Axe & Mace | Weapon-category silhouette |
+| Great Axe | Separate large-axe silhouette |
+| Staff | Staff silhouette |
+| Heavy Mace | Distinct heavy-mace silhouette |
+| Helm | Head armor silhouette |
+| Breast Armor | Body armor silhouette |
+| Leggings | Leg armor silhouette |
+| Glove / Bare Hands | Shared native sprite for glove and unarmed entries |
+| Accessory | Accessory silhouette |
+| Gem | Equipment gem on the turquoise badge |
+
+![Native equipment sprites and HD artwork](docs/images/equipment-v0.9.png)
+
+The six equipment designs from v0.8—Dagger, Sword, Great Sword, Polearm,
+Crossbow and Shield—are retained unchanged.
+
+### Controller buttons
+
+| Prompt | Addition |
+| --- | --- |
+| Triangle | HD face-button icon |
+| Square | HD face-button icon |
+| Circle | HD face-button icon |
+| Cross | HD face-button icon |
+| L1 | Curved shoulder-button artwork and lettering |
+| R1 | Curved shoulder-button artwork and lettering |
+| L2 | Shoulder-button artwork and lettering |
+| R2 | Shoulder-button artwork and lettering |
+
+![Native controller prompts and HD artwork](docs/images/controller-buttons-v0.9.png)
+
+### Menu markers and attention symbol
+
+- **EQP:** round equipped marker, with the original placement and readable lettering.
+- **SET:** square set marker, retaining the supplied lettering and border.
+- **Attention !:** separate black exclamation with a white surround; the balloon artwork is unchanged.
+- **Additional Misc source graphic:** supplied turquoise artwork bound to `item-016-096.png`; its natural-gameplay use remains unconfirmed.
+
+![Native EQP, SET, attention exclamation and extra Misc sprite with HD artwork](docs/images/menu-markers-v0.9.png)
+
+The earlier diagonal cursor, up arrow, three paper balloons, heart and emphasis
+marks are unchanged and remain visible in the [v0.8 comparison](#arrows-speech-balloons-and-expression-symbols).
+
+**Still a work in progress:** unfinished menu sprites retain their original
+artwork. The art edition now contains 161 PNGs, including 60 optional artwork
+textures. All 44 new or updated palette variants passed controlled Windows
+renderer checks with zero changed pixels outside their draw regions. The newest
+three designs and final archive still need Android device testing.
+[Testing](docs/TESTING.md#v09-beta) · [Release notes](RELEASE-NOTES.md).
+
 ## v0.8 beta — Equipment and category badges (WIP)
 
 The first badge batch adds the maintainer's Dagger, Sword, Great Sword, Polearm,

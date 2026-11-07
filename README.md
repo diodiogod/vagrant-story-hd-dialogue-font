@@ -6,12 +6,12 @@ Sharper dialogue, menus and HUD text, guided by the original lettering.
 ## Choose your edition
 
 <!-- downloads:start -->
-**v0.8 beta**
+**v0.9 beta**
 
 | Edition | What changes | Android | Desktop |
 | --- | --- | --- | --- |
-| **HD Fonts** | Dialogue, menus, HUD and combat text; original pixel artwork | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.8-beta/vagrant-story-fonts-v0.8-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.8-beta/vagrant-story-fonts-v0.8-desktop.zip) |
-| **HD Fonts + UI Art** · WIP | Same fonts, plus badges, body silhouettes and selected UI graphics | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.8-beta/vagrant-story-ui-art-v0.8-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.8-beta/vagrant-story-ui-art-v0.8-desktop.zip) |
+| **HD Fonts** | Dialogue, menus, HUD and combat text; original pixel artwork | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.9-beta/vagrant-story-fonts-v0.9-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.9-beta/vagrant-story-fonts-v0.9-desktop.zip) |
+| **HD Fonts + UI Art** · WIP | Same fonts, plus badges, body silhouettes, controller prompts and selected UI graphics | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.9-beta/vagrant-story-ui-art-v0.9-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.9-beta/vagrant-story-ui-art-v0.9-desktop.zip) |
 <!-- downloads:end -->
 
 Both editions share the same fonts. The original pixel art is part of the game's
@@ -21,12 +21,13 @@ character, so our sprite interpretations stay optional. [Art direction](docs/ART
 
 ## What's new
 
-- First equipment/category badge batch: Dagger, Sword, Great Sword, Polearm, Crossbow, Shield, and the Grips/Shields category tabs.
-- Reviewed arrows, paper bubbles, heart and emphasis marks join the UI Art edition.
-- **Badge artwork is a work in progress:** completed designs appear alongside the original icons while the remaining badges are being made.
-- Both editions still share the same 101 font textures.
+- Eight HD controller prompts: Triangle, Square, Circle, Cross, L1, R1, L2 and R2.
+- More equipment and grip icons, all eight category tabs, and new EQP / SET markers.
+- The attention **!** joins the arrows, paper balloons, heart and emphasis marks.
+- **Menu artwork is a work in progress:** completed designs appear alongside the remaining original sprites.
+- Both editions still share the same unchanged 101 font textures.
 
-**Rough font/text progress: 90%.** Buttons and other UI artwork remain in progress.
+**Rough font/text progress: 90%.** Remaining menu icons and decoration are still in progress.
 [Roadmap](docs/COVERAGE.md) · [Release notes](RELEASE-NOTES.md) · [Visual changelog](CHANGELOG.md).
 
 ## Install
@@ -64,7 +65,9 @@ and restart the game. [Installation help](docs/INSTALL.md).
 
 [Material badges](docs/images/material-badges-v0.6.png) · [Body silhouettes](docs/images/body-silhouettes-v0.7.png)
 
-[Equipment/category badges — WIP](docs/images/badges-v0.8.png) · [Arrows and expressions](docs/images/arrows-expressions-v0.8.png)
+[Category tabs](docs/images/categories-v0.9.png) · [Equipment and grips](docs/images/equipment-v0.9.png)
+
+[Controller buttons](docs/images/controller-buttons-v0.9.png) · [EQP, SET and attention !](docs/images/menu-markers-v0.9.png) · [Arrows and expressions](docs/images/arrows-expressions-v0.8.png)
 
 ## More
 

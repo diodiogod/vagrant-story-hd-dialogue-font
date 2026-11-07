@@ -27,7 +27,12 @@ def main(release_date):
     android_path = ROOT/'verification-android-import.json'
     android = json.loads(android_path.read_text(encoding='utf-8'))
     android.update(version=version, status=f'v{package} beta prepared locally; unpublished',
-                   archive_hashes=f'GitHub release {tag}: SHA256SUMS.txt')
+                   archive_hashes=f'GitHub release {tag}: SHA256SUMS.txt',
+                   matching_texture_entries=manifest['pngs'],
+                   pack_fingerprint=manifest['pack_fingerprint'],
+                   editions=manifest['editions'],
+                   current_payload_device_tested=manifest['android']['current_payload_device_tested'],
+                   device_evidence=manifest['android']['device_evidence'])
     count = manifest['pngs']
     readme = (ROOT/'README.md').read_text(encoding='utf-8')
     start, end = '<!-- downloads:start -->', '<!-- downloads:end -->'
@@ -39,8 +44,7 @@ def main(release_date):
              '| --- | --- | --- | --- |']
     for key, edition in selections['editions'].items():
         label = f"**{edition['name']}**" + (' · WIP' if key == 'ui-art' else '')
-        scope = ('Dialogue, menus, HUD and combat text; original pixel artwork' if key == 'fonts'
-                 else 'Same fonts, plus material badges and body silhouettes')
+        scope = edition['description'].rstrip('.')
         base = f'https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/{tag}/vagrant-story-{key}-v{package}'
         lines.append(f'| {label} | {scope} | [ZIP]({base}-android.zip) | [ZIP]({base}-desktop.zip) |')
     lines.append(end)

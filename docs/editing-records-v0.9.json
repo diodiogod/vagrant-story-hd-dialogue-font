@@ -1,0 +1,2525 @@
+{
+  "art_direction_and_interpretation": "diodiogod",
+  "workflow": "Maintainer-selected local-model generation/inpainting and manual Photoshop editing.",
+  "new_generation_during_integration": false,
+  "masters_preserved_byte_for_byte": true,
+  "registration": "Full supplied canvases uniformly downsampled at 8x; no crop or recenter. Native texels outside unaligned cells are preserved.",
+  "alpha": "Threshold 128 before/after premultiplied-alpha resampling; STP4 alpha 128 and RGB 1 carrier for opaque black.",
+  "category_states": "Selected colors from supplied masters; native hue/saturation transfer for inactive states with geometry, alpha, value, black and white retained.",
+  "grips_assignment": "Maintainer approved the Crossbow artwork for the Grips category and long sword grip.png for Long Grip.",
+  "assets": [
+    {
+      "name": "accessory",
+      "master": "assets/sources/ui-art-v0.9/Accessory.png",
+      "master_sha256": "4d1f43752a9a01ca74ca1d8ef305032baff106d470f8bce98eca71234693c71a",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-160-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        160,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        160,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-174E5206148CA38C-04763BAD5CD988E4-64x256-160-112-16x16-P0-15.png",
+      "sha256": "a3ef31a5195fc6afe4d020b68f89ba25f203ac4247ad41f6164ad065afaa2120",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "body-armor",
+      "master": "assets/sources/ui-art-v0.9/armor.png",
+      "master_sha256": "55c529d8faba55d2bf314606878dea0945087ffcecd0179726e49472d1213759",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-096-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        96,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        96,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-D4E4C8F91ECB03DA-04763BAD5CD988E4-64x256-96-112-16x16-P0-15.png",
+      "sha256": "799c3c48e631ff9ac78250d6dc7334c40aaf175b85fead3f9a730ecfb0bcf49c",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "helm",
+      "master": "assets/sources/ui-art-v0.9/helm.png",
+      "master_sha256": "4d909d62a7ca6ed576561f76b6661a1efab5191f602965a0c2e441a25f4aa920",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-080-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        80,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        80,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-1437AEE310705725-04763BAD5CD988E4-64x256-80-112-16x16-P0-15.png",
+      "sha256": "0ec385cb027f44832f81c6f50f324f5797176e35c1244f8cba43264ceee77eb7",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "leggings",
+      "master": "assets/sources/ui-art-v0.9/Leggings.png",
+      "master_sha256": "cf4755a6f54b05695c1fea03cc500b416039b47aea069dfe23c02a891d100a91",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-112-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        112,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        112,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-6416CB4A156A3756-04763BAD5CD988E4-64x256-112-112-16x16-P0-15.png",
+      "sha256": "ec6f816b25419f1f1bd6564408f959e6973ab346d60afe664d46b5910dc092b5",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "long-grip",
+      "master": "assets/sources/ui-art-v0.9/long sword grip.png",
+      "master_sha256": "ec5d9275843ba065992902d2fd398d1ebf84c23c039ca5d673d7af3d8610cdff",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-016-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        16,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        16,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-6EF1FB17AD7286EE-04763BAD5CD988E4-64x256-16-112-16x16-P0-15.png",
+      "sha256": "2e1d5d1eb00a985ac9c86fa62929e9bc2db89a92128be09e79c99af7b44e0bc3",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "polearm-grip",
+      "master": "assets/sources/ui-art-v0.9/Polearm Grip.png",
+      "master_sha256": "623e5031f71895da78d3c94f6b3899ac258431f3692e5154efd4c0f33e937b3d",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-032-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        32,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        32,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-2F762DAF330F4507-04763BAD5CD988E4-64x256-32-112-16x16-P0-15.png",
+      "sha256": "0662b68b27040703f62b96593012d1c722ee45517757dfb69a2ff440b355c07a",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "gem",
+      "master": "assets/sources/ui-art-v0.9/gem.png",
+      "master_sha256": "6a3633349b2f2f432321674203e755eabea584790c738546ffa30c5314714f2f",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-032-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        32,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        32,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-B8478CFD0B986005-04763BAD5CD988E4-64x256-32-96-16x16-P0-15.png",
+      "sha256": "2bd11efbf95dfb9c60feae2bbfd8165a87b0b3ce9a32dadf7d0bb416beef70f0",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "short-grip",
+      "master": "assets/sources/ui-art-v0.9/item-000-112.png",
+      "master_sha256": "4dfd752262377c6791e2431498be474d55db11926c70d288a1a9705d95485d28",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-000-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        0,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        0,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-7A96975DA9945DF6-04763BAD5CD988E4-64x256-0-112-16x16-P0-15.png",
+      "sha256": "669ab43598276020d0718b46af6c50720a3c828b29453a5fd00c256d9d0c80a2",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "axe-and-mace",
+      "master": "assets/sources/ui-art-v0.9/item-112-096.png",
+      "master_sha256": "e92d70fef5a01822ccc3f32ea472cf3a430cf9c5a4b3383d8a89967d3831b172",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-112-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        112,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        112,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-9D47EB53D7E8082A-04763BAD5CD988E4-64x256-112-96-16x16-P0-15.png",
+      "sha256": "e5047ae0bcbd50ddff545d3481d628936414d6b3bdc6c0d170449e9a1ae48ca3",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "great-axe",
+      "master": "assets/sources/ui-art-v0.9/item-128-096.png",
+      "master_sha256": "ea803762167bc8f0078e88551ce40a7f9103236ee5e5900529bf1729110a1d7f",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-128-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        128,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        128,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-C71B84D405E30E12-04763BAD5CD988E4-64x256-128-96-16x16-P0-15.png",
+      "sha256": "ab1eb7f6dc0658a12f9738fc036adaaf5e0560b3898c26e34db2a6a30872e485",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "glove-bare-hands",
+      "master": "assets/sources/ui-art-v0.9/item-128-112.png",
+      "master_sha256": "60dfde3f25cbeefbaa2b75606d2307b20d2d22056b681f6d718c24dcfff43bcb",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-128-112",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        128,
+        112,
+        16,
+        16
+      ],
+      "registration_rect": [
+        128,
+        112,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-4BC27480C3D2190F-04763BAD5CD988E4-64x256-128-112-16x16-P0-15.png",
+      "sha256": "919531e8502bc6f53413726a8df68b5342a39830c80145f386a9ca7dfcd20e42",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "staff",
+      "master": "assets/sources/ui-art-v0.9/item-176-096.png",
+      "master_sha256": "200d401c60dbe11ad9572475f2665e3747db3bd2ed9153fe006fc64a3e4d6536",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-176-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        176,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        176,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-DC022D0BBC6C6F70-04763BAD5CD988E4-64x256-176-96-16x16-P0-15.png",
+      "sha256": "e330ebe6ca6fb5ad5883e881eade39a75f1ae9e8598d1ba2ceb80efe18236223",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "heavy-mace",
+      "master": "assets/sources/ui-art-v0.9/item-208-096.png",
+      "master_sha256": "367f7c885dcbc5747935eb5e980549ae751f467cf499f78787f74233c6e51d91",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-208-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        208,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        208,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-7D4405E464E7BFEA-04763BAD5CD988E4-64x256-208-96-16x16-P0-15.png",
+      "sha256": "5e29f30af5b8d7e3437eafafad82c12b9cf45a3fa163d830e294159aa4692f8d",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "crossbow-bolt",
+      "master": "assets/sources/ui-art-v0.9/arrow.png",
+      "master_sha256": "0bdde2a2f2f36a0f5e7156a1596375cd3cce0f831fc95ea419dfa59d745e5831",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-224-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        224,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        224,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-7A083D969F08747E-04763BAD5CD988E4-64x256-224-96-16x16-P0-15.png",
+      "sha256": "5638c04490d86b5ad80f216c65e1263c662369281e89c267d640a9eaaa26616b",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "misc-source-cell",
+      "master": "assets/sources/ui-art-v0.9/misc.png",
+      "master_sha256": "7071e149a2a7eda7d0fa7f337f3cab1ae3314657f8ad62eb980887e99c00a421",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "item-016-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        16,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        16,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-09F8AFD007F1419D-04763BAD5CD988E4-64x256-16-96-16x16-P0-15.png",
+      "sha256": "a531308efa42aef9552c50139332088e98ea1ea831eb393ba414913577e26bb7",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": false
+    },
+    {
+      "name": "button-triangle",
+      "master": "assets/sources/ui-art-v0.9/tri button2.png",
+      "master_sha256": "46456ff05044b2b4edb66f380e7f905655704453b62c1e3297a698c2f7901577",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "button-triangle",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        0,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        0,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        944,
+        223
+      ],
+      "palette_words": [
+        0,
+        2114,
+        4228,
+        6342,
+        8456,
+        9513,
+        10570,
+        11628,
+        12684,
+        11547,
+        16911,
+        10655,
+        23353,
+        27314,
+        30299,
+        14158
+      ],
+      "filename": "texpage-STP4-69DAF58FA1D36587-B8B860E78B335DFB-64x256-0-128-16x16-P0-15.png",
+      "sha256": "b92b5d52460d5771333902ab98ae158a66f079c5855f30e7fd5106238a384e83",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "button-square",
+      "master": "assets/sources/ui-art-v0.9/square button2.png",
+      "master_sha256": "03688766b942d83243d72d07f853a43ab6b89034d079f36237c49f81a9c9e445",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "button-square",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        16,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        16,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        944,
+        223
+      ],
+      "palette_words": [
+        0,
+        2114,
+        4228,
+        6342,
+        8456,
+        9513,
+        10570,
+        11628,
+        12684,
+        11547,
+        16911,
+        10655,
+        23353,
+        27314,
+        30299,
+        14158
+      ],
+      "filename": "texpage-STP4-8E4A8390FA06B52B-B8B860E78B335DFB-64x256-16-128-16x16-P0-15.png",
+      "sha256": "4214262c28474a38434a2b7d0b0d483e3766fbdceaa9bb8923a853460ddee451",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "button-circle",
+      "master": "assets/sources/ui-art-v0.9/circle button2.png",
+      "master_sha256": "644cb5a8524abe76376c432ac6981a759e5294093191a797fe62764ab496ac32",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "button-circle",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        32,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        32,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        944,
+        223
+      ],
+      "palette_words": [
+        0,
+        2114,
+        4228,
+        6342,
+        8456,
+        9513,
+        10570,
+        11628,
+        12684,
+        11547,
+        16911,
+        10655,
+        23353,
+        27314,
+        30299,
+        14158
+      ],
+      "filename": "texpage-STP4-C9BACB2D7411ECD4-B8B860E78B335DFB-64x256-32-128-16x16-P0-15.png",
+      "sha256": "955dd39f58279fac5ef02bdde1c6cd0101193e617b9c424c48f7dca368919344",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "button-cross",
+      "master": "assets/sources/ui-art-v0.9/xbutton2.png",
+      "master_sha256": "379f3289f6bddd1b50eed1ceb2fc0f76c21c0bc8ee430ec139b20679e5bbe55c",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "button-cross",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        48,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        48,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        944,
+        223
+      ],
+      "palette_words": [
+        0,
+        2114,
+        4228,
+        6342,
+        8456,
+        9513,
+        10570,
+        11628,
+        12684,
+        11547,
+        16911,
+        10655,
+        23353,
+        27314,
+        30299,
+        14158
+      ],
+      "filename": "texpage-STP4-CFDA012B966B24B4-B8B860E78B335DFB-64x256-48-128-16x16-P0-15.png",
+      "sha256": "bed948c1321d2577aec3364ca51383039335ea60bd1e7f9842aa6eb3555b45b8",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "button-l1",
+      "master": "assets/sources/ui-art-v0.9/l1 button-empity.png",
+      "master_sha256": "741844f3a373fd42f86b5eeea64cb47cc4ad55020105e66ae37193b868e256e3",
+      "master_size": [
+        1024,
+        1024
+      ],
+      "source_id": "button-l1",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        0,
+        144,
+        16,
+        16
+      ],
+      "registration_rect": [
+        0,
+        144,
+        16,
+        16
+      ],
+      "clut": [
+        944,
+        223
+      ],
+      "palette_words": [
+        0,
+        2114,
+        4228,
+        6342,
+        8456,
+        9513,
+        10570,
+        11628,
+        12684,
+        11547,
+        16911,
+        10655,
+        23353,
+        27314,
+        30299,
+        14158
+      ],
+      "filename": "texpage-STP4-0AC7BBF1A12BF512-B8B860E78B335DFB-64x256-0-144-16x16-P0-15.png",
+      "sha256": "eadf463ac7f292c366d93280825d4dfb53d0b698e0074343e9548de6f3e74c22",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "1024x1024 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "button-r1",
+      "master": "assets/sources/ui-art-v0.9/r1 button-empity.png",
+      "master_sha256": "d812611ac35bc173bd3636aa2d28857c912b5cf8998aefddc6d5a98da35aaa85",
+      "master_size": [
+        1024,
+        1024
+      ],
+      "source_id": "button-r1",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        16,
+        144,
+        16,
+        16
+      ],
+      "registration_rect": [
+        16,
+        144,
+        16,
+        16
+      ],
+      "clut": [
+        944,
+        223
+      ],
+      "palette_words": [
+        0,
+        2114,
+        4228,
+        6342,
+        8456,
+        9513,
+        10570,
+        11628,
+        12684,
+        11547,
+        16911,
+        10655,
+        23353,
+        27314,
+        30299,
+        14158
+      ],
+      "filename": "texpage-STP4-F68AD321327F0FB8-B8B860E78B335DFB-64x256-16-144-16x16-P0-15.png",
+      "sha256": "8f9eb5dc8221872a8435406839683188880459c0168ba0badcc82f582bdbab07",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "1024x1024 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "button-l2",
+      "master": "assets/sources/ui-art-v0.9/l2 button-empity.png",
+      "master_sha256": "26ca36cbcb82841ed8415658bb82319d3269b83151273bce9a081f01dd9953a8",
+      "master_size": [
+        1024,
+        1024
+      ],
+      "source_id": "button-l2",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        32,
+        144,
+        16,
+        16
+      ],
+      "registration_rect": [
+        32,
+        144,
+        16,
+        16
+      ],
+      "clut": [
+        944,
+        223
+      ],
+      "palette_words": [
+        0,
+        2114,
+        4228,
+        6342,
+        8456,
+        9513,
+        10570,
+        11628,
+        12684,
+        11547,
+        16911,
+        10655,
+        23353,
+        27314,
+        30299,
+        14158
+      ],
+      "filename": "texpage-STP4-AFF50050EFF7F21F-B8B860E78B335DFB-64x256-32-144-16x16-P0-15.png",
+      "sha256": "8317b0c0ce7207201f29a1ada28fb6c9688abe1961d31e6588478bf543b84ab4",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "1024x1024 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "button-r2",
+      "master": "assets/sources/ui-art-v0.9/r2 button-empity.png",
+      "master_sha256": "060fbe66a10c20f785c4b588ea579b38fb0a888f56819e17fa0dc94589c67759",
+      "master_size": [
+        1024,
+        1024
+      ],
+      "source_id": "button-r2",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        48,
+        144,
+        16,
+        16
+      ],
+      "registration_rect": [
+        48,
+        144,
+        16,
+        16
+      ],
+      "clut": [
+        944,
+        223
+      ],
+      "palette_words": [
+        0,
+        2114,
+        4228,
+        6342,
+        8456,
+        9513,
+        10570,
+        11628,
+        12684,
+        11547,
+        16911,
+        10655,
+        23353,
+        27314,
+        30299,
+        14158
+      ],
+      "filename": "texpage-STP4-A2FD3EF51CFD9737-B8B860E78B335DFB-64x256-48-144-16x16-P0-15.png",
+      "sha256": "3d24943db6df5fe71c5c7e9d63154b0187d738fb344f2a8acd510d85885e76f3",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "1024x1024 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "weapons-category",
+      "master": "assets/sources/ui-art-v0.9/Vagrant-Story-Crossed-Weapons2.png",
+      "master_sha256": "5dd8872998424926034d6992e1e352c0553144c53b0e5cc199c62d06eb2643f7",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-01",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        120,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        120,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-ADEA00972F8BF0A3-46BA6415FDAFFA69-64x256-120-128-16x16-P0-15.png",
+      "sha256": "807d647147f5078d66be06607a176ba239fb61cd80c963aec2dfafb592e0b7a5",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "weapons-category-inactive",
+      "master": "assets/sources/ui-art-v0.9/Vagrant-Story-Crossed-Weapons2.png",
+      "master_sha256": "5dd8872998424926034d6992e1e352c0553144c53b0e5cc199c62d06eb2643f7",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-01",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        120,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        120,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-ADEA00972F8BF0A3-04763BAD5CD988E4-64x256-120-128-16x16-P0-15.png",
+      "sha256": "1fac4fdb2c7086d996c505ce11140567e1f16b71498f1fec7f9d908a78dfb898",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native palette hue/saturation transfer; value, alpha, geometry and black preserved",
+      "usage_confirmed": true
+    },
+    {
+      "name": "blades-category",
+      "master": "assets/sources/ui-art-v0.9/blade oranfe 2.png",
+      "master_sha256": "cfd93fd10362ceeaaae55ae306b9f865fffadfb52ead862ca79473ca0b32292e",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-02",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        136,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        136,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-1E2691864D8C7558-46BA6415FDAFFA69-64x256-136-128-16x16-P0-15.png",
+      "sha256": "554d97922001660c8c953c7af587757e00f5f2983400c1c4a873c9aa47de9e4a",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "blades-category-inactive",
+      "master": "assets/sources/ui-art-v0.9/blade oranfe 2.png",
+      "master_sha256": "cfd93fd10362ceeaaae55ae306b9f865fffadfb52ead862ca79473ca0b32292e",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-02",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        136,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        136,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-1E2691864D8C7558-04763BAD5CD988E4-64x256-136-128-16x16-P0-15.png",
+      "sha256": "6020569928926fe793714e4866aada3bffa33a3ff9db96e19ff5f63021a4ff3c",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native palette hue/saturation transfer; value, alpha, geometry and black preserved",
+      "usage_confirmed": true
+    },
+    {
+      "name": "grips-category",
+      "master": "assets/sources/ui-art-v0.9/Crossbowv2.png",
+      "master_sha256": "721a601f5b49bda7b2e25c9e22ce6123ce146d5d144e77597413ab7ae20803af",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-03",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-D61ABE66191E9512-46BA6415FDAFFA69-64x256-152-128-16x16-P0-15.png",
+      "sha256": "c3564bd19ce8d6bd93c708bcedd4f04165ac4dcf4bf31b87d40d2128ed0feebc",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "grips-category-inactive",
+      "master": "assets/sources/ui-art-v0.9/Crossbowv2.png",
+      "master_sha256": "721a601f5b49bda7b2e25c9e22ce6123ce146d5d144e77597413ab7ae20803af",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-03",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        152,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-D61ABE66191E9512-04763BAD5CD988E4-64x256-152-128-16x16-P0-15.png",
+      "sha256": "c89f7cc9e260eebd63b5596c9cfe6deb016000a1985d13d3960da3d2e20b4eb3",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native palette hue/saturation transfer; value, alpha, geometry and black preserved",
+      "usage_confirmed": true
+    },
+    {
+      "name": "shield-category",
+      "master": "assets/sources/ui-art-v0.9/shield v2.png",
+      "master_sha256": "27d1bc63816a0c076d7b85e8b4fdfb3e6a3a8827f0b79aa88c930d0e5fa0e189",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-04",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-4A12F2FADDB30DE3-46BA6415FDAFFA69-64x256-168-128-16x16-P0-15.png",
+      "sha256": "61060f2fe0687796bc41f9e1c03083d637fb245f5e32723b928697a8956f99b7",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "shield-category-inactive",
+      "master": "assets/sources/ui-art-v0.9/shield v2.png",
+      "master_sha256": "27d1bc63816a0c076d7b85e8b4fdfb3e6a3a8827f0b79aa88c930d0e5fa0e189",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-04",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        168,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-4A12F2FADDB30DE3-04763BAD5CD988E4-64x256-168-128-16x16-P0-15.png",
+      "sha256": "2bbec43d0164a4a2aab07ad95bff5ac20615b21ef9285761b2e12b1ea410c7be",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native palette hue/saturation transfer; value, alpha, geometry and black preserved",
+      "usage_confirmed": true
+    },
+    {
+      "name": "armor-category",
+      "master": "assets/sources/ui-art-v0.9/armor orange2.png",
+      "master_sha256": "347a8dd9d4cc8d8f13d0fe7dd9bdf46d41a6bc9c09a7bc3b2451e03c90d30331",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-05",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        184,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        184,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-AD64CFEEF9AC4182-46BA6415FDAFFA69-64x256-184-128-16x16-P0-15.png",
+      "sha256": "3b4435f7d6826222d2ba55af687b0d95a62fa259be327d40e9f1647da299e68b",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "armor-category-inactive",
+      "master": "assets/sources/ui-art-v0.9/armor orange2.png",
+      "master_sha256": "347a8dd9d4cc8d8f13d0fe7dd9bdf46d41a6bc9c09a7bc3b2451e03c90d30331",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-05",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        184,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        184,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-AD64CFEEF9AC4182-04763BAD5CD988E4-64x256-184-128-16x16-P0-15.png",
+      "sha256": "11337fc8e8b1c74b98c044d406d2a9f4f118b4211524f7b83a004710f6491155",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native palette hue/saturation transfer; value, alpha, geometry and black preserved",
+      "usage_confirmed": true
+    },
+    {
+      "name": "gems-category",
+      "master": "assets/sources/ui-art-v0.9/gen orange v3.png",
+      "master_sha256": "f918c915424892263e24f689462a7830ef9e7779f73a80c35a75add26933a065",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-06",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        200,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        200,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-7E79F5657F5A45C2-46BA6415FDAFFA69-64x256-200-128-16x16-P0-15.png",
+      "sha256": "a776deb75168e1ebb9c0bf066d3752bef40b6e9e9e2606fdd2989a975b18858b",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "gems-category-inactive",
+      "master": "assets/sources/ui-art-v0.9/gen orange v3.png",
+      "master_sha256": "f918c915424892263e24f689462a7830ef9e7779f73a80c35a75add26933a065",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-06",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        200,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        200,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-7E79F5657F5A45C2-04763BAD5CD988E4-64x256-200-128-16x16-P0-15.png",
+      "sha256": "094aeae603f704c03b831a03f9295f87a6cbf92ec7548e919d2f9dd0b11fa755",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native palette hue/saturation transfer; value, alpha, geometry and black preserved",
+      "usage_confirmed": true
+    },
+    {
+      "name": "misc-category",
+      "master": "assets/sources/ui-art-v0.9/misc orange v2.png",
+      "master_sha256": "4915e2be85640958138c28a245baaa8a81790c1f71cf17f72c2bf99eb9951a48",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-07",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        216,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        216,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-2DB4DDD1C8AB81C5-46BA6415FDAFFA69-64x256-216-128-16x16-P0-15.png",
+      "sha256": "e01e5cd5db2eea39581286adeb7e8f2d236440eef6d095b3b9d3abf086284cd2",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "misc-category-inactive",
+      "master": "assets/sources/ui-art-v0.9/misc orange v2.png",
+      "master_sha256": "4915e2be85640958138c28a245baaa8a81790c1f71cf17f72c2bf99eb9951a48",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-07",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        216,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        216,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-2DB4DDD1C8AB81C5-04763BAD5CD988E4-64x256-216-128-16x16-P0-15.png",
+      "sha256": "2a04272686b514f9ead77a5a720d97016932ca618ec761f0f8362ca7502f7984",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native palette hue/saturation transfer; value, alpha, geometry and black preserved",
+      "usage_confirmed": true
+    },
+    {
+      "name": "options-category",
+      "master": "assets/sources/ui-art-v0.9/!.png",
+      "master_sha256": "8730bb349e634bd2a8f5062e8d6387a7ef4ec05a4c74d5820e2e190f80bfc7cb",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-08",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        232,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        232,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-9723FD7BCDBCE58B-46BA6415FDAFFA69-64x256-232-128-16x16-P0-15.png",
+      "sha256": "d629ff6ed950b11340c72464b978f22bcbe41fcabc6c37bd7c3a16189eb990b3",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "options-category-inactive",
+      "master": "assets/sources/ui-art-v0.9/!.png",
+      "master_sha256": "8730bb349e634bd2a8f5062e8d6387a7ef4ec05a4c74d5820e2e190f80bfc7cb",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "action-symbol-08",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        232,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        232,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-9723FD7BCDBCE58B-04763BAD5CD988E4-64x256-232-128-16x16-P0-15.png",
+      "sha256": "b91e52c9ae672f4c3796c5bc96f376665db7ade29434fb1ed6f9b81f4ed3915a",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "color_method": "Native palette hue/saturation transfer; value, alpha, geometry and black preserved",
+      "usage_confirmed": true
+    },
+    {
+      "name": "badge-eqp",
+      "master": "assets/sources/ui-art-v0.9/badge-eqp.png",
+      "master_sha256": "5aa4eddf384365e28936860781a18b11c060c35117a92cb16aaea3c10d1b522c",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "badge-eqp",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        96,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        96,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-E8CBB191741EB724-46BA6415FDAFFA69-64x256-96-128-16x16-P0-15.png",
+      "sha256": "268d13fceeaa740eea8ed98c38ed2f67d396c9d3bf8e5bc70e0ea6c4c00b6da7",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "neighboring_registration_texels_preserved": true,
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "badge-eqp-inactive",
+      "master": "assets/sources/ui-art-v0.9/badge-eqp.png",
+      "master_sha256": "5aa4eddf384365e28936860781a18b11c060c35117a92cb16aaea3c10d1b522c",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "badge-eqp",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        96,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        96,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-E8CBB191741EB724-04763BAD5CD988E4-64x256-96-128-16x16-P0-15.png",
+      "sha256": "15f866926b465a8799ca9c5be4efc0eeaf6cd77c9239557f45235b8cf9dad60e",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "neighboring_registration_texels_preserved": true,
+      "color_method": "Native palette hue/saturation transfer; value, alpha, geometry, black and white preserved",
+      "usage_confirmed": true
+    },
+    {
+      "name": "badge-set",
+      "master": "assets/sources/ui-art-v0.9/badge-set.png",
+      "master_sha256": "814a9861de2f4e44b166c2549aa446031c8da998e711d47dc0d77a76763a54c9",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "badge-set",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        80,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        80,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        976,
+        223
+      ],
+      "palette_words": [
+        0,
+        35939,
+        37031,
+        37133,
+        38325,
+        40570,
+        44862,
+        57079,
+        39513,
+        50737,
+        41627,
+        42684,
+        43773,
+        49022,
+        52126,
+        64478
+      ],
+      "filename": "texpage-STP4-727DDA39F7E68DAF-46BA6415FDAFFA69-64x256-80-128-16x16-P0-15.png",
+      "sha256": "f75226e6eabbf1516093041d4b227ca7aca31a5dbd1bb024df696ac7e7397c70",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "neighboring_registration_texels_preserved": true,
+      "color_method": "User colors",
+      "usage_confirmed": true
+    },
+    {
+      "name": "badge-set-inactive",
+      "master": "assets/sources/ui-art-v0.9/badge-set.png",
+      "master_sha256": "814a9861de2f4e44b166c2549aa446031c8da998e711d47dc0d77a76763a54c9",
+      "master_size": [
+        512,
+        512
+      ],
+      "source_id": "badge-set",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        80,
+        128,
+        16,
+        16
+      ],
+      "registration_rect": [
+        80,
+        128,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-727DDA39F7E68DAF-04763BAD5CD988E4-64x256-80-128-16x16-P0-15.png",
+      "sha256": "3ac90084ce4037d29f183195437c47ef01c650fd5678a7c97249d46ae6013989",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion",
+      "neighboring_registration_texels_preserved": true,
+      "color_method": "Native palette hue/saturation transfer; value, alpha, geometry, black and white preserved",
+      "usage_confirmed": true
+    },
+    {
+      "name": "attention-exclamation",
+      "master": "assets/sources/ui-art-v0.9/attention-exclamation2.png",
+      "master_sha256": "14369b1fbb374d6e84e9be2171a9a29951e2181c0f812ede2b3be00123d10817",
+      "master_size": [
+        224,
+        384
+      ],
+      "source_id": "attention-exclamation",
+      "source_page": 2,
+      "page_origin": [
+        448,
+        256
+      ],
+      "native_rect": [
+        152,
+        17,
+        7,
+        12
+      ],
+      "registration_rect": [
+        152,
+        17,
+        8,
+        12
+      ],
+      "clut": [
+        992,
+        220
+      ],
+      "palette_words": [
+        0,
+        22197,
+        23254,
+        24311,
+        25368,
+        26425,
+        2114,
+        8456,
+        16912,
+        12684,
+        10678,
+        8499,
+        5329,
+        16950,
+        4270,
+        1062
+      ],
+      "filename": "texpage-STP4-DFB80ADD5686C4F0-7818540C2AD3B887-64x256-152-17-8x12-P0-15.png",
+      "sha256": "5149e0d3490e985b87669b4cd701a824c50a3a5b5fddecf8a9db45020858603c",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "224x384 to 56x96; no crop, recenter or distortion",
+      "neighboring_registration_texels_preserved": true,
+      "color_method": "User colors",
+      "usage_confirmed": true
+    }
+  ]
+}

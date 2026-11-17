@@ -1,6 +1,6 @@
 # Installation and troubleshooting
 
-Choose **HD Fonts** (101 PNGs) or **HD Fonts + UI Art** (161 PNGs).
+Choose **HD Fonts** (101 PNGs) or **HD Fonts + UI Art** (163 PNGs).
 Both are complete packages for Vagrant Story USA **SLUS-01040**; install one.
 Use the matching Android or desktop download from the [README](../README.md).
 
@@ -62,7 +62,7 @@ On Android, use your existing file-access method or an emulator export/import
 workflow that lets you remove the old texture files. Importing the fonts ZIP
 over the art ZIP alone will leave its badges and silhouettes installed.
 
-Both editions share the same 101 font files. The art edition adds 60 optional
+Both editions share the same 101 font files. The art edition adds 62 optional
 texture files. To return to HD Fonts, remove every file in the `ui-art` group of
 [editions.json](../editions.json), or replace this pack's folder with a clean
 Fonts installation. The three-file removal list from v0.7 is no longer sufficient.

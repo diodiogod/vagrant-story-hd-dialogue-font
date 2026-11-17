@@ -1,5 +1,28 @@
 # Visual changelog
 
+## v0.10 beta — 2026-11-17 · Two more blue icons
+
+### Added
+
+- Two blue UI-art icons using the supplied **version-one** designs: a plant/root-style motif (`item-000-096.png`) and a key-style motif (`item-064-096.png`).
+
+### Changed
+
+- The README equipment screenshot now shows the v0.9 artwork.
+
+HD Fonts remains unchanged at **101 PNGs**. HD Fonts + UI Art has **163 PNGs**;
+all 161 previously released textures are unchanged. Artwork remains a work in
+progress. The two new sprites retain their original source-cell bindings;
+their natural-gameplay uses are unconfirmed.
+
+Art direction and interpretation by diodiogod.
+
+![Original and version-one HD blue icons in the game renderer](docs/images/two-blue-icons-v0.10.png)
+
+Both icons passed controlled Windows Vulkan checks at native and 2x size, with
+opaque black silhouettes and no changes outside the four draw regions.
+Android device testing of this release is pending.
+
 ## v0.9 beta — 2026-11-07 · Menu artwork progress
 
 The optional **HD Fonts + UI Art** edition adds more menu artwork while the

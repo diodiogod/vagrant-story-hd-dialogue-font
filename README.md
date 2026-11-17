@@ -6,12 +6,12 @@ Sharper dialogue, menus and HUD text, guided by the original lettering.
 ## Choose your edition
 
 <!-- downloads:start -->
-**v0.9 beta**
+**v0.10 beta**
 
 | Edition | What changes | Android | Desktop |
 | --- | --- | --- | --- |
-| **HD Fonts** | Dialogue, menus, HUD and combat text; original pixel artwork | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.9-beta/vagrant-story-fonts-v0.9-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.9-beta/vagrant-story-fonts-v0.9-desktop.zip) |
-| **HD Fonts + UI Art** · WIP | Same fonts, plus badges, body silhouettes, controller prompts and selected UI graphics | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.9-beta/vagrant-story-ui-art-v0.9-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.9-beta/vagrant-story-ui-art-v0.9-desktop.zip) |
+| **HD Fonts** | Dialogue, menus, HUD and combat text; original pixel artwork | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.10-beta/vagrant-story-fonts-v0.10-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.10-beta/vagrant-story-fonts-v0.10-desktop.zip) |
+| **HD Fonts + UI Art** · WIP | The same fonts, plus material badges, body silhouettes, controller prompts, menu markers, arrows and expressions, and WIP equipment/category badges | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.10-beta/vagrant-story-ui-art-v0.10-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.10-beta/vagrant-story-ui-art-v0.10-desktop.zip) |
 <!-- downloads:end -->
 
 Both editions share the same fonts. The original pixel art is part of the game's
@@ -21,11 +21,9 @@ character, so our sprite interpretations stay optional. [Art direction](docs/ART
 
 ## What's new
 
-- Eight HD controller prompts: Triangle, Square, Circle, Cross, L1, R1, L2 and R2.
-- More equipment and grip icons, all eight category tabs, and new EQP / SET markers.
-- The attention **!** joins the arrows, paper balloons, heart and emphasis marks.
-- **Menu artwork is a work in progress:** completed designs appear alongside the remaining original sprites.
-- Both editions still share the same unchanged 101 font textures.
+- Two more blue UI icons: the supplied version-one plant/root-style and key-style designs.
+- The previous badges, controller prompts, arrows and paper balloons remain included.
+- **Menu artwork is a work in progress.** Both editions still share the same unchanged 101 font textures.
 
 **Rough font/text progress: 90%.** Remaining menu icons and decoration are still in progress.
 [Roadmap](docs/COVERAGE.md) · [Release notes](RELEASE-NOTES.md) · [Visual changelog](CHANGELOG.md).

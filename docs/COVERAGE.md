@@ -1,6 +1,6 @@
 # Font coverage and roadmap
 
-Updated 2026-11-07. v0.9 beta: HD Fonts has 101 PNGs; HD Fonts + UI Art has 161.
+Updated 2026-11-17. v0.10 beta: HD Fonts has 101 PNGs; HD Fonts + UI Art has 163.
 Both use the same 8x fonts. [Edition scope](ART-DIRECTION.md).
 Coverage describes reconstructed assets, separately from where they were tested.
 
@@ -45,7 +45,9 @@ with the game's health tints. They have been reviewed in game.
 inactive); 20 equipment, armor, gem and grip symbols; eight controller prompts;
 EQP / SET markers; diagonal/up arrows, three paper balloons, heart, emphasis
 marks and the attention exclamation. An additional Misc source cell is replaced,
-but its natural-gameplay use remains unconfirmed.
+but its natural-gameplay use remains unconfirmed. The plant/root-style
+and key-style source-cell graphics are also replaced; their gameplay uses
+remain unconfirmed.
 
 **Remaining:** unidentified source cells, the question and ellipsis markers,
 other condition/affinity icons, remaining arrows, bars and panel decoration.
@@ -55,7 +57,7 @@ textures are outside scope.
 
 ## Test coverage
 
-See [v0.9 testing](TESTING.md#v09-beta) for current edition checks. The following
+See [v0.10 testing](TESTING.md#v010-beta) for current edition checks. The following
 notes preserve the scope of earlier tests.
 
 All seven material initials were checked in 14 Windows draw instances at native

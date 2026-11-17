@@ -1,0 +1,139 @@
+{
+  "art_direction_and_interpretation": "diodiogod",
+  "selected_version": 1,
+  "workflow": "Maintainer-supplied local-model and Photoshop artwork; integration preserves the exact source masters.",
+  "new_generation_during_integration": false,
+  "masters_preserved_byte_for_byte": true,
+  "excluded_version_two": [
+    {
+      "master": "item-000-096 v2.png",
+      "sha256": "d9df98b99567d48eb89a8ff6ad93f457a8a0f24a0238cee5d8172b900c2d9004",
+      "reason": "User explicitly requested version one"
+    },
+    {
+      "master": "item-064-096v2.png",
+      "sha256": "7f6c7eb1b6a331988500eb874ac7cd7850fbcffed350a624d5992a6c9f2547ab",
+      "reason": "User explicitly requested version one"
+    }
+  ],
+  "assets": [
+    {
+      "name": "item-000-096",
+      "description": "Plant/root-style motif",
+      "source_id": "item-000-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        0,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        0,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-84AF27ABEFDDF28A-04763BAD5CD988E4-64x256-0-96-16x16-P0-15.png",
+      "sha256": "aed9a0c0cb20a211c74c3cd13984b590837786aa94fb83faacbd68dc029aa701",
+      "master": "assets/sources/ui-art-v0.10/item-000-096 v1.png",
+      "master_sha256": "4c496e39c176ceaf7920047df2fa235a555e96fe463c5c72db97ce9ac0b898b5",
+      "master_size": [
+        512,
+        512
+      ],
+      "selected_version": 1,
+      "usage_confirmed": false,
+      "usage_note": "Native source cell retained; natural-gameplay use is unconfirmed.",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion"
+    },
+    {
+      "name": "item-064-096",
+      "description": "Key-style motif",
+      "source_id": "item-064-096",
+      "source_page": 1,
+      "page_origin": [
+        768,
+        0
+      ],
+      "native_rect": [
+        64,
+        96,
+        16,
+        16
+      ],
+      "registration_rect": [
+        64,
+        96,
+        16,
+        16
+      ],
+      "clut": [
+        992,
+        223
+      ],
+      "palette_words": [
+        0,
+        37985,
+        39138,
+        44420,
+        50759,
+        56072,
+        59313,
+        57079,
+        55015,
+        50737,
+        57129,
+        58186,
+        59243,
+        61396,
+        61400,
+        62430
+      ],
+      "filename": "texpage-STP4-282CBF61D6C550B0-04763BAD5CD988E4-64x256-64-96-16x16-P0-15.png",
+      "sha256": "d715c4ff3e797be79ceb6fac4ac8b3dc3147981e62e2a908b43b0471100f1f49",
+      "master": "assets/sources/ui-art-v0.10/item-064-096v1.png",
+      "master_sha256": "8c1d2e07fb2e1ba4fd9b0c3bd68b9780d330ddc48030e32d99aa2e3e3f5be21c",
+      "master_size": [
+        512,
+        512
+      ],
+      "selected_version": 1,
+      "usage_confirmed": false,
+      "usage_note": "Native source cell retained; natural-gameplay use is unconfirmed.",
+      "alpha_threshold": 128,
+      "ps1_alpha": 128,
+      "opaque_black_carrier_rgb": 1,
+      "full_canvas_scale": "512x512 to 128x128; no crop, recenter or distortion"
+    }
+  ]
+}

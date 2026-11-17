@@ -1,22 +1,22 @@
 {
-  "version": "0.9-beta",
+  "version": "0.10-beta",
   "target_android_version": "0.1-8969-g611bb8fb4",
   "inspected_apk_sha256": "28f1528dffb87a761ab1997a5d23bb62c5aa191b3a242a79a9baeb3629b206f5",
   "import_mode": "Transfer Data > ZIP file > Import; select archive without extraction",
   "required_root": "textures/SLUS-01040/replacements/",
-  "matching_texture_entries": 161,
+  "matching_texture_entries": 163,
   "extra_wrapper_directory_rejected": true,
   "config_yaml_excluded": true,
-  "pack_fingerprint": "2220acdb1f8355b73506a08748f31c75ce2607e78e68b808602fbd4789f3754e",
+  "pack_fingerprint": "404470262a8159e310c9867d59af910fd9eec1bf153f9f101a529e839587b832",
   "format_verified_against_apk": true,
-  "device_evidence": "The maintainer approved the preceding private artwork preview. The three newest assets and final release archive have not been reported tested on an Android device.",
+  "device_evidence": "Prior device reports remain associated with their earlier packages. The two new version-one source-cell replacements and final v0.10 archive await Android device testing.",
   "required_filter_settings": {
     "texture_filtering": "Nearest Neighbor",
     "sprite_texture_filtering": "Nearest Neighbor"
   },
   "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
-  "archive_hashes": "GitHub release v0.9-beta: SHA256SUMS.txt",
-  "status": "v0.9 beta release",
+  "archive_hashes": "GitHub release v0.10-beta: SHA256SUMS.txt",
+  "status": "v0.10 beta release",
   "current_payload_device_tested": false,
   "preceding_v05_device_report": {
     "evidence": "Maintainer reported the supplied Android package looks great; only affinity + appeared blurry.",
@@ -34,11 +34,11 @@
     },
     "ui-art": {
       "name": "HD Fonts + UI Art",
-      "pngs": 161,
-      "pack_fingerprint": "2220acdb1f8355b73506a08748f31c75ce2607e78e68b808602fbd4789f3754e"
+      "pngs": 163,
+      "pack_fingerprint": "404470262a8159e310c9867d59af910fd9eec1bf153f9f101a529e839587b832"
     }
   },
   "device_tested_test_archive_sha256": "a6ef11d660a46abfa15b1e27d05eab6d833df2e799d51996cd99f18de6cff635",
   "edition_archive_hashes_pending": false,
-  "archive_manifest": "docs/v0.9/packages.json"
+  "archive_manifest": "docs/v0.10/packages.json"
 }

@@ -1,12 +1,12 @@
 {
   "name": "Vagrant Story HD Fonts & UI",
-  "version": "0.9-beta",
-  "package_version": "0.9",
-  "date": "2026-11-07",
+  "version": "0.10-beta",
+  "package_version": "0.10",
+  "date": "2026-11-17",
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
-  "pngs": 161,
-  "pack_fingerprint": "2220acdb1f8355b73506a08748f31c75ce2607e78e68b808602fbd4789f3754e",
+  "pngs": 163,
+  "pack_fingerprint": "404470262a8159e310c9867d59af910fd9eec1bf153f9f101a529e839587b832",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -123,6 +123,10 @@
     {
       "filename": "texpage-STP4-209834EB22EE6F88-9F8A5175F34347CA-64x256-224-112-28x16-P0-15.png",
       "sha256": "e550170d9a5b79bf6fedb5b9c68921a17fea10f6fb4592713e7c725ad00dc521"
+    },
+    {
+      "filename": "texpage-STP4-282CBF61D6C550B0-04763BAD5CD988E4-64x256-64-96-16x16-P0-15.png",
+      "sha256": "d715c4ff3e797be79ceb6fac4ac8b3dc3147981e62e2a908b43b0471100f1f49"
     },
     {
       "filename": "texpage-STP4-2DB4DDD1C8AB81C5-04763BAD5CD988E4-64x256-216-128-16x16-P0-15.png",
@@ -327,6 +331,10 @@
     {
       "filename": "texpage-STP4-81B1A8A139BEE56D-04763BAD5CD988E4-64x256-96-96-16x16-P0-15.png",
       "sha256": "e022229bbc94e19cd5d0816573e680a1235bc5bd65ec266a88cf07c90b4c0ff3"
+    },
+    {
+      "filename": "texpage-STP4-84AF27ABEFDDF28A-04763BAD5CD988E4-64x256-0-96-16x16-P0-15.png",
+      "sha256": "aed9a0c0cb20a211c74c3cd13984b590837786aa94fb83faacbd68dc029aa701"
     },
     {
       "filename": "texpage-STP4-8BF5446EDF5266EA-69491D7E26769824-64x256-216-160-40x8-P0-15.png",
@@ -839,17 +847,19 @@
       "SET"
     ],
     "unconfirmed_usage_artwork": [
-      "Misc source graphic, item-016-096"
+      "Misc source graphic, item-016-096",
+      "Plant/root-style source graphic, item-000-096",
+      "Key-style source graphic, item-064-096"
     ]
   },
   "rough_progress": {
     "percent": 90,
     "kind": "Rough font/text estimate; other artwork excluded"
   },
-  "previous_release": "docs/v0.8/verification.json",
-  "unchanged_published_pngs": 117,
-  "changed_published_pngs": 4,
-  "added_pngs": 40,
+  "previous_release": "docs/v0.9/verification.json",
+  "unchanged_published_pngs": 161,
+  "changed_published_pngs": 0,
+  "added_pngs": 2,
   "windows": {
     "version": "0.1-12083-g00e299795",
     "renderer": "Vulkan",
@@ -919,6 +929,14 @@
       "opaque_black_verified": true,
       "scope": "Actual presented Vulkan frame from controlled 2x sprite specimen; not natural-menu coverage.",
       "evidence": "docs/evidence/ui-art-rendered-v0.9.json"
+    },
+    "incremental_artwork": {
+      "pack_fingerprint": "404470262a8159e310c9867d59af910fd9eec1bf153f9f101a529e839587b832",
+      "instances": 4,
+      "changed_pixels_outside_artwork": 0,
+      "opaque_black_verified": true,
+      "scope": "Two source-cell graphics at native and 2x size; natural-gameplay use unconfirmed.",
+      "evidence": "docs/evidence/ui-art-rendered-v0.10.json"
     }
   },
   "android": {
@@ -938,7 +956,7 @@
       "current_popup_sign_revision_device_tested": false
     },
     "material_badges_device_tested": false,
-    "device_evidence": "The maintainer approved the preceding private artwork preview. The three newest assets and final release archive have not been reported tested on an Android device.",
+    "device_evidence": "Prior device reports remain associated with their earlier packages. The two new version-one source-cell replacements and final v0.10 archive await Android device testing.",
     "tested_pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6",
     "tested_archive_sha256": "a6ef11d660a46abfa15b1e27d05eab6d833df2e799d51996cd99f18de6cff635",
     "fonts_edition_separate_device_import_tested": false,
@@ -972,6 +990,11 @@
       "date": "2026-11-07",
       "evidence": "Maintainer: looks great you can push",
       "current_payload_android_device_test_claimed": false
+    },
+    "v010_release_requested": {
+      "date": "2026-11-17",
+      "evidence": "Maintainer requested a small new release with the two new blue icons, explicitly version one rather than version two.",
+      "android_device_test_claimed": false
     }
   },
   "menu_glow": {
@@ -999,8 +1022,8 @@
   "known_issues": {
     "information_framebuffer_ghost": "Native framebuffer-copy lettering can remain beneath the HD heading. Transparency retained; no black-fill workaround included."
   },
-  "release_packages": "docs/v0.9/packages.json",
-  "status": "v0.9 beta release",
+  "release_packages": "docs/v0.10/packages.json",
+  "status": "v0.10 beta release",
   "previous_development": "docs/v0.5/verification.json",
   "unchanged_v05_pngs": 101,
   "edition_manifest": "editions.json",
@@ -1012,8 +1035,8 @@
     },
     "ui-art": {
       "name": "HD Fonts + UI Art",
-      "pngs": 161,
-      "pack_fingerprint": "2220acdb1f8355b73506a08748f31c75ce2607e78e68b808602fbd4789f3754e"
+      "pngs": 163,
+      "pack_fingerprint": "404470262a8159e310c9867d59af910fd9eec1bf153f9f101a529e839587b832"
     }
   },
   "shared_fonts_reference": {
@@ -1041,5 +1064,13 @@
     "registration_evidence": "docs/evidence/ui-art-registration-v0.9.json",
     "windows_rendered": true,
     "render_evidence": "docs/evidence/ui-art-rendered-v0.9.json"
+  },
+  "incremental_artwork": {
+    "source_version": 1,
+    "designs": 2,
+    "natural_gameplay_usage_confirmed": false,
+    "editing_record": "docs/editing-records-v0.10.json",
+    "registration_evidence": "docs/evidence/ui-art-registration-v0.10.json",
+    "render_evidence": "docs/evidence/ui-art-rendered-v0.10.json"
   }
 }

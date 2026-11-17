@@ -21,7 +21,7 @@ class ReleaseTests(unittest.TestCase):
 
     def test_art_is_only_the_reviewed_optional_rectangles(self):
         optional = set(self.editions['ui-art'])-set(self.editions['fonts'])
-        self.assertEqual(60,len(optional))
+        self.assertEqual(62,len(optional))
         self.assertEqual(2,sum('-A4CF47DD968DAA08-' in n for n in optional))
         self.assertEqual(1,sum('-A9FBF4E578AF475A-' in n for n in optional))
         for name, value in self.editions['fonts'].items():
@@ -92,7 +92,7 @@ class ReleaseTests(unittest.TestCase):
                 self.assertNotIn(asset['filename'],self.editions['fonts'])
                 self.assertEqual(asset['master_sha256'],digest((ROOT/asset['master']).read_bytes()))
         evidence = read_json(ROOT/'docs/evidence/ui-art-rendered-v0.9.json')
-        self.assertEqual(self.manifest['pack_fingerprint'],evidence['pack_fingerprint'])
+        self.assertEqual(read_json(ROOT/'docs/v0.9/verification.json')['pack_fingerprint'],evidence['pack_fingerprint'])
         self.assertEqual('passed',evidence['status'])
         self.assertEqual(0,evidence['changed_pixels_outside_artwork'])
         self.assertEqual(set(assets),{r['name'] for r in evidence['samples']})
@@ -101,11 +101,43 @@ class ReleaseTests(unittest.TestCase):
         prior = read_json(ROOT/'docs/v0.8/verification.json')
         before = {r['filename']:r['sha256'] for r in prior['files']}
         after = self.editions['ui-art']
-        self.assertEqual(40,len(set(after)-set(before)))
+        self.assertEqual(42,len(set(after)-set(before)))
         replaced = {n for n,h in before.items() if after[n]!=h}
         self.assertEqual(4,len(replaced))
         self.assertTrue(all('-152-128-16x16-' in n or '-168-128-16x16-' in n for n in replaced))
         self.assertTrue(all(before[n]==h for n,h in self.editions['fonts'].items()))
+
+    def test_two_blue_icons_use_version_one_and_preserve_every_v09_texture(self):
+        record = read_json(ROOT/'docs/editing-records-v0.10.json')
+        self.assertEqual(1,record['selected_version'])
+        expected = {
+            'item-000-096':('item-000-096 v1.png',[0,96,16,16],
+                            '4c496e39c176ceaf7920047df2fa235a555e96fe463c5c72db97ce9ac0b898b5'),
+            'item-064-096':('item-064-096v1.png',[64,96,16,16],
+                            '8c1d2e07fb2e1ba4fd9b0c3bd68b9780d330ddc48030e32d99aa2e3e3f5be21c')}
+        assets = {a['source_id']:a for a in record['assets']}
+        self.assertEqual(set(expected),set(assets))
+        rejected = {a['sha256'] for a in record['excluded_version_two']}
+        self.assertEqual(2,len(rejected))
+        for key,(name,rect,master_hash) in expected.items():
+            asset = assets[key]
+            self.assertEqual('assets/sources/ui-art-v0.10/'+name,asset['master'])
+            self.assertEqual(rect,asset['native_rect'])
+            self.assertEqual(1,asset['selected_version'])
+            self.assertFalse(asset['usage_confirmed'])
+            self.assertEqual(master_hash,digest((ROOT/asset['master']).read_bytes()))
+            self.assertNotIn(master_hash,rejected)
+            self.assertEqual(asset['sha256'],self.editions['ui-art'][asset['filename']])
+            self.assertNotIn(asset['filename'],self.editions['fonts'])
+        prior = {r['filename']:r['sha256'] for r in read_json(ROOT/'docs/v0.9/verification.json')['files']}
+        self.assertEqual(161,len(prior))
+        self.assertTrue(all(self.editions['ui-art'][n]==h for n,h in prior.items()))
+        self.assertEqual({a['filename'] for a in assets.values()},set(self.editions['ui-art'])-set(prior))
+        evidence = read_json(ROOT/'docs/evidence/ui-art-rendered-v0.10.json')
+        self.assertEqual(self.manifest['pack_fingerprint'],evidence['pack_fingerprint'])
+        self.assertEqual(0,evidence['changed_pixels_outside_artwork'])
+        self.assertEqual({(n,z) for n in expected for z in [1,2]},
+                         {(s['name'],s['zoom']) for s in evidence['samples']})
 
     def test_edition_misclassification_is_rejected(self):
         wrong = copy.deepcopy(self.selection)
@@ -137,7 +169,7 @@ class ReleaseTests(unittest.TestCase):
     def test_switching_requires_removal_of_old_art(self):
         old_art = self.editions['ui-art']
         imported_fonts = dict(old_art,**self.editions['fonts'])
-        self.assertEqual(161,len(imported_fonts))
+        self.assertEqual(163,len(imported_fonts))
         self.assertNotEqual(imported_fonts,self.editions['fonts'])
         for name in self.selection['groups']['ui-art']:
             imported_fonts.pop(name)

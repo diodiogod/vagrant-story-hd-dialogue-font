@@ -1,5 +1,22 @@
 # Testing
 
+## v0.10 beta
+
+The two supplied version-one blue icon masters pass four controlled Vulkan
+draw checks: each at native and 2x size. Opaque black interiors remain visible,
+and the matched frames have zero changed pixels outside the four draw regions.
+All 161 preceding textures, including the 101 shared font PNGs, are unchanged.
+The full art pack now contains 163 PNGs. Native source-cell usage is unconfirmed;
+this is controlled rendering coverage, separate from natural gameplay.
+
+[Comparison](images/two-blue-icons-v0.10.png) ·
+[Measurements](evidence/ui-art-rendered-v0.10.json) ·
+[Registration](evidence/ui-art-registration-v0.10.json) ·
+[Source selection](editing-records-v0.10.json).
+
+The final release has not yet been reported tested on Android. Previous device
+reports retain their earlier archive and pack hashes.
+
 ## v0.9 beta
 
 The final 161-file pack passed 44 controlled DuckStation Vulkan draw checks at

@@ -1,3 +1,29 @@
+# v0.10 beta — Two more blue icons
+
+### Added
+
+- Two blue UI-art icons using the supplied **version-one** designs: a plant/root-style motif (`item-000-096.png`) and a key-style motif (`item-064-096.png`).
+
+### Changed
+
+- The README equipment screenshot now shows the v0.9 artwork.
+
+HD Fonts remains unchanged at **101 PNGs**. HD Fonts + UI Art has **163 PNGs**;
+all 161 previously released textures are unchanged. Artwork remains a work in
+progress. The two new sprites retain their original source-cell bindings;
+their natural-gameplay uses are unconfirmed.
+
+Art direction and interpretation by diodiogod.
+
+The two new icons passed controlled Windows rendering checks at native and 2x
+size. Android device testing remains pending.
+
+Install one complete edition for your platform. Android: import the ZIP without
+extracting it through **Transfer Data → ZIP file → Import**, then restart.
+Keep both texture filters on **Nearest Neighbor**.
+
+---
+
 # v0.9 beta — Menu artwork progress
 
 - Adds all eight controller prompts: Triangle, Square, Circle, Cross, L1, R1, L2 and R2.

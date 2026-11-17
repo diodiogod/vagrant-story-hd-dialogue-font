@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "pack_fingerprint": "404470262a8159e310c9867d59af910fd9eec1bf153f9f101a529e839587b832",
+  "native_frame": "docs/images/ui-art-baseline-v0.10.png",
+  "native_frame_sha256": "18ecc060ee44d4bb608234ca229a6ec73061be7b4c1377e0c03636efd0c884e0",
+  "hd_frame": "docs/images/ui-art-current-v0.10.png",
+  "hd_frame_sha256": "bb863e8b360ab328d4607c1fb7172179fa0faeb71c4a54979ac879600654d848",
+  "source_state_sha256": "4d978c230e39a92a5440bffeda31933dc9809a74993c82d62ef11cc8b0c42b94",
+  "presentation": [
+    27.999967336654663,
+    0.0,
+    2571.999955177307,
+    1908.0
+  ],
+  "screen_size": [
+    320,
+    224
+  ],
+  "display_dimensions_derived_from_present_shader": true,
+  "changed_pixels_outside_artwork": 0,
+  "samples": [
+    {
+      "name": "item-000-096",
+      "zoom": 1,
+      "frame_box": [
+        89,
+        134,
+        221,
+        275
+      ],
+      "changed_pixels": 17065,
+      "black_core_samples": 1591,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "item-000-096",
+      "zoom": 2,
+      "frame_box": [
+        534,
+        134,
+        794,
+        411
+      ],
+      "changed_pixels": 67443,
+      "black_core_samples": 8929,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "item-064-096",
+      "zoom": 1,
+      "frame_box": [
+        980,
+        134,
+        1112,
+        275
+      ],
+      "changed_pixels": 17073,
+      "black_core_samples": 1222,
+      "black_guard_source_texels": 3,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    },
+    {
+      "name": "item-064-096",
+      "zoom": 2,
+      "frame_box": [
+        1425,
+        134,
+        1684,
+        411
+      ],
+      "changed_pixels": 67397,
+      "black_core_samples": 6220,
+      "black_guard_source_texels": 2,
+      "unexpected_bright_black_core_samples": 0,
+      "black_sample_method": "Source two-texel interior",
+      "thin_contour_check": null
+    }
+  ],
+  "scope": "Actual presented Vulkan frame from controlled 2x sprite specimen; not natural-menu coverage.",
+  "natural_gameplay_coverage": false,
+  "android_device_tested": false
+}

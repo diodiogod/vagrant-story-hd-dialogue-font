@@ -37,3 +37,5 @@ and [body editing record](editing-records-v0.7.json).
 The equipment/category badges combine the maintainer's local-model generation,
 selection and inpainting with manual Photoshop editing. Art direction and
 interpretation by diodiogod. [Badge editing records](editing-records-v0.8.json) · [Menu artwork records](editing-records-v0.9.json).
+
+[Boss-results editing and tone records](editing-records-v0.11.json).

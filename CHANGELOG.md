@@ -1,5 +1,19 @@
 # Visual changelog
 
+## v0.11 beta — 2026-11-17 · Boss-results fonts
+
+### Added
+
+- HD boss-results lettering: headings, score digits, bonus labels and the words used by all 16 possible boss ranks.
+- The new fonts are included in both **HD Fonts** and **HD Fonts + UI Art**.
+
+HD Fonts: **116 PNGs**. HD Fonts + UI Art: **178 PNGs**. Existing fonts and
+optional artwork are unchanged.
+
+![Original and HD boss-results text](docs/images/results-v0.11.png)
+
+[Rank words](docs/images/results-ranks-v0.11.png) · [Orange shading](docs/images/results-orange-v0.11.png) · [Testing](docs/TESTING.md#v011-beta)
+
 ## v0.10 beta — 2026-11-17 · Two more blue icons
 
 ### Added

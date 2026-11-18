@@ -1,3 +1,18 @@
+# v0.11 beta — Boss-results fonts
+
+### Added
+
+- HD boss-results lettering: headings, score digits, bonus labels and the words used by all 16 possible boss ranks.
+- The new fonts are included in both **HD Fonts** and **HD Fonts + UI Art**.
+
+Both complete editions include the same 116 font textures. The optional UI Art
+edition retains its 62 artwork textures, for 178 PNGs total.
+
+Checked in the Windows boss-results scene. Other rank layouts, transitions and
+Android testing remain pending. [Details](docs/TESTING.md#v011-beta).
+
+---
+
 # v0.10 beta — Two more blue icons
 
 ### Added

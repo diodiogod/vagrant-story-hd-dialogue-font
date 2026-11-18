@@ -1,12 +1,12 @@
 {
   "name": "Vagrant Story HD Fonts & UI",
-  "version": "0.10-beta",
-  "package_version": "0.10",
+  "version": "0.11-beta",
+  "package_version": "0.11",
   "date": "2026-11-17",
   "game": "Vagrant Story USA SLUS-01040",
   "scale": 8,
-  "pngs": 163,
-  "pack_fingerprint": "404470262a8159e310c9867d59af910fd9eec1bf153f9f101a529e839587b832",
+  "pngs": 178,
+  "pack_fingerprint": "17fd7c3fcea0316194eb4b1f0be65714716bc98e11b0e28ab7fa03364fd6bd2d",
   "files": [
     {
       "filename": "texpage-STP4-065D13C54C34C0FB-69491D7E26769824-64x256-228-0-28x16-P0-15.png",
@@ -353,6 +353,26 @@
       "sha256": "bf5693d43b7d58cba38bed6aeacf673b0b9ff99f399bdb265da363c1c6a200cc"
     },
     {
+      "filename": "texpage-STP4-8D1D96315ADE9D72-A54726B55C256CD6-64x256-0-0-248x252-P0-15.png",
+      "sha256": "130b8d18bf4c0f0aadb4d347cf2fe5138f3fe678015b170dbb8b19bdd2f941c7"
+    },
+    {
+      "filename": "texpage-STP4-8D1D96315ADE9D72-DFCDDBD2CBDBC417-64x256-0-0-248x252-P0-15.png",
+      "sha256": "b0bbac93bec663231d5ac1e22b80773e8382eb5b8d6d7304c90899a0af3480c4"
+    },
+    {
+      "filename": "texpage-STP4-8D1D96315ADE9D72-E686EF39614220E0-64x256-0-0-248x252-P0-15.png",
+      "sha256": "753dc631a7dc8f37e33cf293f2b5616850340b2fec15082777b85b1d8b70ec87"
+    },
+    {
+      "filename": "texpage-STP4-8D1D96315ADE9D72-EFF7F1D2ED6F9BE2-64x256-0-0-248x252-P0-15.png",
+      "sha256": "59c4539b5b58db926063b971da97a3e0430a6da881ce2c7044104d4f6e03a8eb"
+    },
+    {
+      "filename": "texpage-STP4-8D1D96315ADE9D72-FEAD1B7D8EC2C731-64x256-0-0-248x252-P0-15.png",
+      "sha256": "02ba57dea532b461c0111d8567892c985da38d3daa3b44aff6b74f56bc700fe3"
+    },
+    {
       "filename": "texpage-STP4-8DF128B9AC5FC374-CBF39C0936C27EBA-64x256-64-0-76x10-P0-15.png",
       "sha256": "d8413368a97156ecb08317cd4d4e33602c3082e9cf4f135c4a548abb990dbded"
     },
@@ -417,6 +437,26 @@
       "sha256": "733cd09568f07ef6ad4608a8916eed5f3fee5ca4753c2aa247e1b063e28c4fa0"
     },
     {
+      "filename": "texpage-STP4-A0A25FEDA9CFD0E0-A54726B55C256CD6-64x256-0-0-248x252-P0-15.png",
+      "sha256": "046cf72bfde98c731ef99640b4b7ec6ac62123aa7df8aa1a70a64d0926bbd39b"
+    },
+    {
+      "filename": "texpage-STP4-A0A25FEDA9CFD0E0-DFCDDBD2CBDBC417-64x256-0-0-248x252-P0-15.png",
+      "sha256": "63ccd14d9cc70acad0daf3f5cdfa8fe883754758338ff16f3c549829dd3f6252"
+    },
+    {
+      "filename": "texpage-STP4-A0A25FEDA9CFD0E0-E686EF39614220E0-64x256-0-0-248x252-P0-15.png",
+      "sha256": "c763f147b76c3571b5f2fc47526ed0e255818a0307dd1de28964459d1fc50010"
+    },
+    {
+      "filename": "texpage-STP4-A0A25FEDA9CFD0E0-EFF7F1D2ED6F9BE2-64x256-0-0-248x252-P0-15.png",
+      "sha256": "f181a202b6f449ff63f7ff6e8781d3d80006934c0ed37e04056dc922e2152e28"
+    },
+    {
+      "filename": "texpage-STP4-A0A25FEDA9CFD0E0-FEAD1B7D8EC2C731-64x256-0-0-248x252-P0-15.png",
+      "sha256": "5abe641b7be657954affc44632e9e1534b00051e4b2d73b4d481f07c87029d46"
+    },
+    {
       "filename": "texpage-STP4-A221C16A2EE15BD0-69491D7E26769824-64x256-144-160-36x56-P0-15.png",
       "sha256": "382f0ae0d4e58da698fb123b80f7008c4d10d260806a8d00b2bea3a5ee2a9175"
     },
@@ -435,6 +475,26 @@
     {
       "filename": "texpage-STP4-A2FD3EF51CFD9737-B8B860E78B335DFB-64x256-48-144-16x16-P0-15.png",
       "sha256": "3d24943db6df5fe71c5c7e9d63154b0187d738fb344f2a8acd510d85885e76f3"
+    },
+    {
+      "filename": "texpage-STP4-A34E2F518BB87BEE-A54726B55C256CD6-64x256-0-0-244x174-P0-15.png",
+      "sha256": "d23b7b4e6bde8d013fd183d12c3cde2190e848bbff7be5994c2db1c086ed5774"
+    },
+    {
+      "filename": "texpage-STP4-A34E2F518BB87BEE-DFCDDBD2CBDBC417-64x256-0-0-244x174-P0-15.png",
+      "sha256": "241163d3c9966943cb58b031f901dd60ffca6c49965ab757058ee12401fe6357"
+    },
+    {
+      "filename": "texpage-STP4-A34E2F518BB87BEE-E686EF39614220E0-64x256-0-0-244x174-P0-15.png",
+      "sha256": "6093f02ebdf1741b286e7680756386a53780d69ea21b8dbac4e473c465dfd658"
+    },
+    {
+      "filename": "texpage-STP4-A34E2F518BB87BEE-EFF7F1D2ED6F9BE2-64x256-0-0-244x174-P0-15.png",
+      "sha256": "f7a2f7fdef58303e75014cbec47df8019f116357be29aaa9a2bea9b84272e2ec"
+    },
+    {
+      "filename": "texpage-STP4-A34E2F518BB87BEE-FEAD1B7D8EC2C731-64x256-0-0-244x174-P0-15.png",
+      "sha256": "8257e4fba93383d81043dacedcc5e3b031cc055833055de314e2b353609e3939"
     },
     {
       "filename": "texpage-STP4-A4CF47DD968DAA08-2DA679AB1517DDF5-64x256-216-200-24x24-P0-15.png",
@@ -850,16 +910,72 @@
       "Misc source graphic, item-016-096",
       "Plant/root-style source graphic, item-000-096",
       "Key-style source graphic, item-064-096"
-    ]
+    ],
+    "boss_results": {
+      "headings_digits_and_symbols": [
+        "CONGRATULATIONS",
+        "SCORE",
+        "MAP COMPLETED",
+        "RISKBREAKER RANK",
+        "BONUS",
+        "STR",
+        "AGL",
+        "INT",
+        "HP",
+        "MP",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        ",",
+        "%",
+        "PTS.",
+        "+",
+        "−",
+        ":"
+      ],
+      "rank_words": [
+        "GRAND",
+        "MASTER",
+        "BREAKER",
+        "PALADIN",
+        "GLADIATOR",
+        "RAGING",
+        "BERSERKER",
+        "RADIANT",
+        "COURAGEOUS",
+        "ADVENTURER",
+        "KNIGHT",
+        "DAREDEVIL",
+        "BLADE",
+        "MYSTIC",
+        "WANDERER",
+        "DESTROYER",
+        "SPECTREBANE",
+        "NORMAL",
+        "AGENT",
+        "DRAGON",
+        "SLAYER"
+      ],
+      "possible_boss_ranks": 16,
+      "unique_rank_words": 21,
+      "added_palette_textures": 15
+    }
   },
   "rough_progress": {
     "percent": 90,
     "kind": "Rough font/text estimate; other artwork excluded"
   },
-  "previous_release": "docs/v0.9/verification.json",
-  "unchanged_published_pngs": 161,
+  "previous_release": "docs/v0.10/verification.json",
+  "unchanged_published_pngs": 163,
   "changed_published_pngs": 0,
-  "added_pngs": 2,
+  "added_pngs": 15,
   "windows": {
     "version": "0.1-12083-g00e299795",
     "renderer": "Vulkan",
@@ -937,6 +1053,16 @@
       "opaque_black_verified": true,
       "scope": "Two source-cell graphics at native and 2x size; natural-gameplay use unconfirmed.",
       "evidence": "docs/evidence/ui-art-rendered-v0.10.json"
+    },
+    "boss_results": {
+      "pack_fingerprint": "17fd7c3fcea0316194eb4b1f0be65714716bc98e11b0e28ab7fa03364fd6bd2d",
+      "actual_rank_seen": "GLADIATOR",
+      "frame": 800,
+      "changed_pixels_outside_results_text": 0,
+      "changed_pixels_outside_corrected_heading": 0,
+      "evidence": "docs/evidence/results-rendered-v0.11.json",
+      "other_ranks_in_game_tested": false,
+      "animated_transitions_tested": false
     }
   },
   "android": {
@@ -956,7 +1082,7 @@
       "current_popup_sign_revision_device_tested": false
     },
     "material_badges_device_tested": false,
-    "device_evidence": "Prior device reports remain associated with their earlier packages. The two new version-one source-cell replacements and final v0.10 archive await Android device testing.",
+    "device_evidence": "The new boss-results fonts and complete v0.11 archives await Android testing. Earlier device reports retain their recorded archive hashes.",
     "tested_pack_fingerprint": "9c8e30306556bbd7ed19d0481b969a2d04a687ae29667b275b3b1adf419a69b6",
     "tested_archive_sha256": "a6ef11d660a46abfa15b1e27d05eab6d833df2e799d51996cd99f18de6cff635",
     "fonts_edition_separate_device_import_tested": false,
@@ -995,6 +1121,20 @@
       "date": "2026-11-17",
       "evidence": "Maintainer requested a small new release with the two new blue icons, explicitly version one rather than version two.",
       "android_device_test_claimed": false
+    },
+    "boss_results": {
+      "approved": true,
+      "evidence": "Maintainer approved original-style results lettering and corrected orange shading in the supplied in-game comparisons.",
+      "basis": "Windows screenshots and source comparisons; not Android device testing",
+      "date": "2026-11-17",
+      "pack_fingerprint": "17fd7c3fcea0316194eb4b1f0be65714716bc98e11b0e28ab7fa03364fd6bd2d",
+      "maintainer_emulator_test": {
+        "report": "Maintainer reports the prepared version was tested in an emulator and looks good.",
+        "date": "2026-11-17",
+        "platform_specified": false,
+        "build_specified": false,
+        "on_device_archive_hash_recorded": false
+      }
     }
   },
   "menu_glow": {
@@ -1022,29 +1162,26 @@
   "known_issues": {
     "information_framebuffer_ghost": "Native framebuffer-copy lettering can remain beneath the HD heading. Transparency retained; no black-fill workaround included."
   },
-  "release_packages": "docs/v0.10/packages.json",
-  "status": "v0.10 beta release",
+  "release_packages": "docs/v0.11/packages.json",
+  "status": "v0.11 beta release",
   "previous_development": "docs/v0.5/verification.json",
   "unchanged_v05_pngs": 101,
   "edition_manifest": "editions.json",
   "editions": {
     "fonts": {
       "name": "HD Fonts",
-      "pngs": 101,
-      "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b"
+      "pngs": 116,
+      "pack_fingerprint": "14af999eb92016b6bfe4e3be807fec8020c34b6f5c83e794f742f38aea8bb9c8"
     },
     "ui-art": {
       "name": "HD Fonts + UI Art",
-      "pngs": 163,
-      "pack_fingerprint": "404470262a8159e310c9867d59af910fd9eec1bf153f9f101a529e839587b832"
+      "pngs": 178,
+      "pack_fingerprint": "17fd7c3fcea0316194eb4b1f0be65714716bc98e11b0e28ab7fa03364fd6bd2d"
     }
   },
   "shared_fonts_reference": {
-    "manifest": "docs/v0.6/verification.json",
-    "excluded_art_files": [
-      "texpage-STP4-A4CF47DD968DAA08-2DA679AB1517DDF5-64x256-216-200-24x24-P0-15.png",
-      "texpage-STP4-A4CF47DD968DAA08-FE811BB97D77F258-64x256-216-200-24x24-P0-15.png"
-    ]
+    "manifest": "docs/evidence/shared-fonts-v0.11.json",
+    "excluded_art_files": []
   },
   "body_artwork": {
     "poses": [

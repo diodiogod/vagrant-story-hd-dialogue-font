@@ -1,5 +1,21 @@
 # Testing
 
+## v0.11 beta
+
+Boss-results headings, digits and the GLADIATOR rank were checked in the supplied
+save on Windows DuckStation 0.1-12083, Vulkan 5×, both filters Nearest, PGXP on.
+The matched frame changes only within results text. The orange-heading shading
+correction changes only that heading; letter geometry, transparency and rim are
+unchanged. Other rank words have source comparisons; their in-game layouts and
+animated transitions still need testing. Shared END.DIS usage is untested.
+
+Both editions contain the same 116 font PNGs. All 163 v0.10 textures are unchanged,
+including the 62 optional artwork files. The full UI Art edition was rendered;
+the Fonts edition shares its exact font bytes. Android testing is pending.
+
+[Comparison](images/results-v0.11.png) · [Rank words](images/results-ranks-v0.11.png) ·
+[Measurements](evidence/results-rendered-v0.11.json) · [Editing records](editing-records-v0.11.json).
+
 ## v0.10 beta
 
 The two supplied version-one blue icon masters pass four controlled Vulkan

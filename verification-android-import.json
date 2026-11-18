@@ -1,22 +1,22 @@
 {
-  "version": "0.10-beta",
+  "version": "0.11-beta",
   "target_android_version": "0.1-8969-g611bb8fb4",
   "inspected_apk_sha256": "28f1528dffb87a761ab1997a5d23bb62c5aa191b3a242a79a9baeb3629b206f5",
   "import_mode": "Transfer Data > ZIP file > Import; select archive without extraction",
   "required_root": "textures/SLUS-01040/replacements/",
-  "matching_texture_entries": 163,
+  "matching_texture_entries": 178,
   "extra_wrapper_directory_rejected": true,
   "config_yaml_excluded": true,
-  "pack_fingerprint": "404470262a8159e310c9867d59af910fd9eec1bf153f9f101a529e839587b832",
+  "pack_fingerprint": "17fd7c3fcea0316194eb4b1f0be65714716bc98e11b0e28ab7fa03364fd6bd2d",
   "format_verified_against_apk": true,
-  "device_evidence": "Prior device reports remain associated with their earlier packages. The two new version-one source-cell replacements and final v0.10 archive await Android device testing.",
+  "device_evidence": "The new boss-results fonts and complete v0.11 archives await Android testing. Earlier device reports retain their recorded archive hashes.",
   "required_filter_settings": {
     "texture_filtering": "Nearest Neighbor",
     "sprite_texture_filtering": "Nearest Neighbor"
   },
   "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
-  "archive_hashes": "GitHub release v0.10-beta: SHA256SUMS.txt",
-  "status": "v0.10 beta release",
+  "archive_hashes": "GitHub release v0.11-beta: SHA256SUMS.txt",
+  "status": "v0.11 beta release",
   "current_payload_device_tested": false,
   "preceding_v05_device_report": {
     "evidence": "Maintainer reported the supplied Android package looks great; only affinity + appeared blurry.",
@@ -29,16 +29,16 @@
   "editions": {
     "fonts": {
       "name": "HD Fonts",
-      "pngs": 101,
-      "pack_fingerprint": "f31f61826a2c43ea5af0e8049a1784ab29cc0763a3d96b66aff18f9daccf2a5b"
+      "pngs": 116,
+      "pack_fingerprint": "14af999eb92016b6bfe4e3be807fec8020c34b6f5c83e794f742f38aea8bb9c8"
     },
     "ui-art": {
       "name": "HD Fonts + UI Art",
-      "pngs": 163,
-      "pack_fingerprint": "404470262a8159e310c9867d59af910fd9eec1bf153f9f101a529e839587b832"
+      "pngs": 178,
+      "pack_fingerprint": "17fd7c3fcea0316194eb4b1f0be65714716bc98e11b0e28ab7fa03364fd6bd2d"
     }
   },
   "device_tested_test_archive_sha256": "a6ef11d660a46abfa15b1e27d05eab6d833df2e799d51996cd99f18de6cff635",
   "edition_archive_hashes_pending": false,
-  "archive_manifest": "docs/v0.10/packages.json"
+  "archive_manifest": "docs/v0.11/packages.json"
 }

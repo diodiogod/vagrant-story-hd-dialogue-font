@@ -6,12 +6,12 @@ Sharper dialogue, menus and HUD text, guided by the original lettering.
 ## Choose your edition
 
 <!-- downloads:start -->
-**v0.10 beta**
+**v0.11 beta**
 
 | Edition | What changes | Android | Desktop |
 | --- | --- | --- | --- |
-| **HD Fonts** | Dialogue, menus, HUD and combat text; original pixel artwork | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.10-beta/vagrant-story-fonts-v0.10-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.10-beta/vagrant-story-fonts-v0.10-desktop.zip) |
-| **HD Fonts + UI Art** · WIP | The same fonts, plus material badges, body silhouettes, controller prompts, menu markers, arrows and expressions, and WIP equipment/category badges | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.10-beta/vagrant-story-ui-art-v0.10-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.10-beta/vagrant-story-ui-art-v0.10-desktop.zip) |
+| **HD Fonts** | Dialogue, menus, HUD, combat and boss-results text; original pixel artwork | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.11-beta/vagrant-story-fonts-v0.11-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.11-beta/vagrant-story-fonts-v0.11-desktop.zip) |
+| **HD Fonts + UI Art** · WIP | The same fonts, plus material badges, body silhouettes, controller prompts, menu markers, arrows and expressions, and WIP equipment/category badges | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.11-beta/vagrant-story-ui-art-v0.11-android.zip) | [ZIP](https://github.com/diodiogod/vagrant-story-hd-dialogue-font/releases/download/v0.11-beta/vagrant-story-ui-art-v0.11-desktop.zip) |
 <!-- downloads:end -->
 
 Both editions share the same fonts. The original pixel art is part of the game's
@@ -21,9 +21,8 @@ character, so our sprite interpretations stay optional. [Art direction](docs/ART
 
 ## What's new
 
-- Two more blue UI icons: the supplied version-one plant/root-style and key-style designs.
-- The previous badges, controller prompts, arrows and paper balloons remain included.
-- **Menu artwork is a work in progress.** Both editions still share the same unchanged 101 font textures.
+- HD boss-results headings, score digits, bonus labels and rank names.
+- Included in both editions; existing UI artwork stays unchanged.
 
 **Rough font/text progress: 90%.** Remaining menu icons and decoration are still in progress.
 [Roadmap](docs/COVERAGE.md) · [Release notes](RELEASE-NOTES.md) · [Visual changelog](CHANGELOG.md).
@@ -59,7 +58,7 @@ and restart the game. [Installation help](docs/INSTALL.md).
 
 [UI borders](docs/images/compact-ui-labels-v0.4.png) · [Menu heights](docs/images/font-heights-preview.png) · [Save labels](docs/images/save-labels-preview.png)
 
-[Combat text](docs/images/combat-labels-v0.5.png) · [Word spacing](docs/images/combat-spacing-v0.5.png) · [Fixed labels and popups](docs/images/fixed-labels-v0.5.png) · [Affinity signs](docs/images/affinity-signs-v0.5.png)
+[Boss results](docs/images/results-v0.11.png) · [Combat text](docs/images/combat-labels-v0.5.png) · [Word spacing](docs/images/combat-spacing-v0.5.png) · [Fixed labels and popups](docs/images/fixed-labels-v0.5.png) · [Affinity signs](docs/images/affinity-signs-v0.5.png)
 
 [Material badges](docs/images/material-badges-v0.6.png) · [Body silhouettes](docs/images/body-silhouettes-v0.7.png)
 

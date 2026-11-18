@@ -1,0 +1,44 @@
+{
+  "version": "0.11-beta",
+  "target_android_version": "0.1-8969-g611bb8fb4",
+  "inspected_apk_sha256": "28f1528dffb87a761ab1997a5d23bb62c5aa191b3a242a79a9baeb3629b206f5",
+  "import_mode": "Transfer Data > ZIP file > Import; select archive without extraction",
+  "required_root": "textures/SLUS-01040/replacements/",
+  "matching_texture_entries": 178,
+  "extra_wrapper_directory_rejected": true,
+  "config_yaml_excluded": true,
+  "pack_fingerprint": "17fd7c3fcea0316194eb4b1f0be65714716bc98e11b0e28ab7fa03364fd6bd2d",
+  "format_verified_against_apk": true,
+  "device_evidence": "The new boss-results fonts and complete v0.11 archives await Android testing. Earlier device reports retain their recorded archive hashes.",
+  "required_filter_settings": {
+    "texture_filtering": "Nearest Neighbor",
+    "sprite_texture_filtering": "Nearest Neighbor"
+  },
+  "pgxp_workaround": "Disable PGXP Geometry Correction in per-game settings; keep both filters Nearest",
+  "archive_hashes": "GitHub release v0.11-beta: SHA256SUMS.txt",
+  "status": "v0.11 beta release",
+  "current_payload_device_tested": false,
+  "preceding_v05_device_report": {
+    "evidence": "Maintainer reported the supplied Android package looks great; only affinity + appeared blurry.",
+    "associated_package_fingerprint": "45d8558dc4db8d0140d49990b5df217809081cdd3e6bdfc9af228be96e06150d",
+    "associated_archive_sha256": "8d41784c37d11464600483ee370e74dbfe0b8d7c83322289fe7a3a18f0ae97f8",
+    "supplied_archive_device_report": true,
+    "device_capture_or_on_device_hash_recorded": false,
+    "current_popup_sign_revision_device_tested": false
+  },
+  "editions": {
+    "fonts": {
+      "name": "HD Fonts",
+      "pngs": 116,
+      "pack_fingerprint": "14af999eb92016b6bfe4e3be807fec8020c34b6f5c83e794f742f38aea8bb9c8"
+    },
+    "ui-art": {
+      "name": "HD Fonts + UI Art",
+      "pngs": 178,
+      "pack_fingerprint": "17fd7c3fcea0316194eb4b1f0be65714716bc98e11b0e28ab7fa03364fd6bd2d"
+    }
+  },
+  "device_tested_test_archive_sha256": "a6ef11d660a46abfa15b1e27d05eab6d833df2e799d51996cd99f18de6cff635",
+  "edition_archive_hashes_pending": false,
+  "archive_manifest": "docs/v0.11/packages.json"
+}

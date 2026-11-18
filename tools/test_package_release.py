@@ -12,12 +12,17 @@ class ReleaseTests(unittest.TestCase):
         cls.manifest, cls.selection, cls.editions = validate()
         cls.report = build()
 
-    def test_shared_fonts_match_reviewed_v06_without_badges(self):
+    def test_shared_fonts_extend_reviewed_v06_without_changing_existing_fonts(self):
         prior = read_json(ROOT/'docs/v0.6/verification.json')
         reference = {r['filename']:r['sha256'] for r in prior['files']
                      if '-A4CF47DD968DAA08-' not in r['filename']}
-        self.assertEqual(reference, self.editions['fonts'])
         self.assertEqual(101,len(reference))
+        self.assertTrue(all(self.editions['fonts'][n]==h for n,h in reference.items()))
+        added = {a['filename']:a['sha256'] for a in read_json(ROOT/'docs/editing-records-v0.11.json')['assets']}
+        self.assertEqual(15,len(added))
+        self.assertFalse(set(reference)&set(added))
+        self.assertEqual(reference|added,self.editions['fonts'])
+        self.assertEqual(116,len(self.editions['fonts']))
 
     def test_art_is_only_the_reviewed_optional_rectangles(self):
         optional = set(self.editions['ui-art'])-set(self.editions['fonts'])
@@ -101,11 +106,12 @@ class ReleaseTests(unittest.TestCase):
         prior = read_json(ROOT/'docs/v0.8/verification.json')
         before = {r['filename']:r['sha256'] for r in prior['files']}
         after = self.editions['ui-art']
-        self.assertEqual(42,len(set(after)-set(before)))
+        results = {a['filename'] for a in read_json(ROOT/'docs/editing-records-v0.11.json')['assets']}
+        self.assertEqual(42,len(set(after)-set(before)-results))
         replaced = {n for n,h in before.items() if after[n]!=h}
         self.assertEqual(4,len(replaced))
         self.assertTrue(all('-152-128-16x16-' in n or '-168-128-16x16-' in n for n in replaced))
-        self.assertTrue(all(before[n]==h for n,h in self.editions['fonts'].items()))
+        self.assertTrue(all(before[n]==h for n,h in self.editions['fonts'].items() if n in before))
 
     def test_two_blue_icons_use_version_one_and_preserve_every_v09_texture(self):
         record = read_json(ROOT/'docs/editing-records-v0.10.json')
@@ -132,9 +138,11 @@ class ReleaseTests(unittest.TestCase):
         prior = {r['filename']:r['sha256'] for r in read_json(ROOT/'docs/v0.9/verification.json')['files']}
         self.assertEqual(161,len(prior))
         self.assertTrue(all(self.editions['ui-art'][n]==h for n,h in prior.items()))
-        self.assertEqual({a['filename'] for a in assets.values()},set(self.editions['ui-art'])-set(prior))
+        v010 = {r['filename']:r['sha256'] for r in read_json(ROOT/'docs/v0.10/verification.json')['files']}
+        self.assertEqual({a['filename'] for a in assets.values()},set(v010)-set(prior))
+        self.assertTrue(all(self.editions['ui-art'][n]==h for n,h in v010.items()))
         evidence = read_json(ROOT/'docs/evidence/ui-art-rendered-v0.10.json')
-        self.assertEqual(self.manifest['pack_fingerprint'],evidence['pack_fingerprint'])
+        self.assertEqual(read_json(ROOT/'docs/v0.10/verification.json')['pack_fingerprint'],evidence['pack_fingerprint'])
         self.assertEqual(0,evidence['changed_pixels_outside_artwork'])
         self.assertEqual({(n,z) for n in expected for z in [1,2]},
                          {(s['name'],s['zoom']) for s in evidence['samples']})
@@ -169,14 +177,48 @@ class ReleaseTests(unittest.TestCase):
     def test_switching_requires_removal_of_old_art(self):
         old_art = self.editions['ui-art']
         imported_fonts = dict(old_art,**self.editions['fonts'])
-        self.assertEqual(163,len(imported_fonts))
+        self.assertEqual(178,len(imported_fonts))
         self.assertNotEqual(imported_fonts,self.editions['fonts'])
         for name in self.selection['groups']['ui-art']:
             imported_fonts.pop(name)
         self.assertEqual(imported_fonts,self.editions['fonts'])
         old_v06 = {r['filename']:r['sha256'] for r in read_json(ROOT/'docs/v0.6/verification.json')['files']}
-        self.assertEqual(103,len(dict(old_v06,**self.editions['fonts'])))
-        self.assertEqual(101,len(dict(self.editions['fonts'])))
+        self.assertEqual(118,len(dict(old_v06,**self.editions['fonts'])))
+        self.assertEqual(116,len(dict(self.editions['fonts'])))
+
+    def test_results_fonts_are_shared_and_match_the_final_rendered_pack(self):
+        record = read_json(ROOT/'docs/editing-records-v0.11.json')
+        assets = {a['filename']:a for a in record['assets']}
+        self.assertEqual(15,len(assets))
+        self.assertEqual({0,1,2},{a['page'] for a in assets.values()})
+        for page in range(3):
+            self.assertEqual(5,sum(a['page']==page for a in assets.values()))
+        prior = {r['filename']:r['sha256'] for r in read_json(ROOT/'docs/v0.10/verification.json')['files']}
+        self.assertEqual(set(assets),set(self.editions['ui-art'])-set(prior))
+        for name,asset in assets.items():
+            self.assertIn(name,self.selection['groups']['fonts'])
+            self.assertNotIn(name,self.selection['groups']['ui-art'])
+            self.assertEqual(asset['sha256'],self.editions['fonts'][name])
+            self.assertEqual(asset['sha256'],self.editions['ui-art'][name])
+        for master in record['masters']:
+            self.assertEqual(master['sha256'],digest((ROOT/master['path']).read_bytes()))
+        evidence = read_json(ROOT/'docs/evidence/results-rendered-v0.11.json')
+        self.assertEqual(self.manifest['pack_fingerprint'],evidence['pack_fingerprint'])
+        self.assertEqual(self.manifest['editions']['fonts']['pack_fingerprint'],evidence['font_pack_fingerprint'])
+        initial = evidence['original_to_initial_hd']
+        final = evidence['initial_to_corrected_hd']
+        self.assertEqual(0,initial['changed_pixels_outside_text_regions'])
+        self.assertEqual(0,final['changed_pixels_outside_rank_heading'])
+        self.assertEqual(self.editions['ui-art'],{r['filename']:r['sha256'] for r in final['pack_files']})
+        self.assertEqual(final['frame_hashes']['corrected_hd'],digest((ROOT/evidence['comparison_images']['hd']).read_bytes()))
+        self.assertEqual(initial['frame_hashes']['original'],digest((ROOT/evidence['comparison_images']['original']).read_bytes()))
+        self.assertEqual(21,len(record['rank_words']))
+        self.assertTrue(record['original_wording'])
+        self.assertFalse(record['external_font_substitution'])
+        self.assertFalse(record['tone_correction']['new_generation'])
+        self.assertTrue(all(m['full_surround_clipped_pixels']==0 for m in record['complete_surround_checks']))
+        self.assertFalse(evidence['android_device_tested'])
+        self.assertFalse(self.manifest['android']['current_payload_device_tested'])
 
     def test_readme_downloads_match_built_archives(self):
         text = (ROOT/'README.md').read_text(encoding='utf-8')

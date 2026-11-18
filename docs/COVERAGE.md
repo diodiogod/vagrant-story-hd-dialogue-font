@@ -1,6 +1,6 @@
 # Font coverage and roadmap
 
-Updated 2026-11-17. v0.10 beta: HD Fonts has 101 PNGs; HD Fonts + UI Art has 163.
+Updated 2026-11-17. v0.11 beta: HD Fonts has 116 PNGs; HD Fonts + UI Art has 178.
 Both use the same 8x fonts. [Edition scope](ART-DIRECTION.md).
 Coverage describes reconstructed assets, separately from where they were tested.
 
@@ -21,11 +21,12 @@ Coverage describes reconstructed assets, separately from where they were tested.
 | Material initials (art edition only) | All seven, with metallic shading, dark borders and native-sized footprints | Broader natural equipment scenes |
 | Save text | NO. and save-time colon, captured in the memory-card load scene | Broader save/load testing |
 | Current/max separator | Round dot with dark surround | Artist's intended dot/diamond shape remains ambiguous |
+| Boss results | Headings, 10 digits, stat labels and punctuation; 21 words used by 16 possible ranks | Other rank layouts, transitions, shared end-results usage and Android testing |
 | CPU-composited text | Rendering path identified | Investigate text that may bypass ordinary glyph replacement |
 
 ## Next: remaining text
 
-1. Tutorial copies, loading messages, time-attack/results and rank/score sheets.
+1. Tutorial copies, loading messages, time-attack and remaining end-results text.
 2. Lv., tilde, low opening quote, long dash and plus in the remaining rare cells.
 3. Natural combat/workshop/title/save/name-entry scenes and Android testing.
 4. WT's natural-scene surround check and the INFORMATION framebuffer ghost.
@@ -57,7 +58,7 @@ textures are outside scope.
 
 ## Test coverage
 
-See [v0.10 testing](TESTING.md#v010-beta) for current edition checks. The following
+See [v0.11 testing](TESTING.md#v011-beta) for current edition checks. The following
 notes preserve the scope of earlier tests.
 
 All seven material initials were checked in 14 Windows draw instances at native

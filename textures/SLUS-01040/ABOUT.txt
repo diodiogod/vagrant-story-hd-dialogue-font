@@ -1,5 +1,5 @@
 Vagrant Story USA SLUS-01040 — HD Fonts & UI
-v0.10 beta source collection: 163 PNGs at 8x.
+v0.11 beta source collection: 178 PNGs at 8x.
 Use a release ZIP to select HD Fonts or HD Fonts + UI Art.
 The source collection includes optional badges and body silhouettes.
 See README and docs for installation, comparisons and known issues.

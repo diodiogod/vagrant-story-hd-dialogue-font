@@ -11,7 +11,7 @@ those changes optional rather than making them a requirement for clearer text.
 
 | | HD Fonts | HD Fonts + UI Art |
 | --- | --- | --- |
-| Dialogue, menu, HUD and combat text | Shared HD fonts | Same HD fonts |
+| Dialogue, menu, HUD, combat and boss-results text | Shared HD fonts | Same HD fonts |
 | Numbers, punctuation and readable +/− signs | HD | HD |
 | Material badges (W, L, B, I, H, S, D) | Original | Reinterpreted |
 | Body-status silhouettes | Original | Manually painted HD sprites |
